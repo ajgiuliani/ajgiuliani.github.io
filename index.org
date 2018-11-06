@@ -1,26 +1,29 @@
-# -*- mode: org -*-
-#+OPTIONS: toc:nil
-#+OPTIONS: author:nil
-#+OPTIONS: date:nil
-#+OPTIONS: num:0
+#+TITLE:      Personal pages
+#+AUTHOR:     AG
+#+EMAIL:      alexandre.giuliani AT synchrotron-soleil DOT fr
+#+OPTIONS:    H:3 num:nil toc:t \n:nil ::t |:t ^:t -:t f:t *:t tex:t d:(HIDE) tags:not-in-toc
+#+STARTUP:    align fold nodlcheck hidestars oddeven lognotestate
+#+SEQ_TODO:   TODO(t) INPROGRESS(i) WAITING(w@) | DONE(d) CANCELED(c@)
+#+TAGS:       Write(w) Update(u) Fix(f) Check(c)
+#+LANGUAGE:   en
+#+PRIORITIES: A C B
+#+CATEGORY:   website
+
+# This file is the default header for new Org files in Worg.  Feel \frac{1}{x}ee
+# to tailor it to your needs.
+
 
 * Welcome to my pages
 I am on secondment from [[http://www.inra.fr/en/Scientists-Students][INRA]] (Institut National de la Recherche Agronomique) at the [[https://www.synchrotron-soleil.fr/en][SOLEIL]] synchrotron radiation facility, near Paris, France. I am working on the [[https://www.synchrotron-soleil.fr/en/beamlines/disco][DISCO beamline]], which covers the visible to the vacuum ultraviolet range.
-* Research interests
-** Photon activation of ions for tandem mass spectrometry
-** Molecular and ionic spectroscopy in the UV and in the soft X-rays ranges
-** Synchrotron Radiation Circular Dichroism (SRCD)
-** Atmospheric pressure photoionization (APPI)
 * Publication list
 Available from [[https://orcid.org/0000-0003-1710-4933][ORCID]] or from my institution [[https://prodinra.inra.fr/?locale=en#!Result:au:%22Alexandre%20Giuliani%22%7Csort=%7BDATE_DESC%7D][open archives]] along with some preprints.  
-
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/ajgiuliani/test/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+* Research interests
+- Photon activation of ions for tandem mass spectrometry
+- Molecular and ionic spectroscopy in the UV and in the soft X-rays ranges
+- Synchrotron Radiation Circular Dichroism (SRCD)
+- Atmospheric pressure photoionization (APPI)
+- X-ray oxidative foot printing
+* Active projects
+- Instrinsically Unordered Protein (IDP) - Ligand interactions
+- Interplay between  the electronic structure and the folding of proteins
+- Non-local relaxation processes
