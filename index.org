@@ -1,3 +1,9 @@
+# -*- mode: org -*-
+#+OPTIONS: toc:nil
+#+OPTIONS: author:nil
+#+OPTIONS: date:nil
+#+OPTIONS: num:0
+
 * Welcome to my pages
 I am on secondment from [[http://www.inra.fr/en/Scientists-Students][INRA]] (Institut National de la Recherche Agronomique) at the [[https://www.synchrotron-soleil.fr/en][SOLEIL]] synchrotron radiation facility, near Paris, France. I am working on the [[https://www.synchrotron-soleil.fr/en/beamlines/disco][DISCO beamline]], which covers the visible to the vacuum ultraviolet range.
 * Research interests
