@@ -1,7 +1,7 @@
-#+TITLE:      Personal pages
+#+TITLE:      
 #+AUTHOR:     AG
 #+EMAIL:      alexandre.giuliani AT synchrotron-soleil DOT fr
-#+OPTIONS: toc:t
+#+OPTIONS: toc:nil
 #+OPTIONS: num:nil
 #+OPTIONS: H:3
 #+LANGUAGE:   en
