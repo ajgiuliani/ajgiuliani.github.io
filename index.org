@@ -1,20 +1,20 @@
 #+TITLE:      Personal pages
 #+AUTHOR:     AG
 #+EMAIL:      alexandre.giuliani AT synchrotron-soleil DOT fr
-#+OPTIONS:    H:3 num:nil toc:t \n:nil ::t |:t ^:t -:t f:t *:t tex:t d:(HIDE) tags:not-in-toc
-#+STARTUP:    align fold nodlcheck hidestars oddeven lognotestate
-#+SEQ_TODO:   TODO(t) INPROGRESS(i) WAITING(w@) | DONE(d) CANCELED(c@)
-#+TAGS:       Write(w) Update(u) Fix(f) Check(c)
+#+OPTIONS: toc:t
+#+OPTIONS: num:nil
+#+OPTIONS: H:3
 #+LANGUAGE:   en
-#+PRIORITIES: A C B
 #+CATEGORY:   website
+#+EXPORT_EXCLUDE_TAGS: noexport
 
-# This file is the default header for new Org files in Worg.  Feel \frac{1}{x}ee
-# to tailor it to your needs.
-
+#+ATTR_HTML: :alt cat/spider image :title picture ID  :align right
+[[file:img/picture-id-small.jpg]]
 
 * Welcome to my pages
 I am on secondment from [[http://www.inra.fr/en/Scientists-Students][INRA]] (Institut National de la Recherche Agronomique) at the [[https://www.synchrotron-soleil.fr/en][SOLEIL]] synchrotron radiation facility, near Paris, France. I am working on the [[https://www.synchrotron-soleil.fr/en/beamlines/disco][DISCO beamline]], which covers the visible to the vacuum ultraviolet range.
+
+
 * Publication list
 Available from [[https://orcid.org/0000-0003-1710-4933][ORCID]] or from my institution [[https://prodinra.inra.fr/?locale=en#!Result:au:%22Alexandre%20Giuliani%22%7Csort=%7BDATE_DESC%7D][open archives]] along with some preprints.  
 * Research interests
