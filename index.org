@@ -1,28 +1,33 @@
-#+TITLE:      
-#+AUTHOR:     AG
-#+EMAIL:      alexandre.giuliani AT synchrotron-soleil DOT fr
-#+OPTIONS: toc:nil
+#+TITLE:  agiuliani.xyz
+#+AUTHOR: AG
+#+EMAIL:  alexandre.giuliani AT synchrotron-soleil DOT fr
+#+OPTIONS: toc:t
 #+OPTIONS: num:nil
 #+OPTIONS: H:3
+#+OPTIONS: title:nil
 #+LANGUAGE:   en
 #+CATEGORY:   website
 #+EXPORT_EXCLUDE_TAGS: noexport
 
-#+ATTR_HTML: :alt cat/spider image :title picture ID  :align right
-[[file:img/picture-id-small.jpg]]
+#+SETUPFILE: /Users/alex/org/files/org-html-themes/setup/theme-readtheorg.setup
 
-* Welcome to my pages
-I am on secondment from [[http://www.inra.fr/en/Scientists-Students][INRA]] (Institut National de la Recherche Agronomique) at the [[https://www.synchrotron-soleil.fr/en][SOLEIL]] synchrotron radiation facility, near Paris, France. I am working on the [[https://www.synchrotron-soleil.fr/en/beamlines/disco][DISCO beamline]], which covers the visible to the vacuum ultraviolet range.
+#+HTML_HEAD: <style>pre.src{background:#343131;color:white;} </style>
 
+
+* Home
+
+* [[file:about.org][About me]]
 
 * Publication list
-Available from [[https://orcid.org/0000-0003-1710-4933][ORCID]] or from my institution [[https://prodinra.inra.fr/?locale=en#!Result:au:%22Alexandre%20Giuliani%22%7Csort=%7BDATE_DESC%7D][open archives]] along with some preprints.  
+Available from [[https://orcid.org/0000-0003-1710-4933][ORCID]] or from my institution [[https://prodinra.inra.fr/?locale=en#!Result:au:%22Alexandre%20Giuliani%22%7Csort=%7BDATE_DESC%7D][open archives]] along with some preprints. 
+ 
 * Research interests
 - Photon activation of ions for tandem mass spectrometry
 - Molecular and ionic spectroscopy in the UV and in the soft X-rays ranges
 - Synchrotron Radiation Circular Dichroism (SRCD)
 - Atmospheric pressure photoionization (APPI)
 - X-ray oxidative foot printing
+
 * Active projects
 - Instrinsically Unordered Protein (IDP) - Ligand interactions
 - Interplay between  the electronic structure and the folding of proteins
