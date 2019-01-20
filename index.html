@@ -1,0 +1,2434 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<!-- 2019-01-20 Dim 09:31 -->
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Alexandre Giuliani - Spectroscopy and Spectrometry</title>
+<meta name="generator" content="Org mode" />
+<meta name="author" content="AG" />
+<style type="text/css">
+ <!--/*--><![CDATA[/*><!--*/
+  .title  { text-align: center;
+             margin-bottom: .2em; }
+  .subtitle { text-align: center;
+              font-size: medium;
+              font-weight: bold;
+              margin-top:0; }
+  .todo   { font-family: monospace; color: red; }
+  .done   { font-family: monospace; color: green; }
+  .priority { font-family: monospace; color: orange; }
+  .tag    { background-color: #eee; font-family: monospace;
+            padding: 2px; font-size: 80%; font-weight: normal; }
+  .timestamp { color: #bebebe; }
+  .timestamp-kwd { color: #5f9ea0; }
+  .org-right  { margin-left: auto; margin-right: 0px;  text-align: right; }
+  .org-left   { margin-left: 0px;  margin-right: auto; text-align: left; }
+  .org-center { margin-left: auto; margin-right: auto; text-align: center; }
+  .underline { text-decoration: underline; }
+  #postamble p, #preamble p { font-size: 90%; margin: .2em; }
+  p.verse { margin-left: 3%; }
+  pre {
+    border: 1px solid #ccc;
+    box-shadow: 3px 3px 3px #eee;
+    padding: 8pt;
+    font-family: monospace;
+    overflow: auto;
+    margin: 1.2em;
+  }
+  pre.src {
+    position: relative;
+    overflow: visible;
+    padding-top: 1.2em;
+  }
+  pre.src:before {
+    display: none;
+    position: absolute;
+    background-color: white;
+    top: -10px;
+    right: 10px;
+    padding: 3px;
+    border: 1px solid black;
+  }
+  pre.src:hover:before { display: inline;}
+  /* Languages per Org manual */
+  pre.src-asymptote:before { content: 'Asymptote'; }
+  pre.src-awk:before { content: 'Awk'; }
+  pre.src-C:before { content: 'C'; }
+  /* pre.src-C++ doesn't work in CSS */
+  pre.src-clojure:before { content: 'Clojure'; }
+  pre.src-css:before { content: 'CSS'; }
+  pre.src-D:before { content: 'D'; }
+  pre.src-ditaa:before { content: 'ditaa'; }
+  pre.src-dot:before { content: 'Graphviz'; }
+  pre.src-calc:before { content: 'Emacs Calc'; }
+  pre.src-emacs-lisp:before { content: 'Emacs Lisp'; }
+  pre.src-fortran:before { content: 'Fortran'; }
+  pre.src-gnuplot:before { content: 'gnuplot'; }
+  pre.src-haskell:before { content: 'Haskell'; }
+  pre.src-hledger:before { content: 'hledger'; }
+  pre.src-java:before { content: 'Java'; }
+  pre.src-js:before { content: 'Javascript'; }
+  pre.src-latex:before { content: 'LaTeX'; }
+  pre.src-ledger:before { content: 'Ledger'; }
+  pre.src-lisp:before { content: 'Lisp'; }
+  pre.src-lilypond:before { content: 'Lilypond'; }
+  pre.src-lua:before { content: 'Lua'; }
+  pre.src-matlab:before { content: 'MATLAB'; }
+  pre.src-mscgen:before { content: 'Mscgen'; }
+  pre.src-ocaml:before { content: 'Objective Caml'; }
+  pre.src-octave:before { content: 'Octave'; }
+  pre.src-org:before { content: 'Org mode'; }
+  pre.src-oz:before { content: 'OZ'; }
+  pre.src-plantuml:before { content: 'Plantuml'; }
+  pre.src-processing:before { content: 'Processing.js'; }
+  pre.src-python:before { content: 'Python'; }
+  pre.src-R:before { content: 'R'; }
+  pre.src-ruby:before { content: 'Ruby'; }
+  pre.src-sass:before { content: 'Sass'; }
+  pre.src-scheme:before { content: 'Scheme'; }
+  pre.src-screen:before { content: 'Gnu Screen'; }
+  pre.src-sed:before { content: 'Sed'; }
+  pre.src-sh:before { content: 'shell'; }
+  pre.src-sql:before { content: 'SQL'; }
+  pre.src-sqlite:before { content: 'SQLite'; }
+  /* additional languages in org.el's org-babel-load-languages alist */
+  pre.src-forth:before { content: 'Forth'; }
+  pre.src-io:before { content: 'IO'; }
+  pre.src-J:before { content: 'J'; }
+  pre.src-makefile:before { content: 'Makefile'; }
+  pre.src-maxima:before { content: 'Maxima'; }
+  pre.src-perl:before { content: 'Perl'; }
+  pre.src-picolisp:before { content: 'Pico Lisp'; }
+  pre.src-scala:before { content: 'Scala'; }
+  pre.src-shell:before { content: 'Shell Script'; }
+  pre.src-ebnf2ps:before { content: 'ebfn2ps'; }
+  /* additional language identifiers per "defun org-babel-execute"
+       in ob-*.el */
+  pre.src-cpp:before  { content: 'C++'; }
+  pre.src-abc:before  { content: 'ABC'; }
+  pre.src-coq:before  { content: 'Coq'; }
+  pre.src-groovy:before  { content: 'Groovy'; }
+  /* additional language identifiers from org-babel-shell-names in
+     ob-shell.el: ob-shell is the only babel language using a lambda to put
+     the execution function name together. */
+  pre.src-bash:before  { content: 'bash'; }
+  pre.src-csh:before  { content: 'csh'; }
+  pre.src-ash:before  { content: 'ash'; }
+  pre.src-dash:before  { content: 'dash'; }
+  pre.src-ksh:before  { content: 'ksh'; }
+  pre.src-mksh:before  { content: 'mksh'; }
+  pre.src-posh:before  { content: 'posh'; }
+  /* Additional Emacs modes also supported by the LaTeX listings package */
+  pre.src-ada:before { content: 'Ada'; }
+  pre.src-asm:before { content: 'Assembler'; }
+  pre.src-caml:before { content: 'Caml'; }
+  pre.src-delphi:before { content: 'Delphi'; }
+  pre.src-html:before { content: 'HTML'; }
+  pre.src-idl:before { content: 'IDL'; }
+  pre.src-mercury:before { content: 'Mercury'; }
+  pre.src-metapost:before { content: 'MetaPost'; }
+  pre.src-modula-2:before { content: 'Modula-2'; }
+  pre.src-pascal:before { content: 'Pascal'; }
+  pre.src-ps:before { content: 'PostScript'; }
+  pre.src-prolog:before { content: 'Prolog'; }
+  pre.src-simula:before { content: 'Simula'; }
+  pre.src-tcl:before { content: 'tcl'; }
+  pre.src-tex:before { content: 'TeX'; }
+  pre.src-plain-tex:before { content: 'Plain TeX'; }
+  pre.src-verilog:before { content: 'Verilog'; }
+  pre.src-vhdl:before { content: 'VHDL'; }
+  pre.src-xml:before { content: 'XML'; }
+  pre.src-nxml:before { content: 'XML'; }
+  /* add a generic configuration mode; LaTeX export needs an additional
+     (add-to-list 'org-latex-listings-langs '(conf " ")) in .emacs */
+  pre.src-conf:before { content: 'Configuration File'; }
+
+  table { border-collapse:collapse; }
+  caption.t-above { caption-side: top; }
+  caption.t-bottom { caption-side: bottom; }
+  td, th { vertical-align:top;  }
+  th.org-right  { text-align: center;  }
+  th.org-left   { text-align: center;   }
+  th.org-center { text-align: center; }
+  td.org-right  { text-align: right;  }
+  td.org-left   { text-align: left;   }
+  td.org-center { text-align: center; }
+  dt { font-weight: bold; }
+  .footpara { display: inline; }
+  .footdef  { margin-bottom: 1em; }
+  .figure { padding: 1em; }
+  .figure p { text-align: center; }
+  .equation-container {
+    display: table;
+    text-align: center;
+    width: 100%;
+  }
+  .equation {
+    vertical-align: middle;
+  }
+  .equation-label {
+    display: table-cell;
+    text-align: right;
+    vertical-align: middle;
+  }
+  .inlinetask {
+    padding: 10px;
+    border: 2px solid gray;
+    margin: 10px;
+    background: #ffffcc;
+  }
+  #org-div-home-and-up
+   { text-align: right; font-size: 70%; white-space: nowrap; }
+  textarea { overflow-x: auto; }
+  .linenr { font-size: smaller }
+  .code-highlighted { background-color: #ffff00; }
+  .org-info-js_info-navigation { border-style: none; }
+  #org-info-js_console-label
+    { font-size: 10px; font-weight: bold; white-space: nowrap; }
+  .org-info-js_search-highlight
+    { background-color: #ffff00; color: #000000; font-weight: bold; }
+  .org-svg { width: 90%; }
+  /*]]>*/-->
+</style>
+<link rel="icon" type="image/png" href="img/favicon-32x32.png" sizes="32x32" />
+<link rel="stylesheet" type="text/css" href="styles/readtheorg/css/readtheorg.css"/>
+<script type="text/javascript">
+/*
+@licstart  The following is the entire license notice for the
+JavaScript code in this tag.
+
+Copyright (C) 2012-2018 Free Software Foundation, Inc.
+
+The JavaScript code in this tag is free software: you can
+redistribute it and/or modify it under the terms of the GNU
+General Public License (GNU GPL) as published by the Free Software
+Foundation, either version 3 of the License, or (at your option)
+any later version.  The code is distributed WITHOUT ANY WARRANTY;
+without even the implied warranty of MERCHANTABILITY or FITNESS
+FOR A PARTICULAR PURPOSE.  See the GNU GPL for more details.
+
+As additional permission under GNU GPL version 3 section 7, you
+may distribute non-source (e.g., minimized or compacted) forms of
+that code without the copy of the GNU GPL normally required by
+section 4, provided you include this license notice and a URL
+through which recipients can access the Corresponding Source.
+
+
+@licend  The above is the entire license notice
+for the JavaScript code in this tag.
+*/
+<!--/*--><![CDATA[/*><!--*/
+ function CodeHighlightOn(elem, id)
+ {
+   var target = document.getElementById(id);
+   if(null != target) {
+     elem.cacheClassElem = elem.className;
+     elem.cacheClassTarget = target.className;
+     target.className = "code-highlighted";
+     elem.className   = "code-highlighted";
+   }
+ }
+ function CodeHighlightOff(elem, id)
+ {
+   var target = document.getElementById(id);
+   if(elem.cacheClassElem)
+     elem.className = elem.cacheClassElem;
+   if(elem.cacheClassTarget)
+     target.className = elem.cacheClassTarget;
+ }
+/*]]>*///-->
+</script>
+</head>
+<body>
+<div id="content">
+<div id="table-of-contents">
+<h2>Table of Contents</h2>
+<div id="text-table-of-contents">
+<ul>
+<li><a href="#org94c4a03">Home</a></li>
+<li><a href="#orgfc85207">Research</a></li>
+<li><a href="#org6cded30">Tools</a></li>
+<li><a href="#org7e940a2">Collaborations</a></li>
+<li><a href="#org3973c91">About me</a></li>
+<li><a href="#orgff54de6">Scientific production</a></li>
+<li><a href="#orgdff1592">Fundings</a></li>
+<li><a href="#org5ba55d5">Outreach</a></li>
+<li><a href="#org2e40ce3"><span class="todo TODO">TODO</span> News</a></li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-org94c4a03" class="outline-2">
+<h2 id="org94c4a03">Home</h2>
+<div class="outline-text-2" id="text-org94c4a03">
+<p>
+Welcome to my page.<br />
+</p>
+
+<p>
+Currently employed as a research engineer at <a href="http://www.inra.fr/en/Scientists-Students">INRA</a> (Institut National de la Recherche Agronomique), I am on secondment at the <a href="https://www.synchrotron-soleil.fr/en">SOLEIL</a> synchrotron radiation facility, near Paris (France) where I am working on the <a href="https://www.synchrotron-soleil.fr/en/beamlines/disco">DISCO</a> beamline as a beamline scientist.<br />
+</p>
+
+<p>
+SOLEIL is a very large research infrastructure and provides the scientific community with an access to 28 beamlines delivering photon beams of high brilliance and stability over a wide wavelength range from the terahertz up to the hard X-rays. The <a href="https://www.synchrotron-soleil.fr/en/beamlines/disco">DISCO</a> beamline, managed by <a href="https://cv.archives-ouvertes.fr/matthieu-refregiers">Matthieu Refrregiers</a>, makes use of visible, ultraviolet (UV) and vacuum-UV (VUV) photons on three experimental stations, namely fluorescence imaging, circular dichroism and the atmospheric pressure experimental (APEX) station. I am more specifically in charge of this last station.<br />
+</p>
+
+<p>
+In addition, I am a member of a team of INRA researchers on secondment at SOLEIL. Our mission is to help researchers and engineers from INRA to access the facility. We help improving proposals submitted by INRA researchers. In addition, we are visiting INRA centers across the country to present SOLEIL and its capabilities. We also maintain a monitoring of the technological developments appearing on synchrotron facilities.<br />
+</p>
+
+<p>
+I picked an xyz domain name because it reminds me the file format. The <code>.xyz</code>  format is used to store chemical structures <sup><a id="fnr.1" class="footref" href="#fn.1">1</a></sup>. The nature and the cartesian coordinates of the atoms are indicated in a very compact format.<br />
+</p>
+</div>
+</div>
+
+
+<div id="outline-container-orgfc85207" class="outline-2">
+<h2 id="orgfc85207">Research</h2>
+<div class="outline-text-2" id="text-orgfc85207">
+<p>
+My research is concerned with the study of the electronic structure of ions and molecules. The electronic structure how describes the electrons of a system are distributed spatially and energetically. Geometric and electronic structures are intimately related and both structures are essential to the understanding of the chemical and physical properties of matter at an atomic and molecular scale.<br />
+My various area of interest are therefore related to <b>structure</b>, such as:<br />
+</p>
+</div>
+
+<ul class="org-ul">
+<li><a id="orgfcf7dd6"></a>Interplay between electronic and atomic structures of biological molecules<br /></li>
+<li><a id="org51364a3"></a>Understanding non-covalent interactions<br /></li>
+<li><a id="org9145ac0"></a>Structural chemistry of bioorganic molecules using combination of spectroscopy and mass spectrometry<br />
+<div class="outline-text-3" id="text-org9145ac0">
+<p>
+To achieve these endeavors, we have developed a series of <a href="#org6cded30">tools</a>.<br />
+</p>
+</div>
+</li>
+</ul>
+</div>
+
+
+<div id="outline-container-org6cded30" class="outline-2">
+<h2 id="org6cded30">Tools</h2>
+<div class="outline-text-2" id="text-org6cded30">
+</div>
+<ul class="org-ul">
+<li><a id="orgba253fa"></a><b>New ion activation methods for tandem mass spectrometry</b><br />
+<div class="outline-text-3" id="text-orgba253fa">
+<p>
+Mass spectrometry holds an important place in structural chemistry.  A typical mass spectrometer is composed of an ion source, a mass to charge ratio (<i>m/z</i>) analyzer and an ion detector. Thus, a mass spectrum is a representation of the ion abundance as measured by the detector as a function of the <i>m/z</i> ratio, as illustrated in below.  Molar masses and stoechiometries may be determined from mass spectra.  The addition of another mass filtering stage, either in space or in time, allows a specific <i>m/z</i> range, corresponding to a species of interest, to be selected and activated. During the activation step, ions receives internal energy, which ultimately leads to the fragmentation of the ion. This method is termed tandem mass spectrometry or MS/MS. When fragment ions are selected and activated in multiple successive steps, the process is referred to as MS<sup>n</sup>.<br />
+</p>
+
+
+<div id="orgc2c29c7" class="figure">
+<p><img src="img/tandemMS.jpg" alt="tandemMS.jpg" width="350 image" title="MS and MS/MS" style="float:center;margin: 20px -20px -40px 0px;" /><br />
+</p>
+<p><span class="figure-number">Figure 1: </span>Illustration of the principles of a) mass spectrometry and b) tandem mass spectrometry analysis.</p>
+</div>
+
+
+<p>
+The mean of activation in tandem MS is crucial as it determines to a large extend the outcomes of the process.  The most used method, referred to as collision induced dissociation (CID), is based on inelastic collisions between the targets and an inert gas. CID belongs to the slow heating class of methods in which the internal energy of the ions is gradually increased until a dissociation threshold is reached. Hence, CID activation leads principally to the dissociation of the weakest bonds. This characteristic prevent some systems to be analyzed by CID: such as those bearing labile groups or non-covalent assemblies. Gaining some control over the fragmentation phenomenon is therefore very appealing.<br />
+</p>
+
+<p>
+The study of the spectroscopic properties of bioorganic ions in the gas phase,<br />
+</p>
+</div>
+</li>
+
+<li><a id="org2d16b08"></a><b>Ion Spectroscopy</b><br />
+<div class="outline-text-3" id="text-org2d16b08">
+<p>
+Spectroscopy of ions is not a trivial task. Indeed, it requires to confine high densities of charged particles within small volumes, during long enough period of time and the use of high brilliance photon sources.  Usually, ion spectroscopy is performed using merged beams setups, such as the <a href="https://doi.org/10.1016/j.elspec.2016.03.006">MAIA experiment</a> at SOLEIL, in which large ionic currents are produced by <a href="https://en.wikipedia.org/wiki/Electron_cyclotron_resonance#ECR_ion_sources">ECR</a> sources. The ion beam is then merged with monochromatic photons from the beamlines over ~1 m distance. These setups have the great advantage to provide absolute cross section measurements, but suffer from the restriction of the targets, mostly atomic, that can be ionized by <a href="https://en.wikipedia.org/wiki/Electron_cyclotron_resonance#ECR_ion_sources">ECR</a> sources. In another concept, ion spectroscopy was performed in ion traps, in which the lower ionic target density produced by the classical ion sources was compensated by the ability to confine the ion longer, leading to very long irradiation times. This concept had been successfully implemented at Free Electron Lasers for infrared multiphoton dissociation spectroscopy, such as at <a href="https://www.fels-of-europe.eu/fel_facilities/ir_facilities/clio/">CLIO</a> or at <a href="https://www.ru.nl/felix/facility-0/measurement-station/user-station-6-felion-4k-trap-machine/">FELIX</a> but also using tunable laboratory lasers in the visible-UV range.  However, synchrotron radiation, which is orders of magnitude less powerful than lasers, had so far not been used for ionization of trapped ions.<br />
+</p>
+
+<p>
+I had the chance to participate to the proof of the concept of the use of synchrotron radiation to perform ion spectroscopy on stored ions in traps. In this work,  performed at Elletra in 2008 [<a href="#orgf58a29d">PRL 2008</a>], the photoionization of the xenon radical cation was measured in the XUV and compared to measurement from the merged beams experiments. It appeared that ion trap measurements were not affected by the presence of metastable species, which was the case with the merged beams data.<br />
+</p>
+
+
+<div class="figure">
+<p><img src="img/micra.jpg" alt="micra.jpg" title="Ion trap vs merged beams" style="float:center;margin: 20px -20px -40px 0px;" /><br />
+</p>
+<p><span class="figure-number">Figure 2: </span>Photoionization cross section of the Xe<sup>+</sup> cation measured using an ion trap (top) and by the merged beams technique (bottom) are compared with theoretical results (thin lines), modified from [<a href="#orgf58a29d">PRL 2008</a>].</p>
+</div>
+
+<p>
+Thank to a <a href="#orgd3bda7c">grant</a> from the French national funding agency in 2009, we have coupled an ion trap mass spectrometer with the UV and VUV beamlines DESIRS <sup><a id="fnr.2" class="footref" href="#fn.2">2</a></sup> and DISCO <sup><a id="fnr.3" class="footref" href="#fn.3">3</a></sup> [<a href="#orgaaa9ca2">J. Synchrotron Rad. 2011</a>] and later with the soft X-rays PLEIADES beamline <sup><a id="fnr.4" class="footref" href="#fn.4">4</a></sup> at SOLEIL.<br />
+</p>
+
+
+<div class="figure">
+<p><img src="img/SRMS2.jpg" alt="SRMS2.jpg" title="the SRMS2 project" style="float:center;margin: 20px -20px -40px 0px;" /><br />
+</p>
+<p><span class="figure-number">Figure 3: </span>Scheme of principle of the coupling of the linear ion trap with three beamlines at SOLEIL.</p>
+</div>
+
+<p>
+This setup take profit from the potential of modern API sources such electrospray (ES), nano electrospray (NSI) or atmospheric pressure photoionization (APPI) to place in the gas phase systems which would be hardly possible to vaporize otherwise. Hence it is possible to probe the spectroscopy and dynamic of a wide variety of targets isolated in the gas phase by action spectroscopy. Ions of interest produced by the source are selected and accumulated in the ion trap until the desired capacity is reached. The radiation is then admitted in the trap for a controlled amount of time, after which the trap is emptied and the products of the irradiation are analyzed. Repeating this process over a set of wavelength produces a set of tandem mass spectra leads to data such as:<br />
+</p>
+
+
+<div class="figure">
+<p><img src="img/ms2-matrix.jpg" alt="ms2-matrix.jpg" title="Substance P activation" style="float:center;margin: 20px -20px -40px 0px;" /><br />
+</p>
+<p><span class="figure-number">Figure 4: </span>2D representation of the activation of the single protonated ion [M+H]<sup>+</sup> of substance P in the 8 to 16 eV, showing the production ion mass spectra as a funcion of the photon energy. More details are available here [<a href="#org863aedc">PCCP 2015</a>]</p>
+</div>
+
+<p>
+From these data, the abundance of a particular ion may be measured and plotted as a function of the photon energy, leading to relative cross section for the individual process at the origin of the ionic signal considered.<br />
+</p>
+</div>
+</li>
+
+
+<li><a id="org33430d9"></a><span class="todo TODO">TODO</span> <b>X-ray oxidative foot printing</b><br /></li>
+<li><a id="org26cd362"></a><span class="todo TODO">TODO</span> <b>Molecular spectroscopy in the UV and synchrotron radiation</b><br />
+<div class="outline-text-3" id="text-org26cd362">
+<ul class="org-ul">
+<li><b>Synchrotron Radiation Circular Dichroism (SRCD)</b><br /></li>
+<li><b>VUV absorption spectroscopy</b><br /></li>
+</ul>
+</div>
+</li>
+<li><a id="orgab866df"></a><b>Software</b><br />
+<ul class="org-ul">
+<li><a id="orgc1c7f31"></a><b>Igor Pro</b><br />
+<div class="outline-text-4" id="text-orgc1c7f31">
+<p>
+I have been using Igor Pro from <a href="https://www.wavemetrics.com/">Wavemetrics</a> since my diploma thesis (<i>mémoire de licence</i>) in Liège and I used to use it extensively for data treatment and to produce figures. I also use Igor for control and acquisition. Almost all my published data have been treated and produced in final form using Igor. My codes written in Igor will be <b>soon</b> available on <a href="https://github.com/ajgiuliani">Github</a> and <a href="https://www.wavemetrics.com/forum">Igor Exchange</a>.<br />
+</p>
+</div>
+</li>
+
+<li><a id="orgf48f895"></a><b>Org-mode</b><br />
+<div class="outline-text-4" id="text-orgf48f895">
+<p>
+Org-mode made me use <a href="https://www.gnu.org/software/emacs/">emacs</a>, a software which I could get into previously. I guessed I needed a sufficient incentive to overcome the barrier! Org-mode was that incentive. It changed drasticallt the way I worked.  Org-mode <sup><a id="fnr.5" class="footref" href="#fn.5">5</a></sup> is originally a powerful tools for task management, projects planning, notes taking and writing documents. However, it offers a very useful way to literate programming <sup><a id="fnr.6" class="footref" href="#fn.6">6</a></sup>. Gradually my data treatment shifts to org-mode and literate programming in conjunction with python and Julia.<br />
+</p>
+</div>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+
+
+<div id="outline-container-org7e940a2" class="outline-2">
+<h2 id="org7e940a2">Collaborations</h2>
+<div class="outline-text-2" id="text-org7e940a2">
+</div>
+<ul class="org-ul">
+<li><a id="org66ac8bf"></a>Konrad Hinsen, Centre de Biophysique Moléculaire, CNRS, Orléans, France<br />
+<div class="outline-text-3" id="text-org66ac8bf">
+<p>
+<b>Molecular simulations.</b><br />
+</p>
+</div>
+</li>
+
+<li><a id="orgc23a8c5"></a>Aleksandar Milosavljevic, formerly at Institute of Physics, Belgrade now at the PLEIADES beamline, SOLEIL<br />
+<div class="outline-text-3" id="text-orgc23a8c5">
+<p>
+<b>Ion spectroscopy.</b><br />
+</p>
+</div>
+</li>
+
+<li><a id="org33d6eab"></a>Laurent Nahon, Synchrotron SOLEIL<br />
+<div class="outline-text-3" id="text-org33d6eab">
+<p>
+<b>VUV spectroscopy.</b><br />
+</p>
+</div>
+</li>
+
+<li><a id="orgec449df"></a>Francis Canon, CSGA, INRA, Dijon, France<br />
+<div class="outline-text-3" id="text-orgec449df">
+<p>
+<b>Non covalent complexes.</b><br />
+</p>
+</div>
+</li>
+
+<li><a id="org7298ce4"></a>Regis Daniel, University of Evry, France<br />
+<div class="outline-text-3" id="text-org7298ce4">
+<p>
+<b>Protein Foot printing.</b><br />
+<b>Mass spectrometric analysis of sugars.</b><br />
+</p>
+</div>
+</li>
+
+<li><a id="org87001cc"></a>Denis Duflot, University of Lille, France<br />
+<div class="outline-text-3" id="text-org87001cc">
+<p>
+<b>Electronic spectroscopy &amp; <i>ab initio</i> electronic structure calculations</b><br />
+</p>
+</div>
+</li>
+
+<li><a id="org34f44a6"></a>David Ropartz &amp; Hélène Rognaux, INRA Nantes, France<br />
+<div class="outline-text-3" id="text-org34f44a6">
+<p>
+<b>Mass spectrometric analysis of sugar.</b><br />
+</p>
+</div>
+</li>
+
+<li><a id="orgd026a91"></a>Martin R. Green, Waters, Manchester, UK.<br />
+<div class="outline-text-3" id="text-orgd026a91">
+<p>
+<b>Ion activation &amp; instrumentation.</b><br />
+</p>
+</div>
+</li>
+</ul>
+</div>
+
+
+
+<div id="outline-container-org3973c91" class="outline-2">
+<h2 id="org3973c91">About me</h2>
+<div class="outline-text-2" id="text-org3973c91">
+<p>
+My resumé is available here <a href="CV.pdf"><img src="img/pdf.png" alt="pdf.png" /></a><br />
+</p>
+
+<p>
+<a href="#orgff54de6"><b>Scientific production</b></a>, <a href="#orgdff1592"><b>Fundings</b></a>, <a href="#org5ba55d5"><b>Outreach</b></a>.<br />
+</p>
+</div>
+
+<ul class="org-ul">
+<li><a id="org7ae2258"></a>CAREER<br />
+<div class="outline-text-3" id="text-org7ae2258">
+<ul class="org-ul">
+<li>Since 2006 <b>Senior Research Engineer</b>, CEPIA Department, INRA on secondment at SOLEIL synchrotron on the DISCO beamline..<br /></li>
+<li>Since 2006 <b>Beamline scientist</b>, DISCO beamline with Dr. M. Refregiers, SOLEIL, Gif-sur-Yvette, France.<br /></li>
+<li>2006 - 2004 <b>Postdoctoral fellowship</b> with Pr. Olivier Laprévote, Mass spectrometry laboratory, ICSN, CNRS, France.<br /></li>
+<li>2004 - 1998 <b>Assistant</b> with Pr. Jacques Delwiche, Université de Liège, Belgium.<br /></li>
+</ul>
+</div>
+</li>
+<li><a id="org74e4b68"></a>EDUCATION<br />
+<div class="outline-text-3" id="text-org74e4b68">
+<ul class="org-ul">
+<li>2013 <b>Habilitation to conduct research</b> University Paris-Sud (FR), Faculty of Sciences. <i>Spectroscopy of ions and molecules of biological interest using synchrotron radiation.</i> Committee: A. Zehnhacker, E. Uggerud, E. De Pauw, O. Laprévote, P. Maitre, J. Delwiche.<br /></li>
+<li>2003 <b>Doctoral degree. in Sciences</b> University of Liège (BE) with Dr. M.-J. Hubin-Franskin, Obtained with the highest distinction and the congratulations of the jury. <i>Furan and some selected derivatives. A valence shell spectroscopic study by photon and electron impact methods.</i><br /></li>
+<li>1998 <b>Licence in Chemical Sciences</b> University of Liège (BE) with Dr. M.-J. Hubin-Franskin.<br /></li>
+</ul>
+</div>
+</li>
+<li><a id="org64c879c"></a>PRODUCTION<br />
+<div class="outline-text-3" id="text-org64c879c">
+<ul class="org-ul">
+<li><b>103</b> Peer-reviewed <a href="#org2dd4b3b">publications</a><br /></li>
+<li><b>10</b> Conference <a href="#org8bc70b4">proceedings</a><br /></li>
+<li><b>3</b> <a href="#orgca31552">Patents</a><br /></li>
+<li><b>2</b> <a href="#org6905477">Book Chapters</a><br /></li>
+<li><b>37</b> <a href="#orgac77e84">Oral communications</a> (18 invited)<br /></li>
+<li><b>18</b> <a href="#orgad6d2f1">Posters</a><br /></li>
+<li><b>1505</b> Citations<br /></li>
+</ul>
+</div>
+</li>
+<li><a id="org4db5b11"></a>AWARDS<br />
+<ul class="org-ul">
+<li><a id="orgdb4a5fb"></a><b>2018</b> <b>Instrumentation award</b> of the French Chemical Society. <a href="http://www.societechimiquedefrance.fr/Laureats-898.html"><img src="img/external_link.png" alt="external_link.png" /></a><br /></li>
+
+<li><a id="org64cb4c6"></a><b>2005</b> <b>Annual prize of the Royal Academy of Sciences, Letters and Fine Arts of Belgium</b>, Section of Mathematics and Physics, Brussels, Belgium.<br />
+<div class="outline-text-4" id="text-org64cb4c6">
+<p>
+<br />
+</p>
+</div>
+</li>
+<li><a id="org011fbd0"></a><b>Today-2014</b> <b>Qualification for university professorship</b> CNU section 30 (dilute matter and optics) and 31 (theoretical, physical and analytical chemistry). This qualification is mandatory to apply for professorship positions in France.<br /></li>
+</ul>
+</li>
+
+<li><a id="orgdb0afef"></a>STUDENTS MENTORSHIP<br />
+<ul class="org-ul">
+<li><a id="org50e29d3"></a><b>2018-2015</b> Thesis Director of Suzie Douix, University Paris-Saclay, France.<br /></li>
+
+<li><a id="org766008d"></a><b>2012-2009</b> Supervision of two postdocs. Drs Milosavljevic and Canon are currently Assistant Professor at the Institute of Physics of Belgrade (Serbia) and Research Fellow at CGSA, INRA Dijon.<br /></li>
+
+<li><a id="org9fdd0f9"></a><b>2009–2004</b> Scientific supervision of PhD students (Aicha Bagag, Julia Allegrand) and 1 Master student (Delphine Debois), University d&rsquo;Evry Val-d&rsquo;Essonne, France.<br /></li>
+</ul>
+</li>
+
+<li><a id="orgda2549e"></a>TEACHING ACTIVITIES<br />
+<ul class="org-ul">
+<li><a id="orgbc2fb53"></a><b>2015</b> Course on ambient ionization, youth club of the French mass spectrometry society, Montélimar, France.<br /></li>
+<li><a id="org4232e8e"></a><b>2009</b> Course on photoionization at atmospheric pressure, youth club of the French company of mass spectrometry, Borzée, Belgium.<br /></li>
+<li><a id="orga1f610c"></a><b>2004 - 1998</b> Lecturer (Assistant) in General Chemistry and Physical Chemistry courses, University of Liège (Belgium).<br />
+<div class="outline-text-4" id="text-orga1f610c">
+<p>
+~120 teaching hours per year.<br />
+</p>
+</div>
+</li>
+</ul>
+</li>
+
+<li><a id="orgd858614"></a>ORGANISATION OF SCIENTIFIC MEETINGS<br />
+<ul class="org-ul">
+<li><a id="org3e729f5"></a><b>05/06/2018</b> Chairperson of the Fundamentals: Photoionization and Photodissociation session at the Annual conference of the American Society for Mass Spectrometry, San Diego, USA.<br /></li>
+
+<li><a id="org0018504"></a><b>21/01/2015</b> Organizing committee, INRA – SOLEIL meeting day as a satellite of the SOLEIL User’s meeting, around 80 participants, SOLEIL, Gif-sur-Yvette, France.<br /></li>
+
+<li><a id="org353f324"></a><b>13/11/2009</b> Organizing committee, INRA – SOLEIL meeting day, around 40 participants, SOLEIL, Gif-sur-Yvette, France.<br /></li>
+</ul>
+</li>
+
+<li><a id="org4d1f08f"></a>COMMISSIONS OF TRUST<br />
+<ul class="org-ul">
+<li><a id="org2ffe0ad"></a><b>Today - 2013</b> External evaluator for the CLS (Canadian Synchrotron Radiation Center), Canada.<br /></li>
+
+<li><a id="orgef3b4d0"></a><b>2018</b>, <b>2017</b> Expert for the Swiss NSF (National Science Foundation) Switzerland.<br /></li>
+
+<li><a id="orgc6217ae"></a><b>2016</b>, <b>2013</b> Expert for the ANR (French National Agency for Scientific Research), France.<br /></li>
+
+<li><a id="org322fc6f"></a><b>2016</b>, <b>2013</b> Expert for the NCSTE (National Centre of Science and Technology Evaluation), Kazakhstan<br /></li>
+
+<li><a id="orgefdd5c7"></a><b>2014</b> Expert for the European Commission in the framework of the H2020 program, Brussels.<br /></li>
+</ul>
+</li>
+
+<li><a id="org02ba1d5"></a>EDITORSHIPS<br />
+<ul class="org-ul">
+<li><a id="orga108f28"></a><b>Today – 2014</b> Editorial board member of the Journal of Chemistry (analytical chemistry division), Hindawi Publishers.<br /></li>
+
+<li><a id="orgb0ad22d"></a><b>2017</b> Edition of a <a href="https://www.synchrotron-soleil.fr/fr/actualites/10-ans-de-collaboration-inrasoleil">booklet</a> (around 50 pages) to comemorate the 10 years partnership between INRA and SOLEIL.<br /></li>
+
+<li><a id="orgdaf5749"></a><b>2012</b> Edition of a <a href="http://inra.dam.front.pad.brainsonic.com/ressources/afile/226391-52870-resource-5-ans-de-partenariat-avec-soleil-edition-2012.html">booklet</a> (around 80 pages) to comemorate the 5 years partnership between INRA and SOLEIL.<br /></li>
+</ul>
+</li>
+
+<li><a id="org5d6bb33"></a>MEMBERSHIPS OF SCIENTIFIC SOCIETIES<br />
+<ul class="org-ul">
+<li><a id="org3f91aff"></a><b>2018 - 2017</b> Member of the French Chemical Society<br /></li>
+
+<li><a id="org229b775"></a><b>2018 - 2017</b> Member of the French Society of Mass Spectrometry<br /></li>
+
+<li><a id="orgda77a0c"></a><b>2018 - 2005</b> Member of the American Society of Mass Spectrometry<br /></li>
+
+<li><a id="org6f599fa"></a><b>2018 - 2006</b> Member of the thematic group of Biology and Life Science of the SOLEIL synchrotron<br /></li>
+
+<li><a id="orgcd524e7"></a><b>2018 - 2005</b> Member of the thematic group of atomic and molecular physics of the SOLEIL synchrotron<br /></li>
+</ul>
+</li>
+</ul>
+</div>
+
+
+
+<div id="outline-container-orgff54de6" class="outline-2">
+<h2 id="orgff54de6">Scientific production</h2>
+<div class="outline-text-2" id="text-orgff54de6">
+<p>
+<a href="#org2dd4b3b"><b>Publications</b></a> , <a href="#org8bc70b4"><b>Proceedings</b></a>, <a href="#orgca31552"><b>Patent</b></a>, <a href="#org6905477"><b>Book Chapters</b></a>, <a href="#orgac77e84"><b>Oral communications</b></a>, <a href="#orgad6d2f1"><b>Posters</b></a>.<br />
+</p>
+
+<p>
+A list is available from my institution repository <a href="https://prodinra.inra.fr/?locale=en#!Result:au:%22Alexandre%20Giuliani%22%7Csort=%7BDATE_DESC%7D">Prodinra</a> along with some preprints.<br />
+</p>
+</div>
+
+<ul class="org-ul">
+<li><a id="org2dd4b3b"></a>Publications<br />
+<ul class="org-ul">
+<li><a id="org40c4942"></a><b>2019</b><br />
+<ul class="org-ul">
+<li><a id="org1882be5"></a><b>103.</b> <i>«Vacuum-UV induced DNA strand breaks – influence of the radiosensitizers 5-bromouracil and 8-bromoadenine»</i>  S. Vogel, K. Ebel, C. Heck,  R. M. Schürmann,  A. R. Milosavljević,  A. Giuliani,  Ilko Bald*, <b>Phys. Chem. Chem. Phys.</b> 2019 <a href="https://doi.org/10.1039/C8CP06813E">doi:10.1039/C8CP06813E</a><br />
+<div class="outline-text-5" id="text-org1882be5">
+
+<div class="figure">
+<p><img src="img/103.gif" alt="103.gif" width="200" style="float:center;margin:-10px 0px -20px 20px; border:2px solid #ccc; alt picture ID" /><br />
+</p>
+</div>
+</div>
+</li>
+
+<li><a id="org13b556a"></a><b>102.</b> <i>«Tuning photoionization mechanisms of molecular hybrid materials for EUV lithography applications»</i> L. Wu,  M. Tiekink,  A. Giuliani,  L. Nahon,  S. Castellanos*, <b>J. Mater. Chem. C</b> 7 (2019) 33-37. <a href="https://doi.org/10.1039/C8TC05273E">doi:10.1039/C8TC05273E</a><br />
+<div class="outline-text-5" id="text-org13b556a">
+
+<div class="figure">
+<p><img src="img/102.gif" alt="102.gif" width="250" style="float:center;margin:-10px 0px -40px 20px; border:2px solid #ccc; alt picture ID" /><br />
+</p>
+</div>
+</div>
+</li>
+</ul>
+</li>
+
+<li><a id="orgc6af090"></a><b>2018</b><br />
+<ul class="org-ul">
+<li><a id="org456254a"></a><b>101.</b> <a id="org78df605"></a> <i>«Spectroscopy and Photodissociation of the Perfluorooctanoate Anion»</i> S. Douix, H. Dossmann, E. Nicol, D. Duflot, A. Giuliani*, <b>Chemistry – A European Journal</b> 24 (2018) 15572 – 15576. <a href="https://doi.org/10.1002/chem.201801997">doi:10.1002/chem.201801997</a><br />
+<div class="outline-text-5" id="text-org456254a">
+
+<div class="figure">
+<p><img src="img/101.gif" alt="101.gif" width="250" style="float:center;margin:-10px 0px -20px 20px; border:2px solid #ccc; alt picture ID" /><br />
+</p>
+</div>
+</div>
+</li>
+
+<li><a id="org94c23f2"></a><b>100.</b> <a id="org183b258"></a> <i>«Extreme ultraviolet (XUV) radiation: a means of ion activation for tandem mass spectrometry»</i> A. Giuliani*, J. P. Williams, M. R. Green*,  <b>Anal. Chem.</b> 90 (2018) 7176–7180. <a href="https://doi.org/10.1021/acs.analchem.8b01789">doi:10.1021/acs.analchem.8b01789</a><br />
+<div class="outline-text-5" id="text-org94c23f2">
+
+<div class="figure">
+<p><img src="img/100.gif" alt="100.gif" width="250" style="float:center;margin:-10px 0px -20px 20px; border:2px solid #ccc; alt picture ID" /><br />
+</p>
+</div>
+</div>
+</li>
+
+<li><a id="org53f5303"></a><b>99.</b>   <a id="orgb49a8f1"></a> <i>«Radical Anions of Oxidized vs. Reduced Oxytocin: Influence of Disulfide Bridges on CID and Vacuum UV Photo-Fragmentation»</i> L. MacAleese*, M. Girod, L. Nahon, A. Giuliani, R. Antoine, P. Dugourd, <b>J. Am. Soc. Mass Spectrom.</b> 29 (2018) 1826-1834. <a href="https://doi.org/10.1007/s13361-018-1989-8">doi:10.1007/s13361-018-1989-8</a><br />
+<div class="outline-text-5" id="text-org53f5303">
+
+<div class="figure">
+<p><img src="img/99.png" alt="99.png" width="250" style="float:center;margin:-10px 0px -20px 20px; border:2px solid #ccc; alt picture ID" /><br />
+</p>
+</div>
+</div>
+</li>
+
+<li><a id="org068a6ab"></a><b>98.</b> <i>«Carotenoids: Experimental Ionization Energies and Capacity at Inhibiting Lipid Peroxidation in a Chemical Model of Dietary Oxidative Stress»</i>, P. Goupy, M. Carail, A. Giuliani, D. Duflot,  O. Dangles*, C. Caris-Veyrat, <b>J. Phys. Chem. B</b> 122 (2018) 5860–5869. <a href="https://doi.org/10.1021/acs.jpcb.8b03447">doi:10.1021/acs.jpcb.8b03447</a><br />
+<div class="outline-text-5" id="text-org068a6ab">
+
+<div class="figure">
+<p><img src="img/98.gif" alt="98.gif" width="250" style="float:center;margin:-10px 0px -20px 20px; border:2px solid #ccc; alt picture ID" /><br />
+</p>
+</div>
+</div>
+</li>
+<li><a id="orgeb4413b"></a><b>97.</b> <i>«Photo-Induced Fragmentation of a Tin-Oxo Cage Compound»</i> J. Haitjema, L. Wu, A. Giuliani, L. Nahon, S. Castellanos, A. M. Brouwer*, <b>J. Photopolym. Sci. Technol.</b> 31(2) (2018) 243–247.  <a href="https://doi.org/10.2494/photopolymer.31.243">doi:10.2494/photopolymer.31.243</a><br />
+<div class="outline-text-5" id="text-orgeb4413b">
+
+<div class="figure">
+<p><img src="img/97.png" alt="97.png" width="200" style="float:center;margin:-10px 0px -20px 20px; border:2px solid #ccc; alt picture ID" /><br />
+</p>
+</div>
+</div>
+</li>
+
+<li><a id="org0a36cfa"></a><b>96.</b>   <i>«MS/MS-Guided Isolation of Clarinoside, a New Anti-Inflammatory Pentalogin Derivative»</i> C. Audoin, A. Zampalégré, N. Blanchet, A. Giuliani, E. Roulland, O. Laprévote, G. Genta-Jouve*, <b>Molecules</b> 23 (2018) 1237. <a href="https://doi.org/10.3390/molecules23051237">doi:10.3390/molecules23051237</a><br />
+<div class="outline-text-5" id="text-org0a36cfa">
+
+<div class="figure">
+<p><img src="img/96.jpg" alt="96.jpg" width="250" style="float:center;margin:-10px 0px -20px 20px; border:2px solid #ccc; alt picture ID" /><br />
+</p>
+</div>
+</div>
+</li>
+</ul>
+</li>
+
+<li><a id="orgdfd4c58"></a><b>2017</b><br />
+<ul class="org-ul">
+<li><a id="orgff74c3d"></a><b>95.</b> <a id="org28dd91a"></a> <i>«Photoionization of the Buckminsterfullerene Cation»</i> S. Douix, D. Duflot, D. Cubaynes, J.-M. Bizau, A. Giuliani*,  <b>J. Phys. Chem. Lett.</b> 8 (2016) 7-12. <a href="https://doi.org/10.1021/acs.jpclett.6b02558">doi:10.1021/acs.jpclett.6b02558</a><br />
+<div class="outline-text-5" id="text-orgff74c3d">
+
+<div class="figure">
+<p><img src="img/95.gif" alt="95.gif" width="250" style="flot:center;margin:-10px 0px -20px 20px; border:2px solid #ccc; alt picture ID" /><br />
+</p>
+</div>
+</div>
+</li>
+
+<li><a id="org63e789a"></a><b>94.</b>  <i>«Gas-Phase Structural and Optical Properties of Homo- and Heterobimetallic Rhombic Dodecahedral Nanoclusters [Ag14–nCun(C≡CtBu)12X]+ (X = Cl and Br): Ion Mobility, VUV and UV Spectroscopy, and DFT Calculations»</i> S. Daly , C. M. Choi , A. Zavras, M. Krstić, F. Chirot , T. U. Connell, S. J. Williams , P. S. Donnelly, R. Antoine , A. Giuliani , V. Bonačić-Koutecký*, P. Dugourd*, R. A. J. O’Hair*, <b>J. Phys. Chem. C</b>, 121(20) (2017) 10719–10727. <a href="https://doi.org/10.1021/acs.jpcc.7b02663">doi:10.1021/acs.jpcc.7b02663</a><br />
+<div class="outline-text-5" id="text-org63e789a">
+
+<div class="figure">
+<p><img src="img/94.gif" alt="94.gif" width="250" style="float:center;margin:-10px 0px -20px 20px; border:2px solid #ccc; alt picture ID" /><br />
+</p>
+</div>
+</div>
+</li>
+
+<li><a id="org0aec28a"></a><b>93.</b>  <i>«Investigation of secondary structure evolution of micellar casein powder upon aging by FTIR and SRCD: consequences on solubility»</i> S. Nasser, A. Hédoux, A. Giuliani, C. Le Floch-Fouéré, V. Santé-Lhoutellier, I. de Waele, G. Delaplace*, <b>J. Sci. Food Agric.</b> 98 (2017) 2243-2250. <a href="https://doi.org/10.1002/jsfa.8711">doi:10.1002/jsfa.8711</a><br />
+<div class="outline-text-5" id="text-org0aec28a">
+
+<div class="figure">
+<p><img src="img/93.jpg" alt="93.jpg" width="250" style="float:center;margin:-10px 0px -20px 20px; border:2px solid #ccc; alt picture ID" /><br />
+</p>
+</div>
+</div>
+</li>
+
+<li><a id="org5da19dc"></a><b>92.</b>  <i>«Multiple electron capture from isolated protein poly-anions in collision with slow highly charged ions»</i> A. R. Milosavljević*,  P. Rousseau,  A. Domaracka,  B. A. Huber,  A. Giuliani, <b>Phys. Chem. Chem. Phys.</b> 19 (2017)19691-19698. <a href="https://doi.org/10.1039/C7CP02075A">doi:10.1039/C7CP02075A</a><br />
+<div class="outline-text-5" id="text-org5da19dc">
+
+<div class="figure">
+<p><img src="img/92.gif" alt="92.gif" width="250" style="float:center;margin:-10px 0px -20px 20px; border:2px solid #ccc; alt picture ID" /><br />
+</p>
+</div>
+</div>
+</li>
+
+<li><a id="org77b1be3"></a><b>91.</b>  <i>«Polyaromatic disordered carbon grains as carriers of the UV bump: Far-UV to mid-IR spectroscopy of laboratory analogs»</i> L. Gavilan*, K.C. Le, T. Pino, I. Alata, A. Giuliani, E. Dartois, <b>Astronomy &amp; Astrophysics</b> 607 (2017) A73. <a href="https://doi.org/10.1051/0004-6361/201730712">doi:10.1051/0004-6361/201730712</a><br />
+<div class="outline-text-5" id="text-org77b1be3">
+
+<div class="figure">
+<p><img src="img/91.png" alt="91.png" width="250" style="float:center;margin:-10px 0px -20px 20px; border:2px solid #ccc; alt picture ID" /><br />
+</p>
+</div>
+</div>
+</li>
+
+<li><a id="orgb0d0cd2"></a><b>90.</b>  <a id="orge0513c0"></a> <i>«SOLEIL shining on the solution-state structure of biomacromolecules by synchrotron X-ray footprinting at the Metrology beamline»</i> A. Baud, L. Aymé, F. Gonnet, I. Salard, Y. Gohon, P. Jolivet, K. Brodolin, P. Da Silva, A. Giuliani, B. Sclavi, T. Chardot, P. Mercère, P. Roblin,  R. Daniel*, <b>J.  Synchrotron Rad.</b> 24 (2017) 576-585. <a href="https://doi.org/10.1107/S1600577517002478">doi:10.1107/S1600577517002478</a><br />
+<div class="outline-text-5" id="text-orgb0d0cd2">
+
+<div class="figure">
+<p><img src="img/90.png" alt="90.png" width="300" style="float:center;margin:-10px 0px -20px 20px; border:2px solid #ccc; alt picture ID" /><br />
+</p>
+</div>
+</div>
+</li>
+
+<li><a id="orgc4c47d1"></a><b>89.</b>  <a id="org4b575a4"></a> <i>«Structural proteomics: Topology and relative accessibility of plant lipid droplet associated proteins»</i> P. Jolivet, L. Aymé, A. Giuliani, F. Wien, T. Chardot, Y. Gohon*, <b>J. proteomics</b> 169 (2017) 87-98. <a href="https://doi.org/10.1016/j.jprot.2017.09.005">doi:10.1016/j.jprot.2017.09.005</a><br />
+<div class="outline-text-5" id="text-orgc4c47d1">
+
+<div class="figure">
+<p><img src="img/89.jpg" alt="89.jpg" width="300" style="float:center;margin:-10px 0px -20px 20px; border:2px solid #ccc; alt picture ID" /><br />
+</p>
+</div>
+</div>
+</li>
+</ul>
+</li>
+
+<li><a id="org90494f3"></a><b>2016</b><br />
+<ul class="org-ul">
+<li><a id="orgb9f5718"></a><b>88.</b> <a id="org79f08ba"></a> <i>«Charge Transfer Dissociation of Complex Oligosaccharides: Comparison with Collision-Induced Dissociation and Extreme Ultraviolet Dissociative Photoionization»</i> D. Ropartz, P. Li, M. Fanuel, A. Giuliani, H. Rogniaux*, G.P. Jackson, <b>J. Am. Soc. Mass Spectrom.</b> 27 (2016) 1614-1619. <a href="https://doi.org/10.1007/s13361-016-1453-6">doi:10.1007/s13361-016-1453-6</a><br />
+<div class="outline-text-5" id="text-orgb9f5718">
+
+<div class="figure">
+<p><img src="img/88.gif" alt="88.gif" width="150" style="float:center;margin:-10px 0px -20px 20px; border:2px solid #ccc; alt picture ID" /><br />
+</p>
+</div>
+</div>
+</li>
+
+<li><a id="orgf04567b"></a><b>87.</b> <a id="org31effcf"></a> <i>«Online coupling of high-resolution chromatography with extreme UV photon activation tandem mass spectrometry: Application to the structural investigation of complex glycans by dissociative photoionization»</i> D. Ropartz*, A. Giuliani, M. Fanuel, C. Hervé, M. Czjzek, H. Rogniaux, <b>Analytica Chim. Acta</b> 933 (2016) 1-9. <a href="https://doi.org/10.1016/j.aca.2016.05.036">doi:10.1016/j.aca.2016.05.036</a><br />
+<div class="outline-text-5" id="text-orgf04567b">
+
+<div class="figure">
+<p><img src="img/87.jpg" alt="87.jpg" width="300" style="float:center;margin:-10px 0px -20px 20px; border:2px solid #ccc; alt picture ID" /><br />
+</p>
+</div>
+</div>
+</li>
+
+<li><a id="orge0d2a2c"></a><b>86.</b> <a id="org304da3a"></a> <i>«Single-Photon, Double Photodetachment of Nickel Phthalocyanine Tetrasulfonic Acid 4- Anions»</i> S. Daly, M. Girod, M. Vojkovic, A. Giuliani, R. Antoine, L. Nahon, R. A. J. O’Hair*, P. Dugourd*, <b>J. Phys. Chem. Lett.</b> 7 (2016) 2586-2590. <a href="https://doi.org/10.1021/acs.jpclett.6b01030">doi:10.1021/acs.jpclett.6b01030</a><br />
+<div class="outline-text-5" id="text-orge0d2a2c">
+
+<div class="figure">
+<p><img src="img/86.gif" alt="86.gif" width="250" style="float:center;margin:-10px 0px -20px 20px; border:2px solid #ccc; alt picture ID" /><br />
+</p>
+</div>
+</div>
+</li>
+
+<li><a id="orgd76a42f"></a><b>85.</b> <i>«Design and performance of an instrument for electron impact tandem mass spectrometry and action spectroscopy of mass/charge selected macromolecular ions stored in RF ion trap»</i> M. Lj. Rankovic, A. Giuliani, A. R. Milosavljevic*, <b>Eur. J. Phys. D</b> 70 (2016) 125. <a href="https://doi.org/10.1140/epjd/e2016-70108-7">doi:10.1140/epjd/e2016-70108-7</a><br />
+<div class="outline-text-5" id="text-orgd76a42f">
+
+<div class="figure">
+<p><img src="img/85.jpg" alt="85.jpg" width="300" style="float:center;margin:-10px 0px -20px 20px; border:2px solid #ccc; alt picture ID" /><br />
+</p>
+</div>
+</div>
+</li>
+
+<li><a id="org49b8d7d"></a><b>84.</b> <i>«Probing the solution structure of Factor H using hydroxyl radical protein footprinting and cross-linking»</i> A. Baud, F. Gonnet, I. Salard, M. Le Mignon, A. Giuliani, P. Mercère, B. Sclavi, R. Daniel*, <b>Biochemical Journal</b> 473 (2016) 1805-1819. <a href="https://doi.org/10.1042/BCJ20160225">doi:10.1042/BCJ20160225</a><br />
+<div class="outline-text-5" id="text-org49b8d7d">
+
+<div class="figure">
+<p><img src="img/84.png" alt="84.png" width="300" style="float:center;margin:-10px 0px -20px 20px; border:2px solid #ccc; alt picture ID" /><br />
+</p>
+</div>
+</div>
+</li>
+
+<li><a id="org822d6f0"></a><b>83.</b> <i>«VUV photo-processing of PAH cations: quantitative study on the ionization versus fragmentation processes»</i> J. Zhen, S. Rodriguez Castillo, C. Joblin*, G. Mulas, H. Sabbah, A. Giuliani, L. Nahon, S. Martin, J.-P. Champeaux, P. M. Mayer, <b>The Astrophysical Journal</b> 822 (2016). <a href="https://doi.org/10.3847/0004-637X/822/2/113">doi:10.3847/0004-637X/822/2/113</a><br />
+<div class="outline-text-5" id="text-org822d6f0">
+
+<div class="figure">
+<p><img src="img/83.png" alt="83.png" width="300" style="float:center;margin:-10px 0px -20px 20px; border:2px solid #ccc; alt picture ID" /><br />
+</p>
+</div>
+</div>
+</li>
+
+<li><a id="org85922ac"></a><b>82.</b> <i>«Electron impact action spectroscopy of mass / charge selected macromolecular ions : Inner-shell excitation of ubiquitin protein Electron impact action spectroscopy of mass / charge selected macromolecular ions : Inner-shell excitation of ubiquitin protein»</i> M. Lj. Rankovic, A. Giuliani*, A. R. Milosavljevic*, <b>Appl. Phys. Lett.</b> 108 (2016 ) 064101. <a href="https://doi.org/10.1063/1.4941798">doi:10.1063/1.4941798</a><br />
+<div class="outline-text-5" id="text-org85922ac">
+
+<div class="figure">
+<p><img src="img/82.png" alt="82.png" width="250" style="float:center;margin:-10px 0px -20px 20px; border:2px solid #ccc; alt picture ID" /><br />
+</p>
+</div>
+</div>
+</li>
+
+<li><a id="orgd50bc39"></a><b>81.</b> <i>«VUV spectroscopy of carbon dust analogs: contribution to interstellar extinction»</i> L. Gavilan*, I. Alata, K.C. Le, T. Pino, A. Giuliani, E Dartois, <b>Astronomy and Astrophysics</b> 586 (2015) A106. <a href="https://doi.org/10.1051/0004-6361/201527098">doi:10.1051/0004-6361/201527098</a><br />
+<div class="outline-text-5" id="text-orgd50bc39">
+
+<div class="figure">
+<p><img src="img/81.png" alt="81.png" width="250" style="float:center;margin:-10px 0px -20px 20px; border:2px solid #ccc; alt picture ID" /><br />
+</p>
+</div>
+</div>
+</li>
+</ul>
+</li>
+
+<li><a id="org328e723"></a><b>2015</b><br />
+<ul class="org-ul">
+<li><a id="org9954e57"></a><b>80.</b> <i>«VUV action spectroscopy of protonated leucine-enkephalin peptide in the 6-14 eV range»</i> M. Lj. Ranković, F. Canon, L. Nahon, A. Giuliani and A. R. Milosavljević*, <b>J. Chem. Phys.</b> 143 (2015 ) 244311. <a href="https://doi.org/10.1063/1.4939080">doi:10.1063/1.4939080</a><br />
+<div class="outline-text-5" id="text-org9954e57">
+
+<div class="figure">
+<p><img src="img/80.png" alt="80.png" width="250" style="float:center;margin:-10px 0px -20px 20px; border:2px solid #ccc; alt picture ID" /><br />
+</p>
+</div>
+</div>
+</li>
+
+<li><a id="org76fdba0"></a><b>79.</b> <i>«Using DNA Origami Nanostructures to Determine Absolute Cross Sections for UV Photon-Induced DNA Strand Breakage»</i> S. Vogel, J. Rackwitz, R. Schürmann, J. Prinz, A. R. Milosavljevic, M. Refregiers, A. Giuliani, I. Bald*, <b>J. Phys. Chem. Lett.</b> 6 (2015 ) 4589–4593. <a href="https://doi.org/10.1021/acs.jpclett.5b02238">doi:10.1021/acs.jpclett.5b02238</a><br />
+<div class="outline-text-5" id="text-org76fdba0">
+
+<div class="figure">
+<p><img src="img/79.gif" alt="79.gif" width="250" style="float:center;margin:-10px 0px -20px 20px; border:2px solid #ccc; alt picture ID" /><br />
+</p>
+</div>
+</div>
+</li>
+
+<li><a id="orgcdb3055"></a><b>78.</b> <a id="org8b46809"></a> <i>«K-Shell Excitation and Ionization of a Gas-Phase Protein: Interplay between Electronic Structure and Protein Folding»</i> A. R. Milosavljević*, C. Nicolas, M. L. Ranković, F. Canon, C. Miron, and A. Giuliani, <b>J. Phys. Chem. Lett.</b> 6 (2015 ) 3132–3138. <a href="https://doi.org/10.1021/acs.jpclett.5b01288">doi:10.1021/acs.jpclett.5b01288</a><br />
+<div class="outline-text-5" id="text-orgcdb3055">
+
+<div class="figure">
+<p><img src="img/78.gif" alt="78.gif" width="250" style="float:center;margin:-10px 0px -20px 20px; border:2px solid #ccc; alt picture ID" /><br />
+</p>
+</div>
+</div>
+</li>
+
+<li><a id="org8fde04f"></a><b>77.</b> <i>«Gas-phase VUV Photoionisation and Photofragmentation of the Silver Deuteride Nanocluster [Ag10D8L6]2+ (L = bis(diphenylphosphino)methane). A Joint Experimental and Theoretical Study»</i> S. Daly, M. Krstic, A. Giuliani, R. Antoine, L. Nahon, A. Zavras, G. N. Khairallah, V. Bonacic-Koutecky*, P. Dugourd*, R. A. J. O&rsquo;Hair*, <b>Phys. Chem. Chem. Phys.</b> 17 (2015) 25772-25777. <a href="https://doi.org/10.1039/c5cp01160d">doi:10.1039/c5cp01160d</a><br />
+<div class="outline-text-5" id="text-org8fde04f">
+
+<div class="figure">
+<p><img src="img/77.gif" alt="77.gif" width="250" style="float:center;margin:-10px 0px -20px 20px; border:2px solid #ccc; alt picture ID" /><br />
+</p>
+</div>
+</div>
+</li>
+
+<li><a id="org9510727"></a><b>76.</b> <i>«Binding site of different tannins on a human salivary proline-rich protein evidenced by dissociative photoionization tandem mass spectrometry»</i> F. Canon*, S. Ployon, J.-P. Mazauric, P. Sarni-Manchado, M. Réfrégiers, A. Giuliani, V. Cheynier, <b>Tetrahedron</b> 71 (2015) 3039-3044. <a href="https://doi.org/10.1016/j.tet.2014.11.013">doi:10.1016/j.tet.2014.11.013</a><br />
+<div class="outline-text-5" id="text-org9510727">
+
+<div class="figure">
+<p><img src="img/76.jpg" alt="76.jpg" width="250" style="float:center;margin:-10px 0px -20px 20px; border:2px solid #ccc; alt picture ID" /><br />
+</p>
+</div>
+</div>
+</li>
+
+<li><a id="org1d914a6"></a><b>75.</b> <a id="org863aedc"></a> <i>«Action spectroscopy of a protonated peptide in the ultraviolet range»</i> F. Canon, A. R. Milosavljević, L. Nahon, A. Giuliani*, <b>Phys. Chem. Chem. Phys.</b> 39 (2015) 25725-25733 <a href="https://doi.org/10.1039/c4cp04762a">doi:10.1039/c4cp04762a</a><br />
+<div class="outline-text-5" id="text-org1d914a6">
+
+<div class="figure">
+<p><img src="img/75.gif" alt="75.gif" width="250" style="float:center;margin:-10px 0px -20px 20px; border:2px solid #ccc; alt picture ID" /><br />
+</p>
+</div>
+</div>
+</li>
+
+<li><a id="orge76543d"></a><b>74.</b> <a id="orgc9d7175"></a> <i>«X-ray-induced radiophotodynamic therapy (RPDT) using lanthanide micelles: Beyond depth limitations»</i> S. Kaščáková, A. Giuliani, S. Lacerda, A. Pallier, P. Mercère, E. Tóth, M. Réfrégiers*,  <b>Nano Res.</b> 8 (2015) 2373–9. <a href="https://doi.org/10.1007/s12274-015-0747-5">doi:10.1007/s12274-015-0747-5</a><br />
+<div class="outline-text-5" id="text-orge76543d">
+
+<div class="figure">
+<p><img src="img/74.gif" alt="74.gif" width="250" style="float:center;margin:-10px 0px -20px 20px; border:2px solid #ccc; alt picture ID" /><br />
+</p>
+</div>
+</div>
+</li>
+
+<li><a id="org74918b1"></a><b>73.</b> /«Exploring the peptide fragmentation mechanisms under atmospheric pressure photoionization using tunable VUV synchrotron radiation » / M. Méjean, A. Giuliani, A. Brunelle, D. Touboul*, <b>Int. J. Mass Spectrom.</b> 379 (2015) 80-86. <a href="https://doi.org/10.1016/j.ijms.2014.12.011">doi:10.1016/j.ijms.2014.12.011</a><br />
+<div class="outline-text-5" id="text-org74918b1">
+
+<div class="figure">
+<p><img src="img/73.jpg" alt="73.jpg" width="250" style="float:center;margin:-10px 0px -20px 20px; border:2px solid #ccc; alt picture ID" /><br />
+</p>
+</div>
+</div>
+</li>
+
+<li><a id="orge08780c"></a><b>72.</b> <a id="orgf1f490b"></a> <i>«High-energy photon activation tandem mass spectrometry provides unprecedented insights into the structure of highly sulfated oligosaccharides extracted from macroalgal cell walls»</i> D. Ropartz, A. Giuliani, C. Hervé, A. Geairon, M. Jam, M. Czjzek, H. Rogniaux*, <b>Anal. Chem.</b> 87(2) (2015) 1042-1049. <a href="https://doi.org/10.1021/ac5036007">doi:10.1021/ac5036007</a><br />
+<div class="outline-text-5" id="text-orge08780c">
+
+<div class="figure">
+<p><img src="img/72.gif" alt="72.gif" width="250" style="float:center;margin:-10px 0px -20px 20px; border:2px solid #ccc; alt picture ID" /><br />
+</p>
+</div>
+</div>
+</li>
+</ul>
+</li>
+
+<li><a id="org0a2fe13"></a><b>2014</b><br />
+<ul class="org-ul">
+<li><a id="org91ef20c"></a><b>71.</b> <i>«Determination of ionization energies of a monoterpene series by atmospheric pressure photoionization using tunable vacuum ultraviolet synchrotron radiation»</i> M. Méjean, A. Giuliani, A. Brunelle, D. Touboul*, <b>Eur. J. Mass Spectrom.</b> 20 (2014) 403-407. <a href="https://doi.org/10.1255/ejms.1291">doi:10.1255/ejms.1291</a><br />
+<div class="outline-text-5" id="text-org91ef20c">
+
+<div class="figure">
+<p><img src="img/71.png" alt="71.png" width="250" style="float:center;margin:-10px 0px -20px 20px; border:2px solid #ccc; alt picture ID" /><br />
+</p>
+</div>
+</div>
+</li>
+
+<li><a id="orgea4127d"></a><b>70.</b> <i>«X-ray induced fragmentation of size-selected salt cluster-ions stored in an ion trap»</i> M. J. Ryding*, A. Giuliani, M. Patanen, J. Niskanen,   G. Simões, G. B. S. Miller, E. Antonsson, T. Jokinen, C. Miron, O. Björneholm, K. Hansen, K. J. Børve, E. Uggerud*, <b>RSC Advances</b> 4 (2014) 47743-47751. <a href="https://doi.org/10.1039/c4ra09787d">doi:10.1039/c4ra09787d</a><br />
+<div class="outline-text-5" id="text-orgea4127d">
+
+<div class="figure">
+<p><img src="img/70.png" alt="70.png" width="250" style="float:center;margin:-10px 0px -20px 20px; border:2px solid #ccc; alt picture ID" /><br />
+</p>
+</div>
+</div>
+</li>
+
+<li><a id="org74bcdd7"></a><b>69.</b> <a id="orgec1e380"></a> <i>«Energy-Dependent UV Photodissociation of Gas-Phase Adenosine Monophosphate Nucleotide Ions: The Role of a Single Solvent Molecule»</i> A. R. Milosavljevic*, V. Z. Cerovski, F. Canon, M. L. Ranković, N. Škoro, L. Nahon, A. Giuliani, <b>J. Phys. Chem. Lett.</b> 5 (2014) 1994-1999. <a href="https://doi.org/10.1021/jz500696b">doi:10.1021/jz500696b</a><br />
+<div class="outline-text-5" id="text-org74bcdd7">
+
+<div class="figure">
+<p><img src="img/69.gif" alt="69.gif" width="250" style="float:center;margin:-10px 0px -20px 20px; border:2px solid #ccc; alt picture ID" /><br />
+</p>
+</div>
+</div>
+</li>
+
+<li><a id="org7c97d28"></a><b>68.</b> <i>«Multiple Electron Ejection from Proteins Resulting from Single-Photon Excitation in the Valence Shell»</i> R. Antoine*, Q. Enjalbert, L. MacAleese, P. Dugourd, A. Giuliani, L. Nahon, <b>The Journal of Physical Chemistry Letters</b> 5 (2014) 1666–1671. <a href="https://doi.org/10.1021/jz500489s">doi:10.1021/jz500489s</a><br />
+<div class="outline-text-5" id="text-org7c97d28">
+
+<div class="figure">
+<p><img src="img/68.gif" alt="68.gif" width="250" style="float:center;margin:-10px 0px -20px 20px; border:2px solid #ccc; alt picture ID" /><br />
+</p>
+</div>
+</div>
+</li>
+
+<li><a id="org50e3a76"></a><b>67.</b> <i>«VUV photofragmentation of protonated leucine-enkephalin peptide dimer below ionization energy»</i> A. R. Milosavljević*, V. Z. Cerovski, M. L. Ranković, F. Canon, L. Nahon, A. Giuliani, <b>The European Physical Journal D</b> 68 (2014) 68. <a href="https://doi.org/10.1140/epjd/e2014-40826-y">doi:10.1140/epjd/e2014-40826-y</a><br />
+<div class="outline-text-5" id="text-org50e3a76">
+
+<div class="figure">
+<p><img src="img/67.png" alt="67.png" width="250" style="float:center;margin:-10px 0px -20px 20px; border:2px solid #ccc; alt picture ID" /><br />
+</p>
+</div>
+</div>
+</li>
+
+<li><a id="org7101830"></a><b>66.</b> <a id="orgd97eef5"></a> <i>«Contribution of Synchrotron Radiation to photoactivation studies of biomolecular ions in the gas phase»</i> A. Giuliani*, A. R. Milosavljević, F. Canon, L. Nahon, <b>Mass Spectrom. Rev.</b>   33(6) (2014) 424-441. <a href="https://doi.org/10.1002/mas.21398">doi:10.1002/mas.21398</a><br />
+<div class="outline-text-5" id="text-org7101830">
+
+<div class="figure">
+<p><img src="img/66.png" alt="66.png" width="250" style="float:center;margin:-10px 0px -20px 20px; border:2px solid #ccc; alt picture ID" /><br />
+</p>
+</div>
+</div>
+</li>
+
+<li><a id="orgab74852"></a><b>65.</b>  /«Synthetic oligomer analysis using atmospheric pressure photoionization mass spectrometry at different photon energies » / B. Desmazières, V. Legros, A. Giuliani, W. Buchmann*, <b>Analytica Chim. Acta</b> 808 (2014) 220–230. <a href="https://doi.org/10.1016/j.aca.2013.11.036">doi:10.1016/j.aca.2013.11.036</a><br />
+<div class="outline-text-5" id="text-orgab74852">
+
+<div class="figure">
+<p><img src="img/65.jpg" alt="65.jpg" width="250" style="float:center;margin:-10px 0px -20px 20px; border:2px solid #ccc; alt picture ID" /><br />
+</p>
+</div>
+</div>
+</li>
+
+<li><a id="org0b84b1a"></a><b>64.</b>  <a id="org47df446"></a> <i>«Deciphering the structure of isomeric oligosaccharides in a complex mixture by tandem mass spectrometry: Photon activation with vacuum ultra-violet brings unique information and enables definitive structure assignment»</i> D. Ropartz*, J. Lemoine, A. Giuliani, Y. Bittebière, Q. Enjalbert, R. Antoine, P. Dugourd, M. C. Ralet, H. Rogniaux, <b>Analytica Chim. Acta</b> 807 (2014) 84-95. <a href="https://doi.org/10.1016/j.aca.2013.11.018">doi:10.1016/j.aca.2013.11.018</a><br />
+<div class="outline-text-5" id="text-org0b84b1a">
+
+<div class="figure">
+<p><img src="img/64.jpg" alt="64.jpg" width="250" style="float:center;margin:-10px 0px -20px 20px; border:2px solid #ccc; alt picture ID" /><br />
+</p>
+</div>
+</div>
+</li>
+</ul>
+</li>
+
+<li><a id="org0b0abf9"></a><b>2013</b><br />
+<ul class="org-ul">
+<li><a id="orgde408f7"></a><b>63.</b> <i>«Characterization of Hydrophobic Peptides in the Presence of Detergent by Photoionization Mass Spectrometry»</i> A. Bagag, J.-M. Jault, N. Sidahmed-Adrar, M. Réfrégiers, A. Giuliani, F. Le Naour*, <b>PLoS ONE</b> 8 (2013) e79033. <a href="https://doi.org/10.1371/journal.pone.0079033">doi:10.1371/journal.pone.0079033</a><br />
+<div class="outline-text-5" id="text-orgde408f7">
+
+<div class="figure">
+<p><img src="img/63.png" alt="63.png" width="250" style="float:center;margin:-10px 0px -20px 20px; border:2px solid #ccc; alt picture ID" /><br />
+</p>
+</div>
+</div>
+</li>
+
+<li><a id="orge7bef6e"></a><b>62.</b> <a id="org490b83e"></a> <i>«Photodissociation and Dissociative Photoionization Mass Spectrometry of Proteins and Noncovalent Protein-Ligand Complexes»</i> F. Canon, A. R. Milosavljević, G. van der Rest, M. Réfrégiers, L. Nahon, P. Sarni-Manchado, V. Cheynier, A. Giuliani*, <b>Angew. Chem. Int. Ed.</b> 52 (2013) 8377–81. <a href="https://doi.org/10.1002/anie.201304046">doi:10.1002/anie.201304046</a><br />
+<div class="outline-text-5" id="text-orge7bef6e">
+
+<div class="figure">
+<p><img src="img/62.gif" alt="62.gif" width="300" style="float:center;margin:-10px 0px -20px 20px; border:2px solid #ccc; alt picture ID" /><br />
+</p>
+</div>
+</div>
+</li>
+
+<li><a id="org25ef841"></a><b>61.</b> <a id="org518dc8a"></a> <i>«Nanosolvation-Induced Stabilization of a Protonated Peptide Dimer Isolated in the Gas Phase»</i> A. R. Milosavljević*, V. Z. Cerovski, F. Canon, L. Nahon and A. Giuliani*, <b>Angew. Chem. Int. Ed.</b> 52 (2013) 7286–90. <a href="https://doi.org/10.1002/anie.201301667">doi:10.1002/anie.201301667</a><br />
+<div class="outline-text-5" id="text-org25ef841">
+
+<div class="figure">
+<p><img src="img/61.gif" alt="61.gif" width="250" style="float:center;margin:-10px 0px -20px 20px; border:2px solid #ccc; alt picture ID" /><br />
+</p>
+</div>
+</div>
+</li>
+
+<li><a id="org6b8609c"></a><b>60.</b> <a id="org416d367"></a> <i>«Valence shell direct double photodetachment in polyanions»</i> C. Brunet, R. Antoine, P. Dugourd, D. Duflot, F. Canon, A. Giuliani*, L. Nahon, <b>New J. Phys.</b> 15 (2013) 063024. <a href="https://doi.org/10.1088/1367-2630/15/6/063024">doi:10.1088/1367-2630/15/6/063024</a><br />
+<div class="outline-text-5" id="text-org6b8609c">
+
+<div class="figure">
+<p><img src="img/60.gif" alt="60.gif" width="250" style="float:center;margin:-10px 0px -20px 20px; border:2px solid #ccc; alt picture ID" /><br />
+</p>
+</div>
+</div>
+</li>
+
+<li><a id="orgc7c98c5"></a><b>59.</b> <a id="orga67d649"></a> <i>«Vacuum Ultraviolet Action Spectroscopy of Polysaccharides»</i> Q. Enjalbert, C. Brunet, A. Vernier, A.-R. Allouche, R. Antoine*, P. Dugourd, J. Lemoine, A. Giuliani, L. Nahon, <b>J. Am. Soc. Mass Spectrom.</b> 24 (2013) 1271–9. <a href="https://doi.org/10.1007/s13361-013-0657-2">doi:10.1007/s13361-013-0657-2</a><br />
+<div class="outline-text-5" id="text-orgc7c98c5">
+
+<div class="figure">
+<p><img src="img/59.gif" alt="59.gif" width="250" style="float:center;margin:-10px 0px -20px 20px; border:2px solid #ccc; alt picture ID" /><br />
+</p>
+</div>
+</div>
+</li>
+
+<li><a id="orgb3033fe"></a><b>58.</b> <i>«VUV photochemistry simulation of planetary upper atmosphere using synchrotron radiation»</i> N. Carrasco*, A. Giuliani*, J.-J. Correia, G. Cernogora, <b>J. Synchrotron Rad.</b> 20 (2013) 587–90. <a href="https://doi.org/10.1107/S0909049513013538">doi:10.1107/S0909049513013538</a><br />
+<div class="outline-text-5" id="text-orgb3033fe">
+
+<div class="figure">
+<p><img src="img/58.png" alt="58.png" width="250" style="float:center;margin:-10px 0px -20px 20px; border:2px solid #ccc; alt picture ID" /><br />
+</p>
+</div>
+</div>
+</li>
+
+<li><a id="orge1cd75a"></a><b>57.</b> <i>«Fold of an oleosin targeted to cellular oil bodies»</i> J.-D. Vindigni, F. Wien, A. Giuliani, Z. Erpapazoglou, R. Tache, F. Jagic, T. Chardot, Y. Gohon, M. Froissard*, <b>Biochim. Biophys. Acta</b> 1828 (2013) 1881–8. <a href="https://doi.org/10.1016/j.bbamem.2013.04.009">doi:10.1016/j.bbamem.2013.04.009</a><br />
+<div class="outline-text-5" id="text-orge1cd75a">
+
+<div class="figure">
+<p><img src="img/57.jpg" alt="57.jpg" width="250" style="float:center;margin:-10px 0px -20px 20px; border:2px solid #ccc; alt picture ID" /><br />
+</p>
+</div>
+</div>
+</li>
+
+<li><a id="org53be3d7"></a><b>56.</b> <i>«Titan&rsquo;s atmosphere simulation experiment using continuum UV-VUV synchrotron radiation»</i> Z. Peng, T. Gautier, N. Carrasco*, P. Pernot, A. Giuliani*, A. Mahjoub, J.-J. Correia, A. Buch, Y. Bénilan, C. Szopa, G. Cernogora, <b>J. Geograph. Res. Planets.</b> 118 (2013) 778-788 <a href="https://doi.org/10.1002/jgre.20064">doi:10.1002/jgre.20064</a><br />
+<div class="outline-text-5" id="text-org53be3d7">
+
+<div class="figure">
+<p><img src="img/56.png" alt="56.png" width="250" style="float:center;margin:-10px 0px -20px 20px; border:2px solid #ccc; alt picture ID" /><br />
+</p>
+</div>
+</div>
+</li>
+
+<li><a id="orge7bc29b"></a><b>55.</b> <i>«Aggregation of the salivary proline-rich protein IB5 in presence of the tannin EgCG»</i> F. Canon, F. Paté, V. Cheynier, P. Sarni-Manchado, A. Giuliani, J. Pérez, D. Durand, J. Li, B. Cabane*, <b>Langmuir</b> 29(6) (2103) 1926–1937. <a href="https://doi.org/10.1021/la3041715">doi:10.1021/la3041715</a><br />
+<div class="outline-text-5" id="text-orge7bc29b">
+
+<div class="figure">
+<p><img src="img/55.gif" alt="55.gif" width="250" style="float:center;margin:-10px 0px -20px 20px; border:2px solid #ccc; alt picture ID" /><br />
+</p>
+</div>
+</div>
+</li>
+
+<li><a id="org1219930"></a><b>54.</b> <i>«Photo-induced electron detachment of protein polyanions in the VUV range»</i> C. Brunet, R. Antoine*, P. Dugourd, F. Canon, A. Giuliani, L. Nahon, <b>J. Chem. Phys.</b> 138 (2013) 064301. <a href="https://doi.org/10.1063/1.4790165">doi:10.1063/1.4790165</a><br />
+<div class="outline-text-5" id="text-org1219930">
+
+<div class="figure">
+<p><img src="img/54.gif" alt="54.gif" width="250" style="float:center;margin:-10px 0px -20px 20px; border:2px solid #ccc; alt picture ID" /><br />
+</p>
+</div>
+</div>
+</li>
+</ul>
+</li>
+
+<li><a id="org17b8420"></a><b>2012</b><br />
+<ul class="org-ul">
+<li><a id="org6c9328f"></a><b>53.</b> <a id="orge770560"></a> <i>«Structure and Charge-State Dependence of the Gas-Phase Ionization Energy of Proteins»</i> A. Giuliani*, A.R. Milosavljević, K. Hinsen, F. Canon, C. Nicolas, M. Réfrégiers, L. Nahon, <b>Angew. Chem. Int. Ed.</b> 51(38) (2012) 9552-9556. <a href="https://doi.org/10.1002/anie.201204435">doi:10.1002/anie.201204435</a><br />
+<div class="outline-text-5" id="text-org6c9328f">
+
+<div class="figure">
+<p><img src="img/53.gif" alt="53.gif" width="250" style="float:center;margin:-10px 0px -20px 20px; border:2px solid #ccc; alt picture ID" /><br />
+</p>
+</div>
+</div>
+</li>
+
+<li><a id="orgc37e7b0"></a><b>52.</b> <i>«DISCO synchrotron-radiation circular-dichroism endstation at SOLEIL»</i> M. Réfrégiers*, F. Wien, H.-P. Ta, L. Premvardhan, S. Bac, F. Jamme, V. Rouam, B. Lagarde, F. Polack, J.-L. Giorgetta, J.-P. Ricaud, M. Bordessoule, A. Giuliani, <b>J. Synchrotron Rad.</b>, 19 (2012) 831-835. <a href="https://doi.org/10.1107/S0909049512030002">doi:10.1107/S0909049512030002</a><br />
+<div class="outline-text-5" id="text-orgc37e7b0">
+
+<div class="figure">
+<p><img src="img/52.gif" alt="52.gif" width="250" style="float:center;margin:-10px 0px -20px 20px; border:2px solid #ccc; alt picture ID" /><br />
+</p>
+</div>
+</div>
+</li>
+
+<li><a id="org3e30177"></a><b>51.</b>  <i>«Atmospheric pressure photoionization study of post-translational modifications: The case of palmitoylation»</i> A. Bagag, A. Giuliani, M. Réfrégiers, F. Le Naour*, <b>Int. J. Mass Spectrom.</b> 328-329 (2012) 23-27. <a href="https://doi.org/10.1016/j.ijms.2012.07.021">doi:10.1016/j.ijms.2012.07.021</a><br />
+<div class="outline-text-5" id="text-org3e30177">
+
+<div class="figure">
+<p><img src="img/51.jpg" alt="51.jpg" width="250" style="float:center;margin:-10px 0px -20px 20px; border:2px solid #ccc; alt picture ID" /><br />
+</p>
+</div>
+</div>
+</li>
+
+<li><a id="org404c320"></a><b>50.</b> <i>«Atmospheric pressure photoionization mass spectrometry of guanine using tunable synchrotron VUV radiation»</i> J. Allegrand, D. Touboul*, A. Giuliani, A. Brunelle, O. Laprévote, <b>Int. J. Mass Spectrom.</b> 321-322 (2012) 14–8. <a href="https://doi.org/10.1016/j.ijms.2012.05.009">doi:10.1016/j.ijms.2012.05.009</a><br />
+<div class="outline-text-5" id="text-org404c320">
+
+<div class="figure">
+<p><img src="img/50.jpg" alt="50.jpg" width="250" style="float:center;margin:-10px 0px -20px 20px; border:2px solid #ccc; alt picture ID" /><br />
+</p>
+</div>
+</div>
+</li>
+
+<li><a id="org6188438"></a><b>49.</b> <i>«Atmospheric pressure photoionization using tunable VUV synchrotron radiation»</i> A. Giuliani*, J.-L. Giorgetta, J.-P Ricaud, F. Jamme, V. Rouam, F. Wien, O.  Laprévote, M. Réfrégiers, <b>Nucl. Instrum. Methods Phys. Res. B</b>,  279 (2012) 114-117. <a href="https://doi.org/10.1016/j.nimb.2011.10.038">doi:10.1016/j.nimb.2011.10.038</a><br />
+<div class="outline-text-5" id="text-org6188438">
+
+<div class="figure">
+<p><img src="img/49.png" alt="49.png" width="350" style="float:center;margin:-10px 0px -20px 20px; border:2px solid #ccc; alt picture ID" /><br />
+</p>
+</div>
+</div>
+</li>
+
+<li><a id="orga3564bb"></a><b>48.</b> <i>«Fast in vacuo photon shutter for synchrotron radiation quadrupole ion trap tandem mass spectrometry»</i> A.R. Milosavljević*, C. Nicolas, J.-F. Gil, F. Canon, M. Réfrégiers, L. Nahon, A. Giuliani, <b>Nucl. Instrum. Methods Phys. Res. B</b>, 279 (2012) 34-36. <a href="https://doi.org/10.1016/j.nimb.2011.10.032">doi:10.1016/j.nimb.2011.10.032</a><br />
+<div class="outline-text-5" id="text-orga3564bb">
+
+<div class="figure">
+<p><img src="img/48.png" alt="48.png" width="250" style="float:center;margin:-10px 0px -20px 20px; border:2px solid #ccc; alt picture ID" /><br />
+</p>
+</div>
+</div>
+</li>
+
+<li><a id="orga346dfa"></a><b>47.</b> <i>«Mid- and far-infrared absorption spectroscopy of Titan’s aerosols analogues»</i> T. Gautier*, N. Carrasco, A. Mahjoub, S. Vinatier, A. Giuliani, C. Szopa, C.M. Anderson, J.-J. Correia, P. Dumas, G. Cernogora,  <b>Icarus</b> 221 (2012) 320–327. <a href="https://doi.org/10.1016/j.icarus.2012.07.025">doi:10.1016/j.icarus.2012.07.025</a><br />
+<div class="outline-text-5" id="text-orga346dfa">
+
+<div class="figure">
+<p><img src="img/47.png" alt="47.png" width="250" style="float:center;margin:-10px 0px -20px 20px; border:2px solid #ccc; alt picture ID" /><br />
+</p>
+</div>
+</div>
+</li>
+
+<li><a id="org4fa4cae"></a><b>46.</b> <a id="org6f605bc"></a> <i>«Gas-Phase Protein Inner-Shell Spectroscopy by Coupling an Ion Trap with a Soft X-ray Beamline»</i> A. R. Milosavljević*, F. Canon, C. Nicolas, C. Miron, L. Nahon, A. Giuliani*. <b>J. Phys. Chem. Lett.</b>, 3 (2012) 1191−1196. <a href="https://doi.org/10.1021/jz300324z">doi:10.1021/jz300324z</a><br />
+<div class="outline-text-5" id="text-org4fa4cae">
+
+<div class="figure">
+<p><img src="img/46.gif" alt="46.gif" width="250" style="float:center;margin:-10px 0px -20px 20px; border:2px solid #ccc; alt picture ID" /><br />
+</p>
+</div>
+</div>
+</li>
+
+<li><a id="orgb8b984c"></a><b>45.</b> <a id="orgaaa9ca2"></a> <i>«VUV synchrotron radiation: a new activation technique for tandem mass spectrometry»</i> A. R. Milosavljević, C. Nicolas, J.-F. Gil, F. Canon, M. Réfrégiers, L. Nahon, A. Giuliani*, <b>J. Synchrotron Rad.</b>, 19 (2012) 174–178. <a href="https://doi.org/10.1107/S0909049512001057">doi:10.1107/S0909049512001057</a><br />
+<div class="outline-text-5" id="text-orgb8b984c">
+
+<div class="figure">
+<p><img src="img/45.gif" alt="45.gif" width="250" style="float:center;margin:-10px 0px -20px 20px; border:2px solid #ccc; alt picture ID" /><br />
+</p>
+</div>
+</div>
+</li>
+
+<li><a id="org0edcba8"></a><b>44.</b> <a id="org56ece9b"></a> <i>«Formation and Fragmentation of Radical Peptide Anions: Insights from Vacuum Ultra Violet Spectroscopy»</i> C. Brunet, R. Antoine*, P. Dugourd, F. Canon, A. Giuliani, L. Nahon, <b>J. Am. Soc. Mass Spectrom.</b> 23(2) (2012) 274-281. <a href="https://doi.org/10.1007/s13361-011-0285-7">doi:10.1007/s13361-011-0285-7</a><br />
+<div class="outline-text-5" id="text-org0edcba8">
+
+<div class="figure">
+<p><img src="img/44.gif" alt="44.gif" width="250" style="float:center;margin:-10px 0px -20px 20px; border:2px solid #ccc; alt picture ID" /><br />
+</p>
+</div>
+</div>
+</li>
+</ul>
+</li>
+
+<li><a id="org1c1fd28"></a><b>2011</b><br />
+<ul class="org-ul">
+<li><a id="org0173086"></a><b>43.</b> <i>«Separation of peptides from detergents using ion mobility spectrometry»</i> A. Bagag, A. Giuliani, F. Canon, M. Refregiers, F. Le Naour*, <b>Rapid Commun. Mass Spectrom.</b> 25 (2011) 3436-3440. <a href="https://doi.org/10.1002/rcm.5242">doi:10.1002/rcm.5242</a><br />
+<div class="outline-text-5" id="text-org0173086">
+
+<div class="figure">
+<p><img src="img/43.png" alt="43.png" width="250" style="float:center;margin:-10px 0px -20px 20px; border:2px solid #ccc; alt picture ID" /><br />
+</p>
+</div>
+</div>
+</li>
+
+<li><a id="org647134f"></a><b>42.</b> <i>«Gas Phase Photo-Formation and Vacuum UV Photofragmentation Spectroscopy of Tryptophan and Tyrosine Radical Containing Peptides»</i> C. Brunet, R. Antoine*, B.-R. Allouche, P. Dugourd, F. Canon, A. Giuliani, L. Nahon, <b>J. Phys. Chem. A</b>, 115 (2011) 8933-8939. <a href="https://doi.org/10.1021/jp205617x">doi:10.1021/jp205617x</a><br />
+<div class="outline-text-5" id="text-org647134f">
+
+<div class="figure">
+<p><img src="img/42.gif" alt="42.gif" width="250" style="float:center;margin:-10px 0px -20px 20px; border:2px solid #ccc; alt picture ID" /><br />
+</p>
+</div>
+</div>
+</li>
+
+<li><a id="org61ecdc4"></a><b>41.</b> <a id="org17ce435"></a> <i>«A differential pumping system to deliver windowless VUV photons at atmospheric pressure»</i> A. Giuliani*, I. Yao, B. Lagarde, S. Rey, J.-P. Duval, P. Rommeluere, F. Jamme, V. Rouam, F. Wien, C. De Oliveira, M. Ros, A. Lestrade, K. Desjardins, J.-L. Giorgetta, O. Laprévote, C. Herbaux, M. Réfrégiers, <b>J. Synchrotron Rad.</b> 18 (2011) 546–549. <a href="https://doi.org/10.1107/S0909049511016517">doi:10.1107/S0909049511016517</a><br />
+<div class="outline-text-5" id="text-org61ecdc4">
+
+<div class="figure">
+<p><img src="img/41.png" alt="41.png" width="250" style="float:center;margin:-10px 0px -20px 20px; border:2px solid #ccc; alt picture ID" /><br />
+</p>
+</div>
+</div>
+</li>
+
+<li><a id="orge369158"></a><b>40.</b> <i>«Photoionization study of Kr+ and Xe+ ions with the combined use of a merged-beam set-up and an ion trap»</i> J. M. Bizau*, C. Blancard, M. Coreno, D. Cubaynes, C. Dehon, N. El Hassan, F. Folkmann, M. F. Gharaibeh, A. Giuliani, J. Lemaire, A.R. Milosavljevic, C. Nicolas, R. Thissen, <b>J. Phys. B.</b> 44 (2011) 055205. <a href="https://doi.org/10.1088/0953-4075/44/5/055205">doi:10.1088/0953-4075/44/5/055205</a><br />
+<div class="outline-text-5" id="text-orge369158">
+
+<div class="figure">
+<p><img src="img/40.png" alt="40.png" width="250" style="float:center;margin:-10px 0px -20px 20px; border:2px solid #ccc; alt picture ID" /><br />
+</p>
+</div>
+</div>
+</li>
+
+<li><a id="org0ce10ae"></a><b>39.</b> <i>«High water solubility and fold in amphipols of proteins with large hydrophobic regions: oleosins and caleosin from seed lipid bodies»</i> Y. Gohon, J.-D. Vindigni, A. Pallier, F. Wien, H. Celia, A. Giuliani, C. Tribet, T. Chardot, P. Briozzo*, <b>Biochim. Biophys. Acta</b> 1808 (2011) 706–716. <a href="https://doi.org/10.1016/j.bbamem.2010.12.002">doi:10.1016/j.bbamem.2010.12.002</a><br />
+<div class="outline-text-5" id="text-org0ce10ae">
+
+<div class="figure">
+<p><img src="img/39.png" alt="39.png" width="250" style="float:center;margin:-10px 0px -20px 20px; border:2px solid #ccc; alt picture ID" /><br />
+</p>
+</div>
+</div>
+</li>
+
+<li><a id="orgb8f322d"></a><b>38.</b> <i>«Photoionization of a protein isolated in vacuo»</i> A. R. Milosavljevic*, C. Nicolas, J. Lemaire, C. Dehon, R. Thissen, J.-M. Bizau, M. Réfrégiers, L. Nahon, A. Giuliani*, <b>Phys. Chem. Chem. Phys.</b>, 13 (2011) 15432-15436. <a href="https://doi.org/10.1039/c1cp21211g">doi:10.1039/c1cp21211g</a><br />
+<div class="outline-text-5" id="text-orgb8f322d">
+
+<div class="figure">
+<p><img src="img/38.gif" alt="38.gif" width="250" style="float:center;margin:-10px 0px -20px 20px; border:2px solid #ccc; alt picture ID" /><br />
+</p>
+</div>
+</div>
+</li>
+
+<li><a id="org04db565"></a><b>37.</b> <i>«Atmospheric Pressure Photoionization of Peptides»</i> A. Bagag, A. Giuliani*, O. Laprévote, <b>Int. J. Mass Spectrom.</b> 299 (2011) 1-4. <a href="https://doi.org/10.1016/j.ijms.2010.08.010">doi:10.1016/j.ijms.2010.08.010</a><br />
+<div class="outline-text-5" id="text-org04db565">
+
+<div class="figure">
+<p><img src="img/37.jpg" alt="37.jpg" width="250" style="float:center;margin:-10px 0px -20px 20px; border:2px solid #ccc; alt picture ID" /><br />
+</p>
+</div>
+</div>
+</li>
+</ul>
+</li>
+
+<li><a id="org3a43a4c"></a><b>2010</b><br />
+<ul class="org-ul">
+<li><a id="org085d66f"></a><b>36.</b> <i>«Structural study of acetogenins by tandem mass spectrometry under high and low collision energy»</i> J. Allegrand, D. Touboul*, I. Schmitz-Afonso, V. Guerineau, A. Giuliani, J. Le Ven, P. Champy, O. Laprévote, <b>Rapid Commun. Mass Spectrom.</b> 24 (2010) 3602-3608. <a href="https://doi.org/10.1002/rcm.4805">doi:10.1002/rcm.4805</a><br />
+<div class="outline-text-5" id="text-org085d66f">
+
+<div class="figure">
+<p><img src="img/36.png" alt="36.png" width="250" style="float:center;margin:-10px 0px -20px 20px; border:2px solid #ccc; alt picture ID" /><br />
+</p>
+</div>
+</div>
+</li>
+
+<li><a id="orga42b7d9"></a><b>35.</b> <i>«Synchrotron UV Fluorescence Microscopy Uncovers New Probes in Cells and Tissues»</i> F. Jamme, S. Vilette, A. Giuliani, V. Rouam, F. Wien, B. Lagarde, M. Réfrégiers*, <b>Microscopy and Microanalysis</b> 16 (2010) 507-514. <a href="https://doi.org/10.1017/S1431927610093852">doi:10.1017/S1431927610093852</a><br />
+<div class="outline-text-5" id="text-orga42b7d9">
+
+<div class="figure">
+<p><img src="img/35.png" alt="35.png" width="250" style="float:center;margin:-10px 0px -20px 20px; border:2px solid #ccc; alt picture ID" /><br />
+</p>
+</div>
+</div>
+</li>
+
+<li><a id="org7e56d4a"></a><b>34.</b> <i>«Ability of a salivary intrinsically unstructured protein to bind different tannin targets revealed by mass spectrometry»</i> F. Canon, A. Giuliani, F. Paté, P Sarni-Manchado, <b>Anal. Bioanal. Chem.</b> 398 (2010) 815-822. <a href="https://doi.org/10.1007/s00216-010-3997-9">doi:10.1007/s00216-010-3997-9</a><br />
+<div class="outline-text-5" id="text-org7e56d4a">
+
+<div class="figure">
+<p><img src="img/34.gif" alt="34.gif" width="250" style="float:center;margin:-10px 0px -20px 20px; border:2px solid #ccc; alt picture ID" /><br />
+</p>
+</div>
+</div>
+</li>
+</ul>
+</li>
+
+<li><a id="org0c30bf4"></a><b>2009</b><br />
+<ul class="org-ul">
+<li><a id="org2c6c61a"></a><b>33.</b> <a id="org3ad3880"></a> <i>«Characterization, stoichiometry and stability of salivary protein-tannin complexes by ESI-MS and CID MS/MS»</i> F. Canon, F. Paté, E. Meudec, T. Marlin,V. Cheynier, A. Giuliani, P Sarni-Manchado, <b>Anal. Bioanal. Chem.</b> 395 (2009) 2535-2545. <a href="https://doi.org/10.1007/s00216-009-3180-3">doi:10.1007/s00216-009-3180-3</a><br />
+<div class="outline-text-5" id="text-org2c6c61a">
+
+<div class="figure">
+<p><img src="img/33.gif" alt="33.gif" width="250" style="float:center;margin:-10px 0px -20px 20px; border:2px solid #ccc; alt picture ID" /><br />
+</p>
+</div>
+</div>
+</li>
+
+<li><a id="org5fa3652"></a><b>32.</b> <i>«Chemical characterization of Titan’s tholins: Solubility, morphology and molecular structure revisited»</i> N. Carrasco*, I. Schmitz-Afonso, J-Y. Bonnet, E. Quirico, R. Thissen, O. Dutuit, A. Bagag, O. Laprevote, A. Buch, A. Giuliani, G. Adande, F. Ouni, E. Hadamcik, C. Szopa, G. Cernogora, <b>J. Phys. Chem. A</b>, 113 (2009) 11195-11203. <a href="https://doi.org/10.1021/jp904735q">doi:10.1021/jp904735q</a><br />
+<div class="outline-text-5" id="text-org5fa3652">
+
+<div class="figure">
+<p><img src="img/32.gif" alt="32.gif" width="250" style="float:center;margin:-10px 0px -20px 20px; border:2px solid #ccc; alt picture ID" /><br />
+</p>
+</div>
+</div>
+</li>
+
+<li><a id="org0acd19f"></a><b>31.</b> <i>«DISCO: a low energy multipurpose beamline at synchrotron SOLEIL»</i> A. Giuliani, F. Jamme, V. Rouam, F. Wien, J.-L. Giorgetta, B. Lagarde, O. Chubar, S. Bac, I Yao, S. Rey, C. Herbeaux, J.-L. Marlats, D. Zerbib, F. Polack,  M. Réfrégiers*, <b>J. Synchrotron. Rad.</b> 16 (2009) 1-7. <a href="https://doi.org/10.1107/S0909049509034049">doi:10.1107/S0909049509034049</a><br />
+<div class="outline-text-5" id="text-org0acd19f">
+
+<div class="figure">
+<p><img src="img/31.png" alt="31.png" width="250" style="float:center;margin:-10px 0px -20px 20px; border:2px solid #ccc; alt picture ID" /><br />
+</p>
+</div>
+</div>
+</li>
+
+<li><a id="org7ccf81c"></a><b>30.</b> <i>«Electronic states of neutral and ionized tetrahydrofuran studied by VUV spectroscopy and ab initio calculations»</i> A. Giuliani*, P. Limao-Vieira, D. Duﬂot, A.R. Milosavljevic, B.P. Marinkovic, S.V. Hoﬀmann, N. Mason, J. Delwiche, M.-J. Hubin-Franskin, <b>Eur. J. Phys. D</b> 51 (2009) 97. <a href="https://doi.org/10.1140/epjd/e2008-00154-7">doi:10.1140/epjd/e2008-00154-7</a><br />
+<div class="outline-text-5" id="text-org7ccf81c">
+
+<div class="figure">
+<p><img src="img/30.png" alt="30.png" width="250" style="float:center;margin:-10px 0px -20px 20px; border:2px solid #ccc; alt picture ID" /><br />
+</p>
+</div>
+</div>
+</li>
+</ul>
+</li>
+
+<li><a id="org5b0f971"></a><b>2008</b><br />
+<ul class="org-ul">
+<li><a id="org9d07d8f"></a><b>29.</b>  <i>«Electronic excitation of gaseous acetic acid studied by K-shell electron energy loss spectroscopy and ab initio calculations»</i> D. Duﬂot*, J.-P. Flament, A. Giuliani, J. Heinesch, M.-J. Hubin Franskin, <b>Int. J. Mass Spectrom.</b> 277 (2008) 70. <a href="https://doi.org/10.1016/j.ijms.2008.05.006">doi:10.1016/j.ijms.2008.05.006</a><br />
+<div class="outline-text-5" id="text-org9d07d8f">
+
+<div class="figure">
+<p><img src="img/29.png" alt="29.png" width="250" style="float:center;margin:-10px 0px -20px 20px; border:2px solid #ccc; alt picture ID" /><br />
+</p>
+</div>
+</div>
+</li>
+
+<li><a id="org89683c2"></a><b>28.</b> <i>«Atmospheric pressure photoionization mass spectrometry of oligodeoxyribonucleotides»</i> A. Bagag, A. Giuliani, O. Laprévote*, <b>Eur. J. Mass Spectrom.</b> 14 (2008) 71. <a href="https://doi.org/10.1255/ejms.913">doi:10.1255/ejms.913</a><br />
+<div class="outline-text-5" id="text-org89683c2">
+
+<div class="figure">
+<p><img src="img/28.png" alt="28.png" width="250" style="float:center;margin:-10px 0px -20px 20px; border:2px solid #ccc; alt picture ID" /><br />
+</p>
+</div>
+</div>
+</li>
+
+<li><a id="org3a8a504"></a><b>27.</b> <a id="orgf58a29d"></a> <i>«Photoionization Cross Section of Xe+ Ion in the Pure 5p5 2P3/2 Ground Level»</i> R. Thissen, J. M. Bizau, C. Blancard, M. Coreno, C. Dehon, P. Franceschi, A. Giuliani, J. Lemaire, C. Nicolas, <b>Phys. Rev. Lett.</b> 100 (2008) 223001. <a href="https://doi.org/10.1103/PhysRevLett.100.223001">doi:10.1103/PhysRevLett.100.223001</a><br />
+<div class="outline-text-5" id="text-org3a8a504">
+
+<div class="figure">
+<p><img src="img/27.png" alt="27.png" width="250" style="float:center;margin:-10px 0px -20px 20px; border:2px solid #ccc; alt picture ID" /><br />
+</p>
+</div>
+</div>
+</li>
+
+<li><a id="orgb5dc0d9"></a><b>26.</b> <i>«Electronic State Spectroscopy of c-C5F8 Explored by Photoabsorption, Electron Impact, Photoelectron Spectroscopies and Ab Initio Calculations»</i> » P. Limao-Vieira*, D. Duflot, A. Giuliani, E. Vasekova, J.M.C. Lourenco, P.M. Santos, S.V. Hoffmann, N.J. Mason, J. Delwiche,  M.-J. Hubin-Franskin <b>J. Phys. Chem. A</b> 112 (2008) 2782. <a href="https://doi.org/10.1021/jp7107939">doi:10.1021/jp7107939</a><br />
+<div class="outline-text-5" id="text-orgb5dc0d9">
+
+<div class="figure">
+<p><img src="img/26.png" alt="26.png" width="250" style="float:center;margin:-10px 0px -20px 20px; border:2px solid #ccc; alt picture ID" /><br />
+</p>
+</div>
+</div>
+</li>
+</ul>
+</li>
+
+<li><a id="orgf6bf343"></a><b>2007</b><br />
+<ul class="org-ul">
+<li><a id="orge6579e0"></a><b>25.</b> <i>«Perfluorocyclobutane electronic state spectroscopy by high-resolution vacuum ultraviolet photoabsorption, electron impact, HeI photoelectron spectroscopy, and ab initio calculations»</i> P. Limao-Vieira*, E. Vasekova, A. Giuliani, J.M.C. Lourenco, P.M. Santos, D. Duflot, S.V. Hoffmann, N.J. Mason, J. Delwiche, M.-J. Hubin-Franskin, <b>Phys. Rev. A</b> 76 (2007) 032509. <a href="https://doi.org/10.1103/PhysRevA.76.032509">doi:10.1103/PhysRevA.76.032509</a><br />
+<div class="outline-text-5" id="text-orge6579e0">
+
+<div class="figure">
+<p><img src="img/25.png" alt="25.png" width="250" style="float:center;margin:-10px 0px -20px 20px; border:2px solid #ccc; alt picture ID" /><br />
+</p>
+</div>
+</div>
+</li>
+
+<li><a id="orgd959a11"></a><b>24.</b> <i>«C 1s and N 1s core excitation of aniline: Experiment by electron impact and ab initio calculations»</i> D. Duflot, J.-P. Flament, A. Giuliani, J. Heinesch, M. Grogna, M.-J. Hubin-Franskin, <b>Phys. Rev. A</b> 75 (2007) 052719. <a href="https://doi.org/10.1103/PhysRevA.75.052719">doi:10.1103/PhysRevA.75.052719</a><br />
+<div class="outline-text-5" id="text-orgd959a11">
+
+<div class="figure">
+<p><img src="img/24.png" alt="24.png" width="250" style="float:center;margin:-10px 0px -20px 20px; border:2px solid #ccc; alt picture ID" /><br />
+</p>
+</div>
+</div>
+</li>
+
+<li><a id="orga333b4d"></a><b>23.</b>  <i>«Atmospheric pressure photoionization mass spectrometry of nucleic bases, ribonucleosides and ribonucleotides»</i> A.  Bagag, A. Giuliani, O. Laprevote*, <b>Int. J. Mass Spectrom.</b> 264 (2007) 1. <a href="https://doi.org/10.1016/j.ijms.2007.03.010">doi:10.1016/j.ijms.2007.03.010</a><br />
+<div class="outline-text-5" id="text-orga333b4d">
+
+<div class="figure">
+<p><img src="img/23.png" alt="23.png" width="250" style="float:center;margin:-10px 0px -20px 20px; border:2px solid #ccc; alt picture ID" /><br />
+</p>
+</div>
+</div>
+</li>
+</ul>
+</li>
+
+<li><a id="org32fbbf8"></a><b>2006</b><br />
+<ul class="org-ul">
+<li><a id="org0f6bc05"></a><b>22.</b> <i>«Fragmentation induced in atmospheric pressure photoionization of peptides»</i> D. Debois, A. Giuliani*, O. Laprévote, <b>J. Mass. Spectrom.</b> 41 (2006) 1554. <a href="https://doi.org/10.1002/jms.1122">doi:10.1002/jms.1122</a><br />
+<div class="outline-text-5" id="text-org0f6bc05">
+
+<div class="figure">
+<p><img src="img/22.png" alt="22.png" width="250" style="float:center;margin:-10px 0px -20px 20px; border:2px solid #ccc; alt picture ID" /><br />
+</p>
+</div>
+</div>
+</li>
+
+<li><a id="org84e6148"></a><b>21.</b> <i>«Electronic structure of hexafluorobenzene by high-resolution vacuum ultraviolet photo-absorption and He(I) photoelectron spectroscopy»</i> C. Motch, A. Giuliani, J. Delwiche , P. Limão-Vieira, N.J. Mason, S.V. Hoffmann, M.-J. Hubin-Franskin*, <b>Chem. Phys.</b> 32 (2006) 183-189. <a href="https://doi.org/10.1016/j.chemphys.2006.05.032">doi:10.1016/j.chemphys.2006.05.032</a><br />
+<div class="outline-text-5" id="text-org84e6148">
+
+<div class="figure">
+<p><img src="img/21.png" alt="21.png" width="250" style="float:center;margin:-10px 0px -20px 20px; border:2px solid #ccc; alt picture ID" /><br />
+</p>
+</div>
+</div>
+</li>
+
+<li><a id="orgbb5ab54"></a><b>20.</b> <i>«Study of a bisquaternary ammonium salt by atmospheric pressure photoionization mass spectrometry»</i> A. Giuliani*, D. Debois, O. Laprévote, <b>Eur. J. Mass Spectrom.</b> 12 (2006) 189-197. <a href="https://doi.org/10.1255/ejms.803">doi:10.1255/ejms.803</a><br />
+<div class="outline-text-5" id="text-orgbb5ab54">
+
+<div class="figure">
+<p><img src="img/20.png" alt="20.png" width="250" style="float:center;margin:-10px 0px -20px 20px; border:2px solid #ccc; alt picture ID" /><br />
+</p>
+</div>
+</div>
+</li>
+
+<li><a id="org0f67b8e"></a><b>19.</b> <i>«Acetic acid electronic state pectroscopy by high-resolution vacuum ultraviolet photo-absorption, electron impact, He(I) photoelectron spectroscopy and ab initio calculations</i> » P. Limão-Vieira*, A. Giuliani, J. Delwiche, R. Parafita, R. Mota, D. Duflot, J.-P. Flament, E. Drage, P. Cahillane, N.J. Mason, S.V.Hoffmann, M.-J. Hubin-Franskin, <b>Chem. Phys.</b> 324 (2006) 339-349. <a href="https://doi.org/10.1016/j.chemphys.2005.10.032">doi:10.1016/j.chemphys.2005.10.032</a><br />
+<div class="outline-text-5" id="text-org0f67b8e">
+
+<div class="figure">
+<p><img src="img/19.png" alt="19.png" width="250" style="float:center;margin:-10px 0px -20px 20px; border:2px solid #ccc; alt picture ID" /><br />
+</p>
+</div>
+</div>
+</li>
+</ul>
+</li>
+
+<li><a id="org4c46569"></a><b>2005</b><br />
+<ul class="org-ul">
+<li><a id="org2cbd8af"></a><b>18.</b> <i>«Ab initio and experimental study of the K-shell spectra of s-triazine»</i> D. Duflot*, K. Sidhoum, J.-P. Flament, A. Giuliani, J. Heinesch, M.-J. Hubin-Franskin, <b>Eur. J. Phys. D</b> 35 (2005) 239-248. <a href="https://doi.org/10.1140/epjd/e2005-00193-6">doi:10.1140/epjd/e2005-00193-6</a><br />
+<div class="outline-text-5" id="text-org2cbd8af">
+
+<div class="figure">
+<p><img src="img/18.png" alt="18.png" width="250" style="float:center;margin:-10px 0px -20px 20px; border:2px solid #ccc; alt picture ID" /><br />
+</p>
+</div>
+</div>
+</li>
+
+<li><a id="orga66799a"></a><b>17.</b> <i>«Water VUV electronic state spectroscopy by synchrotron radiation»</i> R. Mota, R. Parafita, A. Giuliani, M.-J. Hubin-Franskin , J.M.C. Lourenço¸ G. Garcia, S.V. Hoffmann, N.J. Mason, P.A. Ribeiro,M. Raposo, P. Limão-Vieira*, <b>Chem. Phys. Lett.</b> 416 (2005) 152-159. <a href="https://doi.org/10.1016/j.cplett.2005.09.073">doi:10.1016/j.cplett.2005.09.073</a><br />
+<div class="outline-text-5" id="text-orga66799a">
+
+<div class="figure">
+<p><img src="img/17.png" alt="17.png" width="250" style="float:center;margin:-10px 0px -20px 20px; border:2px solid #ccc; alt picture ID" /><br />
+</p>
+</div>
+</div>
+</li>
+
+<li><a id="org7c16d48"></a><b>16.</b> <i>«Elastic scattering of electrons from tetrahydrofuran molecule»</i> A. R. Milosavljevic, A. Giuliani, D. Sevic, M.-J. Hubin-Franskin, B. P. Marinkovic*, <b>Eur. J. Phys. D</b> 35 (2005) 411-416. <a href="https://doi.org/10.1140/epjd/e2005-00191-8">doi:10.1140/epjd/e2005-00191-8</a><br />
+<div class="outline-text-5" id="text-org7c16d48">
+
+<div class="figure">
+<p><img src="img/16.png" alt="16.png" width="250" style="float:center;margin:-10px 0px -20px 20px; border:2px solid #ccc; alt picture ID" /><br />
+</p>
+</div>
+</div>
+</li>
+
+<li><a id="org26b031e"></a><b>15.</b> <i>«Ab initio and experimental study of the K-shell spectra of 2,5-dihydrofuran»</i> D. Duflot*, J.-P. Flament, A. Giuliani, J. Heinesch, M.-J. Hubin-Franskin, <b>Chem. Phys.</b> 310 (2005) 67-75. <a href="https://doi.org/10.1016/j.chemphys.2004.10.007">doi:10.1016/j.chemphys.2004.10.007</a><br />
+<div class="outline-text-5" id="text-org26b031e">
+
+<div class="figure">
+<p><img src="img/15.png" alt="15.png" width="250" style="float:center;margin:-10px 0px -20px 20px; border:2px solid #ccc; alt picture ID" /><br />
+</p>
+</div>
+</div>
+</li>
+</ul>
+</li>
+
+<li><a id="org05039d9"></a><b>2004</b><br />
+<ul class="org-ul">
+<li><a id="orgedd69ee"></a><b>14.</b> <i>«On the valence shell spectroscopy of 2-vinyl furan»</i> A. Giuliani, I. C. Walker, J. Delwiche, S. Hoffmann, P. Limão-Vieira, N. J. Mason, C. Kech,  M.-J. Hubin-Franskin*, <b>J. Chem. Phys.</b> 120 (2004) 10972-10982. <a href="https://doi.org/10.1063/1.1738642">doi:10.1063/1.1738642</a><br />
+<div class="outline-text-5" id="text-orgedd69ee">
+
+<div class="figure">
+<p><img src="img/14.png" alt="14.png" width="250" style="float:center;margin:-10px 0px -20px 20px; border:2px solid #ccc; alt picture ID" /><br />
+</p>
+</div>
+</div>
+</li>
+
+<li><a id="org01749e9"></a><b>13.</b> <i>«An experimental study of SF5CF3 by electron energy loss spectroscopy, VUV photo-absorption and photoelectron spectroscopy»</i> P. Limão-Vieira*, S. Eden, P. A. Kendall, N. J. Mason, A. Giuliani, J. Heinesch, M. -J. Hubin-Franskin, J. Delwiche, S. V. Hoffmann, <b>Int. J. Mass. Spectrom.</b> 233 (2004) 335-341. <a href="https://doi.org/10.1016/j.ijms.2004.01.008">doi:10.1016/j.ijms.2004.01.008</a><br />
+<div class="outline-text-5" id="text-org01749e9">
+
+<div class="figure">
+<p><img src="img/13.png" alt="13.png" width="250" style="float:center;margin:-10px 0px -20px 20px; border:2px solid #ccc; alt picture ID" /><br />
+</p>
+</div>
+</div>
+</li>
+
+<li><a id="orgda1a0f5"></a><b>12.</b> <i>«The electronic states of isoxazole studied by VUV absorption, electron energy loss spectroscopies and ab initio multi-reference configuration interaction calculations»</i> I. C. Walker*, M. H. Palmer, J. Delwiche, S. V. Hoffmann, P. Limao-Vieira, N. J. Mason, M. F. Guest, M.-J. Hubin-Franskin, A. Giuliani, <b>Chem. Phys.</b> 297 (2004) 289-306. <a href="https://doi.org/10.1016/j.chemphys.2003.10.012">doi:10.1016/j.chemphys.2003.10.012</a><br />
+<div class="outline-text-5" id="text-orgda1a0f5">
+
+<div class="figure">
+<p><img src="img/12.png" alt="12.png" width="250" style="float:center;margin:-10px 0px -20px 20px; border:2px solid #ccc; alt picture ID" /><br />
+</p>
+</div>
+</div>
+</li>
+</ul>
+</li>
+
+<li><a id="org7acfc0f"></a><b>2003</b><br />
+<ul class="org-ul">
+<li><a id="orgbcd8396"></a><b>11.</b> <i>«Core shell excitation of furan at the O 1s and C 1s edges: An experimental and ab initio study»</i>  D. Duflot, J.-P. Flament, A. Giuliani, J. Heinesch, M.-J. Hubin-Franskin, <b>J. Chem. Phys.</b> 119 (2003) 8946-8955. <a href="https://doi.org/10.1063/1.1606441">doi:10.1063/1.1606441</a><br />
+<div class="outline-text-5" id="text-orgbcd8396">
+
+<div class="figure">
+<p><img src="img/11.png" alt="11.png" width="250" style="float:center;margin:-10px 0px -20px 20px; border:2px solid #ccc; alt picture ID" /><br />
+</p>
+</div>
+</div>
+</li>
+
+<li><a id="org4b6695a"></a><b>10.</b> /«Molecular structure and vibrational analysis of 2-vinyl furan »  A. Giuliani, B. Gilbert, C. Kech, M.-J. Hubin-Franskin*, <b>Chem. Phys. Lett.</b> 379 (2003) 406–411. <a href="https://doi.org/10.1016/j.cplett.2003.08.063">doi:10.1016/j.cplett.2003.08.063</a><br />
+<div class="outline-text-5" id="text-org4b6695a">
+
+<div class="figure">
+<p><img src="img/10.png" alt="10.png" width="250" style="float:center;margin:-10px 0px -20px 20px; border:2px solid #ccc; alt picture ID" /><br />
+</p>
+</div>
+</div>
+</li>
+
+<li><a id="org863b3dc"></a><b>9.</b> <i>«The electronic states of 2-furanmethanol (furfuryl alcohol) studied by photon absorption and electron impact spectroscopies»</i> A. Giuliani, I. C. Walker, J. Delwiche, S. Hoffmann, P. Limão-Vieira, N. J. Mason, B. Heyne, M. Hoebeke, M.-J. Hubin-Franskin*, <b>J. Chem. Phys.</b> 119 (2003) 7282-7288. <a href="https://doi.org/10.1063/1.1603733">doi:10.1063/1.1603733</a><br />
+<div class="outline-text-5" id="text-org863b3dc">
+
+<div class="figure">
+<p><img src="img/9.png" alt="9.png" width="250" style="float:center;margin:-10px 0px -20px 20px; border:2px solid #ccc; alt picture ID" /><br />
+</p>
+</div>
+</div>
+</li>
+
+<li><a id="org84cf12c"></a><b>8.</b> <i>«2-methyl furan: an experimental study of the excited electronic levels by electron energy loss spectroscopy, VUV photoabsorption and photoelectron spectroscopy»</i> A. Giuliani, J. Delwiche, S. Hoffmann, P. Limão-Vieira, N. J. Mason, M.-J Hubin-Franskin*, <b>J. Chem. Phys.</b> 119 (2003) 3670-3680. <a href="https://doi.org/10.1063/1.1590960">doi:10.1063/1.1590960</a><br />
+<div class="outline-text-5" id="text-org84cf12c">
+
+<div class="figure">
+<p><img src="img/8.png" alt="8.png" width="250" style="float:center;margin:-10px 0px -20px 20px; border:2px solid #ccc; alt picture ID" /><br />
+</p>
+</div>
+</div>
+</li>
+
+<li><a id="orge108b14"></a><b>7.</b> <i>«Electron and photon induced processes in SF5CF3»</i>  P. Limão-Vieira*, P. A. Kendall, S. Eden, N. J. Mason, J. Heinesch, M.-J. Hubin-Franskin, J. Delwiche, A. Giuliani, <b>Radiat. Phys. Chem.</b> 68 (2003) 193-197. <a href="https://doi.org/10.1016/S0969-806X(03)">doi:10.1016/S0969-806X(03)</a>00279-2<br />
+<div class="outline-text-5" id="text-orge108b14">
+
+<div class="figure">
+<p><img src="img/7.png" alt="7.png" width="250" style="float:center;margin:-10px 0px -20px 20px; border:2px solid #ccc; alt picture ID" /><br />
+</p>
+</div>
+</div>
+</li>
+
+<li><a id="org27fd841"></a><b>6.</b> <i>«Thiazyl chloride: an experimental and theoretical study of the valence shell HeI photoelectron spectrum»</i> D. Duflot, N. Chabert, J.-P. Flament, J.-M . Robbe, I. C. Walker, J. H. Cameron, A. Giuliani, J.-M. Hubin-Franskin, J. Delwiche*, <b>Chem. Phys.</b> 288 (2003) 95-104. <a href="https://doi.org/10.1016/S0301-0104(02)">doi:10.1016/S0301-0104(02)</a>00966-7<br />
+<div class="outline-text-5" id="text-org27fd841">
+
+<div class="figure">
+<p><img src="img/6.png" alt="6.png" width="250" style="float:center;margin:-10px 0px -20px 20px; border:2px solid #ccc; alt picture ID" /><br />
+</p>
+</div>
+</div>
+</li>
+</ul>
+</li>
+
+<li><a id="orgbcd5206"></a><b>2002</b><br />
+<ul class="org-ul">
+<li><a id="org464a768"></a><b>5.</b> <i>«Electronic excitation and optical cross sections of methylamine and ethylamine in the UV-VUV spectral region»</i> M.-J. Hubin-Franskin*, J. Delwiche, A. Giuliani, M.-P. Ska, F. Motte-Tollet, I. C. Walker, N. J.  Mason, J. M. Gingell,  N. C. Jones, <b>J. Chem. Phys.</b> 116 (2002) 9261-9268. <a href="https://doi.org/10.1063/1.1473820">doi:10.1063/1.1473820</a><br />
+<div class="outline-text-5" id="text-org464a768">
+
+<div class="figure">
+<p><img src="img/5.png" alt="5.png" width="250" style="float:center;margin:-10px 0px -20px 20px; border:2px solid #ccc; alt picture ID" /><br />
+</p>
+</div>
+</div>
+</li>
+</ul>
+</li>
+
+<li><a id="org4657785"></a><b>2001</b><br />
+<ul class="org-ul">
+<li><a id="orgbcad9f5"></a><b>4.</b> <i>«Spectroscopic study of the lowest energy triplet states of 2-methyl furan»</i> A. Giuliani,  M.-J. Hubin-Franskin*, <b>Chem. Phys. Lett.</b> 348 (2001) 34-38. <a href="https://doi.org/10.1016/S0009-2614(01)">doi:10.1016/S0009-2614(01)</a>01082-X<br />
+<div class="outline-text-5" id="text-orgbcad9f5">
+
+<div class="figure">
+<p><img src="img/4.png" alt="4.png" width="250" style="float:center;margin:-10px 0px -20px 20px; border:2px solid #ccc; alt picture ID" /><br />
+</p>
+</div>
+</div>
+</li>
+
+<li><a id="org0be7e54"></a><b>3.</b> <i>«Lowest energy triplet states of furan, studied by high resolution electron energy loss spectroscopy»</i> A. Giuliani, M.-J. Hubin-Franskin*, <b>Int. J. Mass. Spectrom.</b> 205 (2001) 163-169. <a href="https://doi.org/10.1016/S1387-3806(00)">doi:10.1016/S1387-3806(00)</a>00318-3<br />
+<div class="outline-text-5" id="text-org0be7e54">
+
+<div class="figure">
+<p><img src="img/3.png" alt="3.png" width="250" style="float:center;margin:-10px 0px -20px 20px; border:2px solid #ccc; alt picture ID" /><br />
+</p>
+</div>
+</div>
+</li>
+</ul>
+</li>
+
+<li><a id="org0741bb0"></a><b>2000</b><br />
+<ul class="org-ul">
+<li><a id="org752d654"></a><b>2.</b> <i>«Electronic excitation and oscillator strength of ethyl bromide by vacuum ultraviolet photoabsorption and electron energy loss spectroscopy»</i> A. Giuliani, F. Motte-Tollet, J. Delwiche, N.J. Mason, N. C. Jones, J. M. Gingell, I. C. Walker, M.-J. Hubin-Franskin*, <b>J. Chem. Phys.</b> 112 (2000) 6285-6292. <a href="https://doi.org/10.1063/1.481273">doi:10.1063/1.481273</a><br />
+<div class="outline-text-5" id="text-org752d654">
+
+<div class="figure">
+<p><img src="img/2.png" alt="2.png" width="250" style="float:center;margin:-10px 0px -20px 20px; border:2px solid #ccc; alt picture ID" /><br />
+</p>
+</div>
+</div>
+</li>
+</ul>
+</li>
+
+<li><a id="org04a4cf1"></a><b>1999</b><br />
+<ul class="org-ul">
+<li><a id="org095057c"></a><b>1.</b> <i>«Electronic excitation and oscillator strength of ethyl iodide by vacuum ultraviolet photoabsorption and electron energy loss spectroscopy»</i> A. Giuliani, F. Motte-Tollet, J. Delwiche, J. Heinesch, N. J. Mason, N. C. Jones, J. M. Gingell, I. C. Walker, M.-J. Hubin-Franskin*, <b>J. Chem. Phys.</b> 110 (1999) 10307-10315. <a href="https://doi.org/10.1063/1.478964">doi:10.1063/1.478964</a><br />
+<div class="outline-text-5" id="text-org095057c">
+
+<div class="figure">
+<p><img src="img/1.png" alt="1.png" width="250" style="float:center;margin:-10px 0px -20px 20px; border:2px solid #ccc; alt picture ID" /><br />
+</p>
+</div>
+</div>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+
+<li><a id="org8bc70b4"></a>Proceedings<br />
+<ul class="org-ul">
+<li><a id="org16826ef"></a><b>2015</b><br />
+<ul class="org-ul">
+<li><a id="org52ab0e3"></a><b>10.</b> <i>«Photon activation of peptides in the VUV»</i> A. Giuliani, A.R. Milosavljević, <b>J. Phys. Conf. Ser.</b> 635 (2015) 012032. <a href="https://doi.org/10.1088/1742-6596/635/1/012032">doi:10.1088/1742-6596/635/1/012032</a><br /></li>
+
+<li><a id="org380be05"></a><b>9.</b> <i>«Photodissociation of protonated Leucine-Enkephalin peptide in the VUV range»</i> M. Lj Ranković, V. Cerovski, F. Canon, L. Nahon, A. Giuliani, A.R. Milosavljević, <b>J. Phys. Conf. Ser.</b> 635 (2015) 112030<br /></li>
+</ul>
+</li>
+
+<li><a id="org1361d12"></a><b>2013</b><br />
+<ul class="org-ul">
+<li><a id="org8a91462"></a><b>8.</b>  <i>«DUV cleaning of aluminum optics left at the atmosphere»</i> V. Rouam, F. Jamme, A. Giuliani, B. Lagarde, S. Rey, J.-P. Duval, M. Refregiers, <b>J. Phys. Conf. Ser.</b> 425 (2013) 122005. <a href="https://doi.org/10.1088/1742-6596/425/12/122005">doi:10.1088/1742-6596/425/12/122005</a><br /></li>
+
+<li><a id="org783da6e"></a><b>7.</b>  <i>«Synchrotron infrared confocal microscope: Application to infrared 3D spectral imaging»</i> F. Jamme, B. Lagarde, A. Giuliani, G. A. Garcia, L. Mercury, <b>J. Phys. Conf. Ser</b>. 425 (2013) 142002. <a href="https://doi.org/10.1088/1742-6596/425/14/142002">doi:10.1088/1742-6596/425/14/142002</a><br /></li>
+
+<li><a id="orged3d53f"></a><b>6.</b>  <i>«Application of VUV synchrotron radiation to proteomic and analytical mass spectrometry»</i> A. Giuliani, A. R. Milosavljevic, F. Canon, L. Nahon, M. Réfrégiers, <b>J. Phys. Conf. Ser.</b> 425 (2013) 122001. <a href="https://doi.org/10.1088/1742-6596/425/12/122001">doi:10.1088/1742-6596/425/12/122001</a><br /></li>
+
+<li><a id="org69d1c0a"></a><b>5.</b> <i>«Photochemistry simulation of planetary atmosphere using synchrotron radiation at soleil. Application to Titan’s atmosphere»</i> T. Gautier, Z. Peng, A. Giuliani, N. Carrasco, G. Cernogova, A. Mahjoub, J.-J. Correira, C. Szopa, P. Pernot, A. Buch, Y. Benilan, <b>EAS Publications Series</b> 58 (2013) 199–203. <a href="https://doi.org/10.1051/eas/1258031">doi:10.1051/eas/1258031</a><br /></li>
+</ul>
+</li>
+
+<li><a id="orgb5aa530"></a><b>2012</b><br />
+<ul class="org-ul">
+<li><a id="orgd5c2beb"></a><b>4.</b> <i>«Photoionization of atomic and molecular positively charged ions»</i> J.-M.Bizau, D. Cubaynes, M. M. A. Shorman, S. Guilbaud, C. Blancard, J. Lemaire, R. Thissen, A. Giuliani, C. Nicolas, A. R. Milosavljević, <b>J. Phys.  Conf. Ser.</b> 399 (2012) 012002. <a href="https://doi.org/10.1088/1742-6596/399/1/012002">doi:10.1088/1742-6596/399/1/012002</a><br /></li>
+</ul>
+</li>
+
+<li><a id="org8b43eb4"></a><b>2011</b><br />
+<ul class="org-ul">
+<li><a id="org0eb6b32"></a><b>3.</b> <i>«Performances and reliability tests of AlGaN based focal plane array for deep-UV imaging»</i> J.-L. Reverchon, G. Lehoucq, C. Lyoret, J.-P. Truffer, E. Costard, E. Frayssinet, D. Brault, J.-Y. Duboz, A. Giuliani, M. Refregiers, M. Idir, <b>Proc. SPIE</b> 8176 (2011) 817619. <a href="https://doi.org/10.1117/12.898341">doi:10.1117/12.898341</a><br /></li>
+</ul>
+</li>
+
+<li><a id="org824315f"></a><b>2010</b><br />
+<ul class="org-ul">
+<li><a id="org1078b20"></a><b>2.</b> <i>«Performances of AlGaN-based focal plane arrays from 10nm to 200nm»</i> J.-L. Reverchon, S. Bansropun, J.-P. Truffer, and E. Costard, E. Frayssinet, J. Brault, and J.-Y. Duboz , A. Giuliani, M. Idir,  <b>Proc. SPIE</b> 7691 (2010) 769109. <a href="https://doi.org/10.1117/12.853947">doi:10.1117/12.853947</a><br /></li>
+
+<li><a id="orge6fa417"></a><b>1.</b> <i>«Gas-phase spectroscopy of a protein»</i> A. R. Milosavljevic , A. Giuliani, C. Nicolas,  J.-F. Gil, J. Lemaire, M. Refregiers, L. Nahon, <b>J. Phys. Conf. Series</b> 257 (2010) 012006. <a href="https://doi.org/10.1088/1742-6596/257/1/012006">doi:10.1088/1742-6596/257/1/012006</a><br /></li>
+</ul>
+</li>
+</ul>
+</li>
+
+<li><a id="orgca31552"></a>Patents<br />
+<ul class="org-ul">
+<li><a id="orgb7de77b"></a><b>2014</b><br />
+<ul class="org-ul">
+<li><a id="orgae0de09"></a><b>3.</b> <a id="org92501b8"></a> <i>«System and method for detection and quantification by mass spectrometry and by activation of molecular ionized species»</i>, A. Giuliani, 24 Juin 2013, EP14750536.6, WO2014207367, PCT/FR2014/051576<br /></li>
+</ul>
+</li>
+<li><a id="orgf8117c3"></a><b>2013</b><br />
+<ul class="org-ul">
+<li><a id="org273979f"></a><b>2.</b> <i>«Radioluminescent compound for radiotherapy and deep photodynamic therapy and device for deep photodynamic therapy»</i> S. Kaskacova, A. Giuliani, M. Refregiers, FR3012040B1.<br /></li>
+</ul>
+</li>
+<li><a id="org89a1b80"></a><b>2011</b><br />
+<ul class="org-ul">
+<li><a id="orgab35c2b"></a><b>1.</b> <a id="orgfa931d1"></a> <i>« Tandem mass spectrometer and tandem mass spectrometry method»</i> A. Giuliani, A.R. Milosavljević, M. Réfrégiers, L. Nahon., 5/08/2011, EP11306019.8 (Publication No. EP2555225), PCT/FR2012/051834, US 14/237,087, CA2844370, EP 12748751.0, JP2014526769.<br /></li>
+</ul>
+</li>
+</ul>
+</li>
+
+<li><a id="org6905477"></a>Book Chapters<br />
+<ul class="org-ul">
+<li><a id="org290f800"></a><b>2016</b><br />
+<ul class="org-ul">
+<li><a id="org5e5e8eb"></a><b>2.</b> <a id="orgda98a9b"></a> Aleksandar Milosavljevic, Alexandre Giuliani, Christophe Nicolas <i>«Chapter 8: Gas-Phase Near-Edge X-ray Absorption Fine Structure (NEXAFS) Spectroscopy of Nanoparticles, Biopolymers and Ionic Species»</i> in  <i>X-ray and Neutron Techniques for Nanomaterials Characterization</i>, Challa S.S.R. Kumar(Ed), Springer, 2016, ISBN 978-3-662-48604-7<br />
+<div class="outline-text-5" id="text-org5e5e8eb">
+
+<div class="figure">
+<p><img src="img/X-rays_springer.jpg" alt="X-rays_springer.jpg" width="250" style="float:center;margin:-10px 0px -50px 20px; alt picture ID" /><br />
+</p>
+</div>
+</div>
+</li>
+</ul>
+</li>
+
+<li><a id="org2cd5b99"></a><b>2012</b><br />
+<ul class="org-ul">
+<li><a id="org56602c7"></a><b>1.</b> <a id="org627367f"></a> Slavka Kascakova, Alexandre Giuliani, Frédéric Jamme &amp; Matthieu Réfrégiers <i>«Photodynamic Therapy»</i> in <i>Radiation Damage in Biomolecular Systems</i>, Gustavo Garcia Gomez-Tejedor &amp; Martina Christina Fuss (Eds), Springer, 2012, pp. 445-461<br />
+<div class="outline-text-5" id="text-org56602c7">
+
+<div class="figure">
+<p><img src="img/radiationdamage_springer.jpg" alt="radiationdamage_springer.jpg" width="250" style="float:center;margin:-10px 0px -50px 20px; alt picture ID" /><br />
+</p>
+</div>
+</div>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+
+<li><a id="orgac77e84"></a>Oral communications<br />
+<ul class="org-ul">
+<li><a id="org5ac40e6"></a><b>2018</b><br />
+<ul class="org-ul">
+<li><a id="org98387b2"></a><b>37.</b>   <a id="orgd7c092c"></a> <i>«Gas phase activation and spectroscopy of mass and charge selected ions»</i>, A. Giuliani, S. Douix, A. M. Milosavljević, F. Canon, L. Nahon, Photon Tools for Physical Chemistry, Beatenberg, Swistzerland, 8 - 11 January 2019&#xa0;&#xa0;&#xa0;<span class="tag"><span class="Invited">Invited</span></span><br /></li>
+
+<li><a id="org9679e59"></a><b>36.</b> <a id="orgca5fb36"></a> <i>«Electron impact activation of isolated ions in a linear ion trap»</i>, A. Giuliani, Low-energy electrons: Lithography, Imaging, and Soft Matter, Amsterdam, The Nederlands, 12 &amp; 13 November 2018.&#xa0;&#xa0;&#xa0;<span class="tag"><span class="Invited">Invited</span></span><br /></li>
+</ul>
+</li>
+<li><a id="org3532082"></a><b>2017</b><br />
+<ul class="org-ul">
+<li><a id="org54374d8"></a><b>35.</b> <a id="orgfb458bd"></a> <i>«Ultraviolet activation of peptides using a tunable photon source»</i>, A. Giuliani, Annual Conference of the American Society for Mass Spectrometry, Indianapolis, USA, 4-8/06/2017.<br /></li>
+
+<li><a id="org7cbe2d6"></a><b>34.</b> <a id="org42030af"></a> <i>«Spectroscopy of ions stored in traps»</i>, A. Giuliani  International Workshop on Photoionization &amp; Resonant Inelastic X-ray Scattering, Aussois, France, 26-31/03/2017.&#xa0;&#xa0;&#xa0;<span class="tag"><span class="Invited">Invited</span></span><br /></li>
+</ul>
+</li>
+<li><a id="orgfcbdfc4"></a><b>2016</b><br />
+<ul class="org-ul">
+<li><a id="org75af030"></a><b>33.</b> <a id="org890b73a"></a> <i>«Electron photodetachment, an efficient relaxation mechanism for electronically excited nucleic acids»</i>, A. Giuliani, International Mass Spectrometry Conference (IMSC), Toronto, 20-26/08/2016<br /></li>
+</ul>
+</li>
+<li><a id="org505abd9"></a><b>2015</b><br />
+<ul class="org-ul">
+<li><a id="org56cb9b2"></a><b>32.</b> <a id="org5cbf3b9"></a> <i>«Ultraviolet photon activation of peptides ions: what can we learn from spectroscopy»</i>, A. Giuliani, Congrès français de Spectrométrie de Masse et d&rsquo;Analyse Protéomique (SMAP), Ajaccio, 15-18/09/2015<br /></li>
+
+<li><a id="org65d7525"></a><b>31.</b> <a id="org04b8a9d"></a> <i>«ESI-Mass spectroscopy of proteins and large biomolecules»</i>, A. Giuliani, L. Nahon, M. Refregiers, A. R. Milosavljević, XXIX International Conference on Photonic, Electronic and Atomic Collisions (ICPEAC), Toledo, Spain, 22-28/07/2015&#xa0;&#xa0;&#xa0;<span class="tag"><span class="Progress_report">Progress_report</span></span><br /></li>
+
+<li><a id="orgf9d3cd9"></a><b>30.</b> <a id="org082fa51"></a> /«L’activation d’ion dans l’extrême UV : une nouvelle méthode pour la spectrométrie de masse tandem », A. Giuliani, Congrès Instrumenter Innover en Chimie Physique, UPMC, Paris, France, 22-23/01/2015<br /></li>
+
+<li><a id="org0315e13"></a><b>29.</b> <a id="org44661c5"></a> <i>«Photon activation studies of biological ions»</i>, A. Giuliani, Molecular Physics Workshop, Caen, 7-10 July 2015&#xa0;&#xa0;&#xa0;<span class="tag"><span class="Invited">Invited</span></span><br /></li>
+
+<li><a id="org00fe16e"></a><b>28.</b> <a id="org444ae7c"></a> <i>«Photon activation of biological ions stored in a linear ion trap using synchrotron radiation»</i> A. Giuliani, 6th International Workshop on Electrostatic Storage Devices, Tokyo, Japan, 8-11/06/2015&#xa0;&#xa0;&#xa0;<span class="tag"><span class="Invited">Invited</span></span><br /></li>
+</ul>
+</li>
+
+<li><a id="orgc16173a"></a><b>2014</b><br />
+<ul class="org-ul">
+<li><a id="org0f98d52"></a><b>27.</b> <a id="orgc93a1ae"></a> <i>«Extreme ultraviolet activation and fragmentation of peptide and protein ions»</i>, A. Giuliani, 19th International Mass Spectrometry Conference (IMSC), Geneva (CH), 24-29/08/2014<br /></li>
+
+<li><a id="org404238f"></a><b>26.</b> <a id="orge1f2021"></a> <i>«Spectroscopie électronique d&rsquo;action de polypeptides isolés en phase gazeuse»</i>, A. Giuliani, Colloque commun de la division de Physique Atomique et Moléculaire et Optique de la SFP et des Journée de Spectroscopie Moléculaire, Reims, FR, 07-10/07/2014.&#xa0;&#xa0;&#xa0;<span class="tag"><span class="Plenary">Plenary</span></span><br /></li>
+
+<li><a id="org7ca3ff2"></a><b>25.</b> <i>«Profilage métabolique avec les rayons X de Metrologie»</i>, A. Giuliani, Journée Prospectives des Sections Scientifiques, Synchrotron SOLEIL, 15 /01/2014.<br /></li>
+
+<li><a id="orgfb45656"></a><b>24.</b> <a id="org19ebdc0"></a> <i>«Spectroscopie électronique dans le VUV d’ions isolés en phase gazeuse»</i>, A. Giuliani, Workshop Simulation, SOLEIL, France, 02/04/2014&#xa0;&#xa0;&#xa0;<span class="tag"><span class="Invited">Invited</span></span><br /></li>
+
+<li><a id="orgfb57b19"></a><b>23.</b> <a id="orgf232090"></a> <i>«Action spectroscopy of biological ions»</i>, A. Giuliani, SOLEIL User’s Meeting, 23-24 /01/2014.&#xa0;&#xa0;&#xa0;<span class="tag"><span class="Invited">Invited</span></span><br /></li>
+</ul>
+</li>
+
+<li><a id="orgd8444c0"></a><b>2012</b><br />
+<ul class="org-ul">
+<li><a id="org13760e7"></a><b>22.</b> <a id="org504f627"></a> <i>«Ionization energy of gas phase proteins and its dependence on charge state and structure»</i>, A. Giuliani, 19th International Mass Spectrometry Conference (IMSC), Kyoto (JP), 15-21/09/2012.<br /></li>
+
+<li><a id="org1a98771"></a><b>21.</b> <a id="org5221f6f"></a> <i>«Application of VUV synchrotron radiation in analytical mass spectrometry»</i>, A. Giuliani, 11th Conference on Synchrotron Radiation (SRI), Lyon (FR), 9-13/07:2012.<br /></li>
+</ul>
+</li>
+
+<li><a id="orge1f6d96"></a><b>2011</b><br />
+<ul class="org-ul">
+<li><a id="orgfa29fc3"></a><b>20.</b> <a id="org7613f5a"></a> <i>«Photoionization study of trapped biopolymer ions in the gas phase»</i>, A. Giuliani, A. R. Milosavljević , C. Nicolas, M. Réfrégiers, L. Nahon, 5th Conference on Elementary Processes in Atomic Systems (CEPAS) Belgrade, Serbie, 2011.&#xa0;&#xa0;&#xa0;<span class="tag"><span class="Topiccal_lecture">Topiccal_lecture</span></span><br /></li>
+</ul>
+</li>
+
+<li><a id="orgd4ad93e"></a><b>2010</b><br />
+<ul class="org-ul">
+<li><a id="orgdcfaa41"></a><b>19.</b> <a id="orgd042acf"></a> <i>«Activation et spectroscopie VUV de peptides et petites protéines en phase gazeuse sondées par le rayonnement synchrotron»</i>, A. Giuliani, 27eme Journée Française de Spectrométrie de Masse, Clermont-Ferrand (FR), 13-16/09/2010.<br /></li>
+</ul>
+</li>
+
+<li><a id="orge8d2d6d"></a><b>2009</b><br />
+<ul class="org-ul">
+<li><a id="org5feeeb7"></a><b>18.</b> <a id="org7fc9462"></a> <i>«Photodetachement dans le VUV de polyanions isolés en phase gazeuse par absorption du rayonnement synchrotron»</i> A. Giuliani, Congrès général de la Société Française de Physique, Ecole Polytechnique Palaiseau, (FR), 6-10/07/2009.<br /></li>
+
+<li><a id="org86c79f0"></a><b>17.</b> <a id="orgaaaa8b4"></a> <i>«Energy dependent VUV Photodetachment spectroscopy of polyanions in the gas phase probed by synchrotron radiation»</i>, A. Giuliani, Annual Conference of the American Society for Mass Spectrometry, Philadelphie (USA), 31/05-04/06/2009.<br /></li>
+
+<li><a id="orge1452e4"></a><b>16.</b> <a id="org4ec8570"></a> <i>«Spectroscopie VUV d&rsquo;ions en phase gazeuse»</i>, A. Giuliani, Journée Sciences et Techniques Soleil, Synchrotron Soleil, Gif/Yvette (FR), 6/06/2009.&#xa0;&#xa0;&#xa0;<span class="tag"><span class="Invited">Invited</span></span><br /></li>
+</ul>
+</li>
+
+<li><a id="org923f649"></a><b>2008</b><br />
+<ul class="org-ul">
+<li><a id="orgc5ff500"></a><b>15.</b> <a id="orgfff74db"></a> <i>«Coupling of a fourrier transform mass spectrometer with a VUV beamline : new results on the photoionisation of atomic and molecular ions»</i>, CEAMMP, Belgrade, Serbie, 15-18/052008.&#xa0;&#xa0;&#xa0;<span class="tag"><span class="Invited">Invited</span></span><br /></li>
+
+<li><a id="org16acf77"></a><b>14.</b> <i>«Low energy electron interactions with a model peptide»</i>, A. Giuliani,  A. Bagag, M. Bertin, I. Martin, L. Amiaud, A. Lafosse, R. Azria, LEEMI-EIPAM-ECCL’08 joint meeting, Roscoff, (FR), 05/2008.&#xa0;&#xa0;&#xa0;<span class="tag"><span class="Invited">Invited</span></span><br /></li>
+</ul>
+</li>
+
+<li><a id="orga90c37d"></a><b>2007</b><br />
+<ul class="org-ul">
+<li><a id="orgfde546e"></a><b>13.</b> <i>«Le Thermopsray. Principe, Caractéristiques et Application»</i>, A. Giuliani, Workshop Vaporisation et caractérisation d’édifices moléculaires complexes, Synchrotron Soleil, Gif-sur-Yvette (FR), 06/2007&#xa0;&#xa0;&#xa0;<span class="tag"><span class="Invited">Invited</span></span><br /></li>
+</ul>
+</li>
+
+<li><a id="orge14dc4e"></a><b>2006</b><br />
+<ul class="org-ul">
+<li><a id="org958ef4e"></a><b>12.</b> <i>«DISCO, a UV beamline dedicated to biology»</i>, A. Giuliani, M. Refregiers, Réunion du groupe de Contact FNRS Rayonnement synchrotron, Mons (BE), 11/2006.&#xa0;&#xa0;&#xa0;<span class="tag"><span class="Invited">Invited</span></span><br /></li>
+
+<li><a id="org21dc003"></a><b>11.</b> <i>«Mass spectrometry using synchrotron radiation : applications in bio-medicine»</i>, A. Giuliani, Signature du Mémorandum of Understanding Diamond-SOLEIL, Résidence de l’ambassadeur de Grande Bretagne, Paris (FR), 30/06/2006.<br /></li>
+
+<li><a id="org768d48c"></a><b>10.</b> <i>«Atmospheric pressure photoionisation of biomolecules studied by mass spectrometry»</i>, A. Giuliani, Biology and Medicine with Low Energy Synchrotron Radiation, Institute for Storage Rings annual user’s meeting, Aarhus (DK), 10/2006.&#xa0;&#xa0;&#xa0;<span class="tag"><span class="Invited">Invited</span></span><br /></li>
+
+<li><a id="orgbc88386"></a><b>9.</b> <i>«Ion formation mechanisms in atmospheric pressure photoionization of biomolecules»</i>, A. Giuliani, O. Laprévote, Informal Meetings in Mass Spectrometry , Ustron (PL), 13-19/05/2006.<br /></li>
+
+<li><a id="orgdf8d973"></a><b>8.</b> <i>«Mass spectrometric study of atmospheric pressure photoionisation of peptides»</i>, A. Giuliani, COST P9 meeting, Lisbonne (PO), 23-26/02/2006.<br /></li>
+
+<li><a id="org4b1207b"></a><b>7.</b> <i>«Atmospheric pressure photoionization»</i>, A. Giuliani, User’s meeting SOLEIL, Orsay (FR) 18-19/01/2006.<br /></li>
+
+<li><a id="org50a49ff"></a><b>6.</b> <i>«Photoionisation at atmospheric pressure of biomolecules»</i>, A. Giuliani, Electron Induced Processes At the Molecular Level (EIPAM) annual conference, Valetta, Malta, 2006.&#xa0;&#xa0;&#xa0;<span class="tag"><span class="Invited">Invited</span></span><br /></li>
+</ul>
+</li>
+
+<li><a id="orgc00f8b8"></a><b>2004</b><br />
+<ul class="org-ul">
+<li><a id="org6a7ca7c"></a><b>5.</b> <i>«Electron induced vibrational and electronic excitations of model systems for biomolecules»</i>, A. Giuliani, M.-J. Hubin-Franskin, meeting COST Action P9, Aarhus (DK), 14-15/02/2004.<br /></li>
+</ul>
+</li>
+
+<li><a id="org37a668b"></a><b>2002</b><br />
+<ul class="org-ul">
+<li><a id="org9feaccd"></a><b>4.</b> <i>«UV photoabsorption spectroscopy of furan derivatives, a comparative study»</i>, A. Giuliani, M.-J. Hubin-Franskin, Société Belge de Physique, ULg, Liège (BE), 5-6/06/2002.<br /></li>
+</ul>
+</li>
+
+<li><a id="orge79ade7"></a><b>2001</b><br />
+<ul class="org-ul">
+<li><a id="orged80735"></a><b>3.</b> <i>«The lowest energy triplet states of furan excited by low energy electron scattering»</i>, A. Giuliani, M.-J. Hubin-Franskin, International Symposium on Low Energy Electron Molecule Interactions (LEEMI), Going, Austria, 2001.&#xa0;&#xa0;&#xa0;<span class="tag"><span class="Invited">Invited</span></span><br /></li>
+</ul>
+</li>
+
+<li><a id="org3a086f2"></a><b>2000</b><br />
+<ul class="org-ul">
+<li><a id="org2b3e784"></a><b>2.</b> <i>«Les états triplets de plus basse énergie du furanne, excités par diffusion d&rsquo;électrons lents»</i>, A. Giuliani, M.-J. Hubin-Franskin, Groupe de contact FNRS Atomes, Molécules et Radiations, FUNDP, Namur (BE), 3/10/2000.<br /></li>
+</ul>
+</li>
+
+<li><a id="orgd2ac314"></a><b>1999</b><br />
+<ul class="org-ul">
+<li><a id="org1229948"></a><b>1.</b> <i>«Electronic excitation and oscillator strength of ethyl bromide »,</i> A. Giuliani, M.-J. Hubin-Franskin, Groupe de contact FNRS Atomes, Molécule et Radiation, ULg, Liège (BE), 25/10/1999.<br /></li>
+</ul>
+</li>
+</ul>
+</li>
+
+<li><a id="orgad6d2f1"></a>Posters<br />
+<ul class="org-ul">
+<li><a id="orgf72e9ed"></a><b>2018</b><br />
+<ul class="org-ul">
+<li><a id="org0087d86"></a><b>18.</b> <a id="org7e48e74"></a> <i>«Electron Induced Dissociation in Linear Ion Trap Using High Energy Electrons»</i>, Annual Conference of the American Society for Mass Spectrometry, San Diego, 3-7/06/2018<br /></li>
+
+<li><a id="org479d266"></a><b>17.</b>  <a id="orge115e7d"></a> <i>«Extreme ultraviolet radiation: a means of ion activation for tandem mass spectrometry»</i>, European Mass Spectrometry Conference, Saarbrücken, Germany, 11-15/03/2018<br /></li>
+</ul>
+</li>
+
+<li><a id="org222a3fe"></a><b>2016</b><br />
+<ul class="org-ul">
+<li><a id="org6681f5b"></a><b>16.</b> <i>«Electron induced activation: a mean for inner shell spectroscopy of ions»</i>, International Mass Spectrometry Conference (IMSC), Toronto, 20-26/08/2016.<br /></li>
+
+<li><a id="orgf6e4157"></a><b>15.</b> <i>«Characterization of small molecules using Laser-Induced Acoustic Desorption (LIAD)»</i>, International Mass Spectrometry Conference (IMSC), Toronto, 20-26/08/2016.<br /></li>
+</ul>
+</li>
+
+<li><a id="org4ad38b8"></a><b>2012</b><br />
+<ul class="org-ul">
+<li><a id="org5df4103"></a><b>14.</b> <a id="org205cf8c"></a> <i>«Photodetachment of protein polyanions»</i>, Gordon Research Conference Photoions, Photoionization &amp; Photodetachment, Galvestone (USA), 12-17/02/2012.<br /></li>
+</ul>
+</li>
+
+<li><a id="org8fd5720"></a><b>2011</b><br />
+<ul class="org-ul">
+<li><a id="org05e34c7"></a><b>13.</b> <i>«Photochemistry simulation of the Titan atmosphere»</i>, 1st European Conference on Laboratory Astrophysics, Paris (FR), 26-30/09/2011.<br /></li>
+
+<li><a id="org26c14d6"></a><b>12.</b> <a id="org3c54770"></a> <i>«Coupling of a linear ion trap with a vacuum-ultraviolet beamline»</i> Congrès de Spectrométrie de Masse et d’Analyse Protéomique (SMAP), Avignon (FR), 19-22 /09/2011<br /></li>
+</ul>
+</li>
+
+<li><a id="orgbb97578"></a><b>2008</b><br />
+<ul class="org-ul">
+<li><a id="org26f0b20"></a><b>11.</b> <a id="orgce80e0c"></a> <i>«Photodetachment of polyanions in the gas phase by absorption of VUV synchrotron radiation»</i>, Soleil User’s Meeting, Palaizeau (FR), 01/2008.<br /></li>
+
+<li><a id="org4d4a799"></a><b>10.</b> <i>«First-time efficient coupling of an FT-ICR Ion Trap to a VUV beamline: new results on photoionization of Xe+ ion»</i>, Soleil User’s Meeting, Palaiseau (FR), 17-18/01/2008.<br /></li>
+</ul>
+</li>
+<li><a id="org9fe4585"></a><b>2007</b><br />
+<ul class="org-ul">
+<li><a id="org584ad19"></a><b>9.</b> <i>«Coupling of an FT-ICR mass spectrometer with a VUV beamline»</i>, 56th American Society for Mass Spectrometry Conference, Indianapolis (USA) 06/2007.<br /></li>
+
+<li><a id="orge1ddce7"></a><b>8.</b> <i>«Atmospheric pressure photoionization of peptides»</i>, 55th American Society for Mass Spectrometry Conference, Indianapolis (USA) 06/2007.<br /></li>
+</ul>
+</li>
+
+<li><a id="orgfbca8a9"></a><b>2006</b><br />
+<ul class="org-ul">
+<li><a id="orge54131d"></a><b>7.</b> <i>«Use of MALDI matrixes as dopant in Atmospheric Pressure Photoionization»</i>, 54th American Society for Mass Spectrometry Conference, Seattle (USA) 30/05/2006.<br /></li>
+
+<li><a id="orgcc29281"></a><b>6.</b> <i>«Atmospheric pressure photoionisation of biomolecules»</i> Soleil User’s Meeting, Palaizeau (FR) 01/2006<br /></li>
+</ul>
+</li>
+
+<li><a id="org3e04fc9"></a><b>2005</b><br />
+<ul class="org-ul">
+<li><a id="orgc3fa360"></a><b>5.</b> <i>«Etude par photoionisation à pression atmosphérique d’un sel de diammonium quaternaire»</i>, 1er Symposium de Chimie et Biologie Analytique, Montpelier (FR), 26-29/09/2005.<br /></li>
+
+<li><a id="org303bc26"></a><b>4.</b> <i>«Atmospheric Pressure Photoionization-Mass Spectrometry :Study of radical reactions in the gas phase»</i>, 53th American Society for Mass Spectrometry Conference, San Antonio (USA) ,4-9/06/2005.<br /></li>
+
+<li><a id="org25ffe25"></a><b>3.</b> <i>«Atmospheric Pressure Photoionization-Mass Spectrometry»</i>, Symposium High Resolution &amp; Synchrotron Soleil, Orsay (FR), 21-22/04/2005.<br /></li>
+</ul>
+</li>
+
+<li><a id="org9079b82"></a><b>2004</b><br />
+<ul class="org-ul">
+<li><a id="orgb688f4e"></a><b>2.</b> <i>«Spectrométrie de masse par photoionisation à pression atmospherique et à longueur d’onde fixe»</i>, Journée Soleil – Région centre, Orléans (FR), Novembre 2004.<br /></li>
+</ul>
+</li>
+
+<li><a id="org500a0d1"></a><b>1999</b><br />
+<ul class="org-ul">
+<li><a id="org5cbad2a"></a><b>1.</b> <i>«Electronic excitation ans oscillator strength of ethyl iodide by VUV photoabsorption and electron energy loss spectroscopy»</i>, Société Belge de Physique, VUB, Bruxelles (BE), 21/05/1999.<br /></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+
+
+<div id="outline-container-orgdff1592" class="outline-2">
+<h2 id="orgdff1592">Fundings</h2>
+<div class="outline-text-2" id="text-orgdff1592">
+</div>
+<ul class="org-ul">
+<li><a id="orgdc4993d"></a><b>2015-2018</b> DIM Analytics PhD grant - <i>Analysis and detection of long-chain per-and hydrofluorocarbons</i><br />
+<div class="outline-text-3" id="text-orgdc4993d">
+
+<div class="figure">
+<p><img src="img/logo_DIM.png" alt="logo_DIM.png" width="250" style="float:center ;margin: 0px 0px 0px 0px; border:2px solid #ccc;" /><br />
+</p>
+</div>
+</div>
+<ul class="org-ul">
+<li><a id="org02fb45a"></a><span class="underline">Abstract</span><br />
+<div class="outline-text-4" id="text-org02fb45a">
+<p>
+«Perfluorocarbons (CxFy, PFCs) and hydrofluorocarbons (CxHyFz, HFCs) are very potent greenhouse gases released in the Earth atmosphere. They have very long lifetime and one of their unique sink is the solar radiation when they reach the upper atmosphere. Although identified as a source of climate change and already quite well quantified in the atmosphere, their chemical characterization suffers from a lack of experimental techniques for the largest analogue compounds (with a carbon number &gt; 5) because of their particular physico-chemical properties (high molecular weight, low polarizability,..). We propose here a project for a PhD fellowship aiming at the characterization of long chain PFCs and HFCs. Two research axes will be developed. First, the analysis of the compounds using an atmospheric pressure photoionization (APPI) source coupled to a high-resolution Orbitrap mass analyzer will lead to high-resolved mass spectra which have never been obtained so far. Then, we will perform the coupling of a laser-induced acoustic desorption (LIAD) setup with synchrotron radiation (SR) in a commercial linear quadrupole ion trap mass spectrometer. This worldwide-unique setup will enable to softly bring neutral molecules into the gas phase and then photoionize them using SR in a wide energy range (5-20 eV). We will thus be able the study the effect of radiation on the compounds of interest, in particular their degradation processes. Additional APPI/SR experiments will also been performed in order to compare them with LIAD/SR results and determine the effect of solvent in APPI. Finally, the experimental work will be completed with density-functional theory (DFT) based molecular simulations to help for the analysis of the results.»<br />
+</p>
+</div>
+</li>
+<li><a id="org1a0239e"></a><span class="underline">People</span><br />
+<div class="outline-text-4" id="text-org1a0239e">
+<p>
+Thesis director: Alexandre Giuliani<br />
+Co-director: Héloïse Dossmann, Sorbonne University, Paris.<br />
+</p>
+</div>
+</li>
+<li><a id="orgd3dded5"></a><span class="underline">Funding</span><br />
+<div class="outline-text-4" id="text-orgd3dded5">
+<p>
+120 k€<br />
+</p>
+</div>
+</li>
+<li><a id="org3525dc2"></a><span class="underline">Outcomes</span><br />
+<div class="outline-text-4" id="text-org3525dc2">
+<ul class="org-ul">
+<li>PhD thesis of Suzie Douix.<br /></li>
+<li>2 publications: <a href="#org28dd91a">J. Phys. Chem. Lett.</a>, <a href="#org78df605">Chem. A European Journal</a>.<br /></li>
+<li>5 oral communications:  1 communications at the conference of the American Society for Mass Spectrometry, 1 communications at the International Mass Spectrometry Conference.<br /></li>
+<li>6 posters: 2 posters at the  conference of the American Society for Mass Spectrometry.<br /></li>
+</ul>
+</div>
+</li>
+</ul>
+</li>
+
+
+<li><a id="orgc12fbd6"></a><b>2015-2015</b> Prematuration Paris-Saclay - <i>Activation of ions using extreme ultraviolet: a new method for tandem mass spectrometry of biological molecules</i><br />
+<div class="outline-text-3" id="text-orgc12fbd6">
+
+<div class="figure">
+<p><img src="img/logo_UPS.png" alt="logo_UPS.png" width="150" style="float:center;" /><br />
+</p>
+</div>
+</div>
+
+<ul class="org-ul">
+<li><a id="org3f1663e"></a><span class="underline">Abstract</span><br />
+<div class="outline-text-4" id="text-org3f1663e">
+<p>
+«This project deals with the development of a new ion activation method for tandem mass spectrometry with applications in structural analysis.»<br />
+</p>
+</div>
+</li>
+<li><a id="org8323947"></a><span class="underline">People</span><br />
+<div class="outline-text-4" id="text-org8323947">
+<p>
+Principal investigator: Alexandre Giuliani<br />
+</p>
+</div>
+</li>
+<li><a id="orgbbbf10c"></a><span class="underline">Funding</span><br />
+<div class="outline-text-4" id="text-orgbbbf10c">
+<p>
+45 k€<br />
+</p>
+</div>
+</li>
+<li><a id="orgdceb708"></a><span class="underline">Outcome:</span><br />
+<div class="outline-text-4" id="text-orgdceb708">
+<ul class="org-ul">
+<li>1 <a href="#org78df605">publication</a> in Anal. Chem.<br /></li>
+<li>1 <a href="#orge115e7d">poster</a> at the European Mass Spectrometry Conference in Saarbrücken, 2018.<br /></li>
+</ul>
+</div>
+</li>
+</ul>
+</li>
+
+
+<li><a id="orgd3bda7c"></a><b>2009-2011</b> ANR (white program) - <i>Synchrotron radiation for tandem mass spectrometry (SRMS2)</i><br />
+<div class="outline-text-3" id="text-orgd3bda7c">
+
+<div class="figure">
+<p><img src="img/logo-ANR.gif" alt="logo-ANR.gif" width="100" style="float:center; border:2px solid #ccc;" /><br />
+</p>
+</div>
+</div>
+
+<ul class="org-ul">
+<li><a id="org75eec29"></a><span class="underline">Abstract</span><br />
+<div class="outline-text-4" id="text-org75eec29">
+<p>
+«The aim of the project is to explore the potential of synchrotron radiation for tandem mass spectrometry and ion spectroscopy. For this a commercial ion trap is coupled with synchrotron radiation beamlines in the vacuum ultraviolet (VUV). Ions produced by electrospray of various biomolecules will be probed.»<br />
+</p>
+</div>
+</li>
+<li><a id="orgfc00101"></a><span class="underline">People</span><br />
+<div class="outline-text-4" id="text-orgfc00101">
+<p>
+Principal Investigator: Alexandre Giuliani, INRA Nantes.<br />
+Partners: Matthieu Refregiers, Laurent Nahon, SOLEIL.<br />
+Postdoctoral fellows: Aleksandar Milosavljević, Francis Canon.<br />
+</p>
+</div>
+</li>
+<li><a id="org0a8cdcc"></a><span class="underline">Funding</span><br />
+<div class="outline-text-4" id="text-org0a8cdcc">
+<p>
+440 k€<br />
+</p>
+</div>
+</li>
+<li><a id="orged744a0"></a><span class="underline">Outcome:</span><br />
+<div class="outline-text-4" id="text-orged744a0">
+<ul class="org-ul">
+<li>43 publications. 3 publications in  Angew. Chem. Int. Ed. <a href="#orge770560">(53,</a> <a href="#org518dc8a">61</a>, <a href="#org490b83e">62</a>), 5 publications in J. Phys. Chem. Lett. (<a href="#org28dd91a">95</a>, <a href="#org304da3a">86</a>, <a href="#org8b46809">78</a>, <a href="#orgec1e380">69</a>, <a href="#org6f605bc">46</a>, ), 2 publications in Anal. Chem. (<a href="#org183b258">100</a>, <a href="#orgf1f490b">72</a>), 2 publications in Analytica Chim. Acta. (<a href="#org31effcf">87</a>, <a href="#org47df446">64</a>), 4 publications in J. Am. Soc. Mass Spectrom. (<a href="#orgb49a8f1">99</a>, <a href="#org79f08ba">88</a>, <a href="#orga67d649">59</a>, <a href="#org56ece9b">44</a>) and 1 publication in  Mass. Spectrom. Rev. (<a href="#orgd97eef5">66</a>)<br /></li>
+<li>20 oral communications (<a href="#orgd7c092c">c37</a>, <a href="#orgca5fb36">c36</a>, <a href="#orgfb458bd">c35</a>, <a href="#org42030af">c34</a>, <a href="#org890b73a">c33</a>, <a href="#org5cbf3b9">c32</a>, <a href="#org04b8a9d">c31</a>, <a href="#org082fa51">c30</a>, <a href="#org44661c5">c29</a>, <a href="#org444ae7c">c28</a>, <a href="#orgc93a1ae">c27</a>, <a href="#orge1f2021">c26</a>, <a href="#org19ebdc0">c24</a>, <a href="#orgf232090">c23</a>, <a href="#org504f627">c22</a>, <a href="#org5221f6f">c21</a>, <a href="#org7613f5a">c20</a>, <a href="#orgd042acf">c19</a>, <a href="#org7fc9462">c18</a>, <a href="#orgaaaa8b4">c17</a>, <a href="#org4ec8570">c16</a>), among which 1 progress report at ICPEAC (<a href="#org04b8a9d">c31</a>), 2 communications at the conference of the American Society for Mass Spectrometry (<a href="#orgfb458bd">c35</a>, <a href="#orgaaaa8b4">c17</a>), 3 communications at the International Mass Spectrometry Conference (<a href="#org890b73a">c33</a>, <a href="#orgc93a1ae">c27</a>, <a href="#org504f627">c22</a>), 2 communications at the French Society for Mass Spectrometry (<a href="#org5cbf3b9">c32</a>, <a href="#orgd042acf">c19</a>), 1 communication at the International Workshop on Electrostatic Storage Devices (<a href="#org444ae7c">c28</a>).<br /></li>
+<li>5 posters(<a href="#org7e48e74">p18</a>, <a href="#orge115e7d">p17</a>, <a href="#org205cf8c">14</a>, <a href="#org3c54770">12</a>, <a href="#orgce80e0c">p11</a>). 1 poster at the Gordon Conference on Photonization and Photodetachment (<a href="#org205cf8c">p14</a>), 1 posters at the  conference of the American Society for Mass Spectrometry (<a href="#org7e48e74">p18</a>).<br /></li>
+<li>2 Book Chapters (<a href="#org627367f">c1</a>, <a href="#orgda98a9b">c2</a>).<br /></li>
+<li>2 Patents (<a href="#orgfa931d1">pat1</a>, <a href="#org92501b8">pat3</a>).<br /></li>
+</ul>
+</div>
+</li>
+</ul>
+</li>
+
+
+<li><a id="org53429e1"></a><b>2009-2010</b> CEPIA ANS - <i>Action spectroscopy of ions</i><br />
+<div class="outline-text-3" id="text-org53429e1">
+
+<div class="figure">
+<p><img src="img/logo_INRA_CEPA.jpg" alt="logo_INRA_CEPA.jpg" width="175" style="float:center; border:2px solid #ccc;" /><br />
+</p>
+</div>
+</div>
+
+<ul class="org-ul">
+<li><a id="org5be4e81"></a><span class="underline">Abstract</span><br />
+<div class="outline-text-4" id="text-org5be4e81">
+<p>
+«This project aims at exploring the potentialities of mass spectrometry to study the optical properties of stored ions.  Especially, our approach aims at testing the possibility of performing magnetic circular dichroism (mCD) using Fourier transform ion cyclotron resonance (FTICR) mass spectrometry.»<br />
+</p>
+</div>
+</li>
+<li><a id="org768573c"></a><span class="underline">People</span><br />
+<div class="outline-text-4" id="text-org768573c">
+<p>
+Principal investigator: Alexandre Giuliani<br />
+Partners: Hélène Rognaux, INRA, Nantes.<br />
+</p>
+</div>
+</li>
+<li><a id="org609b021"></a><span class="underline">Funding</span><br />
+<div class="outline-text-4" id="text-org609b021">
+<p>
+12 k€<br />
+</p>
+</div>
+</li>
+<li><a id="org781f31a"></a><span class="underline">Outcome:</span><br />
+<div class="outline-text-4" id="text-org781f31a">
+<p>
+Tests experiments.<br />
+</p>
+</div>
+</li>
+</ul>
+</li>
+
+
+<li><a id="org587caa4"></a><b>2010-2012</b> CEPIA AIC - <i>Oleosines, SOLEIL, Mapping Individuel Oxydation: OlSoleilMiox</i><br />
+<div class="outline-text-3" id="text-org587caa4">
+
+<div class="figure">
+<p><img src="img/logo_INRA_CEPA.jpg" alt="logo_INRA_CEPA.jpg" width="175" style="float:center; border:2px solid #ccc;" /><br />
+</p>
+</div>
+</div>
+
+<ul class="org-ul">
+<li><a id="orgf98f2be"></a><span class="underline">Abstract</span><br />
+<div class="outline-text-4" id="text-orgf98f2be">
+<p>
+«Our aim is to develop a setup for radiolytic footprinting of proteins at SOLEIL to study the conformation of oleosine proteins.»<br />
+</p>
+</div>
+</li>
+<li><a id="orgde41b17"></a><span class="underline">People</span><br />
+<div class="outline-text-4" id="text-orgde41b17">
+<p>
+Principal investigator: Thierry Chardot, INRA, Versailles.<br />
+Partners: Alexandre Giuliani.<br />
+</p>
+</div>
+</li>
+<li><a id="org2327a56"></a><span class="underline">Funding</span><br />
+<div class="outline-text-4" id="text-org2327a56">
+<p>
+12 k€<br />
+</p>
+</div>
+</li>
+<li><a id="org6bf3cb3"></a><span class="underline">Outcome:</span><br />
+<div class="outline-text-4" id="text-org6bf3cb3">
+<p>
+2 publications (<a href="#orge0513c0">90</a>, <a href="#org4b575a4">89</a>)<br />
+</p>
+</div>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+
+
+<div id="outline-container-org5ba55d5" class="outline-2">
+<h2 id="org5ba55d5">Outreach</h2>
+<div class="outline-text-2" id="text-org5ba55d5">
+</div>
+<ul class="org-ul">
+<li><a id="orgea255c5"></a><b>2018</b><br />
+<ul class="org-ul">
+<li><a id="orgb83dedc"></a>Instrumentation award, French Chemical Society, Physical chemistry division.  <a href="http://www.societechimiquedefrance.fr/Laureats-898.html"><img src="img/external_link.png" alt="external_link.png" /></a><br /></li>
+
+<li><a id="org6d01a09"></a>SOLEIL <a href="https://www.synchrotron-soleil.fr/fr/actualites/casser-des-molecules-avec-un-rayonnement-uv-une-nouvelle-methode-dactivation-pour-la">highlight</a> about our collaborative <a href="#org183b258">publication</a> entitled <i>«Extreme ultraviolet (XUV) radiation: a means of ion activation for tandem mass spectrometry»</i> in Anal. Chemistry.<br /></li>
+
+<li><a id="org1785e84"></a>SOLEIL <a href="https://www.synchrotron-soleil.fr/fr/actualites/photoionisation-du-cation-c60-le-buckminsterfullerene">highlight</a> about our <a href="#org28dd91a">publication</a> <i>«Photoionization of the Buckminsterfullerene Cation»</i> in J. Phys. Chem. Lett.<br /></li>
+</ul>
+</li>
+<li><a id="org3d650cf"></a><b>2015</b><br />
+<ul class="org-ul">
+<li><a id="org857f48e"></a><a href="https://www.synchrotron-soleil.fr/fr/actualites/comment-casser-des-sucres-avec-de-la-lumiere-et-dans-quel">SOLEIL</a> and <a href="http://www.angers-nantes.inra.fr/Toutes-les-actualites/polysaccharides">INRA</a> (in french) highlights about our <a href="#orgf1f490b">publication</a> <i>«High-energy photon activation tandem mass spectrometry provides unprecedented insights into the structure of highly sulfated oligosaccharides extracted from macroalgal cell walls»</i> in Analytical Chemistry.<br /></li>
+
+<li><a id="org5b32106"></a>SOLEIL <a href="https://www.synchrotron-soleil.fr/fr/actualites/nano-clusters-dhydrure-dargent-sous-irradiation-ultraviolette-dans-le-vide">highlight</a> on our collaborative work entitled <i>«Gas-phase VUV Photoionisation and Photofragmentation of the Silver Deuteride Nanocluster [Ag<sub>10</sub>D<sub>8</sub>L<sub>6</sub>]<sup>2+</sup> (L = bis(diphenylphosphino)methane). A Joint Experimental and Theoretical Study»</i> in Phys. Chem. Chem. Phys.<br /></li>
+
+<li><a id="org601d430"></a>SOLEIL <a href="https://www.synchrotron-soleil.fr/fr/actualites/therapie-photodynamique-profonde-une-nanolampe-de-poche-pour-rendre-actifs-les">highlight</a> about our collaborative <a href="#orgc9d7175">work</a> entitled <i>«X-ray-induced radiophotodynamic therapy (RPDT) using lanthanide micelles: Beyond depth limitations»</i> in Nano Research.<br /></li>
+</ul>
+</li>
+
+<li><a id="orgfaa1bc9"></a><b>2013</b><br />
+<ul class="org-ul">
+<li><a id="org8e5205c"></a>Press release from <a href="http://www.dijon.inra.fr/Toutes-les-actualites/Astringence">INRA</a>, <a href="http://www2.cnrs.fr/sites/communique/fichier/cp_canon_astringence_vdef.pdf">CNRS</a>, associated with <a href="#org490b83e">publication</a> entitled <i>«Photodissociation and Dissociative Photoionization Mass Spectrometry of Proteins and Noncovalent Protein-Ligand Complexes»</i> in Angewandte Chemie Int. Ed.<br /></li>
+
+<li><a id="org63019b4"></a>Cover of Angewandte Chemie Int. Ed. associated with our <a href="#org490b83e">publication</a> entitled <i>«Photodissociation and Dissociative Photoionization Mass Spectrometry of Proteins and Noncovalent Protein-Ligand Complexes»</i><br />
+<div class="outline-text-4" id="text-org63019b4">
+
+<div class="figure">
+<p><img src="img/ACIE_cover_2013.jpg" alt="ACIE_cover_2013.jpg" width="250" style="float:center;margin: 20px -20px -40px 0px; alt picture ID" /><br />
+</p>
+</div>
+</div>
+</li>
+</ul>
+</li>
+
+<li><a id="org1f88199"></a><b>2012</b><br />
+<ul class="org-ul">
+<li><a id="org63e84d9"></a>SOLEIL <a href="https://www.synchrotron-soleil.fr/fr/actualites/trois-molecules-deau-suffisent-stabiliser-un-dipeptide">highlight</a> about <a href="#org518dc8a">publication</a> <i>«Nanosolvation-Induced Stabilization of a Protonated Peptide Dimer Isolated in the Gas Phase»</i> in Angewandte Chemie Int. Ed.<br /></li>
+
+
+<li><a id="org17dfa28"></a>SOLEIL <a href="http://www.synchrotron-soleil.fr/Soleil/ToutesActualites/2012/DESIRSphotoionisation">highlight</a> about our <a href="#orge770560">publication</a> entitled <i>«Structure and Charge-State Dependence of the Gas-Phase Ionization Energy of Proteins»</i> in Angewandte Chemie Int. Ed.<br /></li>
+
+
+<li><a id="org4299d69"></a>Wiley analytical science <a href="http://dmmsclick.wileyeurope.com/view.asp?m=ltbwp4dcs7xcq37p6s6p&amp;u=6589066&amp;f=h">highlight</a> about our <a href="#orgaaa9ca2">work</a> <i>«VUV synchrotron radiation: a new activation technique for tandem mass spectrometry»</i> in J. Synchrotron Rad.<br /></li>
+</ul>
+</li>
+
+<li><a id="orgf8fd3c9"></a><b>2011</b><br />
+<ul class="org-ul">
+<li><a id="orga42fecf"></a>SOLEIL <a href="https://www.synchrotron-soleil.fr/fr/actualites/des-proteines-faciles-eplucher-en-electrons">highlight</a> about <a href="#org416d367">publication</a> <i>«Valence shell direct double photodetachment in polyanions»</i> in New J. Phys.<br /></li>
+
+<li><a id="orgc46130d"></a>SOLEIL <a href="http://www.synchrotron-soleil.fr/Soleil/ToutesActualites/2011/TrouDansAnneau">highlight</a> about our <a href="#org17ce435">publication</a> <i>«A differential pumping system to deliver windowless VUV photons at atmospheric pressure»</i> in J. Synchrotron Rad.<br /></li>
+</ul>
+</li>
+
+<li><a id="orgebe36cb"></a><b>2010</b><br />
+<ul class="org-ul">
+<li><a id="org5e2d9ec"></a>SOLEIL <a href="file:///«Characterization, stoichiometry and stability of salivary protein-tannin complexes by ESI-MS and CID MS/MS»">highlight</a> associated to <a href="#org3ad3880">publication</a> <i>«Characterization, stoichiometry and stability of salivary protein-tannin complexes by ESI-MS and CID MS/MS»</i> in in J. Synchrotron Rad.<br /></li>
+</ul>
+</li>
+</ul>
+</div>
+
+
+<div id="outline-container-org2e40ce3" class="outline-2">
+<h2 id="org2e40ce3"><span class="todo TODO">TODO</span> News&#xa0;&#xa0;&#xa0;<span class="tag"><span class="news">news</span></span></h2>
+<div class="outline-text-2" id="text-org2e40ce3">
+<p>
+&#x2026;<br />
+</p>
+</div>
+</div>
+<div id="footnotes">
+<h2 class="footnotes">Footnotes: </h2>
+<div id="text-footnotes">
+
+<div class="footdef"><sup><a id="fn.1" class="footnum" href="#fnr.1">1</a></sup> <div class="footpara"><p class="footpara">
+<a href="https://en.wikipedia.org/wiki/XYZ_file_format">https://en.wikipedia.org/wiki/XYZ_file_format</a><br />
+</p></div></div>
+
+<div class="footdef"><sup><a id="fn.2" class="footnum" href="#fnr.2">2</a></sup> <div class="footpara"><p class="footpara">
+<a href="https://www.synchrotron-soleil.fr/fr/lignes-de-lumiere/DESIRS">https://www.synchrotron-soleil.fr/fr/lignes-de-lumiere/DESIRS</a><br />
+</p></div></div>
+
+<div class="footdef"><sup><a id="fn.3" class="footnum" href="#fnr.3">3</a></sup> <div class="footpara"><p class="footpara">
+<a href="https://www.synchrotron-soleil.fr/fr/lignes-de-lumiere/DISCO">https://www.synchrotron-soleil.fr/fr/lignes-de-lumiere/DISCO</a><br />
+</p></div></div>
+
+<div class="footdef"><sup><a id="fn.4" class="footnum" href="#fnr.4">4</a></sup> <div class="footpara"><p class="footpara">
+<a href="https://www.synchrotron-soleil.fr/fr/lignes-de-lumiere/PLEIADES">https://www.synchrotron-soleil.fr/fr/lignes-de-lumiere/PLEIADES</a><br />
+</p>
+
+<p class="footpara">
+<br />
+<a href="~/org/references/library.bib">~/org/references/library.bib</a><br />
+</p></div></div>
+
+<div class="footdef"><sup><a id="fn.5" class="footnum" href="#fnr.5">5</a></sup> <div class="footpara"><p class="footpara">
+<a href="https://orgmode.org/">https://orgmode.org/</a><br />
+</p></div></div>
+
+<div class="footdef"><sup><a id="fn.6" class="footnum" href="#fnr.6">6</a></sup> <div class="footpara"><p class="footpara">
+There is plenty of excellent resources on literate programming on the web. A non exhaustive list:<br />
+<a href="https://academic.oup.com/comjnl/article/27/2/97/343244">https://academic.oup.com/comjnl/article/27/2/97/343244</a><br />
+<a href="http://kitchingroup.cheme.cmu.edu/blog/category/literate-programming/">http://kitchingroup.cheme.cmu.edu/blog/category/literate-programming/</a> <br />
+<a href="http://www.cachestocaches.com/2018/6/org-literate-programming/">http://www.cachestocaches.com/2018/6/org-literate-programming/</a><br />
+<a href="https://orgmode.org/worg/org-contrib/babel/how-to-use-Org-Babel-for-R.html">https://orgmode.org/worg/org-contrib/babel/how-to-use-Org-Babel-for-R.html</a><br />
+</p></div></div>
+
+
+</div>
+</div></div>
+<div id="postamble" class="status">
+<p class="author">Author: AG</p>
+<p class="date">Created: 2019-01-20 Dim 09:31</p>
+<p class="creator"><a href="https://www.gnu.org/software/emacs/">Emacs</a> 26.1 (<a href="https://orgmode.org">Org</a> mode 9.1.13)</p>
+<p class="validation"><a href="http://validator.w3.org/check?uri=referer">Validate</a></p>
+</div>
+</body>
+</html>
