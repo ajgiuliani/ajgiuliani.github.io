@@ -1,34 +1,62 @@
-#+TITLE:  agiuliani.xyz
+#+TITLE:  Alexandre Giuliani
 #+AUTHOR: AG
-#+EMAIL:  alexandre.giuliani AT synchrotron-soleil DOT fr
-#+OPTIONS: toc:t
-#+OPTIONS: num:nil
-#+OPTIONS: H:3
-#+OPTIONS: title:nil
+#+EMAIL:  (concat "alexandre.giuliani" at-sign "synchrotron-soleil.fr"
+
+#+OPTIONS: toc:nil num:nil :org-html-postamble:t org-html-preamble:t tile:nil author:nil
+#+OPTIONS: creator:t d:nil date:t stat:t inline:t e:t c:t broken-links:t 
+
+#+HTML_HEAD: <link rel="icon" type="image/png" href="img/favicon-32x32.png" sizes="32x32" />
+#+HTML_HEAD_EXTRA: <script src='https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js'></script>
+#+HTML_HEAD_EXTRA: <script src='js/blog.js'></script>
+#+HTML_HEAD_EXTRA: <link rel='stylesheet' type='text/css' href='css/style.css'>
+#+LINK_HOME:  https://agiuliani.xyz
+
+#+HTML_DESCRIPTION: Personnal website
+#+HTML_DESCRIPTION: chemistry, physical chemistry, spectroscopy
+#+HTML_DESCRIPTION: science, chemistry, physical chemistry
+#+HTML_DESCRIPTION: spectroscopy, mass spectrometry, radiation, UV, ultraviolet
+#+HTML_KEYWORDS: chemistry, science, spectroscopy, interaction
 #+LANGUAGE:   en
 #+CATEGORY:   website
-#+EXPORT_EXCLUDE_TAGS: noexport
 
-#+SETUPFILE: /Users/alex/org/files/org-html-themes/setup/theme-readtheorg.setup
+#+SUBTITLE: Spectroscopy & Spectrometry
+#+HTML_DOCTYPE: html5
 
-#+HTML_HEAD: <style>pre.src{background:#343131;color:white;} </style>
 
+
+#+NAME: banner
+#+BEGIN_EXPORT html
+<div class="navbar">
+  <ul>
+    <li class="dropdown">
+       <a href="javascript:void(0)"
+class="drobtn">Home</a>
+       <div class="dropdown-content">
+       </div>
+    </li>
+    <li><a href='research.html'>Research</a></li>
+    <li><a href='tools.html'>Tools</a></li>
+    <li><a href='colleagues.html'>Colleagues</a></li>
+    <li><a href='about.html'>About me</a></li>
+    <li><a href='production.html'>Production</a></li>
+    <li><a href='outreach.html'>Ourreach</a></li>
+    <li><a href='news.html'>News</a></li>
+  </ul>
+</div>
+#+END_EXPORT
 
 * Home
+Welcome to my page.
 
-* [[file:about.org][About me]]
+Currently employed as a research engineer at [[http://www.inra.fr/en/Scientists-Students][INRA]] (Institut National de la Recherche Agronomique), I am on secondment at the [[https://www.synchrotron-soleil.fr/en][SOLEIL]] synchrotron radiation facility, near Paris (France) where I am working on the [[https://www.synchrotron-soleil.fr/en/beamlines/disco][DISCO]] beamline as a beamline scientist.
 
-* Publication list
-Available from [[https://orcid.org/0000-0003-1710-4933][ORCID]] or from my institution [[https://prodinra.inra.fr/?locale=en#!Result:au:%22Alexandre%20Giuliani%22%7Csort=%7BDATE_DESC%7D][open archives]] along with some preprints. 
- 
-* Research interests
-- Photon activation of ions for tandem mass spectrometry
-- Molecular and ionic spectroscopy in the UV and in the soft X-rays ranges
-- Synchrotron Radiation Circular Dichroism (SRCD)
-- Atmospheric pressure photoionization (APPI)
-- X-ray oxidative foot printing
+SOLEIL is a very large research infrastructure and provides the scientific community with an access to 28 beamlines delivering photon beams of high brilliance and stability over a wide wavelength range from the terahertz up to the hard X-rays. The [[https://www.synchrotron-soleil.fr/en/beamlines/disco][DISCO]] beamline, managed by [[https://cv.archives-ouvertes.fr/matthieu-refregiers][Matthieu Refrregiers]], makes use of visible, ultraviolet (UV) and vacuum-UV (VUV) photons on three experimental stations, namely fluorescence imaging, circular dichroism and the atmospheric pressure experimental (APEX) station. I am more specifically in charge of this last station.
 
-* Active projects
-- Instrinsically Unordered Protein (IDP) - Ligand interactions
-- Interplay between  the electronic structure and the folding of proteins
-- Non-local relaxation processes
+In addition, I am a member of a team of INRA researchers on secondment at SOLEIL. Our mission is to help researchers and engineers from INRA to access the facility. We help improving proposals submitted by INRA researchers. In addition, we are visiting INRA centers across the country to present SOLEIL and its capabilities. We also maintain a monitoring of the technological developments appearing on synchrotron facilities.
+
+I picked an xyz domain name because it reminds me the =.xyz= format [fn:1] used to store chemical structures.
+
+
+
+* Footnotes
+[fn:1] [[https://en.wikipedia.org/wiki/XYZ_file_format]]

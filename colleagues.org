@@ -1,0 +1,95 @@
+#+TITLE:  Alexandre Giuliani
+#+AUTHOR: AG
+#+EMAIL:  (concat "alexandre.giuliani" at-sign "synchrotron-soleil.fr"
+
+#+OPTIONS: toc:nil num:nil :org-html-postamble:t org-html-preamble:t tile:nil author:nil
+#+OPTIONS: creator:t d:nil date:t stat:t inline:t e:t c:t broken-links:t 
+
+#+HTML_HEAD: <link rel="icon" type="image/png" href="img/favicon-32x32.png" sizes="32x32" />
+#+HTML_HEAD_EXTRA: <script src='https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js'></script>
+#+HTML_HEAD_EXTRA: <script src='js/blog.js'></script>
+#+HTML_HEAD_EXTRA: <link rel='stylesheet' type='text/css' href='css/style.css'>
+#+LINK_HOME:  https://agiuliani.xyz
+
+#+HTML_DESCRIPTION: Personnal website
+#+HTML_DESCRIPTION: chemistry, physical chemistry, spectroscopy
+#+HTML_DESCRIPTION: science, chemistry, physical chemistry
+#+HTML_DESCRIPTION: spectroscopy, mass spectrometry, radiation, UV, ultraviolet
+#+HTML_KEYWORDS: chemistry, science, spectroscopy, interaction
+#+LANGUAGE:   en
+#+CATEGORY:   website
+
+#+SUBTITLE: Spectroscopy & Spectrometry
+#+HTML_DOCTYPE: html5
+
+#+NAME: banner
+#+BEGIN_EXPORT html
+<div class="navbar">
+  <ul>
+    <li><a href='index.html'>Home</a></li>
+    <li><a href='research.html'>Research</a></li> 
+    <li><a href='tools.html'>Tools</a></li>
+    <li class="dropdown">
+        <a href="javascript:void(0)"
+class="drobtn">Colleagues</a>
+       <div class="dropdown-content">
+       <a href="#sec:disco">@ DISCO</a>
+       <a href="#sec:collabs">Collaborations</a>
+       </div>
+    </li>
+    <li><a href='about.html'>About me</a></li>
+    <li><a href='production.html'>Production</a></li>
+    <li><a href='outteach.html'>Outreach</a></li>
+    <li><a href='news.html'>News</a></li>
+  </ul>
+</div>
+#+END_EXPORT
+
+
+* @ DISCO
+:PROPERTIES:
+:CUSTOM_ID: sec:disco
+:END:
+*** [[https://cv.archives-ouvertes.fr/matthieu-refregiers][Matthieu Refregiers]]
+**** Biospectroscopy
+*** [[https://cv.archives-ouvertes.fr/frederic-jamme][Frédéric Jamme]]
+**** Biospectroscopy
+**** Experimental physics
+*** [[https://www.synchrotron-soleil.fr/fr/lignes-de-lumiere/DISCO][Frank Wien]]
+**** Circular dichroism
+
+* Collaborations
+:PROPERTIES:
+:CUSTOM_ID: sec:collabs
+:END:
+
+*** [[https://khinsen.net/][Konrad Hinsen]], /Centre de Biophysique Moléculaire, CNRS, Orléans, France/
+**** *Molecular simulations*
+
+*** [[http://mail.ipb.ac.rs/~vraz/][Alexandar Milosavljević]], formerly at /Institute of Physics, Belgrade/ now at the /PLEIADES beamline, SOLEI/L
+**** *Ion spectroscopy.*
+****  Electron scattering
+
+*** [[https://www.synchrotron-soleil.fr/fr/content/laurent-nahon][Laurent Nahon]], /Synchrotron SOLEIL, France/
+**** *VUV spectroscopy.*
+
+*** Francis Canon, /CSGA, INRA, Dijon, France/
+**** *Non covalent complexes.*
+
+*** Regis Daniel, /University of Evry, France/
+**** *Protein Foot printing.*
+**** *Mass spectrometric analysis of sugars.*
+
+*** [[http://www.phlam.univ-lille1.fr/spip.php?article54][Denis Duflot]], /University of Lille, France/
+**** *Electronic spectroscopy*
+**** */ab initio/ electronic structure calculations*
+     
+*** David Ropartz & Hélène Rognaux, /INRA Nantes, France/ [fn:1]
+**** *Mass spectrometric analysis of sugar.*
+
+*** Martin R. Green, /Waters, Manchester, UK/
+**** *Ion activation & instrumentation.*
+* Footnotes
+[fn:1] https://www.bibs.inra.fr/QUI-SOMMES-NOUS
+
+

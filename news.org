@@ -1,0 +1,46 @@
+#+TITLE:  Alexandre Giuliani
+#+AUTHOR: AG
+#+EMAIL:  (concat "alexandre.giuliani" at-sign "synchrotron-soleil.fr"
+
+#+OPTIONS: toc:nil num:nil :org-html-postamble:t org-html-preamble:t tile:nil author:nil
+#+OPTIONS: creator:t d:nil date:t stat:t inline:t e:t c:t broken-links:t 
+
+#+HTML_HEAD: <link rel="icon" type="image/png" href="img/favicon-32x32.png" sizes="32x32" />
+#+HTML_HEAD_EXTRA: <script src='https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js'></script>
+#+HTML_HEAD_EXTRA: <script src='js/blog.js'></script>
+#+HTML_HEAD_EXTRA: <link rel='stylesheet' type='text/css' href='css/style.css'>
+#+LINK_HOME:  https://agiuliani.xyz
+
+#+HTML_DESCRIPTION: Personnal website
+#+HTML_DESCRIPTION: chemistry, physical chemistry, spectroscopy
+#+HTML_DESCRIPTION: science, chemistry, physical chemistry
+#+HTML_DESCRIPTION: spectroscopy, mass spectrometry, radiation, UV, ultraviolet
+#+HTML_KEYWORDS: chemistry, science, spectroscopy, interaction
+#+LANGUAGE:   en
+#+CATEGORY:   website
+
+#+SUBTITLE: Spectroscopy & Spectrometry
+#+HTML_DOCTYPE: html5
+
+#+NAME: banner
+#+BEGIN_EXPORT html
+<div class="navbar">
+  <ul>
+    <li><a href='index.html'>Home</a></li>
+    <li><a href='research.html'>Research</a></li>
+    <li><a href='tools.html'>Tools</a></li>
+    <li><a href='colleagues.html'>Colleagues</a></li>
+    <li><a href='about.html'>About me</a></li>
+    <li><a href='production.html'>Production</a></li>
+    <li><a href='outreach.html'>Ourreach</a></li>
+    <li><a href='news.html'>News</a></li>
+  </ul>
+</div>
+#+END_EXPORT
+
+* TODO News
+Coming soon [fn:1]
+* Footnotes
+[fn:1]
+
+

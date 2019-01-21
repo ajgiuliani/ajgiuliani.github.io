@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- 2019-01-21 Mon 23:47 -->
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Alexandre Giuliani</title>
+<meta name="generator" content="Org mode">
+<style type="text/css">
+ <!--/*--><![CDATA[/*><!--*/
+  .title  { text-align: center;
+             margin-bottom: .2em; }
+  .subtitle { text-align: center;
+              font-size: medium;
+              font-weight: bold;
+              margin-top:0; }
+  .todo   { font-family: monospace; color: red; }
+  .done   { font-family: monospace; color: green; }
+  .priority { font-family: monospace; color: orange; }
+  .tag    { background-color: #eee; font-family: monospace;
+            padding: 2px; font-size: 80%; font-weight: normal; }
+  .timestamp { color: #bebebe; }
+  .timestamp-kwd { color: #5f9ea0; }
+  .org-right  { margin-left: auto; margin-right: 0px;  text-align: right; }
+  .org-left   { margin-left: 0px;  margin-right: auto; text-align: left; }
+  .org-center { margin-left: auto; margin-right: auto; text-align: center; }
+  .underline { text-decoration: underline; }
+  #postamble p, #preamble p { font-size: 90%; margin: .2em; }
+  p.verse { margin-left: 3%; }
+  pre {
+    border: 1px solid #ccc;
+    box-shadow: 3px 3px 3px #eee;
+    padding: 8pt;
+    font-family: monospace;
+    overflow: auto;
+    margin: 1.2em;
+  }
+  pre.src {
+    position: relative;
+    overflow: visible;
+    padding-top: 1.2em;
+  }
+  pre.src:before {
+    display: none;
+    position: absolute;
+    background-color: white;
+    top: -10px;
+    right: 10px;
+    padding: 3px;
+    border: 1px solid black;
+  }
+  pre.src:hover:before { display: inline;}
+  /* Languages per Org manual */
+  pre.src-asymptote:before { content: 'Asymptote'; }
+  pre.src-awk:before { content: 'Awk'; }
+  pre.src-C:before { content: 'C'; }
+  /* pre.src-C++ doesn't work in CSS */
+  pre.src-clojure:before { content: 'Clojure'; }
+  pre.src-css:before { content: 'CSS'; }
+  pre.src-D:before { content: 'D'; }
+  pre.src-ditaa:before { content: 'ditaa'; }
+  pre.src-dot:before { content: 'Graphviz'; }
+  pre.src-calc:before { content: 'Emacs Calc'; }
+  pre.src-emacs-lisp:before { content: 'Emacs Lisp'; }
+  pre.src-fortran:before { content: 'Fortran'; }
+  pre.src-gnuplot:before { content: 'gnuplot'; }
+  pre.src-haskell:before { content: 'Haskell'; }
+  pre.src-hledger:before { content: 'hledger'; }
+  pre.src-java:before { content: 'Java'; }
+  pre.src-js:before { content: 'Javascript'; }
+  pre.src-latex:before { content: 'LaTeX'; }
+  pre.src-ledger:before { content: 'Ledger'; }
+  pre.src-lisp:before { content: 'Lisp'; }
+  pre.src-lilypond:before { content: 'Lilypond'; }
+  pre.src-lua:before { content: 'Lua'; }
+  pre.src-matlab:before { content: 'MATLAB'; }
+  pre.src-mscgen:before { content: 'Mscgen'; }
+  pre.src-ocaml:before { content: 'Objective Caml'; }
+  pre.src-octave:before { content: 'Octave'; }
+  pre.src-org:before { content: 'Org mode'; }
+  pre.src-oz:before { content: 'OZ'; }
+  pre.src-plantuml:before { content: 'Plantuml'; }
+  pre.src-processing:before { content: 'Processing.js'; }
+  pre.src-python:before { content: 'Python'; }
+  pre.src-R:before { content: 'R'; }
+  pre.src-ruby:before { content: 'Ruby'; }
+  pre.src-sass:before { content: 'Sass'; }
+  pre.src-scheme:before { content: 'Scheme'; }
+  pre.src-screen:before { content: 'Gnu Screen'; }
+  pre.src-sed:before { content: 'Sed'; }
+  pre.src-sh:before { content: 'shell'; }
+  pre.src-sql:before { content: 'SQL'; }
+  pre.src-sqlite:before { content: 'SQLite'; }
+  /* additional languages in org.el's org-babel-load-languages alist */
+  pre.src-forth:before { content: 'Forth'; }
+  pre.src-io:before { content: 'IO'; }
+  pre.src-J:before { content: 'J'; }
+  pre.src-makefile:before { content: 'Makefile'; }
+  pre.src-maxima:before { content: 'Maxima'; }
+  pre.src-perl:before { content: 'Perl'; }
+  pre.src-picolisp:before { content: 'Pico Lisp'; }
+  pre.src-scala:before { content: 'Scala'; }
+  pre.src-shell:before { content: 'Shell Script'; }
+  pre.src-ebnf2ps:before { content: 'ebfn2ps'; }
+  /* additional language identifiers per "defun org-babel-execute"
+       in ob-*.el */
+  pre.src-cpp:before  { content: 'C++'; }
+  pre.src-abc:before  { content: 'ABC'; }
+  pre.src-coq:before  { content: 'Coq'; }
+  pre.src-groovy:before  { content: 'Groovy'; }
+  /* additional language identifiers from org-babel-shell-names in
+     ob-shell.el: ob-shell is the only babel language using a lambda to put
+     the execution function name together. */
+  pre.src-bash:before  { content: 'bash'; }
+  pre.src-csh:before  { content: 'csh'; }
+  pre.src-ash:before  { content: 'ash'; }
+  pre.src-dash:before  { content: 'dash'; }
+  pre.src-ksh:before  { content: 'ksh'; }
+  pre.src-mksh:before  { content: 'mksh'; }
+  pre.src-posh:before  { content: 'posh'; }
+  /* Additional Emacs modes also supported by the LaTeX listings package */
+  pre.src-ada:before { content: 'Ada'; }
+  pre.src-asm:before { content: 'Assembler'; }
+  pre.src-caml:before { content: 'Caml'; }
+  pre.src-delphi:before { content: 'Delphi'; }
+  pre.src-html:before { content: 'HTML'; }
+  pre.src-idl:before { content: 'IDL'; }
+  pre.src-mercury:before { content: 'Mercury'; }
+  pre.src-metapost:before { content: 'MetaPost'; }
+  pre.src-modula-2:before { content: 'Modula-2'; }
+  pre.src-pascal:before { content: 'Pascal'; }
+  pre.src-ps:before { content: 'PostScript'; }
+  pre.src-prolog:before { content: 'Prolog'; }
+  pre.src-simula:before { content: 'Simula'; }
+  pre.src-tcl:before { content: 'tcl'; }
+  pre.src-tex:before { content: 'TeX'; }
+  pre.src-plain-tex:before { content: 'Plain TeX'; }
+  pre.src-verilog:before { content: 'Verilog'; }
+  pre.src-vhdl:before { content: 'VHDL'; }
+  pre.src-xml:before { content: 'XML'; }
+  pre.src-nxml:before { content: 'XML'; }
+  /* add a generic configuration mode; LaTeX export needs an additional
+     (add-to-list 'org-latex-listings-langs '(conf " ")) in .emacs */
+  pre.src-conf:before { content: 'Configuration File'; }
+
+  table { border-collapse:collapse; }
+  caption.t-above { caption-side: top; }
+  caption.t-bottom { caption-side: bottom; }
+  td, th { vertical-align:top;  }
+  th.org-right  { text-align: center;  }
+  th.org-left   { text-align: center;   }
+  th.org-center { text-align: center; }
+  td.org-right  { text-align: right;  }
+  td.org-left   { text-align: left;   }
+  td.org-center { text-align: center; }
+  dt { font-weight: bold; }
+  .footpara { display: inline; }
+  .footdef  { margin-bottom: 1em; }
+  .figure { padding: 1em; }
+  .figure p { text-align: center; }
+  .equation-container {
+    display: table;
+    text-align: center;
+    width: 100%;
+  }
+  .equation {
+    vertical-align: middle;
+  }
+  .equation-label {
+    display: table-cell;
+    text-align: right;
+    vertical-align: middle;
+  }
+  .inlinetask {
+    padding: 10px;
+    border: 2px solid gray;
+    margin: 10px;
+    background: #ffffcc;
+  }
+  #org-div-home-and-up
+   { text-align: right; font-size: 70%; white-space: nowrap; }
+  textarea { overflow-x: auto; }
+  .linenr { font-size: smaller }
+  .code-highlighted { background-color: #ffff00; }
+  .org-info-js_info-navigation { border-style: none; }
+  #org-info-js_console-label
+    { font-size: 10px; font-weight: bold; white-space: nowrap; }
+  .org-info-js_search-highlight
+    { background-color: #ffff00; color: #000000; font-weight: bold; }
+  .org-svg { width: 90%; }
+  /*]]>*/-->
+</style>
+<link rel="icon" type="image/png" href="img/favicon-32x32.png" sizes="32x32" />
+<script src='https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js'></script>
+<script src='js/blog.js'></script>
+<link rel='stylesheet' type='text/css' href='css/style.css'>
+<script type="text/javascript">
+/*
+@licstart  The following is the entire license notice for the
+JavaScript code in this tag.
+
+Copyright (C) 2012-2018 Free Software Foundation, Inc.
+
+The JavaScript code in this tag is free software: you can
+redistribute it and/or modify it under the terms of the GNU
+General Public License (GNU GPL) as published by the Free Software
+Foundation, either version 3 of the License, or (at your option)
+any later version.  The code is distributed WITHOUT ANY WARRANTY;
+without even the implied warranty of MERCHANTABILITY or FITNESS
+FOR A PARTICULAR PURPOSE.  See the GNU GPL for more details.
+
+As additional permission under GNU GPL version 3 section 7, you
+may distribute non-source (e.g., minimized or compacted) forms of
+that code without the copy of the GNU GPL normally required by
+section 4, provided you include this license notice and a URL
+through which recipients can access the Corresponding Source.
+
+
+@licend  The above is the entire license notice
+for the JavaScript code in this tag.
+*/
+<!--/*--><![CDATA[/*><!--*/
+ function CodeHighlightOn(elem, id)
+ {
+   var target = document.getElementById(id);
+   if(null != target) {
+     elem.cacheClassElem = elem.className;
+     elem.cacheClassTarget = target.className;
+     target.className = "code-highlighted";
+     elem.className   = "code-highlighted";
+   }
+ }
+ function CodeHighlightOff(elem, id)
+ {
+   var target = document.getElementById(id);
+   if(elem.cacheClassElem)
+     elem.className = elem.cacheClassElem;
+   if(elem.cacheClassTarget)
+     target.className = elem.cacheClassTarget;
+ }
+/*]]>*///-->
+</script>
+</head>
+<body>
+<div id="content">
+<h1 class="title">Alexandre Giuliani
+<br>
+<span class="subtitle">Spectroscopy &amp; Spectrometry</span>
+</h1>
+<div class="navbar">
+  <ul>
+    <li><a href='index.html'>Home</a></li>
+    <li><a href='research.html'>Research</a></li>
+    <li class="dropdown">
+       <a href="javascript:void(0)"
+class="drobtn">Tools</a>
+       <div class="dropdown-content">
+       <a href="#sec:newtools">New ion activation methods</a>
+       <a href="#sec:ionspec">Ion spectroscopy</a>
+       <a href="#sec:XFP">X-ray foot printing </a>
+       <a href="#sec:SRCD">Circular dichroism </a>
+       <a href="#sec:PA">Photoabsorption </a>
+       <a href="#sec:softs">Softwares </a>
+       </div>
+    </li>
+    <li><a href='colleagues.html'>Colleagues</a></li>
+    <li><a href='about.html'>About me</a></li>
+    <li><a href='production.html'>Production</a></li>
+    <li><a href='outreach.html'>Outreach</a></li>
+    <li><a href='news.html'>News</a></li>
+  </ul>
+</div>
+
+
+<div id="outline-container-orgdf8f2bf" class="outline-2">
+<h2 id="orgdf8f2bf">Tools</h2>
+<div class="outline-text-2" id="text-orgdf8f2bf">
+</div>
+<div id="outline-container-org06f6e13" class="outline-3">
+<h3 id="sec:newtools"><b>New ion activation methods for tandem mass spectrometry</b></h3>
+<div class="outline-text-3" id="text-sec:newtools">
+<p>
+Mass spectrometry holds an important place in structural chemistry.  A typical mass spectrometer is composed of an ion source, a mass to charge ratio (<i>m/z</i>) analyzer and an ion detector. Thus, a mass spectrum is a representation of the ion abundance as measured by the detector as a function of the <i>m/z</i> ratio, as illustrated in below.  Molar masses and stoechiometries may be determined from mass spectra.  The addition of another mass filtering stage, either in space or in time, allows a specific <i>m/z</i> range, corresponding to a species of interest, to be selected and activated. During the activation step, ions receives internal energy, which ultimately leads to the fragmentation of the ion. This method is termed tandem mass spectrometry or MS/MS. When fragment ions are selected and activated in multiple successive steps, the process is referred to as MS<sup>n</sup> <sup><a id="fnr.1" class="footref" href="#fn.1">1</a></sup>.
+</p>
+
+
+<p>
+The mean of activation in tandem MS is crucial as it determines to a large extend the outcomes of the process.  The most used method, referred to as collision induced dissociation (CID), is based on inelastic collisions between the targets and an inert gas. CID belongs to the slow heating class of methods in which the internal energy of the ions is gradually increased until a dissociation threshold is reached. Hence, CID activation leads principally to the dissociation of the weakest bonds. This characteristic prevent some systems to be analyzed by CID: such as those bearing labile groups or non-covalent assemblies. Gaining some control over the fragmentation phenomenon is therefore very appealing.
+</p>
+
+<p>
+The study of the spectroscopic properties of bioorganic ions in the gas phase, 
+</p>
+</div>
+</div>
+
+<div id="outline-container-org23ccda1" class="outline-3">
+<h3 id="sec:ionspec"><b>Ion Spectroscopy</b></h3>
+<div class="outline-text-3" id="text-sec:ionspec">
+<p>
+Spectroscopy of ions is not a trivial task. Indeed, it requires to confine high densities of charged particles within small volumes, during long enough period of time and the use of high brilliance photon sources.  Usually, ion spectroscopy is performed using merged beams setups, such as the <a href="https://doi.org/10.1016/j.elspec.2016.03.006">MAIA experiment</a> at SOLEIL, in which large ionic currents are produced by <a href="https://en.wikipedia.org/wiki/Electron_cyclotron_resonance#ECR_ion_sources">ECR</a> sources. The ion beam is then merged with monochromatic photons from the beamlines over ~1 m distance. These setups have the great advantage to provide absolute cross section measurements, but suffer from the restriction of the targets, mostly atomic, that can be ionized by <a href="https://en.wikipedia.org/wiki/Electron_cyclotron_resonance#ECR_ion_sources">ECR</a> sources. In another concept, ion spectroscopy was performed in ion traps, in which the lower ionic target density produced by the classical ion sources was compensated by the ability to confine the ion longer, leading to very long irradiation times. This concept had been successfully implemented at Free Electron Lasers for infrared multiphoton dissociation spectroscopy, such as at <a href="https://www.fels-of-europe.eu/fel_facilities/ir_facilities/clio/">CLIO</a> or at <a href="https://www.ru.nl/felix/facility-0/measurement-station/user-station-6-felion-4k-trap-machine/">FELIX</a> but also using tunable laboratory lasers in the visible-UV range.  However, synchrotron radiation, which is orders of magnitude less powerful than lasers, had so far not been used for ionization of trapped ions.
+</p>
+
+<p>
+I had the chance to participate to the proof of the concept of the use of synchrotron radiation to perform ion spectroscopy on stored ions in traps. In this work <sup><a id="fnr.2" class="footref" href="#fn.2">2</a></sup>,  performed at Elletra in 2008 <a href="https://doi.org/10.1103/PhysRevLett.100.223001">PRL 2008</a> the photoionization of the xenon radical cation was measured in the XUV and compared to measurement from the merged beams experiments. It appeared that ion trap measurements were not affected by the presence of metastable species, which was the case with the merged beams data.
+</p>
+
+<p>
+Thank to a [[**2011-2009* ANR (white program) - /Synchrotron radiation for tandem mass spectrometry (SRMS2)/][grant] from the French national funding agency in 2009, we have coupled an ion trap mass spectrometer with the UV and VUV beamlines <a href="https://www.synchrotron-soleil.fr/fr/lignes-de-lumiere/DESIRS">DESIRS</a> and <a href="https://www.synchrotron-soleil.fr/fr/lignes-de-lumiere/DISCO">DISCO</a> [[[t45][J. Synchrotron Rad. 2011] and later with the soft X-rays <a href="https://www.synchrotron-soleil.fr/fr/lignes-de-lumiere/PLEIADES">PLEIADES</a> beamline at SOLEIL.
+</p>
+
+<p>
+This setup takes profit from the potential of modern API sources such electrospray (ES), nano electrospray (NSI) or atmospheric pressure photoionization (APPI) to place in the gas phase systems which would be hardly possible to vaporize otherwise  <sup><a id="fnr.3" class="footref" href="#fn.3">3</a></sup>. Hence it is possible to probe the spectroscopy and dynamic of a wide variety of targets isolated in the gas phase by action spectroscopy. Ions of interest produced by the source are selected and accumulated in the ion trap until the desired capacity is reached. The radiation is then admitted in the trap for a controlled amount of time, after which the trap is emptied and the products of the irradiation are analyzed. Repeating this process over a set of wavelength produces a set of tandem mass spectra leads to data such as <sup><a id="fnr.4" class="footref" href="#fn.4">4</a></sup>
+</p>
+
+<p>
+From these data, the abundance of a particular ion may be measured and plotted as a function of the photon energy, leading to relative cross section for the individual process at the origin of the ionic signal considered.
+</p>
+</div>
+</div>
+
+<div id="outline-container-orgf510a51" class="outline-3">
+<h3 id="sec:XFP"><span class="todo TODO">TODO</span> <b>X-ray oxidative foot printing</b></h3>
+<div class="outline-text-3" id="text-sec:XFP">
+</div>
+</div>
+
+<div id="outline-container-orgd90baa0" class="outline-3">
+<h3 id="sec:SRCD"><span class="todo TODO">TODO</span> <b>Synchrotron Radiation Circular Dichroism (SRCD)</b></h3>
+<div class="outline-text-3" id="text-sec:SRCD">
+</div>
+</div>
+
+<div id="outline-container-org51b5ff1" class="outline-3">
+<h3 id="sec:PA"><span class="todo TODO">TODO</span> <b>VUV absorption spectroscopy</b></h3>
+<div class="outline-text-3" id="text-sec:PA">
+</div>
+</div>
+
+<div id="outline-container-org4b9c644" class="outline-3">
+<h3 id="sec:softs"><b>Softwares</b></h3>
+<div class="outline-text-3" id="text-sec:softs">
+</div>
+
+<div id="outline-container-orgd2dad92" class="outline-4">
+<h4 id="orgd2dad92"><b>Igor Pro</b></h4>
+<div class="outline-text-4" id="text-orgd2dad92">
+<p>
+I have been using Igor Pro from <a href="https://www.wavemetrics.com/">Wavemetrics</a> since my diploma thesis (<i>mémoire de licence</i>) in Liège and I used to use it extensively for data treatment and to produce figures. I also use Igor for control and acquisition. Almost all my published data have been treated and produced in final form using Igor.
+</p>
+</div>
+</div>
+
+<div id="outline-container-orgd0b103a" class="outline-4">
+<h4 id="orgd0b103a"><b>Org-mode</b></h4>
+<div class="outline-text-4" id="text-orgd0b103a">
+<p>
+Org-mode made me use <a href="https://www.gnu.org/software/emacs/">emacs</a>, a software which I could get into previously. I guessed I needed a sufficient incentive to overcome the barrier! Org-mode was that incentive. It changed drasticallt the way I worked.  Org-mode <sup><a id="fnr.5" class="footref" href="#fn.5">5</a></sup> is originally a powerful tools for task management, projects planning, notes taking and writing documents. However, it offers a very useful way to literate programming <sup><a id="fnr.6" class="footref" href="#fn.6">6</a></sup>. Gradually my data treatment shifts to org-mode and literate programming.
+</p>
+</div>
+</div>
+</div>
+</div>
+<div id="footnotes">
+<h2 class="footnotes">Footnotes: </h2>
+<div id="text-footnotes">
+
+<div class="footdef"><sup><a id="fn.1" class="footnum" href="#fnr.1">1</a></sup> <div class="footpara"><div id="orgf7b05e3" class="figure">
+<p><img src="img/tandemMS.jpg" alt="tandemMS.jpg" title="MS and MS/MS" style="float:center;;">
+</p>
+<p><span class="figure-number">Figure 1: </span>Illustration of the principles of a) mass spectrometry and b) tandem mass spectrometry analysis.</p>
+</div></div></div>
+
+<div class="footdef"><sup><a id="fn.2" class="footnum" href="#fnr.2">2</a></sup> <div class="footpara"><div class="figure">
+<p><img src="img/micra.jpg" alt="micra.jpg" title="Ion trap vs merged beams" style="float:center;">
+</p>
+<p><span class="figure-number">Figure 2: </span>Photoionization cross section of the Xe<sup>+</sup> cation measured using an ion trap (top) and the merged beams technique (bottom) are compared with theoretical results (thin lines), modified from .</p>
+</div></div></div>
+
+<div class="footdef"><sup><a id="fn.3" class="footnum" href="#fnr.3">3</a></sup> <div class="footpara"><div class="figure">
+<p><img src="img/SRMS2.jpg" alt="SRMS2.jpg" title="the SRMS2 project" style="float:center;">
+</p>
+<p><span class="figure-number">Figure 3: </span>Scheme of principle of the coupling of the linear ion trap with three beamlines at SOLEIL.</p>
+</div></div></div>
+
+<div class="footdef"><sup><a id="fn.4" class="footnum" href="#fnr.4">4</a></sup> <div class="footpara"><div class="figure">
+<p><img src="img/ms2-matrix.jpg" alt="ms2-matrix.jpg" title="Substance P activation" style="float:center;">
+</p>
+<p><span class="figure-number">Figure 4: </span>2D representation of the activation of the single protonated ion [M+H]<sup>+</sup> of substance P in the 8 to 16 eV, showing the production ion mass spectra as a funcion of the photon energy. More details are available here</p>
+</div></div></div>
+
+<div class="footdef"><sup><a id="fn.5" class="footnum" href="#fnr.5">5</a></sup> <div class="footpara"><p class="footpara">
+<a href="https://orgmode.org/">https://orgmode.org/</a>
+</p></div></div>
+
+<div class="footdef"><sup><a id="fn.6" class="footnum" href="#fnr.6">6</a></sup> <div class="footpara"><p class="footpara">
+There is plenty of excellent resources on literate programming on the web. A non exhaustive list:
+<a href="https://academic.oup.com/comjnl/article/27/2/97/343244">https://academic.oup.com/comjnl/article/27/2/97/343244</a>
+<a href="http://kitchingroup.cheme.cmu.edu/blog/category/literate-programming/">http://kitchingroup.cheme.cmu.edu/blog/category/literate-programming/</a> 
+<a href="http://www.cachestocaches.com/2018/6/org-literate-programming/">http://www.cachestocaches.com/2018/6/org-literate-programming/</a>
+<a href="https://orgmode.org/worg/org-contrib/babel/how-to-use-Org-Babel-for-R.html">https://orgmode.org/worg/org-contrib/babel/how-to-use-Org-Babel-for-R.html</a>
+</p></div></div>
+
+
+</div>
+</div></div>
+<div id="postamble" class="status">
+<p class="date">Created: 2019-01-21 Mon 23:47</p>
+<p class="creator"><a href="https://www.gnu.org/software/emacs/">Emacs</a> 26.1 (<a href="https://orgmode.org">Org</a> mode 9.1.13)</p>
+<p class="validation"><a href="http://validator.w3.org/check?uri=referer">Validate</a></p>
+</div>
+</body>
+</html>

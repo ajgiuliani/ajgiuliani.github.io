@@ -1,0 +1,135 @@
+#+TITLE:  Alexandre Giuliani
+#+AUTHOR: AG
+#+EMAIL:  (concat "alexandre.giuliani" at-sign "synchrotron-soleil.fr"
+
+#+OPTIONS: toc:nil num:nil :org-html-postamble:t org-html-preamble:t tile:nil author:nil
+#+OPTIONS: creator:t d:nil date:t stat:t inline:t e:t c:t broken-links:t 
+
+#+HTML_HEAD: <link rel="icon" type="image/png" href="img/favicon-32x32.png" sizes="32x32" />
+#+HTML_HEAD_EXTRA: <script src='https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js'></script>
+#+HTML_HEAD_EXTRA: <script src='js/blog.js'></script>
+#+HTML_HEAD_EXTRA: <link rel='stylesheet' type='text/css' href='css/style.css'>
+#+LINK_HOME:  https://agiuliani.xyz
+
+#+HTML_DESCRIPTION: Personnal website
+#+HTML_DESCRIPTION: chemistry, physical chemistry, spectroscopy
+#+HTML_DESCRIPTION: science, chemistry, physical chemistry
+#+HTML_DESCRIPTION: spectroscopy, mass spectrometry, radiation, UV, ultraviolet
+#+HTML_KEYWORDS: chemistry, science, spectroscopy, interaction
+#+LANGUAGE:   en
+#+CATEGORY:   website
+
+#+SUBTITLE: Spectroscopy & Spectrometry
+#+HTML_DOCTYPE: html5
+
+#+NAME: banner
+#+BEGIN_EXPORT html
+<div class="navbar">
+  <ul>
+    <li><a href='index.html'>Home</a></li>
+    <li><a href='research.html'>Research</a></li>
+    <li class="dropdown">
+       <a href="javascript:void(0)"
+class="drobtn">Tools</a>
+       <div class="dropdown-content">
+       <a href="#sec:newtools">New ion activation methods</a>
+       <a href="#sec:ionspec">Ion spectroscopy</a>
+       <a href="#sec:XFP">X-ray foot printing </a>
+       <a href="#sec:SRCD">Circular dichroism </a>
+       <a href="#sec:PA">Photoabsorption </a>
+       <a href="#sec:softs">Softwares </a>
+       </div>
+    </li>
+    <li><a href='colleagues.html'>Colleagues</a></li>
+    <li><a href='about.html'>About me</a></li>
+    <li><a href='production.html'>Production</a></li>
+    <li><a href='outreach.html'>Outreach</a></li>
+    <li><a href='news.html'>News</a></li>
+  </ul>
+</div>
+#+END_EXPORT
+
+
+* Tools
+** *New ion activation methods for tandem mass spectrometry*
+:PROPERTIES:
+:CUSTOM_ID: sec:newtools
+:END:
+Mass spectrometry holds an important place in structural chemistry.  A typical mass spectrometer is composed of an ion source, a mass to charge ratio (/m/z/) analyzer and an ion detector. Thus, a mass spectrum is a representation of the ion abundance as measured by the detector as a function of the /m/z/ ratio, as illustrated in below.  Molar masses and stoechiometries may be determined from mass spectra.  The addition of another mass filtering stage, either in space or in time, allows a specific /m/z/ range, corresponding to a species of interest, to be selected and activated. During the activation step, ions receives internal energy, which ultimately leads to the fragmentation of the ion. This method is termed tandem mass spectrometry or MS/MS. When fragment ions are selected and activated in multiple successive steps, the process is referred to as MS^{n} [fn:tools1].
+
+
+The mean of activation in tandem MS is crucial as it determines to a large extend the outcomes of the process.  The most used method, referred to as collision induced dissociation (CID), is based on inelastic collisions between the targets and an inert gas. CID belongs to the slow heating class of methods in which the internal energy of the ions is gradually increased until a dissociation threshold is reached. Hence, CID activation leads principally to the dissociation of the weakest bonds. This characteristic prevent some systems to be analyzed by CID: such as those bearing labile groups or non-covalent assemblies. Gaining some control over the fragmentation phenomenon is therefore very appealing.
+
+The study of the spectroscopic properties of bioorganic ions in the gas phase, 
+
+** *Ion Spectroscopy*
+:PROPERTIES:
+:CUSTOM_ID: sec:ionspec
+:END:
+
+Spectroscopy of ions is not a trivial task. Indeed, it requires to confine high densities of charged particles within small volumes, during long enough period of time and the use of high brilliance photon sources.  Usually, ion spectroscopy is performed using merged beams setups, such as the [[https://doi.org/10.1016/j.elspec.2016.03.006][MAIA experiment]] at SOLEIL, in which large ionic currents are produced by [[https://en.wikipedia.org/wiki/Electron_cyclotron_resonance#ECR_ion_sources][ECR]] sources. The ion beam is then merged with monochromatic photons from the beamlines over ~1 m distance. These setups have the great advantage to provide absolute cross section measurements, but suffer from the restriction of the targets, mostly atomic, that can be ionized by [[https://en.wikipedia.org/wiki/Electron_cyclotron_resonance#ECR_ion_sources][ECR]] sources. In another concept, ion spectroscopy was performed in ion traps, in which the lower ionic target density produced by the classical ion sources was compensated by the ability to confine the ion longer, leading to very long irradiation times. This concept had been successfully implemented at Free Electron Lasers for infrared multiphoton dissociation spectroscopy, such as at [[https://www.fels-of-europe.eu/fel_facilities/ir_facilities/clio/][CLIO]] or at [[https://www.ru.nl/felix/facility-0/measurement-station/user-station-6-felion-4k-trap-machine/][FELIX]] but also using tunable laboratory lasers in the visible-UV range.  However, synchrotron radiation, which is orders of magnitude less powerful than lasers, had so far not been used for ionization of trapped ions.
+
+ I had the chance to participate to the proof of the concept of the use of synchrotron radiation to perform ion spectroscopy on stored ions in traps. In this work [fn:tools2],  performed at Elletra in 2008 [[doi:10.1103/PhysRevLett.100.223001][PRL 2008]] the photoionization of the xenon radical cation was measured in the XUV and compared to measurement from the merged beams experiments. It appeared that ion trap measurements were not affected by the presence of metastable species, which was the case with the merged beams data.
+
+Thank to a [[**2011-2009* ANR (white program) - /Synchrotron radiation for tandem mass spectrometry (SRMS2)/][grant] from the French national funding agency in 2009, we have coupled an ion trap mass spectrometer with the UV and VUV beamlines [[https://www.synchrotron-soleil.fr/fr/lignes-de-lumiere/DESIRS][DESIRS]] and [[https://www.synchrotron-soleil.fr/fr/lignes-de-lumiere/DISCO][DISCO]] [[[t45][J. Synchrotron Rad. 2011] and later with the soft X-rays [[https://www.synchrotron-soleil.fr/fr/lignes-de-lumiere/PLEIADES][PLEIADES]] beamline at SOLEIL.
+
+This setup takes profit from the potential of modern API sources such electrospray (ES), nano electrospray (NSI) or atmospheric pressure photoionization (APPI) to place in the gas phase systems which would be hardly possible to vaporize otherwise  [fn:tools3]. Hence it is possible to probe the spectroscopy and dynamic of a wide variety of targets isolated in the gas phase by action spectroscopy. Ions of interest produced by the source are selected and accumulated in the ion trap until the desired capacity is reached. The radiation is then admitted in the trap for a controlled amount of time, after which the trap is emptied and the products of the irradiation are analyzed. Repeating this process over a set of wavelength produces a set of tandem mass spectra leads to data such as [fn:tools4]
+
+From these data, the abundance of a particular ion may be measured and plotted as a function of the photon energy, leading to relative cross section for the individual process at the origin of the ionic signal considered.
+
+** TODO *X-ray oxidative foot printing*
+:PROPERTIES:
+:CUSTOM_ID: sec:XFP
+:END:
+
+** TODO *Synchrotron Radiation Circular Dichroism (SRCD)*
+:PROPERTIES:
+:CUSTOM_ID: sec:SRCD
+:END:
+
+** TODO *VUV absorption spectroscopy*
+:PROPERTIES:
+:CUSTOM_ID: sec:PA
+:END:
+
+** *Softwares*
+:PROPERTIES:
+:CUSTOM_ID: sec:softs
+:END:
+
+*** *Igor Pro*
+   I have been using Igor Pro from [[https://www.wavemetrics.com/][Wavemetrics]] since my diploma thesis (/mémoire de licence/) in Liège and I used to use it extensively for data treatment and to produce figures. I also use Igor for control and acquisition. Almost all my published data have been treated and produced in final form using Igor.
+
+*** *Org-mode*
+   Org-mode made me use [[https://www.gnu.org/software/emacs/][emacs]], a software which I could get into previously. I guessed I needed a sufficient incentive to overcome the barrier! Org-mode was that incentive. It changed drasticallt the way I worked.  Org-mode [fn:2] is originally a powerful tools for task management, projects planning, notes taking and writing documents. However, it offers a very useful way to literate programming [fn:3]. Gradually my data treatment shifts to org-mode and literate programming.
+
+
+* Footnotes
+[fn:2] https://orgmode.org/
+[fn:3] There is plenty of excellent resources on literate programming on the web. A non exhaustive list:
+https://academic.oup.com/comjnl/article/27/2/97/343244
+http://kitchingroup.cheme.cmu.edu/blog/category/literate-programming/ 
+http://www.cachestocaches.com/2018/6/org-literate-programming/
+https://orgmode.org/worg/org-contrib/babel/how-to-use-Org-Babel-for-R.html
+
+[fn:tools1]
+#+NAME:   fig:fig-1
+#+CAPTION: Illustration of the principles of a) mass spectrometry and b) tandem mass spectrometry analysis.
+#+ATTR_HTML: image :title MS and MS/MS  :style float:center;;
+[[file:img/tandemMS.jpg]]
+
+[fn:tools2]
+#+CAPTION: Photoionization cross section of the Xe^{+} cation measured using an ion trap (top) and the merged beams technique (bottom) are compared with theoretical results (thin lines), modified from .
+#+ATTR_HTML: image :title Ion trap vs merged beams  :style float:center;
+[[file:img/micra.jpg]]
+
+[fn:tools3]
+#+CAPTION: Scheme of principle of the coupling of the linear ion trap with three beamlines at SOLEIL.
+#+ATTR_HTML: image :title the SRMS2 project  :style float:center;
+[[file:img/SRMS2.jpg]]
+
+[fn:tools4]
+#+CAPTION: 2D representation of the activation of the single protonated ion [M+H]^{+} of substance P in the 8 to 16 eV, showing the production ion mass spectra as a funcion of the photon energy. More details are available here 
+#+ATTR_HTML: image :title Substance P activation :style float:center;
+[[file:img/ms2-matrix.jpg]]
+

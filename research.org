@@ -1,0 +1,69 @@
+#+TITLE:  Alexandre Giuliani
+#+AUTHOR: AG
+#+EMAIL:  (concat "alexandre.giuliani" at-sign "synchrotron-soleil.fr"
+
+#+OPTIONS: toc:nil num:nil :org-html-postamble:t org-html-preamble:t tile:nil author:nil
+#+OPTIONS: creator:t d:nil date:t stat:t inline:t e:t c:t broken-links:t 
+
+#+HTML_HEAD: <link rel="icon" type="image/png" href="img/favicon-32x32.png" sizes="32x32" />
+#+HTML_HEAD_EXTRA: <script src='https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js'></script>
+#+HTML_HEAD_EXTRA: <script src='js/blog.js'></script>
+#+HTML_HEAD_EXTRA: <link rel='stylesheet' type='text/css' href='css/style.css'>
+#+LINK_HOME:  https://agiuliani.xyz
+
+#+HTML_DESCRIPTION: Personnal website
+#+HTML_DESCRIPTION: chemistry, physical chemistry, spectroscopy
+#+HTML_DESCRIPTION: science, chemistry, physical chemistry
+#+HTML_DESCRIPTION: spectroscopy, mass spectrometry, radiation, UV, ultraviolet
+#+HTML_KEYWORDS: chemistry, science, spectroscopy, interaction
+#+LANGUAGE:   en
+#+CATEGORY:   website
+
+#+SUBTITLE: Spectroscopy & Spectrometry
+#+HTML_DOCTYPE: html5
+
+#+NAME: banner
+#+BEGIN_EXPORT html
+<div class="navbar">
+  <ul>
+    <li><a href='index.html'>Home</a></li>
+    <li class="dropdown">
+       <a href="javascript:void(0)"
+class="drobtn">Research</a>
+       <div class="dropdown-content">
+       <a href="#sec:interplay">Electronic structure</a>
+       <a href="#sec:noncov">Non covalent interactions</a>
+       <a href="#sec:structchem">Structural chemistry </a>
+       </div>
+    </li>
+    <li><a href='tools.html'>Tools</a></li>
+    <li><a href='colleagues.html'>Colleagues</a></li>
+    <li><a href='about.html'>About me</a></li>
+    <li><a href='production.html'>Production</a></li>
+    <li><a href='outteach.html'>Outreach</a></li>
+    <li><a href='news.html'>News</a></li>
+  </ul>
+</div>
+#+END_EXPORT
+
+* Research
+My research is concerned with the study of the electronic structure of ions and molecules. The electronic structure how describes the electrons of a system are distributed spatially and energetically. Geometric and electronic structures are intimately related and both structures are essential to the understanding of the chemical and physical properties of matter at an atomic and molecular scale [fn:1].
+
+** TODO Interplay between electronic and atomic structures of biological molecules
+:PROPERTIES:
+:CUSTOM_ID: sec:interplay
+:END:
+
+** TODO Understanding non-covalent interactions
+:PROPERTIES:
+:CUSTOM_ID: sec:noncov
+:END:
+
+** TODO Structural chemistry of bioorganic molecules using combination of spectroscopy and mass spectrometry
+:PROPERTIES:
+:CUSTOM_ID: sec:structchem
+:END:
+
+
+* Footnotes
+[fn:1]
