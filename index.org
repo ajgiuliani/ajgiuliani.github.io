@@ -39,7 +39,7 @@ class="drobtn">Home</a>
     <li><a href='colleagues.html'>Colleagues</a></li>
     <li><a href='about.html'>About me</a></li>
     <li><a href='production.html'>Production</a></li>
-    <li><a href='outreach.html'>Ourreach</a></li>
+    <li><a href='outreach.html'>Outreach</a></li>
     <li><a href='news.html'>News</a></li>
   </ul>
 </div>
