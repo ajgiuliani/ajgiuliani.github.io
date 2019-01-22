@@ -259,9 +259,9 @@ code {
   border: 1px solid #ccc;
 }
 table {
-  margin: auto;
+  /* margin: auto;
   margin-top: 1em;
-  margin-bottom: 1em;
+  margin-bottom: 1em; */
 }
 table + table {
   margin-top: 2em;
