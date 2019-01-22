@@ -198,6 +198,10 @@ A list is available from my institution repository [[https://prodinra.inra.fr/?l
 [[file:img/78.gif]]
 
 **** *77.*	/«Gas-phase VUV Photoionisation and Photofragmentation of the Silver Deuteride Nanocluster [Ag10D8L6]2+ (L = bis(diphenylphosphino)methane). A Joint Experimental and Theoretical Study»/ S. Daly, M. Krstic, A. Giuliani, R. Antoine, L. Nahon, A. Zavras, G. N. Khairallah, V. Bonacic-Koutecky*, P. Dugourd*, R. A. J. O'Hair*, *Phys. Chem. Chem. Phys.* 17 (2015) 25772-25777. doi:10.1039/c5cp01160d
+:PROPERTIES:
+:CUSTOM_ID: sec:t77
+:END:
+
 #+ATTR_HTML: alt picture ID 
 #+ATTR_HTML: :width 250 :style float:center;margin:-10px 0px -20px 20px; border:2px solid #ccc;
 [[file:img/77.gif]]
