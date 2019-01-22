@@ -106,11 +106,11 @@ From these data, the abundance of a particular ion may be measured and plotted a
 
 * Footnotes
 [fn:2] https://orgmode.org/
-[fn:3] There is plenty of excellent resources on literate programming on the web. A non exhaustive list:
-https://academic.oup.com/comjnl/article/27/2/97/343244
-http://kitchingroup.cheme.cmu.edu/blog/category/literate-programming/ 
-http://www.cachestocaches.com/2018/6/org-literate-programming/
-https://orgmode.org/worg/org-contrib/babel/how-to-use-Org-Babel-for-R.html
+[fn:3] There is plenty of excellent resources on literate programming on the web. A non exhaustive list:\\
+- https://academic.oup.com/comjnl/article/27/2/97/343244 \\
+- http://kitchingroup.cheme.cmu.edu/blog/category/literate-programming/ \\
+- http://www.cachestocaches.com/2018/6/org-literate-programming/ \\
+- https://orgmode.org/worg/org-contrib/babel/how-to-use-Org-Babel-for-R.html \\
 
 [fn:tools1]
 #+NAME:   :width 250 fig:fig-1
