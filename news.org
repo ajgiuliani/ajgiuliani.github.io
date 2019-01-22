@@ -39,7 +39,7 @@
 #+END_EXPORT
 
 * TODO News [fn:1]
-*** *<2019-01-22 Tue>* Our last results on radiation damage study based on DNA origami from our Universität Postdam colleagues is now out in [[doi:10.1039/C8CP06813E][*PCCP*]]
+**** *<2019-01-22 Tue>* Our last results on radiation damage study based on DNA origami from our Universität Postdam colleagues is now out in [[doi:10.1039/C8CP06813E][*PCCP*]]
 
 
 
