@@ -59,7 +59,7 @@ class="drobtn">Outreach</a>
 ** *2013*
 *** Press release from [[http://www.dijon.inra.fr/Toutes-les-actualites/Astringence][INRA]], [[http://www2.cnrs.fr/sites/communique/fichier/cp_canon_astringence_vdef.pdf][CNRS]], associated with [[file:production.org::#sec:t62][publication]] entitled /«Photodissociation and Dissociative Photoionization Mass Spectrometry of Proteins and Noncovalent Protein-Ligand Complexes»/ in Angewandte Chemie Int. Ed.
 
-*** Cover [fn:cover2013] of Angewandte Chemie Int. Ed. associated with our [[file:production.org::#sec:t62][publication]] entitled /«Photodissociation and Dissociative Photoionization Mass Spectrometry of Proteins and Noncovalent Protein-Ligand Complexes»/
+*** Inside cover [fn:cover2013] of Angewandte Chemie Int. Ed. associated with our [[file:production.org::#sec:t62][publication]] entitled /«Photodissociation and Dissociative Photoionization Mass Spectrometry of Proteins and Noncovalent Protein-Ligand Complexes»/
 
 
 ** *2012*
