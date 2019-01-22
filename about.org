@@ -54,6 +54,7 @@ class="drobtn">About me</a>
 #+END_EXPORT
 
 * About me
+My name is Alexandre Giuliani [fn:pict].
 
 My resumé is available here [[file:CV.pdf][file:img/pdf.png]]
 
@@ -164,4 +165,10 @@ My resumé is available here [[file:CV.pdf][file:img/pdf.png]]
 
 
 * Footnotes
+[fn:pict] 
+#+NAME:   :width 250 fig:fig-1
+#+CAPTION: Illustration of the principles of a) mass spectrometry and b) tandem mass spectrometry analysis.
+#+ATTR_HTML: image :title MS and MS/MS  :style float:center;;
+[[file:img/cartoonized_ID.png]]
+
 [fn:1] 18 on invitation.
