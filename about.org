@@ -53,10 +53,11 @@ class="drobtn">About me</a>
 </div>
 #+END_EXPORT
 
-* About me
-My name is Alexandre Giuliani [fn:pict].
+* About me[fn:pict]
+[[https://twitter.com/ajgiuliani][file:img/twitter_logo_small.png]]  [[https://orcid.org/0000-0003-1710-4933][file:img/orcid_logo_small.jpg]] [[https://www.scopus.com/authid/detail.uri?authorId=35944247700][file:img/scopus_logo_small.png]] [[http://www.researcherid.com/rid/C-1476-2011][file:img/rid_logo_small.png]] [[https://github.com/ajgiuliani/][file:img/github_logo_small.png]]
+[[https://www.researchgate.net/profile/Alexandre_Giuliani][file:img/RG_logo_small.png]]
 
-My resumé is available here [[file:CV.pdf][file:img/pdf.png]]
+My resumé is available here [[https://www.overleaf.com/read/vyrmkrxmszrx][file:img/overleaf-small.png]].
 
 ** CAREER
 :PROPERTIES:
@@ -73,6 +74,12 @@ My resumé is available here [[file:CV.pdf][file:img/pdf.png]]
 *** 2013 *Habilitation to conduct research* University Paris-Sud (FR), Faculty of Sciences. /Spectroscopy of ions and molecules of biological interest using synchrotron radiation./ Committee: A. Zehnhacker, E. Uggerud, E. De Pauw, O. Laprévote, P. Maitre, J. Delwiche.
 *** 2003 *Doctoral degree. in Sciences* University of Liège (BE) with Dr. M.-J. Hubin-Franskin, Obtained with the highest distinction and the congratulations of the jury. /Furan and some selected derivatives. A valence shell spectroscopic study by photon and electron impact methods./
 *** 1998 *Licence in Chemical Sciences* University of Liège (BE) with Dr. M.-J. Hubin-Franskin.
+** OTHER QUALIFICATIONS
+:PROPERTIES:
+:CUSTOM_ID: sec:otherqual
+:END:
+*** *2014* *Qualification for university professorship* CNU section 30 (dilute matter and optics) and 31 (theoretical, physical and analytical chemistry). This qualification is mandatory to apply for professorship positions in France.
+
 ** PRODUCTION
 :PROPERTIES:
 :CUSTOM_ID: sec:prod
@@ -92,7 +99,6 @@ My resumé is available here [[file:CV.pdf][file:img/pdf.png]]
 
 *** *2005* *Annual prize of the Royal Academy of Sciences, Letters and Fine Arts of Belgium*, Section of Mathematics and Physics, Brussels, Belgium.
 \\
-*** *Today-2014* *Qualification for university professorship* CNU section 30 (dilute matter and optics) and 31 (theoretical, physical and analytical chemistry). This qualification is mandatory to apply for professorship positions in France.
 
 ** STUDENTS MENTORSHIP
 :PROPERTIES:
@@ -167,7 +173,6 @@ My resumé is available here [[file:CV.pdf][file:img/pdf.png]]
 * Footnotes
 [fn:pict] 
 #+NAME:   :width 250 fig:fig-1
-#+CAPTION: Illustration of the principles of a) mass spectrometry and b) tandem mass spectrometry analysis.
 #+ATTR_HTML: image :title MS and MS/MS  :style float:center;;
 [[file:img/cartoonized_ID.png]]
 
