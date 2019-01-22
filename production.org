@@ -57,18 +57,15 @@ A list is available from my institution repository [[https://prodinra.inra.fr/?l
 :END:
 *** *2019*
 ****  *103.* /«Vacuum-UV induced DNA strand breaks – influence of the radiosensitizers 5-bromouracil and 8-bromoadenine»/  S. Vogel, K. Ebel, C. Heck,  R. M. Schürmann,  A. R. Milosavljević,  A. Giuliani,  Ilko Bald*, *Phys. Chem. Chem. Phys.* 2019 doi:10.1039/C8CP06813E
-#+ATTR_HTML: alt picture ID 
 #+ATTR_HTML: :width 200 :style float:center;margin:-10px 0px -20px 20px; border:2px solid #ccc;
 [[file:img/103.gif]]
 	
 ****   *102.*	/«Tuning photoionization mechanisms of molecular hybrid materials for EUV lithography applications»/ L. Wu,  M. Tiekink,  A. Giuliani,  L. Nahon,  S. Castellanos*, *J. Mater. Chem. C* 7 (2019) 33-37. doi:10.1039/C8TC05273E
-#+ATTR_HTML: alt picture ID 
 #+ATTR_HTML: :width 250 :style float:center;margin:-10px 0px -40px 20px; border:2px solid #ccc;
 [[file:img/102.gif]]
 
 *** *2018*
 **** *101.*	<<t101>> /«Spectroscopy and Photodissociation of the Perfluorooctanoate Anion»/ S. Douix, H. Dossmann, E. Nicol, D. Duflot, A. Giuliani*, *Chemistry – A European Journal* 24 (2018) 15572 – 15576. doi:10.1002/chem.201801997
-#+ATTR_HTML: alt picture ID 
 #+ATTR_HTML: :width 250 :style float:center;margin:-10px 0px -20px 20px; border:2px solid #ccc;
 [[file:img/101.gif]]
 
@@ -77,26 +74,21 @@ A list is available from my institution repository [[https://prodinra.inra.fr/?l
 :CUSTOM_ID: sec:t100
 :END:
 
-#+ATTR_HTML: alt picture ID 
 #+ATTR_HTML: :width 250 :style float:center;margin:-10px 0px -20px 20px; border:2px solid #ccc;
 [[file:img/100.gif]]
 
 **** *99.*   <<t99>> /«Radical Anions of Oxidized vs. Reduced Oxytocin: Influence of Disulfide Bridges on CID and Vacuum UV Photo-Fragmentation»/ L. MacAleese*, M. Girod, L. Nahon, A. Giuliani, R. Antoine, P. Dugourd, *J. Am. Soc. Mass Spectrom.* 29 (2018) 1826-1834. doi:10.1007/s13361-018-1989-8
-#+ATTR_HTML: alt picture ID 
 #+ATTR_HTML: :width 250 :style float:center;margin:-10px 0px -20px 20px; border:2px solid #ccc;
 [[file:img/99.png]]
 
 **** *98.*	/«Carotenoids: Experimental Ionization Energies and Capacity at Inhibiting Lipid Peroxidation in a Chemical Model of Dietary Oxidative Stress»/, P. Goupy, M. Carail, A. Giuliani, D. Duflot,  O. Dangles*, C. Caris-Veyrat, *J. Phys. Chem. B* 122 (2018) 5860–5869. doi:10.1021/acs.jpcb.8b03447
-#+ATTR_HTML: alt picture ID 
 #+ATTR_HTML: :width 250 :style float:center;margin:-10px 0px -20px 20px; border:2px solid #ccc;
 [[file:img/98.gif]]
 **** *97.*	/«Photo-Induced Fragmentation of a Tin-Oxo Cage Compound»/ J. Haitjema, L. Wu, A. Giuliani, L. Nahon, S. Castellanos, A. M. Brouwer*, *J. Photopolym. Sci. Technol.* 31(2) (2018) 243–247.  doi:10.2494/photopolymer.31.243
-#+ATTR_HTML: alt picture ID 
 #+ATTR_HTML: :width 200 :style float:center;margin:-10px 0px -20px 20px; border:2px solid #ccc;
 [[file:img/97.png]]
 
 **** *96.*   /«MS/MS-Guided Isolation of Clarinoside, a New Anti-Inflammatory Pentalogin Derivative»/ C. Audoin, A. Zampalégré, N. Blanchet, A. Giuliani, E. Roulland, O. Laprévote, G. Genta-Jouve*, *Molecules* 23 (2018) 1237. doi:10.3390/molecules23051237
-#+ATTR_HTML: alt picture ID 
 #+ATTR_HTML: :width 250 :style float:center;margin:-10px 0px -20px 20px; border:2px solid #ccc;
 [[file:img/96.jpg]]
 
@@ -105,95 +97,76 @@ A list is available from my institution repository [[https://prodinra.inra.fr/?l
 :PROPERTIES:
 :CUSTOM_ID: sec:t95
 :END:
-
-#+ATTR_HTML: alt picture ID 
 #+ATTR_HTML: :width 250 :style flot:center;margin:-10px 0px -20px 20px; border:2px solid #ccc;
 [[file:img/95.gif]]
 
 **** *94.*	 /«Gas-Phase Structural and Optical Properties of Homo- and Heterobimetallic Rhombic Dodecahedral Nanoclusters [Ag14–nCun(C≡CtBu)12X]+ (X = Cl and Br): Ion Mobility, VUV and UV Spectroscopy, and DFT Calculations»/ S. Daly , C. M. Choi , A. Zavras, M. Krstić, F. Chirot , T. U. Connell, S. J. Williams , P. S. Donnelly, R. Antoine , A. Giuliani , V. Bonačić-Koutecký*, P. Dugourd*, R. A. J. O’Hair*, *J. Phys. Chem. C*, 121(20) (2017) 10719–10727. doi:10.1021/acs.jpcc.7b02663
-#+ATTR_HTML: alt picture ID 
 #+ATTR_HTML: :width 250 :style float:center;margin:-10px 0px -20px 20px; border:2px solid #ccc;
 [[file:img/94.gif]]
 
 **** *93.*	 /«Investigation of secondary structure evolution of micellar casein powder upon aging by FTIR and SRCD: consequences on solubility»/ S. Nasser, A. Hédoux, A. Giuliani, C. Le Floch-Fouéré, V. Santé-Lhoutellier, I. de Waele, G. Delaplace*, *J. Sci. Food Agric.* 98 (2017) 2243-2250. doi:10.1002/jsfa.8711
-#+ATTR_HTML: alt picture ID 
 #+ATTR_HTML: :width 250 :style float:center;margin:-10px 0px -20px 20px; border:2px solid #ccc;
 [[file:img/93.jpg]]
 
 **** *92.*	 /«Multiple electron capture from isolated protein poly-anions in collision with slow highly charged ions»/ A. R. Milosavljević*,  P. Rousseau,  A. Domaracka,  B. A. Huber,  A. Giuliani, *Phys. Chem. Chem. Phys.* 19 (2017)19691-19698. doi:10.1039/C7CP02075A
-#+ATTR_HTML: alt picture ID 
 #+ATTR_HTML: :width 250 :style float:center;margin:-10px 0px -20px 20px; border:2px solid #ccc;
 [[file:img/92.gif]]
 
 **** *91.*	 /«Polyaromatic disordered carbon grains as carriers of the UV bump: Far-UV to mid-IR spectroscopy of laboratory analogs»/ L. Gavilan*, K.C. Le, T. Pino, I. Alata, A. Giuliani, E. Dartois, *Astronomy & Astrophysics* 607 (2017) A73. doi:10.1051/0004-6361/201730712
-#+ATTR_HTML: alt picture ID 
 #+ATTR_HTML: :width 250 :style float:center;margin:-10px 0px -20px 20px; border:2px solid #ccc;
 [[file:img/91.png]]
 
 **** *90.*	 <<t90>> /«SOLEIL shining on the solution-state structure of biomacromolecules by synchrotron X-ray footprinting at the Metrology beamline»/ A. Baud, L. Aymé, F. Gonnet, I. Salard, Y. Gohon, P. Jolivet, K. Brodolin, P. Da Silva, A. Giuliani, B. Sclavi, T. Chardot, P. Mercère, P. Roblin,  R. Daniel*, *J.  Synchrotron Rad.* 24 (2017) 576-585. doi:10.1107/S1600577517002478
-#+ATTR_HTML: alt picture ID 
 #+ATTR_HTML: :width 300 :style float:center;margin:-10px 0px -20px 20px; border:2px solid #ccc;
 [[file:img/90.png]]
 
 **** *89.*	 <<t89>> /«Structural proteomics: Topology and relative accessibility of plant lipid droplet associated proteins»/ P. Jolivet, L. Aymé, A. Giuliani, F. Wien, T. Chardot, Y. Gohon*, *J. proteomics* 169 (2017) 87-98. doi:10.1016/j.jprot.2017.09.005
-#+ATTR_HTML: alt picture ID 
 #+ATTR_HTML: :width 300 :style float:center;margin:-10px 0px -20px 20px; border:2px solid #ccc;
 [[file:img/89.jpg]]
 
 *** *2016*
 **** *88.*	<<t88>> /«Charge Transfer Dissociation of Complex Oligosaccharides: Comparison with Collision-Induced Dissociation and Extreme Ultraviolet Dissociative Photoionization»/ D. Ropartz, P. Li, M. Fanuel, A. Giuliani, H. Rogniaux*, G.P. Jackson, *J. Am. Soc. Mass Spectrom.* 27 (2016) 1614-1619. doi:10.1007/s13361-016-1453-6
-#+ATTR_HTML: alt picture ID 
 #+ATTR_HTML: :width 150 :style float:center;margin:-10px 0px -20px 20px; border:2px solid #ccc;
 [[file:img/88.gif]]
 
 **** *87.*	<<t87>> /«Online coupling of high-resolution chromatography with extreme UV photon activation tandem mass spectrometry: Application to the structural investigation of complex glycans by dissociative photoionization»/ D. Ropartz*, A. Giuliani, M. Fanuel, C. Hervé, M. Czjzek, H. Rogniaux, *Analytica Chim. Acta* 933 (2016) 1-9. doi:10.1016/j.aca.2016.05.036
-#+ATTR_HTML: alt picture ID 
 #+ATTR_HTML: :width 300 :style float:center;margin:-10px 0px -20px 20px; border:2px solid #ccc;
 [[file:img/87.jpg]]
 
 **** *86.*	<<t86>> /«Single-Photon, Double Photodetachment of Nickel Phthalocyanine Tetrasulfonic Acid 4- Anions»/ S. Daly, M. Girod, M. Vojkovic, A. Giuliani, R. Antoine, L. Nahon, R. A. J. O’Hair*, P. Dugourd*, *J. Phys. Chem. Lett.* 7 (2016) 2586-2590. doi:10.1021/acs.jpclett.6b01030
-#+ATTR_HTML: alt picture ID 
 #+ATTR_HTML: :width 250 :style float:center;margin:-10px 0px -20px 20px; border:2px solid #ccc;
 [[file:img/86.gif]]
 
 **** *85.*	/«Design and performance of an instrument for electron impact tandem mass spectrometry and action spectroscopy of mass/charge selected macromolecular ions stored in RF ion trap»/ M. Lj. Rankovic, A. Giuliani, A. R. Milosavljevic*, *Eur. J. Phys. D* 70 (2016) 125. doi:10.1140/epjd/e2016-70108-7
-#+ATTR_HTML: alt picture ID 
 #+ATTR_HTML: :width 300 :style float:center;margin:-10px 0px -20px 20px; border:2px solid #ccc;
 [[file:img/85.jpg]]
 
 **** *84.*	/«Probing the solution structure of Factor H using hydroxyl radical protein footprinting and cross-linking»/ A. Baud, F. Gonnet, I. Salard, M. Le Mignon, A. Giuliani, P. Mercère, B. Sclavi, R. Daniel*, *Biochemical Journal* 473 (2016) 1805-1819. doi:10.1042/BCJ20160225
-#+ATTR_HTML: alt picture ID 
 #+ATTR_HTML: :width 300 :style float:center;margin:-10px 0px -20px 20px; border:2px solid #ccc;
 [[file:img/84.png]]
 
 **** *83.*	/«VUV photo-processing of PAH cations: quantitative study on the ionization versus fragmentation processes»/ J. Zhen, S. Rodriguez Castillo, C. Joblin*, G. Mulas, H. Sabbah, A. Giuliani, L. Nahon, S. Martin, J.-P. Champeaux, P. M. Mayer, *The Astrophysical Journal* 822 (2016). doi:10.3847/0004-637X/822/2/113
-#+ATTR_HTML: alt picture ID 
 #+ATTR_HTML: :width 300 :style float:center;margin:-10px 0px -20px 20px; border:2px solid #ccc;
 [[file:img/83.png]]
 
 **** *82.*	/«Electron impact action spectroscopy of mass / charge selected macromolecular ions : Inner-shell excitation of ubiquitin protein Electron impact action spectroscopy of mass / charge selected macromolecular ions : Inner-shell excitation of ubiquitin protein»/ M. Lj. Rankovic, A. Giuliani*, A. R. Milosavljevic*, *Appl. Phys. Lett.* 108 (2016 ) 064101. doi:10.1063/1.4941798
-#+ATTR_HTML: alt picture ID 
 #+ATTR_HTML: :width 250 :style float:center;margin:-10px 0px -20px 20px; border:2px solid #ccc;
 [[file:img/82.png]]
 
 **** *81.*	/«VUV spectroscopy of carbon dust analogs: contribution to interstellar extinction»/ L. Gavilan*, I. Alata, K.C. Le, T. Pino, A. Giuliani, E Dartois, *Astronomy and Astrophysics* 586 (2015) A106. doi:10.1051/0004-6361/201527098
-#+ATTR_HTML: alt picture ID 
 #+ATTR_HTML: :width 250 :style float:center;margin:-10px 0px -20px 20px; border:2px solid #ccc;
 [[file:img/81.png]]
 
 *** *2015*
 **** *80.*	/«VUV action spectroscopy of protonated leucine-enkephalin peptide in the 6-14 eV range»/ M. Lj. Ranković, F. Canon, L. Nahon, A. Giuliani and A. R. Milosavljević*, *J. Chem. Phys.* 143 (2015 ) 244311. doi:10.1063/1.4939080
-#+ATTR_HTML: alt picture ID 
 #+ATTR_HTML: :width 250 :style float:center;margin:-10px 0px -20px 20px; border:2px solid #ccc;
 [[file:img/80.png]]
 
 **** *79.*	/«Using DNA Origami Nanostructures to Determine Absolute Cross Sections for UV Photon-Induced DNA Strand Breakage»/ S. Vogel, J. Rackwitz, R. Schürmann, J. Prinz, A. R. Milosavljevic, M. Refregiers, A. Giuliani, I. Bald*, *J. Phys. Chem. Lett.* 6 (2015 ) 4589–4593. doi:10.1021/acs.jpclett.5b02238
-#+ATTR_HTML: alt picture ID 
 #+ATTR_HTML: :width 250 :style float:center;margin:-10px 0px -20px 20px; border:2px solid #ccc;
 [[file:img/79.gif]]
 
 **** *78.*	<<t78>> /«K-Shell Excitation and Ionization of a Gas-Phase Protein: Interplay between Electronic Structure and Protein Folding»/ A. R. Milosavljević*, C. Nicolas, M. L. Ranković, F. Canon, C. Miron, and A. Giuliani, *J. Phys. Chem. Lett.* 6 (2015 ) 3132–3138. doi:10.1021/acs.jpclett.5b01288
-#+ATTR_HTML: alt picture ID 
 #+ATTR_HTML: :width 250 :style float:center;margin:-10px 0px -20px 20px; border:2px solid #ccc;
 [[file:img/78.gif]]
 
@@ -201,18 +174,14 @@ A list is available from my institution repository [[https://prodinra.inra.fr/?l
 :PROPERTIES:
 :CUSTOM_ID: sec:t77
 :END:
-
-#+ATTR_HTML: alt picture ID 
 #+ATTR_HTML: :width 250 :style float:center;margin:-10px 0px -20px 20px; border:2px solid #ccc;
 [[file:img/77.gif]]
 
 **** *76.*	/«Binding site of different tannins on a human salivary proline-rich protein evidenced by dissociative photoionization tandem mass spectrometry»/ F. Canon*, S. Ployon, J.-P. Mazauric, P. Sarni-Manchado, M. Réfrégiers, A. Giuliani, V. Cheynier, *Tetrahedron* 71 (2015) 3039-3044. doi:10.1016/j.tet.2014.11.013
-#+ATTR_HTML: alt picture ID 
 #+ATTR_HTML: :width 250 :style float:center;margin:-10px 0px -20px 20px; border:2px solid #ccc;
 [[file:img/76.jpg]]
 
 **** *75.*	<<t75>> /«Action spectroscopy of a protonated peptide in the ultraviolet range»/ F. Canon, A. R. Milosavljević, L. Nahon, A. Giuliani*, *Phys. Chem. Chem. Phys.* 39 (2015) 25725-25733 doi:10.1039/c4cp04762a
-#+ATTR_HTML: alt picture ID 
 #+ATTR_HTML: :width 250 :style float:center;margin:-10px 0px -20px 20px; border:2px solid #ccc;
 [[file:img/75.gif]]
 
@@ -220,13 +189,10 @@ A list is available from my institution repository [[https://prodinra.inra.fr/?l
 :PROPERTIES:
 :CUSTOM_ID: sec:t74
 :END:
-
-#+ATTR_HTML: alt picture ID 
 #+ATTR_HTML: :width 250 :style float:center;margin:-10px 0px -20px 20px; border:2px solid #ccc;
 [[file:img/74.gif]]
 
 **** *73.*	/«Exploring the peptide fragmentation mechanisms under atmospheric pressure photoionization using tunable VUV synchrotron radiation » / M. Méjean, A. Giuliani, A. Brunelle, D. Touboul*, *Int. J. Mass Spectrom.* 379 (2015) 80-86. doi:10.1016/j.ijms.2014.12.011
-#+ATTR_HTML: alt picture ID 
 #+ATTR_HTML: :width 250 :style float:center;margin:-10px 0px -20px 20px; border:2px solid #ccc;
 [[file:img/73.jpg]]
 
@@ -234,14 +200,11 @@ A list is available from my institution repository [[https://prodinra.inra.fr/?l
 :PROPERTIES:
 :CUSTOM_ID: sec:t72
 :END:
-
-#+ATTR_HTML: alt picture ID 
 #+ATTR_HTML: :width 250 :style float:center;margin:-10px 0px -20px 20px; border:2px solid #ccc;
 [[file:img/72.gif]]
 
 *** *2014*
 **** *71.*	/«Determination of ionization energies of a monoterpene series by atmospheric pressure photoionization using tunable vacuum ultraviolet synchrotron radiation»/ M. Méjean, A. Giuliani, A. Brunelle, D. Touboul*, *Eur. J. Mass Spectrom.* 20 (2014) 403-407. doi:10.1255/ejms.1291
-#+ATTR_HTML: alt picture ID 
 #+ATTR_HTML: :width 250 :style float:center;margin:-10px 0px -20px 20px; border:2px solid #ccc;
 [[file:img/71.png]]
 
@@ -251,32 +214,26 @@ A list is available from my institution repository [[https://prodinra.inra.fr/?l
 [[file:img/70.png]]
 
 **** *69.*	<<t69>> /«Energy-Dependent UV Photodissociation of Gas-Phase Adenosine Monophosphate Nucleotide Ions: The Role of a Single Solvent Molecule»/ A. R. Milosavljevic*, V. Z. Cerovski, F. Canon, M. L. Ranković, N. Škoro, L. Nahon, A. Giuliani, *J. Phys. Chem. Lett.* 5 (2014) 1994-1999. doi:10.1021/jz500696b
-#+ATTR_HTML: alt picture ID 
 #+ATTR_HTML: :width 250 :style float:center;margin:-10px 0px -20px 20px; border:2px solid #ccc;
 [[file:img/69.gif]]
 
 **** *68.*	/«Multiple Electron Ejection from Proteins Resulting from Single-Photon Excitation in the Valence Shell»/ R. Antoine*, Q. Enjalbert, L. MacAleese, P. Dugourd, A. Giuliani, L. Nahon, *The Journal of Physical Chemistry Letters* 5 (2014) 1666–1671. doi:10.1021/jz500489s
-#+ATTR_HTML: alt picture ID 
 #+ATTR_HTML: :width 250 :style float:center;margin:-10px 0px -20px 20px; border:2px solid #ccc;
 [[file:img/68.gif]]
 
 **** *67.*	/«VUV photofragmentation of protonated leucine-enkephalin peptide dimer below ionization energy»/ A. R. Milosavljević*, V. Z. Cerovski, M. L. Ranković, F. Canon, L. Nahon, A. Giuliani, *The European Physical Journal D* 68 (2014) 68. doi:10.1140/epjd/e2014-40826-y
-#+ATTR_HTML: alt picture ID 
 #+ATTR_HTML: :width 250 :style float:center;margin:-10px 0px -20px 20px; border:2px solid #ccc;
 [[file:img/67.png]]
 
 **** *66.*	<<t66>> /«Contribution of Synchrotron Radiation to photoactivation studies of biomolecular ions in the gas phase»/ A. Giuliani*, A. R. Milosavljević, F. Canon, L. Nahon, *Mass Spectrom. Rev.*   33(6) (2014) 424-441. doi:10.1002/mas.21398
-#+ATTR_HTML: alt picture ID 
 #+ATTR_HTML: :width 250 :style float:center;margin:-10px 0px -20px 20px; border:2px solid #ccc;
 [[file:img/66.png]]
 
 **** *65.* 	/«Synthetic oligomer analysis using atmospheric pressure photoionization mass spectrometry at different photon energies » / B. Desmazières, V. Legros, A. Giuliani, W. Buchmann*, *Analytica Chim. Acta* 808 (2014) 220–230. doi:10.1016/j.aca.2013.11.036
-#+ATTR_HTML: alt picture ID 
 #+ATTR_HTML: :width 250 :style float:center;margin:-10px 0px -20px 20px; border:2px solid #ccc;
 [[file:img/65.jpg]]
 
 **** *64.* 	<<t64>> /«Deciphering the structure of isomeric oligosaccharides in a complex mixture by tandem mass spectrometry: Photon activation with vacuum ultra-violet brings unique information and enables definitive structure assignment»/ D. Ropartz*, J. Lemoine, A. Giuliani, Y. Bittebière, Q. Enjalbert, R. Antoine, P. Dugourd, M. C. Ralet, H. Rogniaux, *Analytica Chim. Acta* 807 (2014) 84-95. doi:10.1016/j.aca.2013.11.018
-#+ATTR_HTML: alt picture ID 
 #+ATTR_HTML: :width 250 :style float:center;margin:-10px 0px -20px 20px; border:2px solid #ccc;
 [[file:img/64.jpg]]
 
@@ -290,8 +247,6 @@ A list is available from my institution repository [[https://prodinra.inra.fr/?l
 :PROPERTIES:
 :CUSTOM_ID: sec:t62
 :END:
-
-#+ATTR_HTML: alt picture ID 
 #+ATTR_HTML: :width 300 :style float:center;margin:-10px 0px -20px 20px; border:2px solid #ccc;
 [[file:img/62.gif]]
 
@@ -299,8 +254,6 @@ A list is available from my institution repository [[https://prodinra.inra.fr/?l
 :PROPERTIES:
 :CUSTOM_ID: sec:t61
 :END:
-
-#+ATTR_HTML: alt picture ID 
 #+ATTR_HTML: :width 250 :style float:center;margin:-10px 0px -20px 20px; border:2px solid #ccc;
 [[file:img/61.gif]]
 
@@ -308,38 +261,30 @@ A list is available from my institution repository [[https://prodinra.inra.fr/?l
 :PROPERTIES:
 :CUSTOM_ID: sec:t60
 :END:
-
-#+ATTR_HTML: alt picture ID 
 #+ATTR_HTML: :width 250 :style float:center;margin:-10px 0px -20px 20px; border:2px solid #ccc;
 [[file:img/60.gif]]
 
 **** *59.*	<<t59>> /«Vacuum Ultraviolet Action Spectroscopy of Polysaccharides»/ Q. Enjalbert, C. Brunet, A. Vernier, A.-R. Allouche, R. Antoine*, P. Dugourd, J. Lemoine, A. Giuliani, L. Nahon, *J. Am. Soc. Mass Spectrom.* 24 (2013) 1271–9. doi:10.1007/s13361-013-0657-2
-#+ATTR_HTML: alt picture ID 
 #+ATTR_HTML: :width 250 :style float:center;margin:-10px 0px -20px 20px; border:2px solid #ccc;
 [[file:img/59.gif]]
 
 **** *58.*	/«VUV photochemistry simulation of planetary upper atmosphere using synchrotron radiation»/ N. Carrasco*, A. Giuliani*, J.-J. Correia, G. Cernogora, *J. Synchrotron Rad.* 20 (2013) 587–90. doi:10.1107/S0909049513013538
-#+ATTR_HTML: alt picture ID 
 #+ATTR_HTML: :width 250 :style float:center;margin:-10px 0px -20px 20px; border:2px solid #ccc;
 [[file:img/58.png]]
 
 **** *57.*	/«Fold of an oleosin targeted to cellular oil bodies»/ J.-D. Vindigni, F. Wien, A. Giuliani, Z. Erpapazoglou, R. Tache, F. Jagic, T. Chardot, Y. Gohon, M. Froissard*, *Biochim. Biophys. Acta* 1828 (2013) 1881–8. doi:10.1016/j.bbamem.2013.04.009
-#+ATTR_HTML: alt picture ID 
 #+ATTR_HTML: :width 250 :style float:center;margin:-10px 0px -20px 20px; border:2px solid #ccc;
 [[file:img/57.jpg]]
 
 **** *56.*	/«Titan's atmosphere simulation experiment using continuum UV-VUV synchrotron radiation»/ Z. Peng, T. Gautier, N. Carrasco*, P. Pernot, A. Giuliani*, A. Mahjoub, J.-J. Correia, A. Buch, Y. Bénilan, C. Szopa, G. Cernogora, *J. Geograph. Res. Planets.* 118 (2013) 778-788 doi:10.1002/jgre.20064
-#+ATTR_HTML: alt picture ID 
 #+ATTR_HTML: :width 250 :style float:center;margin:-10px 0px -20px 20px; border:2px solid #ccc;
 [[file:img/56.png]]
 
 **** *55.*	/«Aggregation of the salivary proline-rich protein IB5 in presence of the tannin EgCG»/ F. Canon, F. Paté, V. Cheynier, P. Sarni-Manchado, A. Giuliani, J. Pérez, D. Durand, J. Li, B. Cabane*, *Langmuir* 29(6) (2103) 1926–1937. doi:10.1021/la3041715
-#+ATTR_HTML: alt picture ID 
 #+ATTR_HTML: :width 250 :style float:center;margin:-10px 0px -20px 20px; border:2px solid #ccc;
 [[file:img/55.gif]]
 
 **** *54.*	/«Photo-induced electron detachment of protein polyanions in the VUV range»/ C. Brunet, R. Antoine*, P. Dugourd, F. Canon, A. Giuliani, L. Nahon, *J. Chem. Phys.* 138 (2013) 064301. doi:10.1063/1.4790165
-#+ATTR_HTML: alt picture ID 
 #+ATTR_HTML: :width 250 :style float:center;margin:-10px 0px -20px 20px; border:2px solid #ccc;
 [[file:img/54.gif]]
 
@@ -348,43 +293,34 @@ A list is available from my institution repository [[https://prodinra.inra.fr/?l
 :PROPERTIES:
 :CUSTOM_ID: sec:t53
 :END:
-
-#+ATTR_HTML: alt picture ID 
 #+ATTR_HTML: :width 250 :style float:center;margin:-10px 0px -20px 20px; border:2px solid #ccc;
 [[file:img/53.gif]]
 
 **** *52.*	/«DISCO synchrotron-radiation circular-dichroism endstation at SOLEIL»/ M. Réfrégiers*, F. Wien, H.-P. Ta, L. Premvardhan, S. Bac, F. Jamme, V. Rouam, B. Lagarde, F. Polack, J.-L. Giorgetta, J.-P. Ricaud, M. Bordessoule, A. Giuliani, *J. Synchrotron Rad.*, 19 (2012) 831-835. doi:10.1107/S0909049512030002
-#+ATTR_HTML: alt picture ID 
 #+ATTR_HTML: :width 250 :style float:center;margin:-10px 0px -20px 20px; border:2px solid #ccc;
 [[file:img/52.gif]]
 
 **** *51.* 	/«Atmospheric pressure photoionization study of post-translational modifications: The case of palmitoylation»/ A. Bagag, A. Giuliani, M. Réfrégiers, F. Le Naour*, *Int. J. Mass Spectrom.* 328-329 (2012) 23-27. doi:10.1016/j.ijms.2012.07.021
-#+ATTR_HTML: alt picture ID 
 #+ATTR_HTML: :width 250 :style float:center;margin:-10px 0px -20px 20px; border:2px solid #ccc;
 [[file:img/51.jpg]]
 
 **** *50.*	/«Atmospheric pressure photoionization mass spectrometry of guanine using tunable synchrotron VUV radiation»/ J. Allegrand, D. Touboul*, A. Giuliani, A. Brunelle, O. Laprévote, *Int. J. Mass Spectrom.* 321-322 (2012) 14–8. doi:10.1016/j.ijms.2012.05.009
-#+ATTR_HTML: alt picture ID 
 #+ATTR_HTML: :width 250 :style float:center;margin:-10px 0px -20px 20px; border:2px solid #ccc;
 [[file:img/50.jpg]]
 
 **** *49.*	/«Atmospheric pressure photoionization using tunable VUV synchrotron radiation»/ A. Giuliani*, J.-L. Giorgetta, J.-P Ricaud, F. Jamme, V. Rouam, F. Wien, O.  Laprévote, M. Réfrégiers, *Nucl. Instrum. Methods Phys. Res. B*,  279 (2012) 114-117. doi:10.1016/j.nimb.2011.10.038
-#+ATTR_HTML: alt picture ID 
 #+ATTR_HTML: :width 350 :style float:center;margin:-10px 0px -20px 20px; border:2px solid #ccc;
 [[file:img/49.png]]
 
 **** *48.*	/«Fast in vacuo photon shutter for synchrotron radiation quadrupole ion trap tandem mass spectrometry»/ A.R. Milosavljević*, C. Nicolas, J.-F. Gil, F. Canon, M. Réfrégiers, L. Nahon, A. Giuliani, *Nucl. Instrum. Methods Phys. Res. B*, 279 (2012) 34-36. doi:10.1016/j.nimb.2011.10.032
-#+ATTR_HTML: alt picture ID 
 #+ATTR_HTML: :width 250 :style float:center;margin:-10px 0px -20px 20px; border:2px solid #ccc;
 [[file:img/48.png]]
 
 **** *47.*	/«Mid- and far-infrared absorption spectroscopy of Titan’s aerosols analogues»/ T. Gautier*, N. Carrasco, A. Mahjoub, S. Vinatier, A. Giuliani, C. Szopa, C.M. Anderson, J.-J. Correia, P. Dumas, G. Cernogora,  *Icarus* 221 (2012) 320–327. doi:10.1016/j.icarus.2012.07.025
-#+ATTR_HTML: alt picture ID 
 #+ATTR_HTML: :width 250 :style float:center;margin:-10px 0px -20px 20px; border:2px solid #ccc;
 [[file:img/47.png]]
 
 **** *46.*	<<t46>> /«Gas-Phase Protein Inner-Shell Spectroscopy by Coupling an Ion Trap with a Soft X-ray Beamline»/ A. R. Milosavljević*, F. Canon, C. Nicolas, C. Miron, L. Nahon, A. Giuliani*. *J. Phys. Chem. Lett.*, 3 (2012) 1191−1196. doi:10.1021/jz300324z
-#+ATTR_HTML: alt picture ID 
 #+ATTR_HTML: :width 250 :style float:center;margin:-10px 0px -20px 20px; border:2px solid #ccc;
 [[file:img/46.gif]]
 
@@ -392,24 +328,19 @@ A list is available from my institution repository [[https://prodinra.inra.fr/?l
 :PROPERTIES:
 :CUSTOM_ID: sec:t45
 :END:
-
-#+ATTR_HTML: alt picture ID 
 #+ATTR_HTML: :width 250 :style float:center;margin:-10px 0px -20px 20px; border:2px solid #ccc;
 [[file:img/45.gif]]
 
 **** *44.*	<<t44>> /«Formation and Fragmentation of Radical Peptide Anions: Insights from Vacuum Ultra Violet Spectroscopy»/ C. Brunet, R. Antoine*, P. Dugourd, F. Canon, A. Giuliani, L. Nahon, *J. Am. Soc. Mass Spectrom.* 23(2) (2012) 274-281. doi:10.1007/s13361-011-0285-7
-#+ATTR_HTML: alt picture ID 
 #+ATTR_HTML: :width 250 :style float:center;margin:-10px 0px -20px 20px; border:2px solid #ccc;
 [[file:img/44.gif]]
 
 *** *2011*
 **** *43.*	/«Separation of peptides from detergents using ion mobility spectrometry»/ A. Bagag, A. Giuliani, F. Canon, M. Refregiers, F. Le Naour*, *Rapid Commun. Mass Spectrom.* 25 (2011) 3436-3440. doi:10.1002/rcm.5242
-#+ATTR_HTML: alt picture ID 
 #+ATTR_HTML: :width 250 :style float:center;margin:-10px 0px -20px 20px; border:2px solid #ccc;
 [[file:img/43.png]]
 
 **** *42.*	/«Gas Phase Photo-Formation and Vacuum UV Photofragmentation Spectroscopy of Tryptophan and Tyrosine Radical Containing Peptides»/ C. Brunet, R. Antoine*, B.-R. Allouche, P. Dugourd, F. Canon, A. Giuliani, L. Nahon, *J. Phys. Chem. A*, 115 (2011) 8933-8939. doi:10.1021/jp205617x
-#+ATTR_HTML: alt picture ID 
 #+ATTR_HTML: :width 250 :style float:center;margin:-10px 0px -20px 20px; border:2px solid #ccc;
 [[file:img/42.gif]]
 
@@ -417,44 +348,35 @@ A list is available from my institution repository [[https://prodinra.inra.fr/?l
 :PROPERTIES:
 :CUSTOM_ID: sec:t41
 :END:
-
-#+ATTR_HTML: alt picture ID 
 #+ATTR_HTML: :width 250 :style float:center;margin:-10px 0px -20px 20px; border:2px solid #ccc;
 [[file:img/41.png]]
 
 **** *40.*	/«Photoionization study of Kr+ and Xe+ ions with the combined use of a merged-beam set-up and an ion trap»/ J. M. Bizau*, C. Blancard, M. Coreno, D. Cubaynes, C. Dehon, N. El Hassan, F. Folkmann, M. F. Gharaibeh, A. Giuliani, J. Lemaire, A.R. Milosavljevic, C. Nicolas, R. Thissen, *J. Phys. B.* 44 (2011) 055205. doi:10.1088/0953-4075/44/5/055205
-#+ATTR_HTML: alt picture ID 
 #+ATTR_HTML: :width 250 :style float:center;margin:-10px 0px -20px 20px; border:2px solid #ccc;
 [[file:img/40.png]]
 
 **** *39.*	/«High water solubility and fold in amphipols of proteins with large hydrophobic regions: oleosins and caleosin from seed lipid bodies»/ Y. Gohon, J.-D. Vindigni, A. Pallier, F. Wien, H. Celia, A. Giuliani, C. Tribet, T. Chardot, P. Briozzo*, *Biochim. Biophys. Acta* 1808 (2011) 706–716. doi:10.1016/j.bbamem.2010.12.002
-#+ATTR_HTML: alt picture ID 
 #+ATTR_HTML: :width 250 :style float:center;margin:-10px 0px -20px 20px; border:2px solid #ccc;
 [[file:img/39.png]]
 
 **** *38.*	/«Photoionization of a protein isolated in vacuo»/ A. R. Milosavljevic*, C. Nicolas, J. Lemaire, C. Dehon, R. Thissen, J.-M. Bizau, M. Réfrégiers, L. Nahon, A. Giuliani*, *Phys. Chem. Chem. Phys.*, 13 (2011) 15432-15436. doi:10.1039/c1cp21211g
-#+ATTR_HTML: alt picture ID 
 #+ATTR_HTML: :width 250 :style float:center;margin:-10px 0px -20px 20px; border:2px solid #ccc;
 [[file:img/38.gif]]
 
 **** *37.*	/«Atmospheric Pressure Photoionization of Peptides»/ A. Bagag, A. Giuliani*, O. Laprévote, *Int. J. Mass Spectrom.* 299 (2011) 1-4. doi:10.1016/j.ijms.2010.08.010
-#+ATTR_HTML: alt picture ID 
 #+ATTR_HTML: :width 250 :style float:center;margin:-10px 0px -20px 20px; border:2px solid #ccc;
 [[file:img/37.jpg]]
 
 *** *2010*
 **** *36.*	/«Structural study of acetogenins by tandem mass spectrometry under high and low collision energy»/ J. Allegrand, D. Touboul*, I. Schmitz-Afonso, V. Guerineau, A. Giuliani, J. Le Ven, P. Champy, O. Laprévote, *Rapid Commun. Mass Spectrom.* 24 (2010) 3602-3608. doi:10.1002/rcm.4805
-#+ATTR_HTML: alt picture ID 
 #+ATTR_HTML: :width 250 :style float:center;margin:-10px 0px -20px 20px; border:2px solid #ccc;
 [[file:img/36.png]]
 
 **** *35.*	/«Synchrotron UV Fluorescence Microscopy Uncovers New Probes in Cells and Tissues»/ F. Jamme, S. Vilette, A. Giuliani, V. Rouam, F. Wien, B. Lagarde, M. Réfrégiers*, *Microscopy and Microanalysis* 16 (2010) 507-514. doi:10.1017/S1431927610093852
-#+ATTR_HTML: alt picture ID 
 #+ATTR_HTML: :width 250 :style float:center;margin:-10px 0px -20px 20px; border:2px solid #ccc;
 [[file:img/35.png]]
 
 **** *34.*	/«Ability of a salivary intrinsically unstructured protein to bind different tannin targets revealed by mass spectrometry»/ F. Canon, A. Giuliani, F. Paté, P Sarni-Manchado, *Anal. Bioanal. Chem.* 398 (2010) 815-822. doi:10.1007/s00216-010-3997-9
- #+ATTR_HTML: alt picture ID 
 #+ATTR_HTML: :width 250 :style float:center;margin:-10px 0px -20px 20px; border:2px solid #ccc;
 [[file:img/34.gif]]
 
@@ -463,178 +385,144 @@ A list is available from my institution repository [[https://prodinra.inra.fr/?l
 :PROPERTIES:
 :CUSTOM_ID: sec:t33
 :END:
-
-#+ATTR_HTML: alt picture ID 
 #+ATTR_HTML: :width 250 :style float:center;margin:-10px 0px -20px 20px; border:2px solid #ccc;
 [[file:img/33.gif]]
 
 **** *32.*	/«Chemical characterization of Titan’s tholins: Solubility, morphology and molecular structure revisited»/ N. Carrasco*, I. Schmitz-Afonso, J-Y. Bonnet, E. Quirico, R. Thissen, O. Dutuit, A. Bagag, O. Laprevote, A. Buch, A. Giuliani, G. Adande, F. Ouni, E. Hadamcik, C. Szopa, G. Cernogora, *J. Phys. Chem. A*, 113 (2009) 11195-11203. doi:10.1021/jp904735q
-#+ATTR_HTML: alt picture ID 
 #+ATTR_HTML: :width 250 :style float:center;margin:-10px 0px -20px 20px; border:2px solid #ccc;
 [[file:img/32.gif]]
 
 **** *31.*	/«DISCO: a low energy multipurpose beamline at synchrotron SOLEIL»/ A. Giuliani, F. Jamme, V. Rouam, F. Wien, J.-L. Giorgetta, B. Lagarde, O. Chubar, S. Bac, I Yao, S. Rey, C. Herbeaux, J.-L. Marlats, D. Zerbib, F. Polack,  M. Réfrégiers*, *J. Synchrotron. Rad.* 16 (2009) 1-7. doi:10.1107/S0909049509034049
-#+ATTR_HTML: alt picture ID 
 #+ATTR_HTML: :width 250 :style float:center;margin:-10px 0px -20px 20px; border:2px solid #ccc;
 [[file:img/31.png]]
 
 **** *30.*	/«Electronic states of neutral and ionized tetrahydrofuran studied by VUV spectroscopy and ab initio calculations»/ A. Giuliani*, P. Limao-Vieira, D. Duﬂot, A.R. Milosavljevic, B.P. Marinkovic, S.V. Hoﬀmann, N. Mason, J. Delwiche, M.-J. Hubin-Franskin, *Eur. J. Phys. D* 51 (2009) 97. doi:10.1140/epjd/e2008-00154-7
-#+ATTR_HTML: alt picture ID 
 #+ATTR_HTML: :width 250 :style float:center;margin:-10px 0px -20px 20px; border:2px solid #ccc;
 [[file:img/30.png]]
 
 *** *2008*
 **** *29.* 	/«Electronic excitation of gaseous acetic acid studied by K-shell electron energy loss spectroscopy and ab initio calculations»/ D. Duﬂot*, J.-P. Flament, A. Giuliani, J. Heinesch, M.-J. Hubin Franskin, *Int. J. Mass Spectrom.* 277 (2008) 70. doi:10.1016/j.ijms.2008.05.006
-#+ATTR_HTML: alt picture ID 
 #+ATTR_HTML: :width 250 :style float:center;margin:-10px 0px -20px 20px; border:2px solid #ccc;
 [[file:img/29.png]]
 
 **** *28.*	/«Atmospheric pressure photoionization mass spectrometry of oligodeoxyribonucleotides»/ A. Bagag, A. Giuliani, O. Laprévote*, *Eur. J. Mass Spectrom.* 14 (2008) 71. doi:10.1255/ejms.913
-#+ATTR_HTML: alt picture ID 
 #+ATTR_HTML: :width 250 :style float:center;margin:-10px 0px -20px 20px; border:2px solid #ccc;
 [[file:img/28.png]]
 
 **** *27.*	<<t27>> /«Photoionization Cross Section of Xe+ Ion in the Pure 5p5 2P3/2 Ground Level»/ R. Thissen, J. M. Bizau, C. Blancard, M. Coreno, C. Dehon, P. Franceschi, A. Giuliani, J. Lemaire, C. Nicolas, *Phys. Rev. Lett.* 100 (2008) 223001. doi:10.1103/PhysRevLett.100.223001
-#+ATTR_HTML: alt picture ID 
 #+ATTR_HTML: :width 250 :style float:center;margin:-10px 0px -20px 20px; border:2px solid #ccc;
 [[file:img/27.png]]
 
 **** *26.*	/«Electronic State Spectroscopy of c-C5F8 Explored by Photoabsorption, Electron Impact, Photoelectron Spectroscopies and Ab Initio Calculations»/ » P. Limao-Vieira*, D. Duflot, A. Giuliani, E. Vasekova, J.M.C. Lourenco, P.M. Santos, S.V. Hoffmann, N.J. Mason, J. Delwiche,  M.-J. Hubin-Franskin *J. Phys. Chem. A* 112 (2008) 2782. doi:10.1021/jp7107939
-#+ATTR_HTML: alt picture ID 
 #+ATTR_HTML: :width 250 :style float:center;margin:-10px 0px -20px 20px; border:2px solid #ccc;
 [[file:img/26.png]]
 
 *** *2007*
 **** *25.*	/«Perfluorocyclobutane electronic state spectroscopy by high-resolution vacuum ultraviolet photoabsorption, electron impact, HeI photoelectron spectroscopy, and ab initio calculations»/ P. Limao-Vieira*, E. Vasekova, A. Giuliani, J.M.C. Lourenco, P.M. Santos, D. Duflot, S.V. Hoffmann, N.J. Mason, J. Delwiche, M.-J. Hubin-Franskin, *Phys. Rev. A* 76 (2007) 032509. doi:10.1103/PhysRevA.76.032509
-#+ATTR_HTML: alt picture ID 
 #+ATTR_HTML: :width 250 :style float:center;margin:-10px 0px -20px 20px; border:2px solid #ccc;
 [[file:img/25.png]]
 
 **** *24.*	/«C 1s and N 1s core excitation of aniline: Experiment by electron impact and ab initio calculations»/ D. Duflot, J.-P. Flament, A. Giuliani, J. Heinesch, M. Grogna, M.-J. Hubin-Franskin, *Phys. Rev. A* 75 (2007) 052719. doi:10.1103/PhysRevA.75.052719
-#+ATTR_HTML: alt picture ID 
 #+ATTR_HTML: :width 250 :style float:center;margin:-10px 0px -20px 20px; border:2px solid #ccc;
 [[file:img/24.png]]
 
 **** *23.* 	/«Atmospheric pressure photoionization mass spectrometry of nucleic bases, ribonucleosides and ribonucleotides»/ A.  Bagag, A. Giuliani, O. Laprevote*, *Int. J. Mass Spectrom.* 264 (2007) 1. doi:10.1016/j.ijms.2007.03.010
-#+ATTR_HTML: alt picture ID 
 #+ATTR_HTML: :width 250 :style float:center;margin:-10px 0px -20px 20px; border:2px solid #ccc;
 [[file:img/23.png]]
 
 *** *2006*
 **** *22.*	/«Fragmentation induced in atmospheric pressure photoionization of peptides»/ D. Debois, A. Giuliani*, O. Laprévote, *J. Mass. Spectrom.* 41 (2006) 1554. doi:10.1002/jms.1122
-#+ATTR_HTML: alt picture ID 
 #+ATTR_HTML: :width 250 :style float:center;margin:-10px 0px -20px 20px; border:2px solid #ccc;
 [[file:img/22.png]]
 
 **** *21.*	/«Electronic structure of hexafluorobenzene by high-resolution vacuum ultraviolet photo-absorption and He(I) photoelectron spectroscopy»/ C. Motch, A. Giuliani, J. Delwiche , P. Limão-Vieira, N.J. Mason, S.V. Hoffmann, M.-J. Hubin-Franskin*, *Chem. Phys.* 32 (2006) 183-189. doi:10.1016/j.chemphys.2006.05.032
-#+ATTR_HTML: alt picture ID 
 #+ATTR_HTML: :width 250 :style float:center;margin:-10px 0px -20px 20px; border:2px solid #ccc;
 [[file:img/21.png]]
 
 **** *20.*	/«Study of a bisquaternary ammonium salt by atmospheric pressure photoionization mass spectrometry»/ A. Giuliani*, D. Debois, O. Laprévote, *Eur. J. Mass Spectrom.* 12 (2006) 189-197. doi:10.1255/ejms.803
-#+ATTR_HTML: alt picture ID 
 #+ATTR_HTML: :width 250 :style float:center;margin:-10px 0px -20px 20px; border:2px solid #ccc;
 [[file:img/20.png]]
 
 **** *19.*	/«Acetic acid electronic state pectroscopy by high-resolution vacuum ultraviolet photo-absorption, electron impact, He(I) photoelectron spectroscopy and ab initio calculations/ » P. Limão-Vieira*, A. Giuliani, J. Delwiche, R. Parafita, R. Mota, D. Duflot, J.-P. Flament, E. Drage, P. Cahillane, N.J. Mason, S.V.Hoffmann, M.-J. Hubin-Franskin, *Chem. Phys.* 324 (2006) 339-349. doi:10.1016/j.chemphys.2005.10.032
-#+ATTR_HTML: alt picture ID 
 #+ATTR_HTML: :width 250 :style float:center;margin:-10px 0px -20px 20px; border:2px solid #ccc;
 [[file:img/19.png]]
 
 *** *2005*
 **** *18.*	/«Ab initio and experimental study of the K-shell spectra of s-triazine»/ D. Duflot*, K. Sidhoum, J.-P. Flament, A. Giuliani, J. Heinesch, M.-J. Hubin-Franskin, *Eur. J. Phys. D* 35 (2005) 239-248. doi:10.1140/epjd/e2005-00193-6
-#+ATTR_HTML: alt picture ID 
 #+ATTR_HTML: :width 250 :style float:center;margin:-10px 0px -20px 20px; border:2px solid #ccc;
 [[file:img/18.png]]
 
 **** *17.*	/«Water VUV electronic state spectroscopy by synchrotron radiation»/ R. Mota, R. Parafita, A. Giuliani, M.-J. Hubin-Franskin , J.M.C. Lourenço¸ G. Garcia, S.V. Hoffmann, N.J. Mason, P.A. Ribeiro,M. Raposo, P. Limão-Vieira*, *Chem. Phys. Lett.* 416 (2005) 152-159. doi:10.1016/j.cplett.2005.09.073
-#+ATTR_HTML: alt picture ID 
 #+ATTR_HTML: :width 250 :style float:center;margin:-10px 0px -20px 20px; border:2px solid #ccc;
 [[file:img/17.png]]
 
 **** *16.*	/«Elastic scattering of electrons from tetrahydrofuran molecule»/ A. R. Milosavljevic, A. Giuliani, D. Sevic, M.-J. Hubin-Franskin, B. P. Marinkovic*, *Eur. J. Phys. D* 35 (2005) 411-416. doi:10.1140/epjd/e2005-00191-8
-#+ATTR_HTML: alt picture ID 
 #+ATTR_HTML: :width 250 :style float:center;margin:-10px 0px -20px 20px; border:2px solid #ccc;
 [[file:img/16.png]]
 
 **** *15.*	/«Ab initio and experimental study of the K-shell spectra of 2,5-dihydrofuran»/ D. Duflot*, J.-P. Flament, A. Giuliani, J. Heinesch, M.-J. Hubin-Franskin, *Chem. Phys.* 310 (2005) 67-75. doi:10.1016/j.chemphys.2004.10.007
-#+ATTR_HTML: alt picture ID 
 #+ATTR_HTML: :width 250 :style float:center;margin:-10px 0px -20px 20px; border:2px solid #ccc;
 [[file:img/15.png]]
 
 *** *2004*
 **** *14.*	/«On the valence shell spectroscopy of 2-vinyl furan»/ A. Giuliani, I. C. Walker, J. Delwiche, S. Hoffmann, P. Limão-Vieira, N. J. Mason, C. Kech,  M.-J. Hubin-Franskin*, *J. Chem. Phys.* 120 (2004) 10972-10982. doi:10.1063/1.1738642
-#+ATTR_HTML: alt picture ID 
 #+ATTR_HTML: :width 250 :style float:center;margin:-10px 0px -20px 20px; border:2px solid #ccc;
 [[file:img/14.png]]
 
 **** *13.*	/«An experimental study of SF5CF3 by electron energy loss spectroscopy, VUV photo-absorption and photoelectron spectroscopy»/ P. Limão-Vieira*, S. Eden, P. A. Kendall, N. J. Mason, A. Giuliani, J. Heinesch, M. -J. Hubin-Franskin, J. Delwiche, S. V. Hoffmann, *Int. J. Mass. Spectrom.* 233 (2004) 335-341. doi:10.1016/j.ijms.2004.01.008
-#+ATTR_HTML: alt picture ID 
 #+ATTR_HTML: :width 250 :style float:center;margin:-10px 0px -20px 20px; border:2px solid #ccc;
 [[file:img/13.png]]
 
 **** *12.*	/«The electronic states of isoxazole studied by VUV absorption, electron energy loss spectroscopies and ab initio multi-reference configuration interaction calculations»/ I. C. Walker*, M. H. Palmer, J. Delwiche, S. V. Hoffmann, P. Limao-Vieira, N. J. Mason, M. F. Guest, M.-J. Hubin-Franskin, A. Giuliani, *Chem. Phys.* 297 (2004) 289-306. doi:10.1016/j.chemphys.2003.10.012
-#+ATTR_HTML: alt picture ID 
 #+ATTR_HTML: :width 250 :style float:center;margin:-10px 0px -20px 20px; border:2px solid #ccc;
 [[file:img/12.png]]
 
 *** *2003*
 **** *11.*	/«Core shell excitation of furan at the O 1s and C 1s edges: An experimental and ab initio study»/  D. Duflot, J.-P. Flament, A. Giuliani, J. Heinesch, M.-J. Hubin-Franskin, *J. Chem. Phys.* 119 (2003) 8946-8955. doi:10.1063/1.1606441
-#+ATTR_HTML: alt picture ID 
 #+ATTR_HTML: :width 250 :style float:center;margin:-10px 0px -20px 20px; border:2px solid #ccc;
 [[file:img/11.png]]
 
 **** *10.*	/«Molecular structure and vibrational analysis of 2-vinyl furan »  A. Giuliani, B. Gilbert, C. Kech, M.-J. Hubin-Franskin*, *Chem. Phys. Lett.* 379 (2003) 406–411. doi:10.1016/j.cplett.2003.08.063
-#+ATTR_HTML: alt picture ID 
 #+ATTR_HTML: :width 250 :style float:center;margin:-10px 0px -20px 20px; border:2px solid #ccc;
 [[file:img/10.png]]
 
 **** *9.*	/«The electronic states of 2-furanmethanol (furfuryl alcohol) studied by photon absorption and electron impact spectroscopies»/ A. Giuliani, I. C. Walker, J. Delwiche, S. Hoffmann, P. Limão-Vieira, N. J. Mason, B. Heyne, M. Hoebeke, M.-J. Hubin-Franskin*, *J. Chem. Phys.* 119 (2003) 7282-7288. doi:10.1063/1.1603733
-#+ATTR_HTML: alt picture ID 
 #+ATTR_HTML: :width 250 :style float:center;margin:-10px 0px -20px 20px; border:2px solid #ccc;
 [[file:img/9.png]]
 
 **** *8.*	/«2-methyl furan: an experimental study of the excited electronic levels by electron energy loss spectroscopy, VUV photoabsorption and photoelectron spectroscopy»/ A. Giuliani, J. Delwiche, S. Hoffmann, P. Limão-Vieira, N. J. Mason, M.-J Hubin-Franskin*, *J. Chem. Phys.* 119 (2003) 3670-3680. doi:10.1063/1.1590960
-#+ATTR_HTML: alt picture ID 
 #+ATTR_HTML: :width 250 :style float:center;margin:-10px 0px -20px 20px; border:2px solid #ccc;
 [[file:img/8.png]]
 
 **** *7.*	/«Electron and photon induced processes in SF5CF3»/  P. Limão-Vieira*, P. A. Kendall, S. Eden, N. J. Mason, J. Heinesch, M.-J. Hubin-Franskin, J. Delwiche, A. Giuliani, *Radiat. Phys. Chem.* 68 (2003) 193-197. doi:10.1016/S0969-806X(03)00279-2
-#+ATTR_HTML: alt picture ID 
 #+ATTR_HTML: :width 250 :style float:center;margin:-10px 0px -20px 20px; border:2px solid #ccc;
 [[file:img/7.png]]
 
 **** *6.*	/«Thiazyl chloride: an experimental and theoretical study of the valence shell HeI photoelectron spectrum»/ D. Duflot, N. Chabert, J.-P. Flament, J.-M . Robbe, I. C. Walker, J. H. Cameron, A. Giuliani, J.-M. Hubin-Franskin, J. Delwiche*, *Chem. Phys.* 288 (2003) 95-104. doi:10.1016/S0301-0104(02)00966-7
-#+ATTR_HTML: alt picture ID 
 #+ATTR_HTML: :width 250 :style float:center;margin:-10px 0px -20px 20px; border:2px solid #ccc;
 [[file:img/6.png]]
 
 *** *2002*
 **** *5.*	/«Electronic excitation and optical cross sections of methylamine and ethylamine in the UV-VUV spectral region»/ M.-J. Hubin-Franskin*, J. Delwiche, A. Giuliani, M.-P. Ska, F. Motte-Tollet, I. C. Walker, N. J.  Mason, J. M. Gingell,  N. C. Jones, *J. Chem. Phys.* 116 (2002) 9261-9268. doi:10.1063/1.1473820
-#+ATTR_HTML: alt picture ID 
 #+ATTR_HTML: :width 250 :style float:center;margin:-10px 0px -20px 20px; border:2px solid #ccc;
 [[file:img/5.png]]
 
 *** *2001*
 **** *4.*	/«Spectroscopic study of the lowest energy triplet states of 2-methyl furan»/ A. Giuliani,  M.-J. Hubin-Franskin*, *Chem. Phys. Lett.* 348 (2001) 34-38. doi:10.1016/S0009-2614(01)01082-X
-#+ATTR_HTML: alt picture ID 
 #+ATTR_HTML: :width 250 :style float:center;margin:-10px 0px -20px 20px; border:2px solid #ccc;
 [[file:img/4.png]]
 
 **** *3.*	/«Lowest energy triplet states of furan, studied by high resolution electron energy loss spectroscopy»/ A. Giuliani, M.-J. Hubin-Franskin*, *Int. J. Mass. Spectrom.* 205 (2001) 163-169. doi:10.1016/S1387-3806(00)00318-3
-#+ATTR_HTML: alt picture ID 
 #+ATTR_HTML: :width 250 :style float:center;margin:-10px 0px -20px 20px; border:2px solid #ccc;
 [[file:img/3.png]]
 
 *** *2000*
 **** *2.*	/«Electronic excitation and oscillator strength of ethyl bromide by vacuum ultraviolet photoabsorption and electron energy loss spectroscopy»/ A. Giuliani, F. Motte-Tollet, J. Delwiche, N.J. Mason, N. C. Jones, J. M. Gingell, I. C. Walker, M.-J. Hubin-Franskin*, *J. Chem. Phys.* 112 (2000) 6285-6292. doi:10.1063/1.481273
-#+ATTR_HTML: alt picture ID 
 #+ATTR_HTML: :width 250 :style float:center;margin:-10px 0px -20px 20px; border:2px solid #ccc;
 [[file:img/2.png]]
 
 *** *1999*
 **** *1.*	/«Electronic excitation and oscillator strength of ethyl iodide by vacuum ultraviolet photoabsorption and electron energy loss spectroscopy»/ A. Giuliani, F. Motte-Tollet, J. Delwiche, J. Heinesch, N. J. Mason, N. C. Jones, J. M. Gingell, I. C. Walker, M.-J. Hubin-Franskin*, *J. Chem. Phys.* 110 (1999) 10307-10315. doi:10.1063/1.478964
-#+ATTR_HTML: alt picture ID 
 #+ATTR_HTML: :width 250 :style float:center;margin:-10px 0px -20px 20px; border:2px solid #ccc;
 [[file:img/1.png]]
 
