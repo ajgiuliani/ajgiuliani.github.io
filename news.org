@@ -46,12 +46,6 @@
 * Footnotes
 [fn:1]
 #+BEGIN_EXPORT html
-<div class="tl">
-  <ul>
-    <li><a class="twitter-timeline" data-height="800" data-theme="light" href="https://twitter.com/ajgiuliani?ref_src=twsrc%5Etfw">Tweets by ajgiuliani</a></li>
-    <li><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> ></li>
-  </ul>
-</div>
+    <a class="twitter-timeline" data-height="800" data-theme="light" href="https://twitter.com/ajgiuliani?ref_src=twsrc%5Etfw">Tweets by ajgiuliani</a>
+    <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 #+END_EXPORT
-
-
