@@ -55,7 +55,7 @@ class="drobtn">About me</a>
 
 * About me[fn:pict]
 [[https://twitter.com/ajgiuliani][file:img/twitter_logo_small.png]]  [[https://orcid.org/0000-0003-1710-4933][file:img/orcid_logo_small.jpg]] [[https://www.scopus.com/authid/detail.uri?authorId=35944247700][file:img/scopus_logo_small.png]] [[http://www.researcherid.com/rid/C-1476-2011][file:img/rid_logo_small.png]] [[https://github.com/ajgiuliani/][file:img/github_logo_small.png]]
-[[https://www.researchgate.net/profile/Alexandre_Giuliani][file:img/RG_logo_small.png]]
+[[https://www.researchgate.net/profile/Alexandre_Giuliani][file:img/RG_logo_small.png]] [[https://scholar.google.fr/citations?user=cJXZs_kAAAAJ&hl=fr&oi=ao][file:img/google_scholar_logo_small.png]]
 
 My resumé is available here [[https://www.overleaf.com/read/vyrmkrxmszrx][file:img/overleaf-small.png]].
 
