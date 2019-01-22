@@ -46,9 +46,7 @@ class="drobtn">Home</a>
 #+END_EXPORT
 
 * Home
-Welcome to my page.
-
-Currently employed as a research engineer at [[http://www.inra.fr/en/Scientists-Students][INRA]] (Institut National de la Recherche Agronomique), I am on secondment at the [[https://www.synchrotron-soleil.fr/en][SOLEIL]] synchrotron radiation facility, near Paris (France) where I am working on the [[https://www.synchrotron-soleil.fr/en/beamlines/disco][DISCO]] beamline as a beamline scientist.
+Welcome here ! My name is Alexandre Giuliani. Currently employed as a research engineer at [[http://www.inra.fr/en/Scientists-Students][INRA]] (Institut National de la Recherche Agronomique), I am on secondment at the [[https://www.synchrotron-soleil.fr/en][SOLEIL]] synchrotron radiation facility, near Paris (France) where I am working on the [[https://www.synchrotron-soleil.fr/en/beamlines/disco][DISCO]] beamline as a beamline scientist.
 
 SOLEIL is a very large research infrastructure and provides the scientific community with an access to 28 beamlines delivering photon beams of high brilliance and stability over a wide wavelength range from the terahertz up to the hard X-rays. The [[https://www.synchrotron-soleil.fr/en/beamlines/disco][DISCO]] beamline, managed by [[https://cv.archives-ouvertes.fr/matthieu-refregiers][Matthieu Refrregiers]], makes use of visible, ultraviolet (UV) and vacuum-UV (VUV) photons on three experimental stations, namely fluorescence imaging, circular dichroism and the atmospheric pressure experimental (APEX) station. I am more specifically in charge of this last station.
 
