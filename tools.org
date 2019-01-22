@@ -101,7 +101,7 @@ From these data, the abundance of a particular ion may be measured and plotted a
    I have been using Igor Pro from [[https://www.wavemetrics.com/][Wavemetrics]] since my diploma thesis (/mémoire de licence/) in Liège and I used to use it extensively for data treatment and to produce figures. I also use Igor for control and acquisition. Almost all my published data have been treated and produced in final form using Igor.
 
 *** *Org-mode*
-   Org-mode made me use [[https://www.gnu.org/software/emacs/][emacs]], a software which I could get into previously. I guessed I needed a sufficient incentive to overcome the barrier! Org-mode was that incentive. It changed drasticallt the way I worked.  Org-mode [fn:2] is originally a powerful tools for task management, projects planning, notes taking and writing documents. However, it offers a very useful way to literate programming [fn:3]. Gradually my data treatment shifts to org-mode and literate programming.
+   Org-mode made me use [[https://www.gnu.org/software/emacs/][emacs]], a software which I couldn't get into previously. I guessed I needed a sufficient incentive to overcome the barrier! Org-mode was that incentive. It changed drasticallt the way I worked.  Org-mode [fn:2] is originally a powerful tools for task management, projects planning, notes taking and writing documents. However, it offers a very useful way to literate programming [fn:3]. Gradually my data treatment shifts to org-mode and literate programming.
 
 
 * Footnotes
