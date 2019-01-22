@@ -102,7 +102,7 @@ My resumé is available here [[https://www.overleaf.com/read/vyrmkrxmszrx][file:
 *** *2* [[file:production.org::#sec:chapters][Book Chapters]]
 *** *37* [[file:production.org::#sec:oral_comm][Oral communications]] [fn:1]
 *** *18* [[file:production.org::#sec:posters][Posters]]
-*** *1505* Citations 
+*** *1535* Citations [fn:2]
 ** AWARDS
 :PROPERTIES:
 :CUSTOM_ID: sec:awards
@@ -189,3 +189,4 @@ My resumé is available here [[https://www.overleaf.com/read/vyrmkrxmszrx][file:
 [[file:img/cartoonized_ID.png]]
 
 [fn:1] 18 on invitation.
+[fn:2] Retrieved from Scopus: <2019-01-22 Tue>
