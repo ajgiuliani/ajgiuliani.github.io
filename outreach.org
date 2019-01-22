@@ -46,13 +46,13 @@ class="drobtn">Outreach</a>
 ** *2018*
 *** Instrumentation award, French Chemical Society, Physical chemistry division.  [[http://www.societechimiquedefrance.fr/Laureats-898.html][file:img/external_link.png]]
 
-*** SOLEIL [[https://www.synchrotron-soleil.fr/fr/actualites/casser-des-molecules-avec-un-rayonnement-uv-une-nouvelle-methode-dactivation-pour-la][highlight]] about our collaborative [[file:production.org::#sec:t100][Publication]] entitled /«Extreme ultraviolet (XUV) radiation: a means of ion activation for tandem mass spectrometry»/ in Anal. Chemistry.
+*** SOLEIL [[https://www.synchrotron-soleil.fr/fr/actualites/casser-des-molecules-avec-un-rayonnement-uv-une-nouvelle-methode-dactivation-pour-la][highlight]] about our collaborative [[file:production.org::#sec:t100][publication]] entitled /«Extreme ultraviolet (XUV) radiation: a means of ion activation for tandem mass spectrometry»/ in Anal. Chemistry.
 
 *** SOLEIL [[https://www.synchrotron-soleil.fr/fr/actualites/photoionisation-du-cation-c60-le-buckminsterfullerene][highlight]] about our [[file:production.org::#sec:t95][publication]] /«Photoionization of the Buckminsterfullerene Cation»/ in J. Phys. Chem. Lett.
 ** *2015*
 ***  [[https://www.synchrotron-soleil.fr/fr/actualites/comment-casser-des-sucres-avec-de-la-lumiere-et-dans-quel][SOLEIL]] and [[http://www.angers-nantes.inra.fr/Toutes-les-actualites/polysaccharides][INRA]] (in french) highlights about our [[file:production.org::#sec:t72][publication]] /«High-energy photon activation tandem mass spectrometry provides unprecedented insights into the structure of highly sulfated oligosaccharides extracted from macroalgal cell walls»/ in Analytical Chemistry.
 
-*** SOLEIL [[https://www.synchrotron-soleil.fr/fr/actualites/nano-clusters-dhydrure-dargent-sous-irradiation-ultraviolette-dans-le-vide][highlight]] on our collaborative work entitled /«Gas-phase VUV Photoionisation and Photofragmentation of the Silver Deuteride Nanocluster [Ag_{10}D_{8}L_{6}]^{2+} (L = bis(diphenylphosphino)methane). A Joint Experimental and Theoretical Study»/ in Phys. Chem. Chem. Phys.
+*** SOLEIL [[https://www.synchrotron-soleil.fr/fr/actualites/nano-clusters-dhydrure-dargent-sous-irradiation-ultraviolette-dans-le-vide][highlight]] on our collaborative [[file:production.org::#sec:t77][work]] entitled /«Gas-phase VUV Photoionisation and Photofragmentation of the Silver Deuteride Nanocluster [Ag_{10}D_{8}L_{6}]^{2+} (L = bis(diphenylphosphino)methane). A Joint Experimental and Theoretical Study»/ in Phys. Chem. Chem. Phys.
 
 *** SOLEIL [[https://www.synchrotron-soleil.fr/fr/actualites/therapie-photodynamique-profonde-une-nanolampe-de-poche-pour-rendre-actifs-les][highlight]] about our collaborative [[file:production.org::#sec:t74][work]] entitled /«X-ray-induced radiophotodynamic therapy (RPDT) using lanthanide micelles: Beyond depth limitations»/ in Nano Research.
 
