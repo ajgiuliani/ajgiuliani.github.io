@@ -113,23 +113,23 @@ http://www.cachestocaches.com/2018/6/org-literate-programming/
 https://orgmode.org/worg/org-contrib/babel/how-to-use-Org-Babel-for-R.html
 
 [fn:tools1]
-#+NAME:   fig:fig-1
+#+NAME:   :width 250 fig:fig-1
 #+CAPTION: Illustration of the principles of a) mass spectrometry and b) tandem mass spectrometry analysis.
 #+ATTR_HTML: image :title MS and MS/MS  :style float:center;;
 [[file:img/tandemMS.jpg]]
 
 [fn:tools2]
 #+CAPTION: Photoionization cross section of the Xe^{+} cation measured using an ion trap (top) and the merged beams technique (bottom) are compared with theoretical results (thin lines), modified from .
-#+ATTR_HTML: image :title Ion trap vs merged beams  :style float:center;
+#+ATTR_HTML: :width 250 image :title Ion trap vs merged beams  :style float:center;
 [[file:img/micra.jpg]]
 
 [fn:tools3]
 #+CAPTION: Scheme of principle of the coupling of the linear ion trap with three beamlines at SOLEIL.
-#+ATTR_HTML: image :title the SRMS2 project  :style float:center;
+#+ATTR_HTML: :width 250 image :title the SRMS2 project  :style float:center;
 [[file:img/SRMS2.jpg]]
 
 [fn:tools4]
 #+CAPTION: 2D representation of the activation of the single protonated ion [M+H]^{+} of substance P in the 8 to 16 eV, showing the production ion mass spectra as a funcion of the photon energy. More details are available here 
-#+ATTR_HTML: image :title Substance P activation :style float:center;
+#+ATTR_HTML: :width 250 image :title Substance P activation :style float:center;
 [[file:img/ms2-matrix.jpg]]
 
