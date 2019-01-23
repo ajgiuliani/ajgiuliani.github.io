@@ -60,7 +60,7 @@ SOLEIL is a very large research infrastructure and provides the scientific commu
 
 In addition, I am a member of a team of INRA researchers at SOLEIL. Our mission is to help researchers and engineers from INRA to access the facility. We help improving proposals submitted by INRA researchers. In addition, we are visiting INRA centers across the country to present SOLEIL and its capabilities. We also maintain a monitoring of the technological developments appearing on synchrotron facilities.
 
-I picked an xyz domain name because it reminds me the =.xyz= format [fn:1] used to store chemical structures. An =.xyz= file is a representation of a molecular system.  This site could be seen as a representation of me as a scientist!
+I picked an xyz domain name because it reminds me the =.xyz= format [fn:1] used to store chemical structures. An =.xyz= file is a representation of a molecular system. This intent to be a representation of my scientific activities.
 
 ** Note
 This site is made using [[https://orgmode.org/][Org]] mode based on the =CSS= file from Erik Sjöstrand ([[https://github.com/Kungsgeten/kungsgeten.github.io][Kungsgeten]]).
