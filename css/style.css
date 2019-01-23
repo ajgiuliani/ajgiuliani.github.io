@@ -162,7 +162,7 @@ a {
 }
 a:hover {
 /*  background-color: #d3d3a8; */
-    background-color: #00BFFF;
+/*    background-color: #00BFFF; */
 }
 #content,
 #postamble {
@@ -242,6 +242,8 @@ code {
   border: 1px solid #ccc;
 }
 table {
+      border-collapse: collapse;
+      width: 100%;
   /* margin: auto;
   margin-top: 1em;
   margin-bottom: 1em; */
@@ -254,7 +256,7 @@ td {
   padding: 0 0.25em;
 }
 tr:nth-child(odd) {
-  background-color: #f2f2f2;
+/*  background-color: #f2f2f2; */
 }
 th {
   background-color: #dadada;
@@ -380,7 +382,7 @@ sup {
   display: none;
 }
 
-
-.figure-number {
-  display: none;
+.img {
+    display: inline;
+    vertical-align: bottom;
 }
