@@ -259,7 +259,8 @@ tr:nth-child(odd) {
 /*  background-color: #f2f2f2; */
 }
 th {
-  background-color: #dadada;
+/*  background-color: #dadada;  */
+  background-color: white;
   padding: 0.3em 0;
   border-bottom: 2px solid;
   border-top: 2px solid;
