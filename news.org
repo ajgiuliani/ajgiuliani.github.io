@@ -9,7 +9,6 @@
 #+HTML_HEAD_EXTRA: <script src='https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js'></script>
 #+HTML_HEAD_EXTRA: <script src='js/blog.js'></script>
 #+HTML_HEAD_EXTRA: <link rel='stylesheet' type='text/css' href='css/style.css'>
-#+HTML_HEAD_EXTRA: <!-- Global site tag (gtag.js) - Google Analytics -->
 #+HTML_HEAD_EXTRA: <script async src="https://www.googletagmanager.com/gtag/js?id=UA-132913317-1"></script>
 #+HTML_HEAD_EXTRA: <script>
 #+HTML_HEAD_EXTRA:   window.dataLayer = window.dataLayer || [];
@@ -42,16 +41,23 @@
     <li><a href='about.html'>About me</a></li>
     <li><a href='production.html'>Production</a></li>
     <li><a href='outreach.html'>Ourreach</a></li>
-    <li><a href='news.html'>News</a></li>
+    <li class="dropdown">
+       <a class="active" href="javascript:void(0)"
+class="drobtn">News</a>
+       <div class="dropdown-content">
+       </div>
+    </li>
   </ul>
 </div>
 #+END_EXPORT
 
 * News [fn:1]
-**** *<2019-01-22 Tue>* Our last results on radiation damage study based on DNA origami from our Universität Postdam colleagues is now out in [[doi:10.1039/C8CP06813E][*PCCP*]]
-**** *<2019-01-23 Mer>* Extreme UV: a means of ion activation for tandem MS appeared in [[doi:10.1021/acs.analchem.8b01789][*Anal. Chem*]]
-**** *<2018-05-26 Sam>* New paper in [[ doi:10.1021/acs.jpcb.8b03447][*J. Phys. Chem. B*]]: how does ionization energy correlates with the antioxydant power of carotenoids ?
-**** *<2018-05-23 Mer>* SRCD to help deciphering absolute configuration of natural products. New paper in [[doi:10.3390/molecules23051237][*Molecules*]]
+**** *<2019-01-22>* Our last results on radiation damage study based on DNA origami from our Universität Postdam colleagues is now out in [[doi:10.1039/C8CP06813E][*PCCP*]]
+**** *<2019-01-23>* Extreme UV: a means of ion activation for tandem MS appeared in [[doi:10.1021/acs.analchem.8b01789][*Anal. Chem*]]
+**** *<2018-05-26>* New paper in [[ doi:10.1021/acs.jpcb.8b03447][*J. Phys. Chem. B*]]: how does ionization energy correlates with the antioxydant power of carotenoids ?
+**** *<2018-05-23>* SRCD to help deciphering absolute configuration of natural products. New paper in [[doi:10.3390/molecules23051237][*Molecules*]]
+
+
 
 
 * Footnotes

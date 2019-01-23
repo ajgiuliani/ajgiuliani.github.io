@@ -9,7 +9,6 @@
 #+HTML_HEAD_EXTRA: <script src='https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js'></script>
 #+HTML_HEAD_EXTRA: <script src='js/blog.js'></script>
 #+HTML_HEAD_EXTRA: <link rel='stylesheet' type='text/css' href='css/style.css'>
-#+HTML_HEAD_EXTRA: <!-- Global site tag (gtag.js) - Google Analytics -->
 #+HTML_HEAD_EXTRA: <script async src="https://www.googletagmanager.com/gtag/js?id=UA-132913317-1"></script>
 #+HTML_HEAD_EXTRA: <script>
 #+HTML_HEAD_EXTRA:   window.dataLayer = window.dataLayer || [];
@@ -40,9 +39,10 @@
     <li><a href='tools.html'>Tools</a></li>
     <li><a href='colleagues.html'>Colleagues</a></li>
     <li class="dropdown">
-       <a href="javascript:void(0)"
+       <a class="active" href="javascript:void(0)"
 class="drobtn">About me</a>
        <div class="dropdown-content">
+       <a href="#sec:contact">Contact</a>
        <a href="#sec:career">Career</a>
        <a href="#sec:edu">Education</a>
        <a href="#sec:prod">Production </a>
@@ -62,26 +62,29 @@ class="drobtn">About me</a>
 </div>
 #+END_EXPORT
 
-* About me
+* Contact
+:PROPERTIES:
+:CUSTOM_ID: sec:contact
+:END:
 
-| *Contact*                              |   | Alexandre Giuliani  [fn:pict]                    |
+| [[file:img/stamp_logo_small.png]]          |   | Alexandre Giuliani [fn:pict]                    |
 |                                        |   | Synchrotron SOLEIL                              |
-|                                        |   | L'Orme  des  Merisier                             |
+|                                        |   | L'Orme  des  Merisier                           |
 |                                        |   | F-91192 Gif-sur-Yvette                          |
 |                                        |   | France                                          |
 | [[file:img/phone-logo_small.png]]          |   | +33 (0)1 69 35 97 29                            |
-| [[mailto:alexandre.giuliani@synchrotron-soleil.fr][file:img/mail-envelope_small.png]]       |   | alexandre[.]giuliani[at]synchrotron-soleil[.]fr |
-| [[https://twitter.com/ajgiuliani][file:img/twitter_logo_small.png]]        |   | @ajgiuliani                                     |
-| [[https://github.com/ajgiuliani/][file:img/github_logo_small.png]]         |   | ajgiuliani                                      |
+| [[mailto:alexandre.giuliani@synchrotron-soleil.fr][file:img/logo_at_small.png]]             |   | alexandre[.]giuliani[at]synchrotron-soleil[.]fr |
+| [[https://twitter.com/ajgiuliani][file:img/logo_twitter_small.jpg]]        |   | @ajgiuliani                                     |
+| [[https://github.com/ajgiuliani/][file:img/logo_github_small.png]]         |   | ajgiuliani                                      |
 | [[https://orcid.org/0000-0003-1710-4933][file:img/orcid_logo_small.jpg]]          |   | 0000-0003-1710-4933                             |
-| [[https://www.scopus.com/authid/detail.uri?authorId=35944247700][file:img/scopus_logo_small.png]]         |   | 35944247700                                     |
 | [[http://www.researcherid.com/rid/C-1476-2011][file:img/rid_logo_small.png]]            |   | C-1476-2011                                     |
+| [[https://www.scopus.com/authid/detail.uri?authorId=35944247700][file:img/scopus_logo_small.png]]         |   | 35944247700                                     |
 | [[https://www.researchgate.net/profile/Alexandre_Giuliani][file:img/RG_logo_small.png]]             |   |                                                 |
 | [[https://scholar.google.fr/citations?user=cJXZs_kAAAAJ&hl=fr&oi=ao][file:img/google_scholar_logo_small.png]] |   |                                                 |
-| [[https://fr.linkedin.com/in/alexandre-giuliani-4a55b34a][file:img/linkedin-logo_small.jpg]]       |   |                                                 |
- 
-My resumé is available here [[https://www.overleaf.com/read/vyrmkrxmszrx][file:img/overleaf-small.png]].
-
+| [[https://fr.linkedin.com/in/alexandre-giuliani-4a55b34a][file:img/linkedin-logo_small.png]]       |   |                                                 |
+| [[https://www.overleaf.com/read/vyrmkrxmszrx][file:img/overleaf-small.png]]            |   | Résumé (CV)                                     |
+|                                        |   |                                                 |
+                                           
 ** CAREER
 :PROPERTIES:
 :CUSTOM_ID: sec:career
