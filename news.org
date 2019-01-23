@@ -47,9 +47,11 @@
 </div>
 #+END_EXPORT
 
-* TODO News [fn:1]
+* News [fn:1]
 **** *<2019-01-22 Tue>* Our last results on radiation damage study based on DNA origami from our Universität Postdam colleagues is now out in [[doi:10.1039/C8CP06813E][*PCCP*]]
-
+**** *<2019-01-23 Mer>* Extreme UV: a means of ion activation for tandem MS appeared in [[doi:10.1021/acs.analchem.8b01789][*Anal. Chem*]]
+**** *<2018-05-26 Sam>* New paper in [[ doi:10.1021/acs.jpcb.8b03447][*J. Phys. Chem. B*]]: how does ionization energy correlates with the antioxydant power of carotenoids ?
+**** *<2018-05-23 Mer>* SRCD to help deciphering absolute configuration of natural products. New paper in [[doi:10.3390/molecules23051237][*Molecules*]]
 
 
 * Footnotes
