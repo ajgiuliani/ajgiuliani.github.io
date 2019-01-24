@@ -82,32 +82,35 @@ class="drobtn">About me</a>
  [[https://scholar.google.fr/citations?user=cJXZs_kAAAAJ&hl=fr&oi=ao][file:img/google_scholar_logo_small.png]]
  [[https://www.researchgate.net/profile/Alexandre_Giuliani][file:img/RG_logo_small.png]] 
  [[https://fr.linkedin.com/in/alexandre-giuliani-4a55b34a][file:img/linkedin-logo_small.png]] 
-                                           
-** CAREER
-:PROPERTIES:
-:CUSTOM_ID: sec:career
-:END:
-*** Since 2006 *Senior Research Engineer*, CEPIA Department, INRA on secondment at SOLEIL synchrotron on the DISCO beamline.
-*** Since 2006 *Beamline scientist*, DISCO beamline with Dr. M. Refregiers, SOLEIL, Gif-sur-Yvette, France.
-*** 2006 - 2004 *Postdoctoral fellowship* with Pr. Olivier Laprévote, Mass spectrometry laboratory, ICSN, CNRS, France.
-*** 2004 - 1998 *Assistant* with Pr. Jacques Delwiche, Université de Liège, Belgium.
-** EDUCATION
-:PROPERTIES:
-:CUSTOM_ID: sec:edu
-:END:
-*** 2013 *Habilitation to conduct research* University Paris-Sud (FR), Faculty of Sciences. /Spectroscopy of ions and molecules of biological interest using synchrotron radiation./ Committee: A. Zehnhacker, E. Uggerud, E. De Pauw, O. Laprévote, P. Maitre, J. Delwiche.
-*** 2003 *Doctoral degree. in Sciences* University of Liège (BE) with Dr. M.-J. Hubin-Franskin, Obtained with the highest distinction and the congratulations of the jury. /Furan and some selected derivatives. A valence shell spectroscopic study by photon and electron impact methods./
-*** 1998 *Licence in Chemical Sciences* University of Liège (BE) with Dr. M.-J. Hubin-Franskin.
-** OTHER QUALIFICATIONS
-:PROPERTIES:
-:CUSTOM_ID: sec:otherqual
-:END:
-*** *2014* *Qualification for university professorship* CNU section 30 (dilute matter and optics) and 31 (theoretical, physical and analytical chemistry). This qualification is mandatory to apply for professorship positions in France.
-
-** PRODUCTION
-:PROPERTIES:
-:CUSTOM_ID: sec:prod
-:END:
+ \\
+\\                                   
+* Carrer
+  :PROPERTIES:
+  :CUSTOM_ID: sec:career
+  :END:
+*** *Since 2006* - _Senior Research Engineer_, CEPIA Department, INRA on secondment at SOLEIL synchrotron on the DISCO beamline.
+*** *Since 2006* - _Beamline scientist_, DISCO beamline with Dr. M. Refregiers, SOLEIL, Gif-sur-Yvette, France.
+*** *2006 - 2004* - _Postdoctoral fellowship_ with Pr. Olivier Laprévote, Mass spectrometry laboratory, ICSN, CNRS, France.
+*** *2004 - 1998* - _Assistant_ with Pr. Jacques Delwiche, Université de Liège, Belgium.
+\\
+* Education
+  :PROPERTIES:
+  :CUSTOM_ID: sec:edu
+  :END:
+*** *2013* - _Habilitation_ to conduct research University Paris-Sud (FR), Faculty of Sciences. /Spectroscopy of ions and molecules of biological interest using synchrotron radiation./ Committee: A. Zehnhacker, E. Uggerud, E. De Pauw, O. Laprévote, P. Maitre, J. Delwiche.
+*** *2003* - _Doctoral degree in Sciences_ University of Liege (BE) with Dr. M.-J. Hubin-Franskin, Obtained with the highest distinction and the congratulations of the jury. /Furan and some selected derivatives. A valence shell spectroscopic study by photon and electron impact methods./
+*** *1998* - _Licence in Chemical Sciences_ University of Liege (BE) with Dr. M.-J. Hubin-Franskin.
+\\
+* Other qualifications
+  :PROPERTIES:
+  :CUSTOM_ID: sec:otherqual
+  :END:
+*** *2014* - _Qualification_ for university professorship CNU section 30 (dilute matter and optics) and 31 (theoretical, physical and analytical chemistry). [fn:3]
+\\
+* Production
+  :PROPERTIES:
+  :CUSTOM_ID: sec:prod
+  :END:
 *** *103* Peer-reviewed [[file:production.org::#sec:publications][Publications]]
 *** *10* Conference [[file:production.org::#sec:proceedings][Proceedings]]
 *** *3* [[file:production.org::#sec:patents][Patents]]
@@ -115,83 +118,83 @@ class="drobtn">About me</a>
 *** *37* [[file:production.org::#sec:oral_comm][Oral communications]] [fn:1]
 *** *18* [[file:production.org::#sec:posters][Posters]]
 *** *1535* Citations [fn:2]
-** AWARDS
-:PROPERTIES:
-:CUSTOM_ID: sec:awards
-:END:
-*** *2018* *Instrumentation award* of the French Chemical Society. [[http://www.societechimiquedefrance.fr/Laureats-898.html][file:img/external_link.png]]
+\\
+* Awards
+  :PROPERTIES:
+  :CUSTOM_ID: sec:awards
+  :END:
+*** *2018* - _Instrumentation award_ of the French Chemical Society. [[http://www.societechimiquedefrance.fr/Laureats-898.html][file:img/external_link.png]]
 
-*** *2005* *Annual prize of the Royal Academy of Sciences, Letters and Fine Arts of Belgium*, Section of Mathematics and Physics, Brussels, Belgium.
+*** *2005* - _Annual prize of the Royal Academy of Sciences, Letters and Fine Arts of Belgium_, Section of Mathematics and Physics, Brussels, Belgium. 
+\\
+* Student mentorship
+  :PROPERTIES:
+  :CUSTOM_ID: sec:students
+  :END:
+*** *2018-2015* - Thesis Director of Suzie Douix, University Paris-Saclay, France.
+
+*** *2012-2009* - Supervision of two postdocs. Drs Milosavljevic and Canon are currently Assistant Professor at the Institute of Physics of Belgrade (Serbia) and Research Fellow at CGSA, INRA Dijon.
+
+*** *2009–2004* - Scientific supervision of PhD students (Aicha Bagag, Julia Allegrand) and 1 Master student (Delphine Debois), University d'Evry Val-d'Essonne, France.
+\\
+* Teaching activities
+  :PROPERTIES:
+  :CUSTOM_ID: sec:teaching
+  :END:
+*** *2015* - Course on ambient ionization, youth club of the French mass spectrometry society, Montélimar, France.
+*** *2009* - Course on photoionization at atmospheric pressure, youth club of the French company of mass spectrometry, Borzée, Belgium.
+*** *2004 - 1998* - Lecturer (Assistant) in General Chemistry and Physical Chemistry courses, University of Liege (Belgium).
 \\
 
-** STUDENTS MENTORSHIP
-:PROPERTIES:
-:CUSTOM_ID: sec:students
-:END:
-*** *2018-2015* Thesis Director of Suzie Douix, University Paris-Saclay, France.
+* Organization of scientific meetings
+  :PROPERTIES:
+  :CUSTOM_ID: sec:meetings
+  :END:
+*** *05/06/2018* - Chairperson of the Fundamentals: Photoionization and Photodissociation session at the Annual conference of the American Society for Mass Spectrometry, San Diego, USA.
 
-*** *2012-2009* Supervision of two postdocs. Drs Milosavljevic and Canon are currently Assistant Professor at the Institute of Physics of Belgrade (Serbia) and Research Fellow at CGSA, INRA Dijon.
+*** *21/01/2015* - Organizing committee, INRA – SOLEIL meeting day as a satellite of the SOLEIL User’s meeting, around 80 participants, SOLEIL, Gif-sur-Yvette, France.
 
-*** *2009–2004* Scientific supervision of PhD students (Aicha Bagag, Julia Allegrand) and 1 Master student (Delphine Debois), University d'Evry Val-d'Essonne, France.
+*** *13/11/2009* - Organizing committee, INRA – SOLEIL meeting day, around 40 participants, SOLEIL, Gif-sur-Yvette, France.
+\\
+* Commissions of trust
+  :PROPERTIES:
+  :CUSTOM_ID: sec:trust
+  :END:
+*** *Today - 2013* - External evaluator for the CLS (Canadian Synchrotron Radiation Center), Canada.
 
-** TEACHING ACTIVITIES
-:PROPERTIES:
-:CUSTOM_ID: sec:teaching
-:END:
-*** *2015* Course on ambient ionization, youth club of the French mass spectrometry society, Montélimar, France.
-*** *2009* Course on photoionization at atmospheric pressure, youth club of the French company of mass spectrometry, Borzée, Belgium.
-*** *2004 - 1998* Lecturer (Assistant) in General Chemistry and Physical Chemistry courses, University of Liège (Belgium).
-~120 teaching hours per year.
+*** *2018*, *2017* - Expert for the Swiss NSF (National Science Foundation) Switzerland.
 
-** ORGANIZATION OF SCIENTIFIC MEETINGS
-:PROPERTIES:
-:CUSTOM_ID: sec:meetings
-:END:
-*** *05/06/2018* Chairperson of the Fundamentals: Photoionization and Photodissociation session at the Annual conference of the American Society for Mass Spectrometry, San Diego, USA.
+*** *2016*, *2013* - Expert for the ANR (French National Agency for Scientific Research), France.
 
-*** *21/01/2015* Organizing committee, INRA – SOLEIL meeting day as a satellite of the SOLEIL User’s meeting, around 80 participants, SOLEIL, Gif-sur-Yvette, France.
+*** *2016*, *2013* - Expert for the NCSTE (National Centre of Science and Technology Evaluation), Kazakhstan 
 
-*** *13/11/2009* Organizing committee, INRA – SOLEIL meeting day, around 40 participants, SOLEIL, Gif-sur-Yvette, France.
+*** *2014*         - Expert for the European Commission in the framework of the H2020 program, Brussels. 
+\\
+* Editorship activities
+  :PROPERTIES:
+  :CUSTOM_ID: sec:edit
+  :END:
 
-** COMMISSIONS OF TRUST
-:PROPERTIES:
-:CUSTOM_ID: sec:trust
-:END:
-*** *Today - 2013* External evaluator for the CLS (Canadian Synchrotron Radiation Center), Canada.
+*** *Today – 2014* - Editorial board member of the Journal of Chemistry (analytical chemistry division), Hindawi Publishers.
 
-*** *2018*, *2017* Expert for the Swiss NSF (National Science Foundation) Switzerland.
+*** *2017* - Edition of a [[https://www.synchrotron-soleil.fr/fr/actualites/10-ans-de-collaboration-inrasoleil][booklet]] (around 50 pages) to comemorate the 10 years partnership between INRA and SOLEIL.
 
-*** *2016*, *2013* Expert for the ANR (French National Agency for Scientific Research), France.
+*** *2012* - Edition of a [[http://inra.dam.front.pad.brainsonic.com/ressources/afile/226391-52870-resource-5-ans-de-partenariat-avec-soleil-edition-2012.html][booklet]] (around 80 pages) to comemorate the 5 years partnership between INRA and SOLEIL.
+\\
+* Membership of scientific societies
+  :PROPERTIES:
+  :CUSTOM_ID: sec:soc
+  :END:
+*** *2018 - 2017* - Member of the _French Chemical Society_
 
-*** *2016*, *2013* Expert for the NCSTE (National Centre of Science and Technology Evaluation), Kazakhstan 
+*** *2018 - 2017* - Member of the _French Society of Mass Spectrometry_
 
-*** *2014* Expert for the European Commission in the framework of the H2020 program, Brussels. 
+*** *2018 - 2005* - Member of the _American Society of Mass Spectrometry_
 
-** EDITORSHIPS ACTIVITIES
-:PROPERTIES:
-:CUSTOM_ID: sec:edit
-:END:
+*** *2018 - 2006* - Member of the thematic group of Biology and Life Science _Heliobio_ of the SOLEIL synchrotron
 
-*** *Today – 2014* Editorial board member of the Journal of Chemistry (analytical chemistry division), Hindawi Publishers.
-
-*** *2017* Edition of a [[https://www.synchrotron-soleil.fr/fr/actualites/10-ans-de-collaboration-inrasoleil][booklet]] (around 50 pages) to comemorate the 10 years partnership between INRA and SOLEIL.
-
-*** *2012* Edition of a [[http://inra.dam.front.pad.brainsonic.com/ressources/afile/226391-52870-resource-5-ans-de-partenariat-avec-soleil-edition-2012.html][booklet]] (around 80 pages) to comemorate the 5 years partnership between INRA and SOLEIL.
-
-** MEMBERSHIPS OF SCIENTIFIC SOCIETIES
-:PROPERTIES:
-:CUSTOM_ID: sec:soc
-:END:
-*** *2018 - 2017* Member of the French Chemical Society
-
-*** *2018 - 2017* Member of the French Society of Mass Spectrometry
-
-*** *2018 - 2005* Member of the American Society of Mass Spectrometry
-
-*** *2018 - 2006* Member of the thematic group of Biology and Life Science of the SOLEIL synchrotron
-
-*** *2018 - 2005* Member of the thematic group of atomic and molecular physics of the SOLEIL synchrotron
-
+*** *2018 - 2005* - Member of the thematic group of atomic and molecular physics _AtMol_ of the SOLEIL synchrotron
+\\
 
 
 * Footnotes
@@ -201,4 +204,5 @@ class="drobtn">About me</a>
 [[file:img/cartoonized_ID.png]]
 
 [fn:1] 18 on invitation.
-[fn:2] Retrieved from Scopus: <2019-01-22 Tue>
+[fn:2] Retrieved from Scopus: <2019-01-22>.
+[fn:3] This qualification is mandatory to apply for professorship positions in France.
