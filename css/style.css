@@ -164,21 +164,24 @@ a:hover {
 /*  background-color: #d3d3a8; */
 /*    background-color: #00BFFF; */
 }
-#content,
-#postamble {
-  margin: auto;
-  margin-bottom: 1.5em;
-  padding: 0 0.5em;
+#content {
+    margin: auto;
+    margin-bottom: 1.5em;
+    padding: 0 0.5em;
+
 }
 
+#postamble {
+    margin: auto;
+    margin-bottom: 1.5em;
+    font-size: 75%; 
+}
 #postamble .author {
-    font-size: 100%;
-    margin-bottom: 0px;
+/*    margin-bottom: 100px; */
 }
 
 #postamble .date {
-    font-size: 90%;
-    margin-bottom: 0px;
+/*    margin-bottom: 100px;  */
     /*color: #27AE60;*/
 }
 
@@ -339,6 +342,7 @@ sup {
   content: "]";
 }
 
+
 .sidenote {
   display: none;
   position: absolute;
@@ -373,6 +377,7 @@ sup {
     text-align: justify;
   }
 }
+
 @media screen and (min-width: 1150px) {
   #content.has-sidenotes {
     left: 0;
