@@ -67,17 +67,17 @@ class="drobtn">About me</a>
 :CUSTOM_ID: sec:contact
 :END:
 
-| [[file:img/stamp_logo_small.png]]          |   | Alexandre Giuliani [fn:pict]                    |
-|                                        |   | Synchrotron SOLEIL                              |
-|                                        |   | L'Orme  des  Merisier                           |
-|                                        |   | F-91192 Gif-sur-Yvette                          |
-|                                        |   | France                                          |
-| [[file:img/phone-logo_small.png]]          |   | +33 (0)1 69 35 97 29                            |
-| [[mailto:alexandre.giuliani@synchrotron-soleil.fr][file:img/logo_at_small.png]]             |   | alexandre[.]giuliani[at]synchrotron-soleil[.]fr |
-| [[https://twitter.com/ajgiuliani][file:img/logo_twitter_small.jpg]]        |   | @ajgiuliani                                     |
-|                                        |   |                                                 |
-| [[https://orcid.org/0000-0003-1710-4933][file:img/orcid_logo_small.jpg]]          |   | 0000-0003-1710-4933                             |
-| [[https://www.overleaf.com/read/vyrmkrxmszrx][file:img/overleaf-small.png]]            |   | Résumé (CV)                                     |
+| [[file:img/stamp_logo_small.png]]   |   | Alexandre Giuliani [fn:pict]                    |
+|                                 |   | Synchrotron SOLEIL                              |
+|                                 |   | L'Orme  des  Merisier                           |
+|                                 |   | F-91192 Gif-sur-Yvette                          |
+|                                 |   | France                                          |
+| [[file:img/phone-logo_small.png]]   |   | +33 (0)1 69 35 97 29                            |
+| [[mailto:alexandre.giuliani@synchrotron-soleil.fr][file:img/logo_at_small.png]]      |   | alexandre[.]giuliani[at]synchrotron-soleil[.]fr |
+| [[https://twitter.com/ajgiuliani][file:img/logo_twitter_small.jpg]] |   | @ajgiuliani                                     |
+|                                 |   |                                                 |
+| [[https://orcid.org/0000-0003-1710-4933][file:img/orcid_logo_small.jpg]]   |   | orcid.org/0000-0003-1710-4933                   |
+| [[https://www.overleaf.com/read/vyrmkrxmszrx][file:img/overleaf-small.png]]     |   | Résumé (CV)                                     |
 
  [[https://scholar.google.fr/citations?user=cJXZs_kAAAAJ&hl=fr&oi=ao][file:img/google_scholar_logo_small.png]]
  [[https://www.researchgate.net/profile/Alexandre_Giuliani][file:img/RG_logo_small.png]] 
