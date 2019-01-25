@@ -90,7 +90,7 @@ class="drobtn">About me</a>
 *** *Since 2006* - _Senior Research Engineer_, CEPIA Department, INRA on secondment at SOLEIL synchrotron on the DISCO beamline.
 *** *Since 2006* - _Beamline scientist_, DISCO beamline with Dr. M. Refregiers, SOLEIL, Gif-sur-Yvette, France.
 *** *2006 - 2004* - _Postdoctoral fellowship_ with Pr. Olivier Laprévote, Mass spectrometry laboratory, ICSN, CNRS, France.
-*** *2004 - 1998* - _Assistant_ with Pr. Jacques Delwiche, Université de Liège, Belgium.
+*** *2004 - 1998* - _Lecturer (Assistant)_ with Pr. Jacques Delwiche, Université de Liège, Belgium.
 \\
 * Education
   :PROPERTIES:
@@ -132,9 +132,9 @@ class="drobtn">About me</a>
   :END:
 *** *2018-2015* - Thesis Director of Suzie Douix, University Paris-Saclay, France.
 
-*** *2012-2009* - Supervision of two postdocs. Drs Milosavljevic and Canon are currently Assistant Professor at the Institute of Physics of Belgrade (Serbia) and Research Fellow at CGSA, INRA Dijon.
+*** *2012-2009* - Supervision of two postdocs. Drs Aleksandar Milosavljevic and Francis Canon are currently Assistant Professor at the Institute of Physics of Belgrade (Serbia) and Research Fellow at CGSA, INRA Dijon.
 
-*** *2009–2004* - Scientific supervision of PhD students (Aicha Bagag, Julia Allegrand) and 1 Master student (Delphine Debois), University d'Evry Val-d'Essonne, France.
+*** *2009–2004* - Scientific supervision of PhD students (Aicha Bagag, Julie Allegrand) and 1 Master student (Delphine Debois), University d'Evry Val-d'Essonne, France.
 \\
 * Teaching activities
   :PROPERTIES:
