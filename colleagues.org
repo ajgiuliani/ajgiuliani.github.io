@@ -36,13 +36,12 @@
   <ul>
     <li><a href='index.html'>Home</a></li>
     <li><a href='research.html'>Research</a></li> 
-    <li><a href='tools.html'>Tools</a></li>
     <li class="dropdown">
         <a class="active" href="javascript:void(0)"
 class="drobtn">Colleagues</a>
        <div class="dropdown-content">
        <a href="#sec:disco">@ DISCO</a>
-       <a href="#sec:collabs">Collaborations</a>
+       <a href="#sec:collabs">Collaborators</a>
        </div>
     </li>
     <li><a href='about.html'>About me</a></li>
@@ -66,7 +65,7 @@ class="drobtn">Colleagues</a>
 *** [[https://www.synchrotron-soleil.fr/fr/lignes-de-lumiere/DISCO][Frank Wien]]
 **** Circular dichroism
 
-* Collaborations
+* Collaborators
 :PROPERTIES:
 :CUSTOM_ID: sec:collabs
 :END:
