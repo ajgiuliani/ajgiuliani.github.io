@@ -175,7 +175,7 @@ a:hover {
 
 #postamble {
     margin: auto;
-    margin-bottom: 1.5em;
+/*    margin-bottom: 1.5em;  */
     font-size: 75%; 
 }
 #postamble .author {
@@ -395,6 +395,6 @@ sup {
     font-weight: normal;  
     font-size: 150%;
     margin: 0;
-  border-bottom: 1px solid #999999;
+/*  border-bottom: 1px solid #999999;  */
   margin-bottom: 0.5em; 
 }
