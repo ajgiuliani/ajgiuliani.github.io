@@ -8,7 +8,7 @@
 #+HTML_HEAD: <link rel="icon" type="image/png" href="img/favicon-32x32.png" sizes="32x32" />
 #+HTML_HEAD_EXTRA: <script src='https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js'></script>
 #+HTML_HEAD_EXTRA: <script src='js/blog.js'></script>
-#+HTML_HEAD_EXTRA: <link rel='stylesheet' type='text/css' href='css/style.css'>
+#+HTML_HEAD_EXTRA: <link rel='stylesheet' type='text/css' href='css/style-test.css'>
 #+HTML_HEAD_EXTRA: <script async src="https://www.googletagmanager.com/gtag/js?id=UA-132913317-1"></script>
 #+HTML_HEAD_EXTRA: <script>
 #+HTML_HEAD_EXTRA:   window.dataLayer = window.dataLayer || [];
@@ -113,6 +113,7 @@ From these data, the abundance of a particular ion may be measured and plotted a
 
 
 * Footnotes
+
 [fn:2] https://orgmode.org/
 [fn:3] There is plenty of excellent resources on literate programming on the web.\\
 - See Konrad Hinsen's [[https://blog.khinsen.net/posts/2018/07/26/literate-computational-science/][blog]] \\
