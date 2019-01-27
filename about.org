@@ -30,7 +30,7 @@
 
 #+SUBTITLE: Spectroscopy & Spectrometry
 #+HTML_DOCTYPE: html5
-
+  
 #+NAME: banner
 #+BEGIN_EXPORT html
 <div class="navbar">
