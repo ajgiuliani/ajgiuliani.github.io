@@ -159,15 +159,15 @@ class="drobtn">About me</a>
   :PROPERTIES:
   :CUSTOM_ID: sec:trust
   :END:
-*** *Today - 2013* - External evaluator for the CLS (Canadian Synchrotron Radiation Center), Canada.
+*** External evaluator for the CLS (Canadian Synchrotron Radiation Center), Canada.
 
-*** *2018*, *2017* - Expert for the Swiss NSF (National Science Foundation) Switzerland.
+*** Expert for the Swiss NSF (National Science Foundation) Switzerland.
 
-*** *2016*, *2013* - Expert for the ANR (French National Agency for Scientific Research), France.
+*** Expert for the ANR (French National Agency for Scientific Research), France.
 
-*** *2016*, *2013* - Expert for the NCSTE (National Centre of Science and Technology Evaluation), Kazakhstan 
+*** Expert for the NCSTE (National Centre of Science and Technology Evaluation), Kazakhstan.
 
-*** *2014*         - Expert for the European Commission in the framework of the H2020 program, Brussels. 
+*** Expert for the European Commission in the framework of the H2020 program, Brussels. 
 \\
 * Editorship activities
   :PROPERTIES:
@@ -184,15 +184,14 @@ class="drobtn">About me</a>
   :PROPERTIES:
   :CUSTOM_ID: sec:soc
   :END:
-*** *2018 - 2017* - Member of the _French Chemical Society_
+*** _French Chemical Society_
 
-*** *2018 - 2017* - Member of the _French Society of Mass Spectrometry_
+*** _French Society of Mass Spectrometry_
 
-*** *2018 - 2005* - Member of the _American Society of Mass Spectrometry_
+*** _American Society of Mass Spectrometry_
 
-*** *2018 - 2006* - Member of the thematic group of Biology and Life Science _Heliobio_ of the SOLEIL synchrotron
-
-*** *2018 - 2005* - Member of the thematic group of atomic and molecular physics _AtMol_ of the SOLEIL synchrotron
+*** Thematic group of Biology and Life Science[[https://www.synchrotron-soleil.fr/en/research/house-research/biology-health-heliobio][Heliobio]] of the SOLEIL synchrotron
+*** Thematic group of atomic and molecular physics [[https://www.synchrotron-soleil.fr/en/research/house-research/atomic-and-molecular-physics-dilute-matter-universe-science][AtMol]] of the SOLEIL synchrotron
 \\
 
 
