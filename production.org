@@ -49,7 +49,6 @@ class="drobtn">Production</a>
        <a href="#sec:posters">Posters </a>
        <a href="#sec:outreach">Outreach </a>
        </div>
-    <li><a href='outreach.html'>Outreach</a></li>
     <li><a href='news.html'>News</a></li>
     </ul>
 </div>
