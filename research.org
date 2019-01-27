@@ -45,10 +45,8 @@ class="drobtn">Research</a>
 	  <a href="#sec:newtools">Tools</a>
        </div>
     </li>
-    <li><a href='colleagues.html'>Colleagues</a></li>
     <li><a href='about.html'>About me</a></li>
     <li><a href='production.html'>Production</a></li>
-    <li><a href='outteach.html'>Outreach</a></li>
     <li><a href='news.html'>News</a></li>
   </ul>
 </div>
@@ -56,6 +54,7 @@ class="drobtn">Research</a>
 
 * Research
 My research is concerned with the study of the electronic structure of ions and molecules. The electronic structure describes how the electrons of a system are distributed spatially and energetically. Geometric and electronic structures are intimately related and both structures are essential to the understanding of the chemical and physical properties of matter at an atomic and molecular scale.
+My collaborators on these topics are presented [[file:///Users/alex/Dropbox/org/ajgiuliani.github.io/colleagues.html][here]].
 
 ** TODO Interplay between electronic and atomic structures of biological molecules
 :PROPERTIES:

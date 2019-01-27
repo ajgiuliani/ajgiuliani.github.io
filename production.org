@@ -48,15 +48,16 @@ class="drobtn">Production</a>
        <a href="#sec:chapters">Book chapters </a>
        <a href="#sec:oral_comm">Oral communications </a>
        <a href="#sec:posters">Posters </a>
+       <a href="#sec:outreach">Outreach </a>
        </div>
     <li><a href='outreach.html'>Outreach</a></li>
     <li><a href='news.html'>News</a></li>
-  </ul>
+    </ul>
 </div>
 #+END_EXPORT
 
 * Scientific production
-A list is available from my institution repository [[https://prodinra.inra.fr/?locale=en#!Result:au:%22Alexandre%20Giuliani%22%7Csort=%7BDATE_DESC%7D][Prodinra]] [fn:1].
+A list is available from my institution repository [[https://prodinra.inra.fr/?locale=en#!Result:au:%22Alexandre%20Giuliani%22%7Csort=%7BDATE_DESC%7D][Prodinra]] [fn:1]. 
 
 ** Publications
 :PROPERTIES:
@@ -733,7 +734,49 @@ A list is available from my institution repository [[https://prodinra.inra.fr/?l
 **** *1.*	/«Electronic excitation ans oscillator strength of ethyl iodide by VUV photoabsorption and electron energy loss spectroscopy»/, Société Belge de Physique, VUB, Bruxelles (BE), 21/05/1999.
 
 ** Popularization                                                   :noexport: 
+** Outreach
+:PROPERTIES:
+:CUSTOM_ID: sec:outreach
+:END:
+*** *2018*
+**** Instrumentation award, French Chemical Society, Physical chemistry division.  [[http://www.societechimiquedefrance.fr/Laureats-898.html][file:img/external_link.png]]
 
+**** SOLEIL [[https://www.synchrotron-soleil.fr/fr/actualites/casser-des-molecules-avec-un-rayonnement-uv-une-nouvelle-methode-dactivation-pour-la][highlight]] about our collaborative [[file:production.org::#sec:t100][publication]] entitled /«Extreme ultraviolet (XUV) radiation: a means of ion activation for tandem mass spectrometry»/ in Anal. Chemistry.
+
+**** SOLEIL [[https://www.synchrotron-soleil.fr/fr/actualites/photoionisation-du-cation-c60-le-buckminsterfullerene][highlight]] about our [[file:production.org::#sec:t95][publication]] /«Photoionization of the Buckminsterfullerene Cation»/ in J. Phys. Chem. Lett.
+*** *2015*
+****  [[https://www.synchrotron-soleil.fr/fr/actualites/comment-casser-des-sucres-avec-de-la-lumiere-et-dans-quel][SOLEIL]] and [[http://www.angers-nantes.inra.fr/Toutes-les-actualites/polysaccharides][INRA]] (in french) highlights about our [[file:production.org::#sec:t72][publication]] /«High-energy photon activation tandem mass spectrometry provides unprecedented insights into the structure of highly sulfated oligosaccharides extracted from macroalgal cell walls»/ in Analytical Chemistry.
+
+**** SOLEIL [[https://www.synchrotron-soleil.fr/fr/actualites/nano-clusters-dhydrure-dargent-sous-irradiation-ultraviolette-dans-le-vide][highlight]] on our collaborative [[file:production.org::#sec:t77][work]] entitled /«Gas-phase VUV Photoionisation and Photofragmentation of the Silver Deuteride Nanocluster [Ag_{10}D_{8}L_{6}]^{2+} (L = bis(diphenylphosphino)methane). A Joint Experimental and Theoretical Study»/ in Phys. Chem. Chem. Phys.
+
+**** SOLEIL [[https://www.synchrotron-soleil.fr/fr/actualites/therapie-photodynamique-profonde-une-nanolampe-de-poche-pour-rendre-actifs-les][highlight]] about our collaborative [[file:production.org::#sec:t74][work]] entitled /«X-ray-induced radiophotodynamic therapy (RPDT) using lanthanide micelles: Beyond depth limitations»/ in Nano Research.
+
+*** *2013*
+**** Press release from [[http://www.dijon.inra.fr/Toutes-les-actualites/Astringence][INRA]], [[http://www2.cnrs.fr/sites/communique/fichier/cp_canon_astringence_vdef.pdf][CNRS]], associated with [[file:production.org::#sec:t62][publication]] entitled /«Photodissociation and Dissociative Photoionization Mass Spectrometry of Proteins and Noncovalent Protein-Ligand Complexes»/ in Angewandte Chemie Int. Ed.
+
+**** Inside cover [fn:cover2013] of Angewandte Chemie Int. Ed. associated with our [[file:production.org::#sec:t62][publication]] entitled /«Photodissociation and Dissociative Photoionization Mass Spectrometry of Proteins and Noncovalent Protein-Ligand Complexes»/
+
+*** *2012*
+**** SOLEIL [[https://www.synchrotron-soleil.fr/fr/actualites/trois-molecules-deau-suffisent-stabiliser-un-dipeptide][highlight]] about [[file:production.org::#sec:t61][publication]] /«Nanosolvation-Induced Stabilization of a Protonated Peptide Dimer Isolated in the Gas Phase»/ in Angewandte Chemie Int. Ed.
+   
+
+**** SOLEIL [[http://www.synchrotron-soleil.fr/Soleil/ToutesActualites/2012/DESIRSphotoionisation][highlight]] about our [[file:production.org::#sec:t53][publication]] entitled /«Structure and Charge-State Dependence of the Gas-Phase Ionization Energy of Proteins»/ in Angewandte Chemie Int. Ed.
+
+
+**** Wiley analytical science [[http://dmmsclick.wileyeurope.com/view.asp?m=ltbwp4dcs7xcq37p6s6p&u=6589066&f=h][highlight]] about our [[file:production.org::#sec:t45][work]] /«VUV synchrotron radiation: a new activation technique for tandem mass spectrometry»/ in J. Synchrotron Rad.
+
+*** *2011*
+**** SOLEIL [[https://www.synchrotron-soleil.fr/fr/actualites/des-proteines-faciles-eplucher-en-electrons][highlight]] about our [[file:production.org::#sec:t60][publication]] /«Valence shell direct double photodetachment in polyanions»/ in New J. Phys.
+
+**** SOLEIL [[http://www.synchrotron-soleil.fr/Soleil/ToutesActualites/2011/TrouDansAnneau][highlight]] about our [[file:production.org::#sec:t41][publication]] /«A differential pumping system to deliver windowless VUV photons at atmospheric pressure»/ in J. Synchrotron Rad.
+
+*** *2010*
+**** SOLEIL [[/«Characterization, stoichiometry and stability of salivary protein-tannin complexes by ESI-MS and CID MS/MS»][highlight]] associated to [[file:production.org::#sec:t33][publication]] /«Characterization, stoichiometry and stability of salivary protein-tannin complexes by ESI-MS and CID MS/MS»/ in in J. Synchrotron Rad.
 
 * Footnotes
 [fn:1] along with some preprints.
+[fn:cover2013]
+#+ATTR_HTML: alt picture ID 
+#+ATTR_HTML: :width 250 :style float:center;margin: 20px -20px -40px 0px;
+[[file:img/ACIE_cover_2013.jpg]]
+

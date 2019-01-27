@@ -39,7 +39,6 @@
   <ul>
     <li><a href='index.html'>Home</a></li>
     <li><a href='research.html'>Research</a></li>
-    <li><a href='colleagues.html'>Colleagues</a></li>
     <li class="dropdown">
        <a class="active" href="javascript:void(0)"
 class="drobtn">About me</a>
@@ -59,7 +58,6 @@ class="drobtn">About me</a>
        </div>
     </li>
     <li><a href='production.html'>Production</a></li>
-    <li><a href='outteach.html'>Outreach</a></li>
     <li><a href='news.html'>News</a></li>
   </ul>
 </div>

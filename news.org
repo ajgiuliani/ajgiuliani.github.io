@@ -36,10 +36,8 @@
   <ul>
     <li><a href='index.html'>Home</a></li>
     <li><a href='research.html'>Research</a></li>
-    <li><a href='colleagues.html'>Colleagues</a></li>
     <li><a href='about.html'>About me</a></li>
     <li><a href='production.html'>Production</a></li>
-    <li><a href='outreach.html'>Ourreach</a></li>
     <li class="dropdown">
        <a class="active" href="javascript:void(0)"
 class="drobtn">News</a>
@@ -50,11 +48,11 @@ class="drobtn">News</a>
 </div>
 #+END_EXPORT
 
-* News [fn:1]
+* News
 
 ** 2019
-**** *<2019-01-22>* New study of radiation damage based on DNA origami with our colleagues from Universität Postdam is now out in [[doi:10.1039/C8CP06813E][*PCCP*]].
+**** *[2019-01-22 Tue]* New study [fn:1] of radiation damage based on the DNA origami technology with our colleagues from Universität Postdam is now out in PCCP.
 
 * Footnotes
-[fn:1]
+[fn:1] /«Vacuum-UV induced DNA strand breaks – influence of the radiosensitizers 5-bromouracil and 8-bromoadenine»/  S. Vogel, K. Ebel, C. Heck,  R. M. Schürmann,  A. R. Milosavljević,  A. Giuliani,  Ilko Bald*, *Phys. Chem. Chem. Phys.* 21 (2019) 1972-1979. doi:10.1039/C8CP06813E
 
