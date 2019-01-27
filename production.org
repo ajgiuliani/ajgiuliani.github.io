@@ -63,7 +63,7 @@ A list is available from my institution repository [[https://prodinra.inra.fr/?l
 :CUSTOM_ID: sec:publications
 :END:
 *** *2019*
-****  *103.* /«Vacuum-UV induced DNA strand breaks – influence of the radiosensitizers 5-bromouracil and 8-bromoadenine»/  S. Vogel, K. Ebel, C. Heck,  R. M. Schürmann,  A. R. Milosavljević,  A. Giuliani,  Ilko Bald*, *Phys. Chem. Chem. Phys.* 2019 doi:10.1039/C8CP06813E
+****  *103.* /«Vacuum-UV induced DNA strand breaks – influence of the radiosensitizers 5-bromouracil and 8-bromoadenine»/  S. Vogel, K. Ebel, C. Heck,  R. M. Schürmann,  A. R. Milosavljević,  A. Giuliani,  Ilko Bald*, *Phys. Chem. Chem. Phys.* 21 (2019) 1972-1979. doi:10.1039/C8CP06813E
 #+ATTR_HTML: :width 200 :style float:center;margin:-10px 0px -20px 20px; border:2px solid #ccc;
 [[file:img/103.gif]]
 	
