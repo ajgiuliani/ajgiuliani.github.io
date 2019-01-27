@@ -13,11 +13,16 @@ body {
 /*  text-align: justify; */
 
 }
+/*  contact */
+div.contact {
+  text-align: center;
+}
 
 /* Navigation bar */
 
 .navbar ul {
     list-style-type: none;
+    text-align: center;
     margin: 0;
     padding: 0;
     overflow: hidden;
@@ -26,7 +31,8 @@ body {
 }
 
 .navbar li {
-    float: left;
+/*    float: left;  */
+    display:inline;
 }
 
 .navbar li a, .droptn {
@@ -99,12 +105,14 @@ section p {
 section p + p {
   text-indent: 1.5em;
 }
+
 h1,
 h2,
 h3,
 h4 {
   font-weight: normal;
 }
+
 h2.footnotes {
   font-family: "Alegreya SC";
   font-size: 100%;
@@ -171,27 +179,30 @@ a:hover {
     margin: auto;
     margin-bottom: 1.5em;
     padding: 0 0.5em;
-
 }
 
 #postamble {
     margin: auto;
-/*    margin-bottom: 1.5em;  */
-    font-size: 75%; 
+    margin-bottom: 1.5em;
+    padding: 0 0.5em;
+    font-size: 75%;
+    text-align: center;
 }
+
+/*
 #postamble .author {
-/*    margin-bottom: 100px; */
+    text-align: center;
 }
 
 #postamble .date {
-/*    margin-bottom: 100px;  */
-    /*color: #27AE60;*/
+    text-align: center;
 }
+*/
 
 #postamble .validation {
     display:none;
 }
-
+/*
 #copyright a{
     color:#2980B9;
     text-decoration:none}
@@ -205,6 +216,7 @@ a:hover {
     cursor:pointer;
     color:#27AE60;
     *zoom:1}
+ */
 
 @media screen and (min-width: 460px) {
   #content,
@@ -218,6 +230,8 @@ a:hover {
     max-width: 560px;
   }
 }
+
+
 #table-of-contents a {
   text-decoration: none;
   font-family: "Alegreya SC", "Alegreya", serif;
@@ -334,7 +348,6 @@ sup {
   content: "]";
 }
 
-
 .sidenote {
   display: none;
   position: absolute;
@@ -390,8 +403,10 @@ sup {
     font-size: 100%;
     font-weight: bold; 
     margin: 0px;
+    color: white;
 }
 .subtitle {
+    color: black;
     font-style: italic;
     font-weight: normal;  
     font-size: 150%;
