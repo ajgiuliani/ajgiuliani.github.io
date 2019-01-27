@@ -66,7 +66,7 @@ class="drobtn">About me</a>
 * About me  [fn:pict]
 :PROPERTIES: 
 :CUSTOM_ID: sec:about
-:END:
+:END: 
 
 Currently employed as a research engineer at the [[http://www.cepia.inra.fr/en][CEPIA]] department of the  [[http://www.inra.fr/en/Scientists-Students][INRA]] (Institut National de la Recherche Agronomique), I am on secondment at the [[https://www.synchrotron-soleil.fr/en][SOLEIL]] synchrotron radiation facility, near Paris (France) where I am working on the [[https://www.synchrotron-soleil.fr/en/beamlines/disco][DISCO]] beamline as a beamline scientist.
 
