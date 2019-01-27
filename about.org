@@ -1,3 +1,4 @@
+
 #+TITLE:  Alexandre Giuliani
 #+AUTHOR: AG
 #+EMAIL:  (concat "alexandre.giuliani" at-sign "synchrotron-soleil.fr"
@@ -30,17 +31,19 @@
 #+SUBTITLE: Spectroscopy & Spectrometry
 #+HTML_DOCTYPE: html5
 
+
+
 #+NAME: banner
 #+BEGIN_EXPORT html
 <div class="navbar">
   <ul>
     <li><a href='index.html'>Home</a></li>
     <li><a href='research.html'>Research</a></li>
-    <li><a href='colleagues.html'>Colleagues</a></li>
     <li class="dropdown">
        <a class="active" href="javascript:void(0)"
 class="drobtn">About me</a>
        <div class="dropdown-content">
+       <a href="#sec:about">About</a>
        <a href="#sec:contact">Contact</a>
        <a href="#sec:career">Career</a>
        <a href="#sec:edu">Education</a>
@@ -55,18 +58,28 @@ class="drobtn">About me</a>
        </div>
     </li>
     <li><a href='production.html'>Production</a></li>
-    <li><a href='outteach.html'>Outreach</a></li>
     <li><a href='news.html'>News</a></li>
   </ul>
 </div>
 #+END_EXPORT
+
+* About me  [fn:pict]
+:PROPERTIES:
+:CUSTOM_ID: sec:about
+:END:
+
+Currently employed as a research engineer at the [[http://www.cepia.inra.fr/en][CEPIA]] department of the  [[http://www.inra.fr/en/Scientists-Students][INRA]] (Institut National de la Recherche Agronomique), I am on secondment at the [[https://www.synchrotron-soleil.fr/en][SOLEIL]] synchrotron radiation facility, near Paris (France) where I am working on the [[https://www.synchrotron-soleil.fr/en/beamlines/disco][DISCO]] beamline as a beamline scientist.
+
+SOLEIL is a very large research infrastructure and provides the scientific community with an access to 28 beamlines delivering photon beams of high brilliance and stability over a wide wavelength range from the terahertz up to the hard X-rays. The [[https://www.synchrotron-soleil.fr/en/beamlines/disco][DISCO]] beamline, managed by [[https://cv.archives-ouvertes.fr/matthieu-refregiers][Matthieu Refrregiers]], makes use of visible, ultraviolet (UV) and vacuum-UV (VUV) photons on three experimental stations, namely fluorescence imaging, circular dichroism and the atmospheric pressure experimental (APEX) station. I am more specifically in charge of this last station.
+
+In addition, I am a member of a team of INRA researchers at SOLEIL. Our mission is to help researchers and engineers from INRA to access the facility. We help improving proposals submitted by INRA researchers. In addition, we are visiting INRA centers across the country to present SOLEIL and its capabilities. We also maintain a monitoring of the technological developments appearing on synchrotron facilities.
 
 * Contact
 :PROPERTIES:
 :CUSTOM_ID: sec:contact
 :END:
 
-| [[file:img/stamp_logo_small.png]]   |   | Alexandre Giuliani [fn:pict]                    |
+| [[file:img/stamp_logo_small.png]]   |   | Alexandre Giuliani                              |
 |                                 |   | Synchrotron SOLEIL                              |
 |                                 |   | L'Orme  des  Merisier                           |
 |                                 |   | F-91192 Gif-sur-Yvette                          |
