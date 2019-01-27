@@ -43,26 +43,48 @@ class="drobtn">Home</a>
        </div>
     </li>
     <li><a href='research.html'>Research</a></li>
-    <li><a href='colleagues.html'>Colleagues</a></li>
     <li><a href='about.html'>About me</a></li>
     <li><a href='production.html'>Production</a></li>
-    <li><a href='outreach.html'>Outreach</a></li>
-    <li><a href='news.html'>News</a></li>
   </ul>
 </div>
 #+END_EXPORT
 
-* Home
-Welcome here! My name is Alexandre Giuliani. Currently employed as a research engineer at [[http://www.inra.fr/en/Scientists-Students][INRA]] (Institut National de la Recherche Agronomique), I am on secondment at the [[https://www.synchrotron-soleil.fr/en][SOLEIL]] synchrotron radiation facility, near Paris (France) where I am working on the [[https://www.synchrotron-soleil.fr/en/beamlines/disco][DISCO]] beamline as a beamline scientist.
 
-SOLEIL is a very large research infrastructure and provides the scientific community with an access to 28 beamlines delivering photon beams of high brilliance and stability over a wide wavelength range from the terahertz up to the hard X-rays. The [[https://www.synchrotron-soleil.fr/en/beamlines/disco][DISCO]] beamline, managed by [[https://cv.archives-ouvertes.fr/matthieu-refregiers][Matthieu Refrregiers]], makes use of visible, ultraviolet (UV) and vacuum-UV (VUV) photons on three experimental stations, namely fluorescence imaging, circular dichroism and the atmospheric pressure experimental (APEX) station. I am more specifically in charge of this last station.
+I am a [[https://agiuliani.xyz/about.html][chemist]] from INRA [fn:inra], the French National Institute for Agronomical Research working at the SOLEIL [fn:soleil] synchrotron radiation facility near Paris. 
 
-In addition, I am a member of a team of INRA researchers at SOLEIL. Our mission is to help researchers and engineers from INRA to access the facility. We help improving proposals submitted by INRA researchers. In addition, we are visiting INRA centers across the country to present SOLEIL and its capabilities. We also maintain a monitoring of the technological developments appearing on synchrotron facilities.
 
-I picked an xyz domain name because it reminds me the =.xyz= format [fn:1] used to store chemical structures. An =.xyz= file is a representation of a molecular system. This site intends to be a representation of my scientific activities.
+My [[https://agiuliani.xyz/research.html][reseach]] is focussed mainly on electronic and geometric structures, which are arguably among the most fundamental piece of information on molecular systems.
 
-** Note
-This site is made using [[https://orgmode.org/][Org]] mode based on the =CSS= file from Erik Sjöstrand ([[https://github.com/Kungsgeten/kungsgeten.github.io][Kungsgeten]]).
+To achieves these goals, several [[https://agiuliani.xyz/research.html#sec:newtools][tools]] have been developed.
+
+My scientific production is detailed [[https://agiuliani.xyz/production.html][here]].
+
+I picked an xyz domain name because it reminds me the =.xyz= format [fn:1] used to store chemical structures. An =.xyz= file is a representation of a molecular system, just as this site intends to be a representation of my scientific activities.
+
+\\
+\\
+#+NAME: contact
+#+BEGIN_EXPORT html
+<div class="contact">
+<h4>Alexandre Giuliani<br>
+<small>
+Synchrotron SOLEIL <br>
+L'Orme  des  Merisiers <br> 
+F-91192 Gif-sur-Yvette <br> 
+France <br>
++33 (0)1 69 35 97 29 <br> 
+<a  href="mailto:alexandre.giuliani@synchrotron-soleil.fr"><img align="middle" src="img/logo_at_small.png"></a> 
+<a  href="https://twitter.com/ajgiuliani"><img align="middle" src="img/logo_twitter_small.jpg"></a>
+<a href="https://orcid.org/0000-0003-1710-4933"><img align="middle" src="img/orcid_logo_small.jpg"</a>
+<br>
+</small>
+</h4>
+</div">
+
+#+END_EXPORT
+
 
 * Footnotes
+[fn:inra] http://www.inra.fr/en/
+[fn:soleil] https://www.synchrotron-soleil.fr/en
 [fn:1] [[https://en.wikipedia.org/wiki/XYZ_file_format]]
