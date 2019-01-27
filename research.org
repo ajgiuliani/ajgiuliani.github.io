@@ -54,7 +54,7 @@ class="drobtn">Research</a>
 
 * Research
 My research is concerned with the study of the electronic structure of ions and molecules. The electronic structure describes how the electrons of a system are distributed spatially and energetically. Geometric and electronic structures are intimately related and both structures are essential to the understanding of the chemical and physical properties of matter at an atomic and molecular scale.
-My collaborators on these topics are presented [[file:///Users/alex/Dropbox/org/ajgiuliani.github.io/colleagues.html][here]].
+My collaborators on these topics are presented [[https://agiuilani.xyz/colleagues.html][here]].
 
 ** TODO Interplay between electronic and atomic structures of biological molecules
 :PROPERTIES:

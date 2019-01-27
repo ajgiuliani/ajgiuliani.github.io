@@ -64,7 +64,7 @@ class="drobtn">About me</a>
 #+END_EXPORT
 
 * About me  [fn:pict]
-:PROPERTIES:
+:PROPERTIES: 
 :CUSTOM_ID: sec:about
 :END:
 
