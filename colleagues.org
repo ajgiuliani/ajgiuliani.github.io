@@ -46,7 +46,6 @@ class="drobtn">Colleagues</a>
     </li>
     <li><a href='about.html'>About me</a></li>
     <li><a href='production.html'>Production</a></li>
-    <li><a href='outteach.html'>Outreach</a></li>
     <li><a href='news.html'>News</a></li>
   </ul>
 </div>
