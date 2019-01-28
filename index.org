@@ -51,7 +51,7 @@ class="drobtn">Home</a>
 #+END_EXPORT
 
 
-I am a [[https://agiuliani.xyz/about.html][chemist]] from INRA [fn:inra], the French National Institute for Agronomical Research working at the SOLEIL [fn:soleil] synchrotron radiation facility near Paris. 
+I am a [[https://agiuliani.xyz/about.html][chemist]] from the French National Institute for Agronomical Research (INRA) [fn:inra] working at the SOLEIL [fn:soleil] synchrotron radiation facility near Paris. 
 
 
 My [[https://agiuliani.xyz/research.html][reseach]] is focussed mainly on electronic and geometric structures, which are arguably among the most fundamental piece of information on molecular systems.
@@ -60,7 +60,7 @@ To achieves these goals, several [[https://agiuliani.xyz/research.html#sec:newto
 
 My scientific production is detailed [[https://agiuliani.xyz/production.html][here]].
 
-I picked an xyz domain name because it reminds me the =.xyz= format [fn:1] used to store chemical structures. An =.xyz= file is a representation of a molecular system, just as this site intends to be a representation of my scientific activities.
+I picked an xyz domain name because it reminds me the =.xyz= format used to store chemical structures. An =.xyz= file is a representation of a molecular system, just as this site intends to be a representation of my scientific activities.
 
 \\
 \\
@@ -88,4 +88,5 @@ France <br>
 * Footnotes
 [fn:inra] http://www.inra.fr/en/
 [fn:soleil] https://www.synchrotron-soleil.fr/en
-[fn:1] [[https://en.wikipedia.org/wiki/XYZ_file_format]]
+[fn:xyz] [[https://en.wikipedia.org/wiki/XYZ_file_format]]
+[fn:2] 

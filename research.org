@@ -43,6 +43,7 @@ class="drobtn">Research</a>
 	  <a href="#sec:noncov">Non covalent interactions</a>
 	  <a href="#sec:structchem">Structural chemistry </a>
 	  <a href="#sec:newtools">Tools</a>
+	  <a href="#sec:colleagues">Colleagues</a>
        </div>
     </li>
     <li><a href='about.html'>About me</a></li>
@@ -56,7 +57,7 @@ class="drobtn">Research</a>
 My research is concerned with the study of the electronic structure of ions and molecules. The electronic structure describes how the electrons of a system are distributed spatially and energetically. Geometric and electronic structures are intimately related and both structures are essential to the understanding of the chemical and physical properties of matter at an atomic and molecular scale.
 
 
-My collaborators on these topics are presented [[https://agiuilani.xyz/colleagues.html][here]].
+My collaborators on these topics are presented [[https://agiuliani.xyz/research.html#sec:colleagues][here below]].
 
 ** TODO Interplay between electronic and atomic structures of biological molecules
 :PROPERTIES:
@@ -133,6 +134,49 @@ From these data, the abundance of a particular ion may be measured and plotted a
 
 
 
+
+* Colleagues
+:PROPERTIES:
+:CUSTOM_ID: sec:colleagues
+:END:
+
+** @ DISCO
+*** [[https://cv.archives-ouvertes.fr/matthieu-refregiers][Matthieu Refregiers]]
+**** Biospectroscopy
+*** [[https://cv.archives-ouvertes.fr/frederic-jamme][Frédéric Jamme]]
+**** Biospectroscopy
+**** Experimental physics
+*** [[https://www.synchrotron-soleil.fr/fr/lignes-de-lumiere/DISCO][Frank Wien]]
+**** Circular dichroism
+
+** Collaborators
+*** [[https://khinsen.net/][Konrad Hinsen]], /Centre de Biophysique Moléculaire, CNRS, Orléans, France/
+**** *Molecular simulations*
+
+*** [[http://mail.ipb.ac.rs/~vraz/][Alexandar Milosavljević]], formerly at /Institute of Physics, Belgrade/ now at the /PLEIADES beamline, SOLEI/L
+**** *Ion spectroscopy.*
+****  Electron scattering
+
+*** [[https://www.synchrotron-soleil.fr/fr/content/laurent-nahon][Laurent Nahon]], /Synchrotron SOLEIL, France/
+**** *VUV spectroscopy.*
+
+*** Francis Canon, /CSGA, INRA, Dijon, France/
+**** *Non covalent complexes.*
+
+*** Regis Daniel, /University of Evry, France/
+**** *Protein Foot printing.*
+**** *Mass spectrometric analysis of sugars.*
+
+*** [[http://www.phlam.univ-lille1.fr/spip.php?article54][Denis Duflot]], /University of Lille, France/
+**** *Electronic spectroscopy*
+**** */ab initio/ electronic structure calculations*
+     
+*** David Ropartz & Hélène Rognaux, /INRA Nantes, France/ [fn:1]
+**** *Mass spectrometric analysis of sugar.*
+
+*** Martin R. Green, /Waters, Manchester, UK/
+**** *Ion activation & instrumentation.*
+
 * Footnotes
 
 [fn:2] https://orgmode.org/
@@ -165,5 +209,6 @@ From these data, the abundance of a particular ion may be measured and plotted a
 #+ATTR_HTML: :width 250 image :title Substance P activation :style float:center;
 [[file:img/ms2-matrix.jpg]]
 
+[fn:1] https://www.bibs.inra.fr/QUI-SOMMES-NOUS
 
 
