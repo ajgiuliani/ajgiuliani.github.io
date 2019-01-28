@@ -56,7 +56,7 @@ I am a [[https://agiuliani.xyz/about.html][chemist]] from the French National In
 
 My [[https://agiuliani.xyz/research.html][reseach]] is focussed mainly on electronic and geometric structures, which are arguably among the most fundamental piece of information on molecular systems.
 
-To achieves these goals, several [[https://agiuliani.xyz/research.html#sec:newtools][tools]] based on /spectroscopy/ and /mass spectrometry/ have been developed.
+To achieves these goals, several [[https://agiuliani.xyz/research.html#sec:newtools][tools]] based on /spectroscopy/, /mass spectrometry/ and their combinations have been developed.
 
 My scientific production is detailed [[https://agiuliani.xyz/production.html][here]].
 
