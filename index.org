@@ -37,21 +37,52 @@
 <div class="navbar">
   <ul>
     <li class="dropdown">
-       <a class="active" href="javascript:void(0)"
+       <a class="active" href="https://agiuliani.xyz/index.html"
 class="drobtn">Home</a>
        <div class="dropdown-content">
        </div>
     </li>
-    <li><a href='research.html'>Research</a></li>
-    <li><a href='about.html'>About me</a></li>
-    <li><a href='production.html'>Production</a></li>
-    <li><a href='news.html'>News</a></li>
+    <li class="dropdown">
+       <a href="https://agiuliani.xyz/research.html"
+class="drobtn">Research</a>
+       <div class="dropdown-content">
+          <a href="#sec:interplay">Electronic structure</a>
+	  <a href="#sec:noncov">Non covalent interactions</a>
+	  <a href="#sec:structchem">Structural chemistry </a>
+	  <a href="https://agiuliani.xyz/tools.html">Tools</a>
+       </div>
+    </li>
+    <li class="dropdown">
+       <a href="https://agiuliani.xyz/about.html"
+class="drobtn">About me</a>
+       <div class="dropdown-content">
+       </div>
+    </li>
+    <li class="dropdown">
+       <a href="https://agiuliani.xyz/production.html"
+class="drobtn">Production</a>
+       <div class="dropdown-content">
+       <a href="#sec:publications">Publications</a>
+       <a href="#sec:proceedings">Proceedings</a>
+       <a href="#sec:patents">Patents </a>
+       <a href="#sec:chapters">Book chapters </a>
+       <a href="#sec:oral_comm">Oral communications </a>
+       <a href="#sec:posters">Posters </a>
+       <a href="#sec:outreach">Outreach </a>
+       </div>
+    </li>
+    <li class="dropdown">
+       <a href="https://agiuliani.xyz/production.html"
+class="drobtn">News</a>
+       <div class="dropdown-content">
+       </div>
+    </li>
   </ul>
 </div>
 #+END_EXPORT
 
 
-I am a [[https://agiuliani.xyz/about.html][chemist]] from the French National Institute for Agronomical Research (INRA) [fn:inra] working at the SOLEIL [fn:soleil] synchrotron radiation facility near Paris. 
+I am a [[https://agiuliani.xyz/about.html][chemist]] from INRA, the French National Institute for Agronomical Research working at the SOLEIL synchrotron radiation facility near Paris. 
 
 
 My [[https://agiuliani.xyz/research.html][reseach]] is focussed mainly on electronic and geometric structures, which are arguably among the most fundamental piece of information on molecular systems.
@@ -67,6 +98,7 @@ I picked an xyz domain name because it reminds me the =.xyz= format used to stor
 #+NAME: contact
 #+BEGIN_EXPORT html
 <div class="contact">
+<h3> Contact </h3>
 <h4>Alexandre Giuliani<br>
 <small>
 Synchrotron SOLEIL <br>

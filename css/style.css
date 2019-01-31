@@ -13,10 +13,6 @@ body {
 /*  text-align: justify; */
 
 }
-/*  contact */
-div.contact {
-  text-align: center;
-}
 
 /* Navigation bar */
 
@@ -348,6 +344,50 @@ sup {
   content: "]";
 }
 
+/*  contact */
+.contact {
+/*    text-align: center;  */
+    /*    display: none;  */
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    left: calc(50% + 560px / 2 + 30px);
+/*    width: 238px;  */
+    width: 275px;
+    text-indent: 0;
+    font-size: 100%;
+    top: 110px;
+}
+.contact figure {
+  padding: 0;
+  margin: 0;
+}
+.contact img {
+  max-width: sidenote-width;
+/*  width: 100%; */
+  height: auto;
+}
+.contact p.footpara:not(:first-child) {
+  display: block;
+}
+@media screen and (min-width: 900px) {
+  #content.has-contact #contact{
+      display: none;
+  }
+  #content.has-contact {
+    position: relative;
+/*    left: 13%;  */
+    text-align: justify;
+  }
+}
+
+@media screen and (min-width: 1150px) {
+  #content.has-contact {
+    left: 0;
+  }
+}
+
+/* Side notes */
 .sidenote {
   display: none;
   position: absolute;

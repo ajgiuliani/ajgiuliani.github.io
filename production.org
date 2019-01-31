@@ -34,11 +34,30 @@
 #+BEGIN_EXPORT html
 <div class="navbar">
   <ul>
-    <li><a href='index.html'>Home</a></li>
-    <li><a href='research.html'>Research</a></li>
-    <li><a href='about.html'>About me</a></li>
     <li class="dropdown">
-       <a class="active" href="javascript:void(0)"
+       <a href="https://agiuliani.xyz/index.html"
+class="drobtn">Home</a>
+       <div class="dropdown-content">
+       </div>
+    </li>
+    <li class="dropdown">
+       <a href="https://agiuliani.xyz/research.html"
+class="drobtn">Research</a>
+       <div class="dropdown-content">
+          <a href="#sec:interplay">Electronic structure</a>
+	  <a href="#sec:noncov">Non covalent interactions</a>
+	  <a href="#sec:structchem">Structural chemistry </a>
+	  <a href="https://agiuliani.xyz/tools.html">Tools</a>
+       </div>
+    </li>
+    <li class="dropdown">
+       <a href="https://agiuliani.xyz/about.html"
+class="drobtn">About me</a>
+       <div class="dropdown-content">
+       </div>
+    </li>
+    <li class="dropdown">
+       <a class="active" href="https://agiuliani.xyz/production.html"
 class="drobtn">Production</a>
        <div class="dropdown-content">
        <a href="#sec:publications">Publications</a>
@@ -49,13 +68,20 @@ class="drobtn">Production</a>
        <a href="#sec:posters">Posters </a>
        <a href="#sec:outreach">Outreach </a>
        </div>
-    <li><a href='news.html'>News</a></li>
-    </ul>
+    </li>
+    <li class="dropdown">
+       <a href="https://agiuliani.xyz/production.html"
+class="drobtn">News</a>
+       <div class="dropdown-content">
+       </div>
+    </li>
+  </ul>
 </div>
 #+END_EXPORT
 
+Do not hesitate to email me for a pdf copy [fn:1].  You may see also my [[[https://orcid.org/0000-0003-1710-4933][ORCID]] page, my [[https://scholar.google.fr/citations?user=cJXZs_kAAAAJ&hl=fr&oi=ao][Google scholar]] profile for an up to date list. Some preprints are available from my institution repository [[https://prodinra.inra.fr/?locale=en#!Result:au:%22Alexandre%20Giuliani%22%7Csort=%7BDATE_DESC%7D][Prodinra]]. 
+
 * Scientific production
-A list is available from my institution repository [[https://prodinra.inra.fr/?locale=en#!Result:au:%22Alexandre%20Giuliani%22%7Csort=%7BDATE_DESC%7D][Prodinra]] [fn:1]. 
 
 ** Publications
 :PROPERTIES:
@@ -772,7 +798,7 @@ A list is available from my institution repository [[https://prodinra.inra.fr/?l
 **** SOLEIL [[/«Characterization, stoichiometry and stability of salivary protein-tannin complexes by ESI-MS and CID MS/MS»][highlight]] associated to [[file:production.org::#sec:t33][publication]] /«Characterization, stoichiometry and stability of salivary protein-tannin complexes by ESI-MS and CID MS/MS»/ in in J. Synchrotron Rad.
 
 * Footnotes
-[fn:1] along with some preprints.
+[fn:1] Preprints will be added to this page soon.
 [fn:cover2013]
 #+ATTR_HTML: alt picture ID 
 #+ATTR_HTML: :width 250 :style float:center;margin: 20px -20px -40px 0px;
