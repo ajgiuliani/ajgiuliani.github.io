@@ -80,7 +80,7 @@ class="drobtn">News</a>
 </div>
 #+END_EXPORT
 
-Do not hesitate to email me for a pdf copy [fn:1].  You may see also my [[[https://orcid.org/0000-0003-1710-4933][ORCID]] page, my [[https://scholar.google.fr/citations?user=cJXZs_kAAAAJ&hl=fr&oi=ao][Google scholar]] profile for an up to date list. Some preprints are available from my institution repository [[https://prodinra.inra.fr/?locale=en#!Result:au:%22Alexandre%20Giuliani%22%7Csort=%7BDATE_DESC%7D][Prodinra]]. 
+Do not hesitate to email me for a pdf copy [fn:1].  You may see also my [[https://orcid.org/0000-0003-1710-4933][ORCID]] page or my [[https://scholar.google.fr/citations?user=cJXZs_kAAAAJ&hl=fr&oi=ao][Google scholar]] profile for an up to date list. Some preprints are available from my institution repository [[https://prodinra.inra.fr/?locale=en#!Result:au:%22Alexandre%20Giuliani%22%7Csort=%7BDATE_DESC%7D][Prodinra]]. 
 
 * Scientific production
 
