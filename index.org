@@ -46,9 +46,9 @@ class="drobtn">Home</a>
        <a href="https://agiuliani.xyz/research.html"
 class="drobtn">Research</a>
        <div class="dropdown-content">
-          <a href="#sec:interplay">Electronic structure</a>
-	  <a href="#sec:noncov">Non covalent interactions</a>
-	  <a href="#sec:structchem">Structural chemistry </a>
+          <a href="https://agiuliani.xyz/research.html#sec:interplay">Electronic structure</a>
+	  <a href="https://agiuliani.xyz/research.html#sec:noncov">Non covalent interactions</a>
+	  <a href="https://agiuliani.xyz/research.html#sec:structchem">Structural chemistry </a>
 	  <a href="https://agiuliani.xyz/tools.html">Tools</a>
        </div>
     </li>
@@ -62,13 +62,13 @@ class="drobtn">About me</a>
        <a href="https://agiuliani.xyz/production.html"
 class="drobtn">Production</a>
        <div class="dropdown-content">
-       <a href="#sec:publications">Publications</a>
-       <a href="#sec:proceedings">Proceedings</a>
-       <a href="#sec:patents">Patents </a>
-       <a href="#sec:chapters">Book chapters </a>
-       <a href="#sec:oral_comm">Oral communications </a>
-       <a href="#sec:posters">Posters </a>
-       <a href="#sec:outreach">Outreach </a>
+       <a href="https://agiuliani.xyz/production.html#sec:publications">Publications</a>
+       <a href="https://agiuliani.xyz/production.html#sec:proceedings">Proceedings</a>
+       <a href="https://agiuliani.xyz/production.html#sec:patents">Patents </a>
+       <a href="https://agiuliani.xyz/production.html#sec:chapters">Book chapters </a>
+       <a href="https://agiuliani.xyz/production.html#sec:oral_comm">Oral communications </a>
+       <a href="https://agiuliani.xyz/production.html#sec:posters">Posters </a>
+       <a href="https://agiuliani.xyz/production.html#sec:outreach">Outreach </a>
        </div>
     </li>
     <li class="dropdown">
@@ -92,30 +92,6 @@ To achieves these goals, several [[https://agiuliani.xyz/research.html#sec:newto
 My scientific production is detailed [[https://agiuliani.xyz/production.html][here]].
 
 I picked an xyz domain name because it reminds me the =.xyz= format used to store chemical structures. An =.xyz= file is a representation of a molecular system, just as this site intends to be a representation of my scientific activities.
-
-\\
-\\
-#+NAME: contact
-#+BEGIN_EXPORT html
-<div class="contact">
-<h3> Contact </h3>
-<h4>Alexandre Giuliani<br>
-<small>
-Synchrotron SOLEIL <br>
-L'Orme  des  Merisiers <br> 
-F-91192 Gif-sur-Yvette <br> 
-France <br>
-+33 (0)1 69 35 97 29 <br> 
-<a  href="mailto:alexandre.giuliani@synchrotron-soleil.fr"><img align="middle" src="img/logo_at_small.png"></a> 
-<a  href="https://twitter.com/ajgiuliani"><img align="middle" src="img/logo_twitter_small.jpg"></a>
-<a href="https://orcid.org/0000-0003-1710-4933"><img align="middle" src="img/orcid_logo_small.jpg"</a>
-<br>
-</small>
-</h4>
-</div">
-
-#+END_EXPORT
-
 
 * Footnotes
 [fn:inra] http://www.inra.fr/en/
