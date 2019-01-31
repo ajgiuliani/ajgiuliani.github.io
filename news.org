@@ -32,7 +32,6 @@
 
 #+NAME: banner
 #+BEGIN_EXPORT html
-#+BEGIN_EXPORT html
 <div class="navbar">
   <ul>
     <li class="dropdown">
