@@ -86,7 +86,7 @@ class="drobtn">News</a>
 * About me  [fn:pict]
 :PROPERTIES: 
 :CUSTOM_ID: sec:about
-:END:
+:END: 
 
 Currently employed as a research engineer at the [[http://www.cepia.inra.fr/en][CEPIA]] department of the  [[http://www.inra.fr/en/Scientists-Students][INRA]] (Institut National de la Recherche Agronomique), I am on secondment at the [[https://www.synchrotron-soleil.fr/en][SOLEIL]] synchrotron radiation facility, near Paris (France) where I am working on the [[https://www.synchrotron-soleil.fr/en/beamlines/disco][DISCO]] beamline as a beamline scientist.
 
@@ -176,7 +176,8 @@ I am located full time at SOLEIL [fn:contact].
 
 *** _American Society of Mass Spectrometry_
 
-*** Thematic group of Biology and Life Science[[https://www.synchrotron-soleil.fr/en/research/house-research/biology-health-heliobio][Heliobio]] of the SOLEIL synchrotron
+*** Thematic group of Biology and Life Science [[https://www.synchrotron-soleil.fr/en/research/house-research/biology-health-heliobio][Heliobio]] of the SOLEIL synchrotron
+
 *** Thematic group of atomic and molecular physics [[https://www.synchrotron-soleil.fr/en/research/house-research/atomic-and-molecular-physics-dilute-matter-universe-science][AtMol]] of the SOLEIL synchrotron
 \\
 

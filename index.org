@@ -87,7 +87,7 @@ I am a [[https://agiuliani.xyz/about.html][chemist]] from INRA, the French Natio
 
 My [[https://agiuliani.xyz/research.html][reseach]] is focussed mainly on electronic and geometric structures, which are arguably among the most fundamental piece of information on molecular systems.
 
-To achieves these goals, several [[https://agiuliani.xyz/research.html#sec:newtools][tools]] based on /spectroscopy/ and /mass spectrometry/ have been developed.
+To achieves these goals, several [[https://agiuliani.xyz/research.html#sec:newtools][tools]] based on /spectroscopy/, /mass spectrometry/ and their combinations have been developed.
 
 My scientific production is detailed [[https://agiuliani.xyz/production.html][here]].
 
@@ -120,4 +120,5 @@ France <br>
 * Footnotes
 [fn:inra] http://www.inra.fr/en/
 [fn:soleil] https://www.synchrotron-soleil.fr/en
-[fn:1] [[https://en.wikipedia.org/wiki/XYZ_file_format]]
+[fn:xyz] [[https://en.wikipedia.org/wiki/XYZ_file_format]]
+[fn:2] 
