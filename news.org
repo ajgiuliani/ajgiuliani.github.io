@@ -35,7 +35,7 @@
 <div class="navbar">
   <ul>
     <li class="dropdown">
-       <a  href=""https://agiuliani.xyz/index.html"
+       <a  href="https://agiuliani.xyz/index.html"
 class="drobtn">Home</a>
        <div class="dropdown-content">
        </div>
@@ -48,6 +48,7 @@ class="drobtn">Research</a>
 	  <a href="https://agiuliani.xyz/research.html#sec:noncov">Non covalent interactions</a>
 	  <a href="https://agiuliani.xyz/research.html#sec:structchem">Structural chemistry </a>
 	  <a href="https://agiuliani.xyz/tools.html">Tools</a>
+	  <a href="https://agiuilani.xyz/colleagues.html">Colleagues</a>
        </div>
     </li>
     <li class="dropdown">
