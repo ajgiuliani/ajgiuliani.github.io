@@ -8,7 +8,7 @@
 #+HTML_HEAD: <link rel="icon" type="image/png" href="img/favicon-32x32.png" sizes="32x32" />
 #+HTML_HEAD_EXTRA: <script src='https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js'></script>
 #+HTML_HEAD_EXTRA: <script src='js/blog.js'></script>
-#+HTML_HEAD_EXTRA: <link rel='stylesheet' type='text/css' href='css/style-test.css'>
+#+HTML_HEAD_EXTRA: <link rel='stylesheet' type='text/css' href='css/style.css'>
 #+HTML_HEAD_EXTRA: <script async src="https://www.googletagmanager.com/gtag/js?id=UA-132913317-1"></script>
 #+HTML_HEAD_EXTRA: <script>
 #+HTML_HEAD_EXTRA:   window.dataLayer = window.dataLayer || [];
