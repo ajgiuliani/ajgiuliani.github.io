@@ -72,7 +72,7 @@ class="drobtn">Production</a>
        </div>
     </li>
     <li class="dropdown">
-       <a href="https://agiuliani.xyz/production.html"
+       <a href="https://agiuliani.xyz/news.html"
 class="drobtn">News</a>
        <div class="dropdown-content">
        </div>
