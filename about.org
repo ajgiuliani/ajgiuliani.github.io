@@ -38,7 +38,7 @@
 <div class="navbar">
   <ul>
     <li class="dropdown">
-       <a  href=""https://agiuliani.xyz/index.html"
+       <a  href="https://agiuliani.xyz/index.html"
 class="drobtn">Home</a>
        <div class="dropdown-content">
        </div>
@@ -64,13 +64,13 @@ class="drobtn">About me</a>
        <a href="https://agiuliani.xyz/production.html"
 class="drobtn">Production</a>
        <div class="dropdown-content">
-       <a href="#sec:publications">Publications</a>
-       <a href="#sec:proceedings">Proceedings</a>
-       <a href="#sec:patents">Patents </a>
-       <a href="#sec:chapters">Book chapters </a>
-       <a href="#sec:oral_comm">Oral communications </a>
-       <a href="#sec:posters">Posters </a>
-       <a href="#sec:outreach">Outreach </a>
+       <a href="https://agiuliani.xyz/production.html#sec:publications">Publications</a>
+       <a href="https://agiuliani.xyz/production.html#sec:proceedings">Proceedings</a>
+       <a href="https://agiuliani.xyz/production.html#sec:patents">Patents </a>
+       <a href="https://agiuliani.xyz/production.html#sec:chapters">Book chapters </a>
+       <a href="https://agiuliani.xyz/production.html#sec:oral_comm">Oral communications </a>
+       <a href="https://agiuliani.xyz/production.html#sec:posters">Posters </a>
+       <a href="https://agiuliani.xyz/production.html#sec:outreach">Outreach </a>
        </div>
     </li>
     <li class="dropdown">
