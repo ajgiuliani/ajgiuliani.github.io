@@ -48,6 +48,7 @@ class="drobtn">Research</a>
 	  <a href="#sec:noncov">Non covalent interactions</a>
 	  <a href="#sec:structchem">Structural chemistry </a>
 	  <a href="https://agiuliani.xyz/tools.html">Tools</a>
+	  <a href="https://agiuilani.xyz/colleagues.html">Colleagues</a>
        </div>
     </li>
     <li class="dropdown">
