@@ -50,7 +50,7 @@ class="drobtn">Research</a>
 	  <a href="https://agiuliani.xyz/research.html#sec:noncov">Non covalent interactions</a>
 	  <a href="https://agiuliani.xyz/research.html#sec:structchem">Structural chemistry </a>
 	  <a href="https://agiuliani.xyz/tools.html">Tools</a>
-	  <a href="https://agiuilani.xyz/colleagues.html">Colleagues</a>
+	  <a href="https://agiuliani.xyz/colleagues.html">Colleagues</a>
        </div>
     </li>
     <li class="dropdown">
