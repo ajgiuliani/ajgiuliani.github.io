@@ -45,11 +45,10 @@ class="drobtn">Home</a>
        <a href="https://agiuliani.xyz/research.html"
 class="drobtn">Research</a>
        <div class="dropdown-content">
-          <a href="#sec:interplay">Electronic structure</a>
-	  <a href="#sec:noncov">Non covalent interactions</a>
-	  <a href="#sec:structchem">Structural chemistry </a>
+          <a href="https://agiuliani.xyz/research.html#sec:interplay">Electronic structure</a>
+	  <a href="https://agiuliani.xyz/research.html#sec:noncov">Non covalent interactions</a>
+	  <a href="https://agiuliani.xyz/research.html#sec:structchem">Structural chemistry </a>
 	  <a href="https://agiuliani.xyz/tools.html">Tools</a>
-	  <a href="https://agiuilani.xyz/colleagues.html">Colleagues</a>
        </div>
     </li>
     <li class="dropdown">
@@ -62,13 +61,13 @@ class="drobtn">About me</a>
        <a href="https://agiuliani.xyz/production.html"
 class="drobtn">Production</a>
        <div class="dropdown-content">
-       <a href="#sec:publications">Publications</a>
-       <a href="#sec:proceedings">Proceedings</a>
-       <a href="#sec:patents">Patents </a>
-       <a href="#sec:chapters">Book chapters </a>
-       <a href="#sec:oral_comm">Oral communications </a>
-       <a href="#sec:posters">Posters </a>
-       <a href="#sec:outreach">Outreach </a>
+       <a href="https://agiuliani.xyz/production.html#sec:publications">Publications</a>
+       <a href="https://agiuliani.xyz/production.html#sec:proceedings">Proceedings</a>
+       <a href="https://agiuliani.xyz/production.html#sec:patents">Patents </a>
+       <a href="https://agiuliani.xyz/production.html#sec:chapters">Book chapters </a>
+       <a href="https://agiuliani.xyz/production.html#sec:oral_comm">Oral communications </a>
+       <a href="https://agiuliani.xyz/production.html#sec:posters">Posters </a>
+       <a href="https://agiuliani.xyz/production.html#sec:outreach">Outreach </a>
        </div>
     </li>
     <li class="dropdown">
