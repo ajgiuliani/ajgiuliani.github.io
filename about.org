@@ -37,28 +37,48 @@
 #+BEGIN_EXPORT html
 <div class="navbar">
   <ul>
-    <li><a href='index.html'>Home</a></li>
-    <li><a href='research.html'>Research</a></li>
     <li class="dropdown">
-       <a class="active" href="javascript:void(0)"
-class="drobtn">About me</a>
+       <a  href=""https://agiuliani.xyz/index.html"
+class="drobtn">Home</a>
        <div class="dropdown-content">
-       <a href="#sec:about">About</a>
-       <a href="#sec:contact">Contact</a>
-       <a href="#sec:career">Career</a>
-       <a href="#sec:edu">Education</a>
-       <a href="#sec:prod">Production </a>
-       <a href="#sec:awards">Awards </a>
-       <a href="#sec:students">Students </a>
-       <a href="#sec:teaching">Teaching </a>
-       <a href="#sec:meetings">Meetings organization</a>
-       <a href="#sec:trust">Commission of trust </a>
-       <a href="#sec:edit">Editorship activities </a>
-       <a href="#sec:soc">Societies </a>
        </div>
     </li>
-    <li><a href='production.html'>Production</a></li>
-    <li><a href='news.html'>News</a></li>
+    <li class="dropdown">
+       <a href="https://agiuliani.xyz/research.html"
+class="drobtn">Research</a>
+       <div class="dropdown-content">
+          <a href="#sec:interplay">Electronic structure</a>
+	  <a href="#sec:noncov">Non covalent interactions</a>
+	  <a href="#sec:structchem">Structural chemistry </a>
+	  <a href="https://agiuliani.xyz/tools.html">Tools</a>
+	  <a href="https://agiuilani.xyz/colleagues.html">Colleagues</a>
+       </div>
+    </li>
+    <li class="dropdown">
+       <a class="active" href="https://agiuliani.xyz/about.html"
+class="drobtn">About me</a>
+       <div class="dropdown-content">
+       </div>
+    </li>
+    <li class="dropdown">
+       <a href="https://agiuliani.xyz/production.html"
+class="drobtn">Production</a>
+       <div class="dropdown-content">
+       <a href="#sec:publications">Publications</a>
+       <a href="#sec:proceedings">Proceedings</a>
+       <a href="#sec:patents">Patents </a>
+       <a href="#sec:chapters">Book chapters </a>
+       <a href="#sec:oral_comm">Oral communications </a>
+       <a href="#sec:posters">Posters </a>
+       <a href="#sec:outreach">Outreach </a>
+       </div>
+    </li>
+    <li class="dropdown">
+       <a href="https://agiuliani.xyz/news.html"
+class="drobtn">News</a>
+       <div class="dropdown-content">
+       </div>
+    </li>
   </ul>
 </div>
 #+END_EXPORT
@@ -74,28 +94,10 @@ SOLEIL is a very large research infrastructure and provides the scientific commu
 
 In addition, I am a member of a team of INRA researchers at SOLEIL. Our mission is to help researchers and engineers from INRA to access the facility. We help improving proposals submitted by INRA researchers. In addition, we are visiting INRA centers across the country to present SOLEIL and its capabilities. We also maintain a monitoring of the technological developments appearing on synchrotron facilities.
 
-* Contact
-:PROPERTIES:
-:CUSTOM_ID: sec:contact
-:END:
+I am located full time at SOLEIL [fn:contact].
+\\ 
+\\
 
-| [[file:img/stamp_logo_small.png]]   |   | Alexandre Giuliani                              |
-|                                 |   | Synchrotron SOLEIL                              |
-|                                 |   | L'Orme  des  Merisier                           |
-|                                 |   | F-91192 Gif-sur-Yvette                          |
-|                                 |   | France                                          |
-| [[file:img/phone-logo_small.png]]   |   | +33 (0)1 69 35 97 29                            |
-| [[mailto:alexandre.giuliani@synchrotron-soleil.fr][file:img/logo_at_small.png]]      |   | alexandre[.]giuliani[at]synchrotron-soleil[.]fr |
-| [[https://twitter.com/ajgiuliani][file:img/logo_twitter_small.jpg]] |   | @ajgiuliani                                     |
-|                                 |   |                                                 |
-| [[https://orcid.org/0000-0003-1710-4933][file:img/orcid_logo_small.jpg]]   |   | orcid.org/0000-0003-1710-4933                   |
-| [[https://www.overleaf.com/read/vyrmkrxmszrx][file:img/overleaf-small.png]]     |   | Résumé (CV)                                     |
-
- [[https://scholar.google.fr/citations?user=cJXZs_kAAAAJ&hl=fr&oi=ao][file:img/google_scholar_logo_small.png]]
- [[https://www.researchgate.net/profile/Alexandre_Giuliani][file:img/RG_logo_small.png]] 
- [[https://fr.linkedin.com/in/alexandre-giuliani-4a55b34a][file:img/linkedin-logo_small.png]] 
- \\
-\\                                   
 * Carrer
   :PROPERTIES:
   :CUSTOM_ID: sec:career
@@ -138,35 +140,6 @@ In addition, I am a member of a team of INRA researchers at SOLEIL. Our mission 
 *** *2018* - _Instrumentation award_ of the French Chemical Society. [[http://www.societechimiquedefrance.fr/Laureats-898.html][file:img/external_link.png]]
 
 *** *2005* - _Annual prize of the Royal Academy of Sciences, Letters and Fine Arts of Belgium_, Section of Mathematics and Physics, Brussels, Belgium. 
-\\
-* Student mentorship
-  :PROPERTIES:
-  :CUSTOM_ID: sec:students
-  :END:
-*** *2018-2015* - Thesis Director of Suzie Douix, University Paris-Saclay, France.
-
-*** *2012-2009* - Supervision of two postdocs. Drs Aleksandar Milosavljevic and Francis Canon are currently Assistant Professor at the Institute of Physics of Belgrade (Serbia) and Research Fellow at CGSA, INRA Dijon.
-
-*** *2009–2004* - Scientific supervision of PhD students (Aicha Bagag, Julie Allegrand) and 1 Master student (Delphine Debois), University d'Evry Val-d'Essonne, France.
-\\
-* Teaching activities
-  :PROPERTIES:
-  :CUSTOM_ID: sec:teaching
-  :END:
-*** *2015* - Course on ambient ionization, youth club of the French mass spectrometry society, Montélimar, France.
-*** *2009* - Course on photoionization at atmospheric pressure, youth club of the French company of mass spectrometry, Borzée, Belgium.
-*** *2004 - 1998* - Lecturer (Assistant) in General Chemistry and Physical Chemistry courses, University of Liege (Belgium).
-\\
-
-* Organization of scientific meetings
-  :PROPERTIES:
-  :CUSTOM_ID: sec:meetings
-  :END:
-*** *05/06/2018* - Chairperson of the Fundamentals: Photoionization and Photodissociation session at the Annual conference of the American Society for Mass Spectrometry, San Diego, USA.
-
-*** *21/01/2015* - Organizing committee, INRA – SOLEIL meeting day as a satellite of the SOLEIL User’s meeting, around 80 participants, SOLEIL, Gif-sur-Yvette, France.
-
-*** *13/11/2009* - Organizing committee, INRA – SOLEIL meeting day, around 40 participants, SOLEIL, Gif-sur-Yvette, France.
 \\
 * Commissions of trust
   :PROPERTIES:
@@ -214,6 +187,20 @@ In addition, I am a member of a team of INRA researchers at SOLEIL. Our mission 
 #+ATTR_HTML: image :title MS and MS/MS  :style float:center;;
 [[file:img/cartoonized_ID.png]]
 
+[fn:contact]
+| [[file:img/stamp_logo_small.png]]          |   | Synchrotron SOLEIL                              |
+|                                        |   | L'Orme  des  Merisier                           |
+|                                        |   | F-91192 Gif-sur-Yvette                          |
+|                                        |   | France                                          |
+| [[file:img/phone-logo_small.png]]          |   | +33 (0)1 69 35 97 29                            |
+| [[mailto:alexandre.giuliani@synchrotron-soleil.fr][file:img/logo_at_small.png]]             |   | alexandre[.]giuliani[at]synchrotron-soleil[.]fr |
+| [[https://twitter.com/ajgiuliani][file:img/logo_twitter_small.jpg]]        |   | @ajgiuliani                                     |
+|                                        |   |                                                 |
+| [[https://orcid.org/0000-0003-1710-4933][file:img/orcid_logo_small.jpg]]          |   | orcid.org/0000-0003-1710-4933                   |
+| [[https://www.overleaf.com/read/vyrmkrxmszrx][file:img/overleaf-small.png]]            |   | Résumé (CV)                                     |
+| [[https://scholar.google.fr/citations?user=cJXZs_kAAAAJ&hl=fr&oi=ao][file:img/google_scholar_logo_small.png]] |   | Google scholar                                  |
+| [[https://fr.linkedin.com/in/alexandre-giuliani-4a55b34a][file:img/linkedin-logo_small.png]]       |   | Research gate                                   |
+|                                        |   |                                                 |
 [fn:1] 18 on invitation.
 [fn:2] Retrieved from Scopus: <2019-01-22>.
 [fn:3] This qualification is mandatory to apply for professorship positions in France.

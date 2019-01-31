@@ -34,28 +34,50 @@
 #+BEGIN_EXPORT html
 <div class="navbar">
   <ul>
-    <li><a href='index.html'>Home</a></li>
-    <li><a href='research.html'>Research</a></li>
     <li class="dropdown">
-       <a class="active" href="javascript:void(0)"
-class="drobtn">Tools</a>
+       <a  href=""https://agiuliani.xyz/index.html"
+class="drobtn">Home</a>
        <div class="dropdown-content">
-       <a href="#sec:newtools">New ion activation methods</a>
-       <a href="#sec:ionspec">Ion spectroscopy</a>
-       <a href="#sec:XFP">X-ray foot printing </a>
-       <a href="#sec:SRCD">Circular dichroism </a>
-       <a href="#sec:PA">Photoabsorption </a>
-       <a href="#sec:softs">Softwares </a>
        </div>
     </li>
-    <li><a href='colleagues.html'>Colleagues</a></li>
-    <li><a href='about.html'>About me</a></li>
-    <li><a href='production.html'>Production</a></li>
-    <li><a href='outreach.html'>Outreach</a></li>
-    <li><a href='news.html'>News</a></li>
+    <li class="dropdown">
+       <a class="active" href="https://agiuliani.xyz/research.html"
+class="drobtn">Research</a>
+       <div class="dropdown-content">
+          <a href="#sec:interplay">Electronic structure</a>
+	  <a href="#sec:noncov">Non covalent interactions</a>
+	  <a href="#sec:structchem">Structural chemistry </a>
+	  <a href="https://agiuliani.xyz/tools.html">Tools</a>
+       </div>
+    </li>
+    <li class="dropdown">
+       <a href="https://agiuliani.xyz/about.html"
+class="drobtn">About me</a>
+       <div class="dropdown-content"> 
+       </div>
+    </li>
+    <li class="dropdown">
+       <a href="https://agiuliani.xyz/production.html"
+class="drobtn">Production</a>
+       <div class="dropdown-content">
+       <a href="#sec:publications">Publications</a>
+       <a href="#sec:proceedings">Proceedings</a>
+       <a href="#sec:patents">Patents </a>
+       <a href="#sec:chapters">Book chapters </a>
+       <a href="#sec:oral_comm">Oral communications </a>
+       <a href="#sec:posters">Posters </a>
+       <a href="#sec:outreach">Outreach </a>
+       </div>
+    </li>
+    <li class="dropdown">
+       <a href="https://agiuliani.xyz/news.html"
+class="drobtn">News</a>
+       <div class="dropdown-content">
+       </div>
+    </li>
   </ul>
 </div>
-#+END_EXPORT
+#+END_EXPORT 
 
 
 * Tools

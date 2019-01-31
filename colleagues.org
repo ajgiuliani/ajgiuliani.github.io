@@ -34,36 +34,63 @@
 #+BEGIN_EXPORT html
 <div class="navbar">
   <ul>
-    <li><a href='index.html'>Home</a></li>
-    <li><a href='research.html'>Research</a></li> 
     <li class="dropdown">
-        <a class="active" href="javascript:void(0)"
-class="drobtn">Colleagues</a>
+       <a  href=""https://agiuliani.xyz/index.html"
+class="drobtn">Home</a>
        <div class="dropdown-content">
-       <a href="#sec:disco">@ DISCO</a>
-       <a href="#sec:collabs">Collaborators</a>
        </div>
     </li>
-    <li><a href='about.html'>About me</a></li>
-    <li><a href='production.html'>Production</a></li>
-    <li><a href='outteach.html'>Outreach</a></li>
-    <li><a href='news.html'>News</a></li>
+    <li class="dropdown">
+       <a class="active" href="https://agiuliani.xyz/research.html"
+class="drobtn">Research</a>
+       <div class="dropdown-content">
+          <a href="#sec:interplay">Electronic structure</a>
+	  <a href="#sec:noncov">Non covalent interactions</a>
+	  <a href="#sec:structchem">Structural chemistry </a>
+	  <a href="https://agiuliani.xyz/tools.html">Tools</a>
+	  <a href="https://agiuilani.xyz/colleagues.html">Colleagues</a>
+       </div>
+    </li>
+    <li class="dropdown">
+       <a href="https://agiuliani.xyz/about.html"
+class="drobtn">About me</a>
+       <div class="dropdown-content">
+       <a href="#sec:about">About</a>
+       <a href="#sec:contact">Contact</a>
+       <a href="#sec:career">Career</a>
+       <a href="#sec:edu">Education</a>
+       <a href="#sec:prod">Production </a>
+       <a href="#sec:awards">Awards </a>
+       <a href="#sec:students">Students </a>
+       <a href="#sec:teaching">Teaching </a>
+       <a href="#sec:meetings">Meetings organization</a>
+       <a href="#sec:trust">Commission of trust </a>
+       <a href="#sec:edit">Editorship activities </a>
+       <a href="#sec:soc">Societies </a>
+       </div>
+    </li>
+    <li class="dropdown">
+       <a href="https://agiuliani.xyz/production.html"
+class="drobtn">Production</a>
+       <div class="dropdown-content">
+       <a href="#sec:publications">Publications</a>
+       <a href="#sec:proceedings">Proceedings</a>
+       <a href="#sec:patents">Patents </a>
+       <a href="#sec:chapters">Book chapters </a>
+       <a href="#sec:oral_comm">Oral communications </a>
+       <a href="#sec:posters">Posters </a>
+       <a href="#sec:outreach">Outreach </a>
+       </div>
+    </li>
+    <li class="dropdown">
+       <a href="https://agiuliani.xyz/news.html"
+class="drobtn">News</a>
+       <div class="dropdown-content">
+       </div>
+    </li>
   </ul>
 </div>
 #+END_EXPORT
-
-
-* @ DISCO
-:PROPERTIES:
-:CUSTOM_ID: sec:disco
-:END:
-*** [[https://cv.archives-ouvertes.fr/matthieu-refregiers][Matthieu Refregiers]]
-**** Biospectroscopy
-*** [[https://cv.archives-ouvertes.fr/frederic-jamme][Frédéric Jamme]]
-**** Biospectroscopy
-**** Experimental physics
-*** [[https://www.synchrotron-soleil.fr/fr/lignes-de-lumiere/DISCO][Frank Wien]]
-**** Circular dichroism
 
 * Collaborators
 :PROPERTIES:
@@ -96,6 +123,18 @@ class="drobtn">Colleagues</a>
 
 *** Martin R. Green, /Waters, Manchester, UK/
 **** *Ion activation & instrumentation.*
+* @ DISCO
+:PROPERTIES:
+:CUSTOM_ID: sec:disco
+:END:
+*** [[https://cv.archives-ouvertes.fr/matthieu-refregiers][Matthieu Refregiers]]
+**** Biospectroscopy
+*** [[https://cv.archives-ouvertes.fr/frederic-jamme][Frédéric Jamme]]
+**** Biospectroscopy
+**** Experimental physics
+*** [[https://www.synchrotron-soleil.fr/fr/lignes-de-lumiere/DISCO][Frank Wien]]
+**** Circular dichroism
+
 * Footnotes
 [fn:1] https://www.bibs.inra.fr/QUI-SOMMES-NOUS
 
