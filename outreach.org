@@ -17,7 +17,7 @@
 #+HTML_HEAD_EXTRA:   gtag('config', 'UA-132913317-1');
 #+HTML_HEAD_EXTRA: </script>
 
-#+LINK_HOME:  https://agiuliani.xyz
+#+LINK_HOME:  https://ajgiuliani.github.io
 
 #+HTML_DESCRIPTION: Personnal website
 #+HTML_DESCRIPTION: chemistry, physical chemistry, spectroscopy

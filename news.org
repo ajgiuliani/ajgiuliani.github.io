@@ -17,7 +17,7 @@
 #+HTML_HEAD_EXTRA:   gtag('config', 'UA-132913317-1');
 #+HTML_HEAD_EXTRA: </script>
 
-#+LINK_HOME:  https://agiuliani.xyz
+#+LINK_HOME:  https://ajgiuliani.github.io
 
 #+HTML_DESCRIPTION: Personnal website
 #+HTML_DESCRIPTION: chemistry, physical chemistry, spectroscopy
@@ -35,43 +35,43 @@
 <div class="navbar">
   <ul>
     <li class="dropdown">
-       <a  href="https://agiuliani.xyz/index.html"
+       <a  href="https://ajgiuliani.github.io/index.html"
 class="drobtn">Home</a>
        <div class="dropdown-content">
        </div>
     </li>
     <li class="dropdown">
-       <a href="https://agiuliani.xyz/research.html"
+       <a href="https://ajgiuliani.github.io/research.html"
 class="drobtn">Research</a>
        <div class="dropdown-content">
-          <a href="https://agiuliani.xyz/research.html#sec:interplay">Electronic structure</a>
-	  <a href="https://agiuliani.xyz/research.html#sec:noncov">Non covalent interactions</a>
-	  <a href="https://agiuliani.xyz/research.html#sec:structchem">Structural chemistry </a>
-	  <a href="https://agiuliani.xyz/tools.html">Tools</a>
-	  <a href="https://agiuliani.xyz/colleagues.html">Colleagues</a>
+          <a href="https://ajgiuliani.github.io/research.html#sec:interplay">Electronic structure</a>
+	  <a href="https://ajgiuliani.github.io/research.html#sec:noncov">Non covalent interactions</a>
+	  <a href="https://ajgiuliani.github.io/research.html#sec:structchem">Structural chemistry </a>
+	  <a href="https://ajgiuliani.github.io/tools.html">Tools</a>
+	  <a href="https://ajgiuliani.github.io/colleagues.html">Colleagues</a>
        </div>
     </li>
     <li class="dropdown">
-       <a href="https://agiuliani.xyz/about.html"
+       <a href="https://ajgiuliani.github.io/about.html"
 class="drobtn">About me</a>
        <div class="dropdown-content">
        </div>
     </li>
     <li class="dropdown">
-       <a href="https://agiuliani.xyz/production.html"
+       <a href="https://ajgiuliani.github.io/production.html"
 class="drobtn">Production</a>
        <div class="dropdown-content">
-       <a href="https://agiuliani.xyz/production.html#sec:publications">Publications</a>
-       <a href="https://agiuliani.xyz/production.html#sec:proceedings">Proceedings</a>
-       <a href="https://agiuliani.xyz/production.html#sec:patents">Patents </a>
-       <a href="https://agiuliani.xyz/production.html#sec:chapters">Book chapters </a>
-       <a href="https://agiuliani.xyz/production.html#sec:oral_comm">Oral communications </a>
-       <a href="https://agiuliani.xyz/production.html#sec:posters">Posters </a>
-       <a href="https://agiuliani.xyz/production.html#sec:outreach">Outreach </a>
+       <a href="https://ajgiuliani.github.io/production.html#sec:publications">Publications</a>
+       <a href="https://ajgiuliani.github.io/production.html#sec:proceedings">Proceedings</a>
+       <a href="https://ajgiuliani.github.io/production.html#sec:patents">Patents </a>
+       <a href="https://ajgiuliani.github.io/production.html#sec:chapters">Book chapters </a>
+       <a href="https://ajgiuliani.github.io/production.html#sec:oral_comm">Oral communications </a>
+       <a href="https://ajgiuliani.github.io/production.html#sec:posters">Posters </a>
+       <a href="https://ajgiuliani.github.io/production.html#sec:outreach">Outreach </a>
        </div>
     </li>
     <li class="dropdown">
-       <a class="active" href="https://agiuliani.xyz/news.html"
+       <a class="active" href="https://ajgiuliani.github.io/news.html"
 class="drobtn">News</a>
        <div class="dropdown-content">
        </div>
