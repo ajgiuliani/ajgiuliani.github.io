@@ -89,6 +89,9 @@ Do not hesitate to email me for a pdf copy [fn:1].  You may see also my [[https:
 :CUSTOM_ID: sec:publications
 :END:
 *** *2019*
+****  *104.* /«State-Dependent Fragmentation of Protonated Uracil and Uridine»/ M. Pitzer, C. Ozga, C. Küstner-Wetekam, P. Reiß, A. Knie, A. Ehresmann, T. Jahnke, A. Giuliani, L. Nahon,*, * J. Phys. Chem. A*  123 (2019) 3551–3557. doi:10.1021/acs.jpca.9b01822
+#+ATTR_HTML: :width 200 :style float:center;margin:-10px 0px -20px 20px; border:2px solid #ccc;
+[[file:img/104.gif]]
 ****  *103.* /«Vacuum-UV induced DNA strand breaks – influence of the radiosensitizers 5-bromouracil and 8-bromoadenine»/  S. Vogel, K. Ebel, C. Heck,  R. M. Schürmann,  A. R. Milosavljević,  A. Giuliani,  Ilko Bald*, *Phys. Chem. Chem. Phys.* 21 (2019) 1972-1979. doi:10.1039/C8CP06813E
 #+ATTR_HTML: :width 200 :style float:center;margin:-10px 0px -20px 20px; border:2px solid #ccc;
 [[file:img/103.gif]]
